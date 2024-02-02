@@ -1,0 +1,11 @@
+debug/barbearia.o
+debug/barbeiro.o
+debug/cliente.o
+debug/horario.o
+debug/pessoa.o
+debug/main.o
+debug/unit_barbearia.o
+debug/unit_barbeiro.o
+debug/unit_cliente.o
+debug/unit_horario.o
+debug/unit_pessoa.o

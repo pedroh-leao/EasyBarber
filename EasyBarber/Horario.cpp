@@ -1,7 +1,5 @@
 #include "horario.h"
 
-Horario::Horario() {}
-
 Horario::Horario(string data, string hora){
     this->data = data;
     this->hora = hora;

@@ -12,7 +12,6 @@ private:
     string data;
     string hora;
 public:
-    Horario();
     Horario(string data="", string hora="00:00");
 
     ~Horario(){};

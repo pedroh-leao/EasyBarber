@@ -1,0 +1,11 @@
+release/barbearia.o
+release/barbeiro.o
+release/cliente.o
+release/horario.o
+release/pessoa.o
+release/main.o
+release/unit_barbearia.o
+release/unit_barbeiro.o
+release/unit_cliente.o
+release/unit_horario.o
+release/unit_pessoa.o
