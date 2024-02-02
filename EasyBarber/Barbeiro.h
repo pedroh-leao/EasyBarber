@@ -1,41 +1,20 @@
 #ifndef BARBEIRO_H
 #define BARBEIRO_H
 
-#include <string.h>
-#include "horario.h"
-#include <vector>
+#include "Pessoa.h"
 
-
-typedef int Tempo;
-
-class Barbeiro
+class Barbeiro : public Pessoa
 {
-protected:
-    string nome;
-    double preco;
-    Tempo horarioInicioDeFuncionamento, horarioFinalDeFuncionamento, tempoDeAtendimento;
-    vector<Horario> horariosMarcados;
+private:
+    float preco;
 
 public:
-    Barbeiro();
+    Barbeiro(string nome = "", string endereco = "", string telefone = "", string email = "", string senha = "", float preco = 0.0);
     virtual ~Barbeiro();
 
-    Barbeiro(string nome = "", double preco =0.0, Tempo horarioInicioDeFuncionamento = 0, Tempo horarioFinalDeFuncionamento = 0, Tempo tempoDeAtendimento = 0);
-
-    string getNome() const;
-    void setNome(string nome);
-
-    double getPreco() const;
-    void setPreco(double preco);
-
-    Tempo getHorarioInicioDeFuncionamento() const;
-    void setHorarioInicioDeFuncionamento(Tempo horario);
-
-    Tempo getHorarioFinalDeFuncionamento() const;
-    void setHorarioFinalDeFuncionamento(Tempo horario);
-
-    Tempo getTempoDeAtendimento() const;
-    void setTempoDeAtendimento(Tempo horario);
+    // Getter and setter for preco
+    float getPreco() const;
+    void setPreco(float preco);
 };
 
 #endif // BARBEIRO_H

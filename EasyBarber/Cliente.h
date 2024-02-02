@@ -1,29 +1,15 @@
 #ifndef CLIENTE_H
 #define CLIENTE_H
 
-#include <string>
-#include <iostream>
-using namespace std;
+#include "Pessoa.h"
 
-class Cliente
+class Cliente : public Pessoa
 {
-protected:
-    string nome, cpf, senha;
-
 public:
-    Cliente();
+    Cliente(string nome = "", string endereco = "", string telefone = "", string email = "", string senha = "");
     virtual ~Cliente();
 
-    Cliente(string nome="", string cpf="", string senha="");
-
-    string getNome() const;
-    void setNome(string nome);
-
-    string getCpf() const;
-    void setCpf(string cpf);
-
-    string getSenha() const;
-    void setSenha(string senha);
+    void agendarHorario();
 };
 
-#endif
+#endif // CLIENTE_H
