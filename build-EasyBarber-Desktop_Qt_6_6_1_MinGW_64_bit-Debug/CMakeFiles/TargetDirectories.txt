@@ -1,9 +1,0 @@
-C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/build-EasyBarber-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/EasyBarber.dir
-C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/build-EasyBarber-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
-C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/build-EasyBarber-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/build-EasyBarber-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
-C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/build-EasyBarber-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/install.dir
-C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/build-EasyBarber-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
-C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/build-EasyBarber-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
-C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/build-EasyBarber-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/EasyBarber_autogen_timestamp_deps.dir
-C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/build-EasyBarber-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/EasyBarber_autogen.dir

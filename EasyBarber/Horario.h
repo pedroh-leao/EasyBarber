@@ -15,7 +15,7 @@ public:
     Horario();
     Horario(string data="", int hora=0);
 
-    ~Horario();
+    ~Horario(){};
 
     string getData() const;
     void setData(string data);
