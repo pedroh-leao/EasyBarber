@@ -2,12 +2,8 @@
 
 Barbearia::Barbearia() {}
 
-Barbearia::Barbearia(string nome, string endereco, string telefone, string email, string inicioDeFuncionamento, string fimDeFuncionamento, const bool diasDeFuncionamento[])
-    : nome(nome), endereco(endereco), telefone(telefone), email(email), inicioDeFuncionamento(inicioDeFuncionamento), fimDeFuncionamento(fimDeFuncionamento) {
-    for (int i = 0; i < 7; ++i) {
-        this->diasDeFuncionamento[i] = diasDeFuncionamento[i];
-    }
-}
+Barbearia::Barbearia(string nome, string endereco, string telefone, string email, string inicioDeFuncionamento, string fimDeFuncionamento)
+    : nome(nome), endereco(endereco), telefone(telefone), email(email), inicioDeFuncionamento(inicioDeFuncionamento), fimDeFuncionamento(fimDeFuncionamento) {}
 
 string Barbearia::getNome() const {
     return nome;
@@ -57,25 +53,30 @@ void Barbearia::setFimDeFuncionamento(const string& fimDeFuncionamento) {
     this->fimDeFuncionamento = fimDeFuncionamento;
 }
 
-bool Barbearia::getDiaDeFuncionamento(int dia) const {
-    if (dia >= 0 && dia < 7)
-        return diasDeFuncionamento[dia];
-    return false; // Return false if index is out of bounds
+Barbearia::barbeirosIterator Barbearia::barbeirosBegin(){
+    return barbeiros.begin();
 }
 
-void Barbearia::setDiaDeFuncionamento(int dia, bool status) {
-    if (dia >= 0 && dia < 7)
-        diasDeFuncionamento[dia] = status;
+Barbearia::barbeirosIterator Barbearia::barbeirosEnd(){
+    return barbeiros.end();
 }
 
-vector<Barbeiro>& Barbearia::getBarbeiros() {
-    return barbeiros;
+bool Barbearia::add(Barbeiro* barbeiro){
+    unsigned long long lenBefore = barbeiros.size();
+
+    barbeiros.push_back(barbeiro);
+
+    return (lenBefore != barbeiros.size());
 }
 
-const vector<Barbeiro>& Barbearia::getBarbeiros() const {
-    return barbeiros;
-}
+bool Barbearia::remove(Barbeiro* barbeiro){
+    for(Barbearia::barbeirosIterator it = barbeirosBegin(); it < barbeirosEnd(); it++){
+        if(*it == barbeiro){
+            barbeiros.erase(it);
+            //delete barbeiro;
+            return true;
+        }
+    }
 
-void Barbearia::setBarbeiros(const vector<Barbeiro>& barbeiros) {
-    this->barbeiros = barbeiros;
+    return false;
 }

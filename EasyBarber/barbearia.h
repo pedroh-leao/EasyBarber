@@ -15,12 +15,11 @@ private:
     string email;
     string inicioDeFuncionamento;
     string fimDeFuncionamento;
-    bool diasDeFuncionamento[7]; // Array to represent days of the week (e.g., Monday to Sunday)
-    vector<Barbeiro> barbeiros;
+    vector<Barbeiro*> barbeiros;
 
 public:
     Barbearia();
-    Barbearia(string nome, string endereco, string telefone, string email, string inicioDeFuncionamento, string fimDeFuncionamento, const bool diasDeFuncionamento[]);
+    Barbearia(string nome, string endereco, string telefone, string email, string inicioDeFuncionamento, string fimDeFuncionamento);
 
     // Getters and Setters
     string getNome() const;
@@ -41,12 +40,11 @@ public:
     string getFimDeFuncionamento() const;
     void setFimDeFuncionamento(const string& fimDeFuncionamento);
 
-    bool getDiaDeFuncionamento(int dia) const;
-    void setDiaDeFuncionamento(int dia, bool status);
-
-    vector<Barbeiro>& getBarbeiros();
-    const vector<Barbeiro>& getBarbeiros() const;
-    void setBarbeiros(const vector<Barbeiro>& barbeiros);
+    typedef vector<Barbeiro*>::iterator barbeirosIterator;
+    barbeirosIterator barbeirosBegin();
+    barbeirosIterator barbeirosEnd();
+    bool add(Barbeiro *barbeiro);
+    bool remove(Barbeiro *barbeiro);
 };
 
 #endif // BARBEARIA_H

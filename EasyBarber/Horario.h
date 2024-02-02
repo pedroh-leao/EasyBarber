@@ -10,18 +10,18 @@ class Horario
 {
 private:
     string data;
-    int hora;
+    string hora;
 public:
     Horario();
-    Horario(string data="", int hora=0);
+    Horario(string data="", string hora="00:00");
 
     ~Horario(){};
 
     string getData() const;
     void setData(string data);
 
-    int getHora() const;
-    void setHora(int hora);
+    string getHora() const;
+    void setHora(string hora);
 
 };
 

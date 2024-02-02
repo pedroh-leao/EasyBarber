@@ -1,7 +1,5 @@
 #include "Pessoa.h"
 
-Pessoa::Pessoa() {}
-
 Pessoa::Pessoa(string nome, string endereco, string telefone, string email, string senha)
     : nome(nome), endereco(endereco), telefone(telefone), email(email), senha(senha) {}
 

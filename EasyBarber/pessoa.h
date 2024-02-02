@@ -14,7 +14,6 @@ protected:
     string senha;
 
 public:
-    Pessoa();
     Pessoa(string nome = "", string endereco = "", string telefone = "", string email = "", string senha = "");
 
     virtual ~Pessoa();

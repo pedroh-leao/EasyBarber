@@ -2,7 +2,7 @@
 
 Horario::Horario() {}
 
-Horario::Horario(string data, int hora){
+Horario::Horario(string data, string hora){
     this->data = data;
     this->hora = hora;
 }
@@ -15,9 +15,9 @@ void Horario::setData(string data){
 }
 
 
-int Horario::getHora() const{
+string Horario::getHora() const{
     return hora;
 }
-void Horario::setHora(int hora){
+void Horario::setHora(string hora){
     this->hora = hora;
 }
