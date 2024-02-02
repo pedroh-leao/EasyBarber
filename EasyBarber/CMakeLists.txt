@@ -23,12 +23,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(EasyBarber
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        Cliente.cpp
-        Cliente.h
-        Horario.cpp
-        Horario.h
-        Barbeiro.cpp
-        Barbeiro.h
+        horario.h horario.cpp
+        barbeiro.h barbeiro.cpp
+        cliente.h cliente.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET EasyBarber APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
