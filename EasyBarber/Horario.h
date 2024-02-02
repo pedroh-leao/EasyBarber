@@ -1,7 +1,10 @@
 #ifndef HORARIO_H
 #define HORARIO_H
 
-#include <string.h>
+#include <string>
+#include <iostream>
+using namespace std;
+
 
 class Horario
 {

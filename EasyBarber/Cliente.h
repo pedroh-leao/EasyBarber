@@ -1,7 +1,9 @@
 #ifndef CLIENTE_H
 #define CLIENTE_H
 
-#include <string.h>
+#include <string>
+#include <iostream>
+using namespace std;
 
 class Cliente
 {

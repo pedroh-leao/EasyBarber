@@ -5,6 +5,7 @@
 #include "horario.h"
 #include <vector>
 
+
 typedef int Tempo;
 
 class Barbeiro
@@ -12,14 +13,14 @@ class Barbeiro
 protected:
     string nome;
     double preco;
-    Tempo horarioInicioDeFuncionamento, horarioFinalDeAtendimento, tempoDeAtendimento;
+    Tempo horarioInicioDeFuncionamento, horarioFinalDeFuncionamento, tempoDeAtendimento;
     vector<Horario> horariosMarcados;
 
 public:
     Barbeiro();
     virtual ~Barbeiro();
 
-    Barbeiro(string nome = "", double preco =0.0, Tempo horarioInicioDeFuncionamento = 0, Tempo horarioFinalDeAtendimento = 0, Tempo tempoDeAtendimento = 0);
+    Barbeiro(string nome = "", double preco =0.0, Tempo horarioInicioDeFuncionamento = 0, Tempo horarioFinalDeFuncionamento = 0, Tempo tempoDeAtendimento = 0);
 
     string getNome() const;
     void setNome(string nome);

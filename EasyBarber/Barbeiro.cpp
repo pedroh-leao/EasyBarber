@@ -2,11 +2,11 @@
 
 Barbeiro :: Barbeiro() {}
 
-Barbeiro :: Barbeiro(string nome, double preco, tempo horarioInicioDeFuncionamento, tempo horarioFinalDeAtendimento, tempo tempoDeAtendimento){
+Barbeiro :: Barbeiro(string nome, double preco, Tempo horarioInicioDeFuncionamento, Tempo horarioFinalDeFuncionamento, Tempo tempoDeAtendimento){
     this->nome = nome;
     this->preco = preco;
     this->horarioInicioDeFuncionamento = horarioInicioDeFuncionamento;
-    this->horarioFinalDeAtendimento = horarioFinalDeAtendimento;
+    this->horarioFinalDeFuncionamento = horarioFinalDeFuncionamento;
     this->tempoDeAtendimento = tempoDeAtendimento;
 }
 
