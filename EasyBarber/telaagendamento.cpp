@@ -1,18 +1,21 @@
 #include "TelaAgendamento.h"
 
-TelaAgendamento::TelaAgendamento(Barbearia *barbearia, QWidget *parent) : QWidget(parent) {
-    createLayout(barbearia);
+TelaAgendamento::TelaAgendamento(Barbearia *barbearia, Barbeiro * barbeiro, QWidget *parent) : QWidget(parent) {
+    this->barbearia = barbearia;
+    this->barbeiro = barbeiro;
+    createLayout();
 }
 
 TelaAgendamento::~TelaAgendamento() {
 }
 
-void TelaAgendamento::createLayout(Barbearia *barbearia) {
-    Barbeiro *barbeiro = *barbearia->barbeirosBegin();
+void TelaAgendamento::createLayout() {
     Horario horarioTemp("03/02/2024", "15:00");
     barbeiro->add(&horarioTemp);
 
     string text = barbearia->getNome() + "\n";
+    text += "Agendando atendimento com: " + barbeiro->getNome() + "\n";
+
     string horaInicial = barbearia->getInicioDeFuncionamento();
     string horaFinal = barbearia->getFimDeFuncionamento();
     text += horaInicial + "h - " + horaFinal + "h\n";

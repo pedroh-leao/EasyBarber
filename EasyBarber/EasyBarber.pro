@@ -15,7 +15,8 @@ SOURCES += \
     horario.cpp \
     main.cpp \
     pessoa.cpp \
-    telaagendamento.cpp
+    telaagendamento.cpp \
+    telaescolhabarbeiro.cpp
 
 HEADERS += \
     barbearia.h \
@@ -23,7 +24,8 @@ HEADERS += \
     cliente.h \
     horario.h \
     pessoa.h \
-    telaagendamento.h
+    telaagendamento.h \
+    telaescolhabarbeiro.h
 
 FORMS +=
 

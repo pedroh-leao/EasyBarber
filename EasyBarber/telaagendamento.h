@@ -12,8 +12,13 @@
 
 class TelaAgendamento : public QWidget {
     Q_OBJECT
+
+protected:
+    Barbearia *barbearia;
+    Barbeiro *barbeiro;
+
 public:
-    explicit TelaAgendamento(Barbearia *barbearia=nullptr, QWidget *parent = nullptr);
+    explicit TelaAgendamento(Barbearia *barbearia=nullptr, Barbeiro *barbeiro = nullptr, QWidget *parent = nullptr);
     ~TelaAgendamento();
 
 private:
@@ -21,7 +26,7 @@ private:
     QGridLayout *gridLayout;
     QPushButton *scheduleButton;
 
-    void createLayout(Barbearia *barbearia);
+    void createLayout();
 };
 
 #endif // TELAAGENDAMENTO_H
