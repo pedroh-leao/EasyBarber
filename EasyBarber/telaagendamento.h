@@ -7,11 +7,13 @@
 #include <QGridLayout>
 #include <QStringList>
 #include <QPushButton>
+#include <QTime>
+#include "barbearia.h"
 
 class TelaAgendamento : public QWidget {
     Q_OBJECT
 public:
-    explicit TelaAgendamento(QWidget *parent = nullptr);
+    explicit TelaAgendamento(Barbearia *barbearia=nullptr, QWidget *parent = nullptr);
     ~TelaAgendamento();
 
 private:
@@ -19,7 +21,7 @@ private:
     QGridLayout *gridLayout;
     QPushButton *scheduleButton;
 
-    void createLayout();
+    void createLayout(Barbearia *barbearia);
 };
 
 #endif // TELAAGENDAMENTO_H

@@ -24,6 +24,7 @@ public:
     horariosAgendadosIterator horariosAgendadosEnd();
     bool add(Horario *horario);
     bool remove(Horario *horario);
+    bool existsHorario(Horario *horario);
 };
 
 #endif // BARBEIRO_H

@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
 
     Cliente cliente("André", "Rua da UFOP, 123", "31988888888", "andre@gmail.com", "1234");
 
-    TelaAgendamento telaAgendamento;
+    TelaAgendamento telaAgendamento(&barbearia);
     telaAgendamento.show();
 
     return app.exec();

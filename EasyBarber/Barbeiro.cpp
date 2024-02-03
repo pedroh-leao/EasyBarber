@@ -40,3 +40,12 @@ bool Barbeiro::remove(Horario* horario){
 
     return false;
 }
+
+bool Barbeiro::existsHorario(Horario *horario){
+    for(Barbeiro::horariosAgendadosIterator it = horariosAgendadosBegin(); it < horariosAgendadosEnd(); it++){
+        if((*it)->getData() == horario->getData() && (*it)->getHora() == horario->getHora())
+            return true;
+    }
+
+    return false;
+}

@@ -1,18 +1,51 @@
 #include "TelaAgendamento.h"
 
-TelaAgendamento::TelaAgendamento(QWidget *parent) : QWidget(parent) {
-    createLayout();
+TelaAgendamento::TelaAgendamento(Barbearia *barbearia, QWidget *parent) : QWidget(parent) {
+    createLayout(barbearia);
 }
 
 TelaAgendamento::~TelaAgendamento() {
 }
 
-void TelaAgendamento::createLayout() {
-    label = new QLabel("Barbearia do Tadeu\n8:00h - 17:00h\nRua do Lino, 244 - Bauxita, Ouro Preto");
+void TelaAgendamento::createLayout(Barbearia *barbearia) {
+    Barbeiro *barbeiro = *barbearia->barbeirosBegin();
+    Horario horarioTemp("03/02/2024", "15:00");
+    barbeiro->add(&horarioTemp);
+
+    string text = barbearia->getNome() + "\n";
+    string horaInicial = barbearia->getInicioDeFuncionamento();
+    string horaFinal = barbearia->getFimDeFuncionamento();
+    text += horaInicial + "h - " + horaFinal + "h\n";
+    text += barbearia->getEndereco();
+    label = new QLabel(QString::fromStdString(text));
 
     gridLayout = new QGridLayout;
 
-    QStringList times = {"8:00h", "8:30h", "9:00h", "9:30h", "10:00h", "10:30h", "11:00h", "11:30h", "12:00h", "12:30h", "13:00h", "13:30h", "14:00h", "14:30h", "15:00h", "15:30h", "16:00h", "16:30h"};
+    QStringList times;
+
+    // Converte as strings de horário inicial e final para minutos desde a meia-noite
+    int minutosInicio = QTime::fromString(QString::fromStdString(horaInicial), "hh:mm").msecsSinceStartOfDay() / 60000;
+    int minutosFim = QTime::fromString(QString::fromStdString(horaFinal), "hh:mm").msecsSinceStartOfDay() / 60000;
+    const int intervaloMinutos = 30;
+
+    // Loop para incrementar de 30 em 30 minutos até o horário final
+    for (int minutos = minutosInicio; minutos < minutosFim; minutos += intervaloMinutos) {
+        int horas = minutos / 60;
+        int minutosRestantes = minutos % 60;
+
+        // Formata a hora e adiciona à lista
+        QString horario = QString("%1:%2")
+                              .arg(horas, 2, 10, QLatin1Char('0'))
+                              .arg(minutosRestantes, 2, 10, QLatin1Char('0'));
+
+        Horario *horarioCompleto = new Horario("03/02/2024", horario.toStdString());
+
+        if(!barbeiro->existsHorario(horarioCompleto))
+            times.append(horario);
+    }
+
+    //QStringList times = {"8:00h", "8:30h", "9:00h", "9:30h", "10:00h", "10:30h", "11:00h", "11:30h", "12:00h", "12:30h", "13:00h", "13:30h", "14:00h", "14:30h", "15:00h", "15:30h", "16:00h", "16:30h"};
+
     int row = 0;
     int col = 0;
     for (const QString &time : times) {
