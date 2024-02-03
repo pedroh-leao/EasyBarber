@@ -1,8 +1,12 @@
 #include "TelaAgendamento.h"
+#include "telaescolhabarbeiro.h"
 
-TelaAgendamento::TelaAgendamento(Barbearia *barbearia, Barbeiro * barbeiro, QWidget *parent) : QWidget(parent) {
+TelaAgendamento::TelaAgendamento(Barbearia *barbearia, Barbeiro * barbeiro, Cliente *cliente, QWidget *parent) : QWidget(parent) {
     this->barbearia = barbearia;
     this->barbeiro = barbeiro;
+    this->cliente = cliente;
+    this->horarioSelecionado = new Horario("03/02/2024", "00:00");
+
     createLayout();
 }
 
@@ -49,11 +53,26 @@ void TelaAgendamento::createLayout() {
 
     //QStringList times = {"8:00h", "8:30h", "9:00h", "9:30h", "10:00h", "10:30h", "11:00h", "11:30h", "12:00h", "12:30h", "13:00h", "13:30h", "14:00h", "14:30h", "15:00h", "15:30h", "16:00h", "16:30h"};
 
+    scheduleButton = new QPushButton("REALIZAR AGENDAMENTO");
+
+    scheduleButton->setEnabled(false);
+
+    Barbearia *refBarbearia = barbearia;
+    Barbeiro* refBarbeiro = barbeiro;
+    Cliente* refCliente = cliente;
+    connect(scheduleButton, &QPushButton::clicked, [this, refBarbearia, refBarbeiro, refCliente](){
+        realizaAgendamento(refBarbearia, refBarbeiro, refCliente);
+        this->close();
+    });
+
     int row = 0;
     int col = 0;
-    for (const QString &time : times) {
+    for (QString time : times) {
         QRadioButton *radioButton = new QRadioButton(time);
         gridLayout->addWidget(radioButton, row, col);
+
+        connect(radioButton, &QRadioButton::clicked, [this, time]{habilitaRealizaAgendBtn(time.toStdString());});
+
         col++;
         if (col == 5) {
             col = 0;
@@ -61,12 +80,25 @@ void TelaAgendamento::createLayout() {
         }
     }
 
-    scheduleButton = new QPushButton("REALIZAR AGENDAMENTO");
-
     QVBoxLayout *layout = new QVBoxLayout;
     layout->addWidget(label);
     layout->addLayout(gridLayout);
     layout->addWidget(scheduleButton);
 
     setLayout(layout);
+}
+
+void TelaAgendamento::realizaAgendamento(Barbearia* barbearia, Barbeiro* barbeiro, Cliente* cliente){
+    barbeiro->add(horarioSelecionado);
+    //cliente->add(horarioSelecionado);
+
+    TelaEscolhaBarbeiro *telaEscolhaBarbeiro = new TelaEscolhaBarbeiro(barbearia);
+    telaEscolhaBarbeiro->show();
+}
+
+void TelaAgendamento::habilitaRealizaAgendBtn(string time){
+    horarioSelecionado->setHora(time);
+
+    if(!scheduleButton->isEnabled())
+        this->scheduleButton->setEnabled(true);
 }

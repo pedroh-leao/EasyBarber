@@ -9,6 +9,7 @@
 #include <QPushButton>
 #include <QTime>
 #include "barbearia.h"
+#include "Cliente.h"
 
 class TelaAgendamento : public QWidget {
     Q_OBJECT
@@ -16,9 +17,11 @@ class TelaAgendamento : public QWidget {
 protected:
     Barbearia *barbearia;
     Barbeiro *barbeiro;
+    Cliente *cliente;
+    Horario *horarioSelecionado;
 
 public:
-    explicit TelaAgendamento(Barbearia *barbearia=nullptr, Barbeiro *barbeiro = nullptr, QWidget *parent = nullptr);
+    explicit TelaAgendamento(Barbearia *barbearia=nullptr, Barbeiro *barbeiro = nullptr, Cliente *cliente = nullptr, QWidget *parent = nullptr);
     ~TelaAgendamento();
 
 private:
@@ -27,6 +30,10 @@ private:
     QPushButton *scheduleButton;
 
     void createLayout();
+
+public slots:
+    void realizaAgendamento(Barbearia *barbearia, Barbeiro *barbeiro, Cliente *cliente);
+    void habilitaRealizaAgendBtn(string time);
 };
 
 #endif // TELAAGENDAMENTO_H

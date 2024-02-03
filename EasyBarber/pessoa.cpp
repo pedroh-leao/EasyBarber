@@ -46,3 +46,40 @@ void Pessoa::setEmail(const string& email) {
 void Pessoa::setSenha(const string& senha) {
     this->senha = senha;
 }
+
+Pessoa::horariosAgendadosIterator Pessoa::horariosAgendadosBegin(){
+    return horariosAgendados.begin();
+}
+
+Pessoa::horariosAgendadosIterator Pessoa::horariosAgendadosEnd(){
+    return horariosAgendados.end();
+}
+
+bool Pessoa::add(Horario* horario){
+    unsigned long long lenBefore = horariosAgendados.size();
+
+    horariosAgendados.push_back(horario);
+
+    return (lenBefore != horariosAgendados.size());
+}
+
+bool Pessoa::remove(Horario* horario){
+    for(Pessoa::horariosAgendadosIterator it = horariosAgendadosBegin(); it < horariosAgendadosEnd(); it++){
+        if(*it == horario){
+            horariosAgendados.erase(it);
+            //delete horario;
+            return true;
+        }
+    }
+
+    return false;
+}
+
+bool Pessoa::existsHorario(Horario *horario){
+    for(Pessoa::horariosAgendadosIterator it = horariosAgendadosBegin(); it < horariosAgendadosEnd(); it++){
+        if((*it)->getData() == horario->getData() && (*it)->getHora() == horario->getHora())
+            return true;
+    }
+
+    return false;
+}

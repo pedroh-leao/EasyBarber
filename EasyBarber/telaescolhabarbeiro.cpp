@@ -1,4 +1,5 @@
 #include "telaescolhabarbeiro.h"
+#include "telaagendamento.h"
 
 TelaEscolhaBarbeiro::TelaEscolhaBarbeiro(Barbearia *barbearia, QWidget *parent) : QWidget(parent) {
     this->barbearia = barbearia;
@@ -23,7 +24,7 @@ void TelaEscolhaBarbeiro::createButtons(QVBoxLayout *layout) {
 
         connect(botao, &QPushButton::clicked, [this, barbeiro]() {
             abrirTelaAgendamento(barbeiro);
-            this->hide();
+            this->close();
         });
 
         layout->addWidget(botao);

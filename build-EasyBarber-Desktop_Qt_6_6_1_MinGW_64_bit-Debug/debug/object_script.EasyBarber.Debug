@@ -1,0 +1,10 @@
+debug/barbearia.o
+debug/barbeiro.o
+debug/cliente.o
+debug/horario.o
+debug/main.o
+debug/pessoa.o
+debug/telaagendamento.o
+debug/telaescolhabarbeiro.o
+debug/moc_telaagendamento.o
+debug/moc_telaescolhabarbeiro.o

@@ -4,9 +4,8 @@
 #include <QWidget>
 #include <QVBoxLayout>
 #include <QPushButton>
-#include <iostream>
+#include "barbearia.h"
 using namespace std;
-#include "telaagendamento.h"
 
 
 class TelaEscolhaBarbeiro : public QWidget{

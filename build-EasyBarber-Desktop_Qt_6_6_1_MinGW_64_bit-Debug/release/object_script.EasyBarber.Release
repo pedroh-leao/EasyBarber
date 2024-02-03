@@ -1,0 +1,10 @@
+release/barbearia.o
+release/barbeiro.o
+release/cliente.o
+release/horario.o
+release/main.o
+release/pessoa.o
+release/telaagendamento.o
+release/telaescolhabarbeiro.o
+release/moc_telaagendamento.o
+release/moc_telaescolhabarbeiro.o
