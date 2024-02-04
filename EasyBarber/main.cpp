@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
 
     Cliente cliente("André", "Rua da UFOP, 123", "31988888888", "andre@gmail.com", "1234");
 
-    TelaEscolhaBarbeiro telaEscolhaBarbeiro(&barbearia);
+    TelaEscolhaBarbeiro telaEscolhaBarbeiro(&barbearia, &cliente);
     telaEscolhaBarbeiro.show();
 
 

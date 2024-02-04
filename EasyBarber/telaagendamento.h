@@ -21,7 +21,7 @@ protected:
     Horario *horarioSelecionado;
 
 public:
-    explicit TelaAgendamento(Barbearia *barbearia=nullptr, Barbeiro *barbeiro = nullptr, Cliente *cliente = nullptr, QWidget *parent = nullptr);
+    explicit TelaAgendamento(Barbearia *barbearia=nullptr, Barbeiro *barbeiro = nullptr, Horario *horarioSelecionado = nullptr, Cliente *cliente = nullptr,QWidget *parent = nullptr);
     ~TelaAgendamento();
 
 private:

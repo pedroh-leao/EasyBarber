@@ -5,6 +5,7 @@
 #include <QVBoxLayout>
 #include <QPushButton>
 #include "barbearia.h"
+#include "cliente.h"
 using namespace std;
 
 
@@ -12,9 +13,10 @@ class TelaEscolhaBarbeiro : public QWidget{
     Q_OBJECT
 protected:
     Barbearia * barbearia;
+    Cliente * cliente;
 
 public:
-    explicit TelaEscolhaBarbeiro(Barbearia * barbearia = nullptr, QWidget *parent = nullptr);
+    explicit TelaEscolhaBarbeiro(Barbearia * barbearia = nullptr, Cliente * cliente = nullptr, QWidget *parent = nullptr);
     ~TelaEscolhaBarbeiro();
 
 private:
@@ -23,7 +25,7 @@ private:
 
 
 public slots:
-    void abrirTelaAgendamento(Barbeiro * barbeiro);
+    void abrirTelaEscolhaData(Barbeiro * barbeiro);
 };
 
 #endif // TELAESCOLHABARBEIRO_H

@@ -16,7 +16,8 @@ SOURCES += \
     main.cpp \
     pessoa.cpp \
     telaagendamento.cpp \
-    telaescolhabarbeiro.cpp
+    telaescolhabarbeiro.cpp \
+    telaescolhadata.cpp
 
 HEADERS += \
     barbearia.h \
@@ -25,9 +26,11 @@ HEADERS += \
     horario.h \
     pessoa.h \
     telaagendamento.h \
-    telaescolhabarbeiro.h
+    telaescolhabarbeiro.h \
+    telaescolhadata.h
 
-FORMS +=
+FORMS += \
+    telaescolhadata.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

@@ -1,8 +1,10 @@
 #include "telaescolhabarbeiro.h"
 #include "telaagendamento.h"
+#include "telaescolhadata.h"
 
-TelaEscolhaBarbeiro::TelaEscolhaBarbeiro(Barbearia *barbearia, QWidget *parent) : QWidget(parent) {
+TelaEscolhaBarbeiro::TelaEscolhaBarbeiro(Barbearia *barbearia, Cliente *cliente, QWidget *parent) : QWidget(parent) {
     this->barbearia = barbearia;
+    this->cliente = cliente;
     createLayout();
 }
 
@@ -23,7 +25,7 @@ void TelaEscolhaBarbeiro::createButtons(QVBoxLayout *layout) {
         QPushButton *botao = new QPushButton(nomeBarbeiro);
 
         connect(botao, &QPushButton::clicked, [this, barbeiro]() {
-            abrirTelaAgendamento(barbeiro);
+            abrirTelaEscolhaData(barbeiro);
             this->close();
         });
 
@@ -31,7 +33,8 @@ void TelaEscolhaBarbeiro::createButtons(QVBoxLayout *layout) {
     }
 }
 
-void TelaEscolhaBarbeiro::abrirTelaAgendamento(Barbeiro *barbeiro){
-    TelaAgendamento *telaAgendamento = new TelaAgendamento(barbearia, barbeiro);
-    telaAgendamento->show();
+void TelaEscolhaBarbeiro::abrirTelaEscolhaData(Barbeiro *barbeiro){
+    TelaEscolhaData *escolhaData = new TelaEscolhaData(barbearia, barbeiro, cliente);
+    escolhaData->show();
+
 }

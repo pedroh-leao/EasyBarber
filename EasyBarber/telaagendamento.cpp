@@ -1,11 +1,11 @@
 #include "TelaAgendamento.h"
 #include "telaescolhabarbeiro.h"
 
-TelaAgendamento::TelaAgendamento(Barbearia *barbearia, Barbeiro * barbeiro, Cliente *cliente, QWidget *parent) : QWidget(parent) {
+TelaAgendamento::TelaAgendamento(Barbearia *barbearia, Barbeiro * barbeiro, Horario *horarioSelecionado, Cliente *cliente, QWidget *parent) : QWidget(parent) {
     this->barbearia = barbearia;
     this->barbeiro = barbeiro;
     this->cliente = cliente;
-    this->horarioSelecionado = new Horario("03/02/2024", "00:00");
+    this->horarioSelecionado = horarioSelecionado;
 
     createLayout();
 }
@@ -14,8 +14,8 @@ TelaAgendamento::~TelaAgendamento() {
 }
 
 void TelaAgendamento::createLayout() {
-    Horario horarioTemp("03/02/2024", "15:00");
-    barbeiro->add(&horarioTemp);
+    // Horario horarioTemp("03/02/2024", "15:00");
+    // barbeiro->add(&horarioTemp);
 
     string text = barbearia->getNome() + "\n";
     text += "Agendando atendimento com: " + barbeiro->getNome() + "\n";
@@ -45,7 +45,7 @@ void TelaAgendamento::createLayout() {
                               .arg(horas, 2, 10, QLatin1Char('0'))
                               .arg(minutosRestantes, 2, 10, QLatin1Char('0'));
 
-        Horario *horarioCompleto = new Horario("03/02/2024", horario.toStdString());
+        Horario *horarioCompleto = new Horario(horarioSelecionado->getData(), horario.toStdString());
 
         if(!barbeiro->existsHorario(horarioCompleto))
             times.append(horario);
@@ -90,7 +90,7 @@ void TelaAgendamento::createLayout() {
 
 void TelaAgendamento::realizaAgendamento(Barbearia* barbearia, Barbeiro* barbeiro, Cliente* cliente){
     barbeiro->add(horarioSelecionado);
-    //cliente->add(horarioSelecionado);
+    cliente->add(horarioSelecionado);
 
     TelaEscolhaBarbeiro *telaEscolhaBarbeiro = new TelaEscolhaBarbeiro(barbearia);
     telaEscolhaBarbeiro->show();
