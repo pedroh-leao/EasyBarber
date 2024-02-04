@@ -5,7 +5,3 @@ Cliente::Cliente(string nome, string endereco, string telefone, string email, st
         : Pessoa(nome, endereco, telefone, email, senha) {}
 
 Cliente::~Cliente() {}
-
-void Cliente::agendarHorario() {
-    cout << "Agendando horário..." << endl;
-}

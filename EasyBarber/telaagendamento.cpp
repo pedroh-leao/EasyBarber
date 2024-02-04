@@ -89,8 +89,8 @@ void TelaAgendamento::createLayout() {
 }
 
 void TelaAgendamento::realizaAgendamento(Barbearia* barbearia, Barbeiro* barbeiro, Cliente* cliente){
-    barbeiro->add(horarioSelecionado);
-    cliente->add(horarioSelecionado);
+
+    barbearia->realizarAgendamento(barbeiro, cliente, horarioSelecionado);
 
     TelaEscolhaBarbeiro *telaEscolhaBarbeiro = new TelaEscolhaBarbeiro(barbearia);
     telaEscolhaBarbeiro->show();

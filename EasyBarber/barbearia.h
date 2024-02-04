@@ -4,6 +4,8 @@
 #include <string>
 #include <vector>
 #include "Barbeiro.h"
+#include "cliente.h"
+#include "horario.h"
 
 using namespace std;
 
@@ -45,6 +47,8 @@ public:
     barbeirosIterator barbeirosEnd();
     bool add(Barbeiro *barbeiro);
     bool remove(Barbeiro *barbeiro);
+
+    bool realizarAgendamento(Barbeiro* barbeiro, Cliente* cliente, Horario * horario);
 };
 
 #endif // BARBEARIA_H

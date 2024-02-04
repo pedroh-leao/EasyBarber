@@ -8,8 +8,6 @@ class Cliente : public Pessoa
 public:
     Cliente(string nome = "", string endereco = "", string telefone = "", string email = "", string senha = "");
     virtual ~Cliente();
-
-    void agendarHorario();
 };
 
 #endif // CLIENTE_H

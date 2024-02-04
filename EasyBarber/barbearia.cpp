@@ -80,3 +80,13 @@ bool Barbearia::remove(Barbeiro* barbeiro){
 
     return false;
 }
+
+bool Barbearia::realizarAgendamento(Barbeiro* barbeiro, Cliente* cliente, Horario * horario){
+    
+    if (cliente->existsHorario(horario) || barbeiro->existsHorario(horario)) return false;
+    
+    barbeiro->add(horario);
+    cliente->add(horario);
+
+    return true;
+}
