@@ -39,7 +39,7 @@ namespace {
 struct qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS_t {};
 static constexpr auto qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS = QtMocHelpers::stringData(
     "TelaEscolhaBarbeiro",
-    "abrirTelaAgendamento",
+    "abrirTelaEscolhaData",
     "",
     "Barbeiro*",
     "barbeiro"
@@ -58,13 +58,13 @@ struct qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS_t {
 Q_CONSTINIT static const qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS_t qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS = {
     {
         QT_MOC_LITERAL(0, 19),  // "TelaEscolhaBarbeiro"
-        QT_MOC_LITERAL(20, 20),  // "abrirTelaAgendamento"
+        QT_MOC_LITERAL(20, 20),  // "abrirTelaEscolhaData"
         QT_MOC_LITERAL(41, 0),  // ""
         QT_MOC_LITERAL(42, 9),  // "Barbeiro*"
         QT_MOC_LITERAL(52, 8)   // "barbeiro"
     },
     "TelaEscolhaBarbeiro",
-    "abrirTelaAgendamento",
+    "abrirTelaEscolhaData",
     "",
     "Barbeiro*",
     "barbeiro"
@@ -104,7 +104,7 @@ Q_CONSTINIT const QMetaObject TelaEscolhaBarbeiro::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<TelaEscolhaBarbeiro, std::true_type>,
-        // method 'abrirTelaAgendamento'
+        // method 'abrirTelaEscolhaData'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<Barbeiro *, std::false_type>
     >,
@@ -117,7 +117,7 @@ void TelaEscolhaBarbeiro::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
         auto *_t = static_cast<TelaEscolhaBarbeiro *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->abrirTelaAgendamento((*reinterpret_cast< std::add_pointer_t<Barbeiro*>>(_a[1]))); break;
+        case 0: _t->abrirTelaEscolhaData((*reinterpret_cast< std::add_pointer_t<Barbeiro*>>(_a[1]))); break;
         default: ;
         }
     }

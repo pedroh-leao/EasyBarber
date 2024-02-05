@@ -1,5 +1,8 @@
 #include "telaescolhadata.h"
 #include "ui_telaescolhadata.h"
+#include "horario.h"
+#include "telaescolhabarbeiro.h"
+#include "telaagendamento.h"
 
 TelaEscolhaData::TelaEscolhaData(Barbearia *barbearia, Barbeiro *barbeiro, Cliente *cliente, QWidget *parent)
     : QDialog(parent)

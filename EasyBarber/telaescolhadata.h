@@ -1,11 +1,8 @@
 #ifndef TELAESCOLHADATA_H
 #define TELAESCOLHADATA_H
 
-#include "telaescolhabarbeiro.h"
-#include "telaagendamento.h"
 #include "barbearia.h"
 #include "Cliente.h"
-#include "horario.h"
 #include <QDialog>
 #include <QDate>
 #include <QDateEdit>

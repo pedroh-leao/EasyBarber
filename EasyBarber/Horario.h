@@ -2,7 +2,6 @@
 #define HORARIO_H
 
 #include <string>
-#include <iostream>
 using namespace std;
 
 /**
