@@ -14,25 +14,53 @@ namespace Ui {
 class telaEscolhaData;
 }
 
-class TelaEscolhaData : public QDialog
-{
+/**
+ * @brief A classe TelaEscolhaData representa a interface gráfica para a escolha de uma data para agendamento.
+ */
+class TelaEscolhaData : public QDialog {
     Q_OBJECT
 protected:
-    Barbearia *barbearia;
-    Barbeiro *barbeiro;
-    Cliente *cliente;
+    Barbearia* barbearia; /**< Ponteiro para o objeto da classe Barbearia associado à tela. */
+    Barbeiro* barbeiro; /**< Ponteiro para o objeto da classe Barbeiro associado à tela. */
+    Cliente* cliente; /**< Ponteiro para o objeto da classe Cliente associado à tela. */
+
 public:
-    explicit TelaEscolhaData(Barbearia *barbearia=nullptr, Barbeiro *barbeiro = nullptr, Cliente *cliente = nullptr, QWidget *parent = nullptr);
+    /**
+     * @brief Construtor da classe TelaEscolhaData.
+     * @param barbearia Ponteiro para o objeto da classe Barbearia.
+     * @param barbeiro Ponteiro para o objeto da classe Barbeiro.
+     * @param cliente Ponteiro para o objeto da classe Cliente.
+     * @param parent Ponteiro para o QWidget pai, padrão é nullptr.
+     */
+    explicit TelaEscolhaData(Barbearia* barbearia = nullptr, Barbeiro* barbeiro = nullptr, Cliente* cliente = nullptr, QWidget* parent = nullptr);
+
+    /**
+     * @brief Destrutor da classe TelaEscolhaData.
+     */
     ~TelaEscolhaData();
 
 private:
-    Ui::telaEscolhaData *ui;
+    Ui::telaEscolhaData* ui; /**< Ponteiro para a interface gráfica da tela. */
+
+    /**
+     * @brief Modifica o layout da tela.
+     */
     void modificarLayout();
+
+    /**
+     * @brief Cria os slots para os botões da tela.
+     */
     void criarSlots();
 
-
 public slots:
+    /**
+     * @brief Slot para voltar à tela de escolha de barbeiro.
+     */
     void voltarEscolhaBarbeiro();
+
+    /**
+     * @brief Slot para avançar e agendar um horário na tela de agendamento.
+     */
     void avancarAgendarHorario();
 };
 

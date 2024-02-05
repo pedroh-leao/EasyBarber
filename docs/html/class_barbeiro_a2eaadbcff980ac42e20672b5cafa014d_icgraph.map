@@ -1,0 +1,9 @@
+<map id="Barbeiro::setPreco" name="Barbeiro::setPreco">
+<area shape="rect" id="Node000001" title="Setter para o atributo preco." alt="" coords="506,5,636,32"/>
+<area shape="rect" id="Node000002" href="$unit__barbeiro_8cpp.html#a5931c31bd3d7218abbcdc47785f685e1" title=" " alt="" coords="300,5,458,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="491,21,459,21,459,16,491,16"/>
+<area shape="rect" id="Node000003" href="$unit__barbeiro_8cpp.html#a42eb2fdea3998103d34609226f46301e" title=" " alt="" coords="103,5,252,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="284,21,252,21,252,16,284,16"/>
+<area shape="rect" id="Node000004" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

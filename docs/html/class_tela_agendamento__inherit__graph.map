@@ -1,0 +1,5 @@
+<map id="TelaAgendamento" name="TelaAgendamento">
+<area shape="rect" id="Node000001" title="Classe que representa a tela de agendamento de atendimentos em uma barbearia." alt="" coords="5,123,221,464"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="81,5,145,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,90,116,123,111,123,111,90"/>
+</map>

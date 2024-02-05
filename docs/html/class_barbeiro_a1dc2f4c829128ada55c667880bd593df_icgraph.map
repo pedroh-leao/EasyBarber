@@ -1,0 +1,12 @@
+<map id="Barbeiro::getPreco" name="Barbeiro::getPreco">
+<area shape="rect" id="Node000001" title="Getter para o atributo preco." alt="" coords="507,31,637,57"/>
+<area shape="rect" id="Node000002" href="$unit__barbeiro_8cpp.html#a9ec46269ed24b807c6d31f81a56f7102" title=" " alt="" coords="300,5,459,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="492,36,459,32,460,27,492,31"/>
+<area shape="rect" id="Node000005" href="$unit__barbeiro_8cpp.html#a5931c31bd3d7218abbcdc47785f685e1" title=" " alt="" coords="301,56,459,83"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="492,57,460,62,459,56,492,52"/>
+<area shape="rect" id="Node000003" href="$unit__barbeiro_8cpp.html#a42eb2fdea3998103d34609226f46301e" title=" " alt="" coords="103,31,252,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="285,33,253,37,252,32,284,28"/>
+<area shape="rect" id="Node000004" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,55,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,47,55,47,55,41,87,41"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="285,60,252,56,253,51,285,55"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="TelaEscolhaBarbeiro" name="TelaEscolhaBarbeiro">
+<area shape="rect" id="Node000001" title="A classe TelaEscolhaBarbeiro representa a interface gráfica para a escolha de um barbeiro." alt="" coords="131,1649,303,1841"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,1172,69,1241"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="37,1256,36,1323,41,1407,56,1497,68,1542,84,1584,106,1624,134,1661,129,1664,101,1627,79,1586,63,1543,51,1498,36,1407,31,1323,32,1256"/>
+<area shape="rect" id="Node000003" href="$class_barbearia.html" title=" " alt="" coords="93,828,341,1585"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,1585,220,1633,215,1633,215,1585"/>
+<area shape="rect" id="Node000004" href="$class_cliente.html" title=" " alt="" coords="365,1129,517,1284"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="437,1284,427,1351,411,1428,388,1509,356,1587,316,1647,312,1644,351,1584,383,1507,406,1427,422,1350,432,1284"/>
+<area shape="rect" id="Node000005" href="$class_pessoa.html" title=" " alt="" coords="351,5,531,779"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="444,794,444,1129,439,1129,439,794"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Pessoa::remove" name="Pessoa::remove">
+<area shape="rect" id="Node000001" title="Remove um horário da lista de horários agendados." alt="" coords="5,43,120,69"/>
+<area shape="rect" id="Node000002" href="$class_pessoa.html#a2b15f3b2ffa585f0d8afae2ea20b7d42" title=" " alt="" coords="179,5,364,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,45,163,39,164,44,121,51"/>
+<area shape="rect" id="Node000003" href="$class_pessoa.html#a2a476cb77e351421f997f6f6c3952b56" title=" " alt="" coords="168,72,375,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="121,61,157,67,156,72,120,67"/>
+</map>

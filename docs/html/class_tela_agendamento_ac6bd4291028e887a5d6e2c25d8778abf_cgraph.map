@@ -1,0 +1,5 @@
+<map id="TelaAgendamento::habilitaRealizaAgendBtn" name="TelaAgendamento::habilitaRealizaAgendBtn">
+<area shape="rect" id="Node000001" title="Habilita o botão de agendamento quando um horário é selecionado." alt="" coords="5,5,180,48"/>
+<area shape="rect" id="Node000002" href="$class_horario.html#afaf47ebca7515ef91d84e179056cf999" title="Setter para o atributo hora." alt="" coords="228,13,343,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,24,212,24,212,29,180,29"/>
+</map>

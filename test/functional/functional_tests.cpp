@@ -1,5 +1,11 @@
 #include "functional_tests.h"
 
+
+/*
+    Dado um cliente chamado André, uma barbearia chamada "Barbearia do Tadeu" com um barbeiro chamado "João"
+    Quando o usuário escolher qual o seu barbeiro e o horário de atendimento que ele deseja, marcará o seu agendamento
+    Então os dados serão salvos e o seu agendamento estrá concluído
+*/
 void functional_agendar_horario_sucesso(){
     Barbearia barbearia("Barbearia do Tadeu", "Rua do Lino, 244 - Bauxita, Ouro Preto", "31998989898", "barbeariaTadeu@gmail.com", "09:00", "17:00");
     Barbeiro barbeiro("João", "Rua do Lino, 244 - Bauxita, Ouro Preto", "31999999999", "joaoBarber@gmail.com", "1234", 30.0);
@@ -13,6 +19,11 @@ void functional_agendar_horario_sucesso(){
 
 }
 
+/*
+    Dado dois clientes, André e Vitor, que desejam marcar um horario na Barbearia do Tadeu com o barbeiro João no mesmo horário
+    Quando João realizar o seu agendamento, tudo funcionará corretamente e será marcado, mas para Vitor isso não ocorrerá
+    Então Vitor irá escolher um outro horario e, dessa vez o agendamento será feito de maneira correta
+*/
 void functional_agendar_horario_falha(){
     Barbearia barbearia("Barbearia do Tadeu", "Rua do Lino, 244 - Bauxita, Ouro Preto", "31998989898", "barbeariaTadeu@gmail.com", "09:00", "17:00");
     Barbeiro barbeiro("João", "Rua do Lino, 244 - Bauxita, Ouro Preto", "31999999999", "joaoBarber@gmail.com", "1234", 30.0);
