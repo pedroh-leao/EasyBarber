@@ -8,7 +8,7 @@ var dir_df932a88e0e8d76e2cc96779d9f7d917 =
     [ "cliente.cpp", "cliente_8cpp.html", null ],
     [ "cliente.h", "cliente_8h.html", "cliente_8h" ],
     [ "horario.cpp", "horario_8cpp.html", null ],
-    [ "horario.h", "horario_8h.html", "horario_8h" ],
+    [ "Horario.h", "_horario_8h.html", "_horario_8h" ],
     [ "main.cpp", "_easy_barber_2main_8cpp.html", "_easy_barber_2main_8cpp" ],
     [ "pessoa.cpp", "pessoa_8cpp.html", null ],
     [ "pessoa.h", "pessoa_8h.html", "pessoa_8h" ],
@@ -19,6 +19,6 @@ var dir_df932a88e0e8d76e2cc96779d9f7d917 =
     [ "telaescolhadata.cpp", "telaescolhadata_8cpp.html", null ],
     [ "telaescolhadata.h", "telaescolhadata_8h.html", "telaescolhadata_8h" ],
     [ "ui_mainwindow.h", "_easy_barber_2ui__mainwindow_8h.html", "_easy_barber_2ui__mainwindow_8h" ],
-    [ "ui_telaescolhadata.h", "ui__telaescolhadata_8h.html", "ui__telaescolhadata_8h" ],
+    [ "ui_telaescolhadata.h", "_easy_barber_2ui__telaescolhadata_8h.html", "_easy_barber_2ui__telaescolhadata_8h" ],
     [ "ui_widget.h", "ui__widget_8h.html", "ui__widget_8h" ]
 ];

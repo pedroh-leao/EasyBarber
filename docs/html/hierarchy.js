@@ -24,6 +24,7 @@ var hierarchy =
       [ "Ui::MainWindow", "class_ui_1_1_main_window.html", null ]
     ] ],
     [ "Ui_telaEscolhaData", "class_ui__tela_escolha_data.html", [
+      [ "Ui::telaEscolhaData", "class_ui_1_1tela_escolha_data.html", null ],
       [ "Ui::telaEscolhaData", "class_ui_1_1tela_escolha_data.html", null ]
     ] ]
 ];

@@ -1,9 +1,9 @@
-<map id="EasyBarber/debug/moc_widget.cpp" name="EasyBarber/debug/moc_widget.cpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="101,5,258,48"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,96,87,123"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,51,81,90,78,85,144,46"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="110,96,249,123"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,49,182,80,177,80,177,49"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="273,96,342,123"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,46,276,85,273,90,211,51"/>
+<map id="C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/EasyBarber/debug/moc_widget.cpp" name="C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/EasyBarber/debug/moc_widget.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="64,5,295,64"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,112,87,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,67,79,106,76,101,135,62"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="110,112,249,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="182,64,182,96,177,96,177,64"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="273,112,342,139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="222,62,278,101,275,105,219,67"/>
 </map>

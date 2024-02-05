@@ -54,9 +54,9 @@ var NAVTREEINDEX =
 [
 "_barbeiro_8cpp.html",
 "_easy_barber_2debug_2moc__predefs_8h.html#a86bb5059d696b19082c1aff4ae93a87a",
-"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a136189a915ba49e719dcffbeba8412fd",
-"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a9d2226f2d9644bcb9db4e3dda746f559",
-"class_ui_1_1_main_window.html"
+"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a0ef74430002f6cdbdcc99344bc4ffc8a",
+"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a9873ff95bac5a53c28f05dbdc78ae91d",
+"class_tela_escolha_barbeiro.html#a855de2dbea4f22a30bc9143592ac278a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

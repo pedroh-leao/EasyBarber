@@ -1,5 +1,12 @@
 var NAVTREEINDEX2 =
 {
+"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a0ef74430002f6cdbdcc99344bc4ffc8a":[2,0,0,0,1,420],
+"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a0f22edb92c4da8029783c424962ac30d":[2,0,0,0,1,388],
+"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a0faa292beaf4cee43821abe108efb6f4":[2,0,0,0,1,68],
+"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a10a15ae17c3b791fe9b9721965ebfee4":[2,0,0,0,1,302],
+"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a1304d54dba90274495e0b09c9820927b":[2,0,0,0,1,425],
+"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a13526b223391d4982c4c172c29bfdc1e":[2,0,0,0,1,92],
+"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a135696718aa5b38e58be73aaece6654f":[2,0,0,0,1,424],
 "build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a136189a915ba49e719dcffbeba8412fd":[2,0,0,0,1,315],
 "build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a1433791b35cde12c112c2ef54b61a4d2":[2,0,0,0,1,352],
 "build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a144dfa169f604d99b46658c15338338e":[2,0,0,0,1,93],
@@ -242,12 +249,5 @@ var NAVTREEINDEX2 =
 "build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a9685ff8e617f3c5892c2a6fe3484f3b7":[2,0,0,0,1,216],
 "build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a96b511bfa61e4203ec3668fb39063309":[2,0,0,0,1,332],
 "build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a97163404b3b71f857e35be74607f88f7":[2,0,0,0,1,151],
-"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a97e13c059a63d2d547cc4a9f386641d2":[2,0,0,0,1,278],
-"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a9873ff95bac5a53c28f05dbdc78ae91d":[2,0,0,0,1,46],
-"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a9875b8f50cd7d288819635ebf494cf3d":[2,0,0,0,1,149],
-"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a98e298953067135caf4bc0b8e8e7cd01":[2,0,0,0,1,218],
-"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a9a8a7cd9484baf4b72ab15682745d119":[2,0,0,0,1,80],
-"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a9b18cde45e680760b3a997b0b1884408":[2,0,0,0,1,164],
-"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a9b32a9bb7a3c835ba810a939482abbd2":[2,0,0,0,1,61],
-"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a9bed0d0b1893211f857ad76d6728ea7e":[2,0,0,0,1,312]
+"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a97e13c059a63d2d547cc4a9f386641d2":[2,0,0,0,1,278]
 };

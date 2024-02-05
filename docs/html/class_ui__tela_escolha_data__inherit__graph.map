@@ -1,5 +1,6 @@
 <map id="Ui_telaEscolhaData" name="Ui_telaEscolhaData">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,187,192"/>
-<area shape="rect" id="Node000002" href="$class_ui_1_1tela_escolha_data.html" title=" " alt="" coords="32,240,160,309"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,207,99,240,93,240,93,207"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,187,267"/>
+<area shape="rect" id="Node000002" href="$class_ui_1_1tela_escolha_data.html" title=" " alt="" coords="32,315,160,384"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,281,92,315,87,315,85,282"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="107,282,105,315,100,315,102,281"/>
 </map>
