@@ -22,17 +22,22 @@ TelaEscolhaData::~TelaEscolhaData()
 }
 
 void TelaEscolhaData::modificarLayout(){
+    setTextoTopo(); //Texto do topo da tela
+    setDataAtual(); //Ajustando data
+}
 
-    //Texto do topo da tela
+void TelaEscolhaData::setTextoTopo(){
     string text = barbearia->getNome() + "\n";
     text += "Agendando atendimento com: " + barbeiro->getNome() + "\n";
     string horaInicial = barbearia->getInicioDeFuncionamento();
     string horaFinal = barbearia->getFimDeFuncionamento();
     text += horaInicial + "h - " + horaFinal + "h\n";
     text += barbearia->getEndereco();
-    ui->textobarbearia->setText(QString::fromStdString(text));
 
-    //Ajustando data
+    ui->textobarbearia->setText(QString::fromStdString(text));
+}
+
+void TelaEscolhaData::setDataAtual(){
     QDate currentDate = QDate::currentDate();
     ui->campoData->setDate(currentDate);
 }
@@ -52,6 +57,7 @@ void TelaEscolhaData::voltarEscolhaBarbeiro(){
     TelaEscolhaBarbeiro *telaEscolhaBarbeiro = new TelaEscolhaBarbeiro(barbearia, cliente);
     telaEscolhaBarbeiro->show();
 }
+
 void TelaEscolhaData::avancarAgendarHorario(){
     QString dateString = ui->campoData->date().toString("dd-MM-yyyy");
     string dataString = dateString.toStdString();

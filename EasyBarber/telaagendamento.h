@@ -9,7 +9,6 @@
 #include <QPushButton>
 #include <QTime>
 #include "barbearia.h"
-#include "Cliente.h"
 
 /**
  * @brief Classe que representa a tela de agendamento de atendimentos em uma barbearia.
@@ -48,6 +47,26 @@ private:
      * @brief Cria o layout da tela de agendamento.
      */
     void createLayout();
+
+    /**
+     * @brief Seta o texto do topo da tela de agendamento.
+     */
+    void setTextoTopo();
+
+    /**
+     * @brief Gera uma QStringList com os horários disponíveis para agendamento com esse barbeiro.
+     */
+    QStringList geraHorariosDisponiveis();
+
+    /**
+     * @brief Cria radio buttons dos horários disponíveis para agendamento para a tela de agendamento.
+     */
+    void createRadioButtonsHorario();
+
+    /**
+     * @brief Cria botão para realizar o agendamento para tela de agendamento.
+     */
+    void createScheduleButton();
 
 public slots:
     /**

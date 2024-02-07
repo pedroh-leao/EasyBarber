@@ -2,7 +2,6 @@
 #define TELAESCOLHADATA_H
 
 #include "barbearia.h"
-#include "Cliente.h"
 #include <QDialog>
 #include <QDate>
 #include <QDateEdit>
@@ -43,6 +42,16 @@ private:
      * @brief Modifica o layout da tela.
      */
     void modificarLayout();
+
+    /**
+     * @brief Seta o texto posicionado no topo da tela.
+     */
+    void setTextoTopo();
+
+    /**
+     * @brief Ajusta data para a data atual.
+     */
+    void setDataAtual();
 
     /**
      * @brief Cria os slots para os botões da tela.

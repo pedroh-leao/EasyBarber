@@ -14,9 +14,19 @@ TelaAgendamento::~TelaAgendamento() {
 }
 
 void TelaAgendamento::createLayout() {
-    // Horario horarioTemp("03/02/2024", "15:00");
-    // barbeiro->add(&horarioTemp);
+    setTextoTopo();
+    createScheduleButton();
+    createRadioButtonsHorario();
 
+    QVBoxLayout *layout = new QVBoxLayout;
+    layout->addWidget(label);
+    layout->addLayout(gridLayout);
+    layout->addWidget(scheduleButton);
+
+    setLayout(layout);
+}
+
+void TelaAgendamento::setTextoTopo(){
     string text = barbearia->getNome() + "\n";
     text += "Agendando atendimento com: " + barbeiro->getNome() + "\n";
 
@@ -25,10 +35,12 @@ void TelaAgendamento::createLayout() {
     text += horaInicial + "h - " + horaFinal + "h\n";
     text += barbearia->getEndereco();
     label = new QLabel(QString::fromStdString(text));
+}
 
-    gridLayout = new QGridLayout;
-
+QStringList TelaAgendamento::geraHorariosDisponiveis(){
     QStringList times;
+    string horaInicial = barbearia->getInicioDeFuncionamento();
+    string horaFinal = barbearia->getFimDeFuncionamento();
 
     // Converte as strings de horário inicial e final para minutos desde a meia-noite
     int minutosInicio = QTime::fromString(QString::fromStdString(horaInicial), "hh:mm").msecsSinceStartOfDay() / 60000;
@@ -51,19 +63,12 @@ void TelaAgendamento::createLayout() {
             times.append(horario);
     }
 
-    //QStringList times = {"8:00h", "8:30h", "9:00h", "9:30h", "10:00h", "10:30h", "11:00h", "11:30h", "12:00h", "12:30h", "13:00h", "13:30h", "14:00h", "14:30h", "15:00h", "15:30h", "16:00h", "16:30h"};
+    return times;
+}
 
-    scheduleButton = new QPushButton("REALIZAR AGENDAMENTO");
-
-    scheduleButton->setEnabled(false);
-
-    Barbearia *refBarbearia = barbearia;
-    Barbeiro* refBarbeiro = barbeiro;
-    Cliente* refCliente = cliente;
-    connect(scheduleButton, &QPushButton::clicked, [this, refBarbearia, refBarbeiro, refCliente](){
-        realizaAgendamento(refBarbearia, refBarbeiro, refCliente);
-        this->close();
-    });
+void TelaAgendamento::createRadioButtonsHorario(){
+    QStringList times = geraHorariosDisponiveis();
+    gridLayout = new QGridLayout;
 
     int row = 0;
     int col = 0;
@@ -79,20 +84,27 @@ void TelaAgendamento::createLayout() {
             row++;
         }
     }
+}
 
-    QVBoxLayout *layout = new QVBoxLayout;
-    layout->addWidget(label);
-    layout->addLayout(gridLayout);
-    layout->addWidget(scheduleButton);
+void TelaAgendamento::createScheduleButton(){
+    scheduleButton = new QPushButton("REALIZAR AGENDAMENTO");
 
-    setLayout(layout);
+    scheduleButton->setEnabled(false);
+
+    Barbearia *refBarbearia = barbearia;
+    Barbeiro* refBarbeiro = barbeiro;
+    Cliente* refCliente = cliente;
+
+    connect(scheduleButton, &QPushButton::clicked, [this, refBarbearia, refBarbeiro, refCliente](){
+        realizaAgendamento(refBarbearia, refBarbeiro, refCliente);
+        this->close();
+    });
 }
 
 void TelaAgendamento::realizaAgendamento(Barbearia* barbearia, Barbeiro* barbeiro, Cliente* cliente){
-
     barbearia->realizarAgendamento(barbeiro, cliente, horarioSelecionado);
 
-    TelaEscolhaBarbeiro *telaEscolhaBarbeiro = new TelaEscolhaBarbeiro(barbearia);
+    TelaEscolhaBarbeiro *telaEscolhaBarbeiro = new TelaEscolhaBarbeiro(barbearia, cliente);
     telaEscolhaBarbeiro->show();
 }
 
