@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QVBoxLayout>
 #include <QPushButton>
+#include <QtSql>
 #include "barbearia.h"
 #include "cliente.h"
 using namespace std;

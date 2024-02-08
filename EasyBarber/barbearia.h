@@ -1,6 +1,7 @@
 #ifndef BARBEARIA_H
 #define BARBEARIA_H
 
+#include <QtSql>
 #include <string>
 #include <vector>
 #include "Barbeiro.h"
@@ -18,6 +19,8 @@ private:
     string inicioDeFuncionamento;
     string fimDeFuncionamento;
     vector<Barbeiro*> barbeiros;
+
+    QSqlQuery query;
 
 public:
     typedef vector<Barbeiro*>::iterator barbeirosIterator;
@@ -143,7 +146,7 @@ public:
     * @param horario Ponteiro para o horário do agendamento.
     * @return true se o agendamento foi realizado com sucesso, false caso contrário.
     */
-    bool realizarAgendamento(Barbeiro* barbeiro, Cliente* cliente, Horario * horario);
+    bool realizarAgendamento(Barbeiro* barbeiro, Cliente* cliente, Horario* horario);
 
 };
 

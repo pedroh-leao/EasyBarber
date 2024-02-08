@@ -11,4 +11,10 @@ float Barbeiro::getPreco() const {
 
 void Barbeiro::setPreco(float preco) {
     this->preco = preco;
+
+    string sqlText = "update tb_barbeiro set preco=" + to_string(preco) + " where email='" + email + "'";
+    if(query.exec(QString::fromStdString(sqlText)))
+        this->preco = preco;
+    else
+        qDebug() << "Erro na atualização do barbeiro.";
 }

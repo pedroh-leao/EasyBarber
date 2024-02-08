@@ -1,5 +1,6 @@
 #include "TelaAgendamento.h"
 #include "telaescolhabarbeiro.h"
+#include <QMessageBox>
 
 TelaAgendamento::TelaAgendamento(Barbearia *barbearia, Barbeiro * barbeiro, Horario *horarioSelecionado, Cliente *cliente, QWidget *parent) : QWidget(parent) {
     this->barbearia = barbearia;
@@ -59,7 +60,7 @@ QStringList TelaAgendamento::geraHorariosDisponiveis(){
 
         Horario *horarioCompleto = new Horario(horarioSelecionado->getData(), horario.toStdString());
 
-        if(!barbeiro->existsHorario(horarioCompleto))
+        if(!barbeiro->existsHorario(horarioCompleto) && !cliente->existsHorario(horarioCompleto))
             times.append(horario);
     }
 
@@ -102,7 +103,10 @@ void TelaAgendamento::createScheduleButton(){
 }
 
 void TelaAgendamento::realizaAgendamento(Barbearia* barbearia, Barbeiro* barbeiro, Cliente* cliente){
-    barbearia->realizarAgendamento(barbeiro, cliente, horarioSelecionado);
+    if(barbearia->realizarAgendamento(barbeiro, cliente, horarioSelecionado))
+        QMessageBox::information(this, "", "Agendamento relizado com sucesso!");
+    else
+        QMessageBox::information(this, "", "Erro ao tentar realizar agendamento!");
 
     TelaEscolhaBarbeiro *telaEscolhaBarbeiro = new TelaEscolhaBarbeiro(barbearia, cliente);
     telaEscolhaBarbeiro->show();

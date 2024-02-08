@@ -5,6 +5,7 @@
 #include <QDialog>
 #include <QDate>
 #include <QDateEdit>
+#include <QtSql>
 
 namespace Ui {
 class telaEscolhaData;

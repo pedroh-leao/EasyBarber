@@ -1,9 +1,11 @@
 #ifndef PESSOA_H
 #define PESSOA_H
 
+#include <QtSql>
 #include <string>
-#include "horario.h"
 #include <vector>
+#include "horario.h"
+
 using namespace std;
 
 class Pessoa
@@ -16,6 +18,7 @@ protected:
     string senha; /**< Senha associada à pessoa. */
     vector<Horario*> horariosAgendados; /**< Vetor de ponteiros para objetos da classe Horario, representando os horários agendados. */
 
+    QSqlQuery query;
 public:
     /**
      * @brief Construtor da classe Pessoa.
