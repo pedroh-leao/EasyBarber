@@ -11,6 +11,12 @@ string Barbearia::getNome() const {
 
 void Barbearia::setNome(const string& nome) {
     this->nome = nome;
+
+    string sqlText = "update tb_barbearia set nome='" + nome + "' where email='" + email + "'";
+    if(query.exec(QString::fromStdString(sqlText)))
+        this->nome = nome;
+    else
+        qDebug() << "Erro na atualização da barbearia.";
 }
 
 string Barbearia::getEndereco() const {
@@ -19,6 +25,12 @@ string Barbearia::getEndereco() const {
 
 void Barbearia::setEndereco(const string& endereco) {
     this->endereco = endereco;
+
+    string sqlText = "update tb_barbearia set endereco='" + endereco + "' where email='" + email + "'";
+    if(query.exec(QString::fromStdString(sqlText)))
+        this->endereco = endereco;
+    else
+        qDebug() << "Erro na atualização da barbearia.";
 }
 
 string Barbearia::getTelefone() const {
@@ -27,6 +39,12 @@ string Barbearia::getTelefone() const {
 
 void Barbearia::setTelefone(const string& telefone) {
     this->telefone = telefone;
+
+    string sqlText = "update tb_barbearia set telefone='" + telefone + "' where email='" + email + "'";
+    if(query.exec(QString::fromStdString(sqlText)))
+        this->telefone = telefone;
+    else
+        qDebug() << "Erro na atualização da barbearia.";
 }
 
 string Barbearia::getEmail() const {
@@ -43,6 +61,12 @@ string Barbearia::getInicioDeFuncionamento() const {
 
 void Barbearia::setInicioDeFuncionamento(const string& inicioDeFuncionamento) {
     this->inicioDeFuncionamento = inicioDeFuncionamento;
+
+    string sqlText = "update tb_barbearia set inicioDeFuncionamento='" + inicioDeFuncionamento + "' where email='" + email + "'";
+    if(query.exec(QString::fromStdString(sqlText)))
+        this->inicioDeFuncionamento = inicioDeFuncionamento;
+    else
+        qDebug() << "Erro na atualização da barbearia.";
 }
 
 string Barbearia::getFimDeFuncionamento() const {
@@ -51,6 +75,12 @@ string Barbearia::getFimDeFuncionamento() const {
 
 void Barbearia::setFimDeFuncionamento(const string& fimDeFuncionamento) {
     this->fimDeFuncionamento = fimDeFuncionamento;
+
+    string sqlText = "update tb_barbearia set fimDeFuncionamento='" + fimDeFuncionamento + "' where email='" + email + "'";
+    if(query.exec(QString::fromStdString(sqlText)))
+        this->fimDeFuncionamento = fimDeFuncionamento;
+    else
+        qDebug() << "Erro na atualização da barbearia.";
 }
 
 Barbearia::barbeirosIterator Barbearia::barbeirosBegin(){
@@ -70,23 +100,38 @@ bool Barbearia::add(Barbeiro* barbeiro){
 }
 
 bool Barbearia::remove(Barbeiro* barbeiro){
-    for(Barbearia::barbeirosIterator it = barbeirosBegin(); it < barbeirosEnd(); it++){
-        if(*it == barbeiro){
-            barbeiros.erase(it);
-            //delete barbeiro;
-            return true;
+    string sqlText = "delete from tb_barbeiro where email='" + barbeiro->getEmail() + "'";
+
+    if(query.exec(QString::fromStdString(sqlText))){
+        for(Barbearia::barbeirosIterator it = barbeirosBegin(); it < barbeirosEnd(); it++){
+            if(*it == barbeiro){
+                barbeiros.erase(it);
+                //delete barbeiro;
+                return true;
+            }
         }
     }
+    else qDebug() << "Erro ao tentar remover barbeiro do banco de dados!";
 
     return false;
 }
 
-bool Barbearia::realizarAgendamento(Barbeiro* barbeiro, Cliente* cliente, Horario * horario){
+bool Barbearia::realizarAgendamento(Barbeiro* barbeiro, Cliente* cliente, Horario* horario){
     
     if (cliente->existsHorario(horario) || barbeiro->existsHorario(horario)) return false;
-    
-    barbeiro->add(horario);
-    cliente->add(horario);
+
+    string sqlText = "insert into tb_horario (data, hora, email_cliente, email_barbeiro) values"
+                     "('"+ horario->getData() +"', '"+ horario->getHora() +"', '"+ cliente->getEmail() +"', '"+ barbeiro->getEmail() +"')";
+
+    if(query.exec(QString::fromStdString(sqlText))) {
+        barbeiro->add(horario);
+        cliente->add(horario);
+    }
+
+    else {
+        qDebug() << "Erro ao tentar inserir novo horário de agendamento!";
+        return false;
+    }
 
     return true;
 }

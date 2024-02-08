@@ -10,6 +10,8 @@ string Horario::getData() const{
 }
 void Horario::setData(string data){
     this->data = data;
+
+    //nao tem como fazer update de bd aqui, porque no bd é necessario o email do barbeiro e do cliente para fazer a atualizacao
 }
 
 
@@ -18,4 +20,6 @@ string Horario::getHora() const{
 }
 void Horario::setHora(string hora){
     this->hora = hora;
+
+    //nao tem como fazer update de bd aqui, porque no bd é necessario o email do barbeiro e do cliente para fazer a atualizacao
 }

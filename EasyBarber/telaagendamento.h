@@ -8,6 +8,7 @@
 #include <QStringList>
 #include <QPushButton>
 #include <QTime>
+#include <QtSql>
 #include "barbearia.h"
 
 /**
