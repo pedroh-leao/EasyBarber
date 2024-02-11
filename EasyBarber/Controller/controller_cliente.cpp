@@ -17,6 +17,11 @@ int Controller_Cliente::buscarHorariosAgendados(Cliente* cliente){
     return cont;
 }
 
+bool Controller_Cliente::removeHorario(Cliente * cliente, Horario * horario){
+    if(!dao_cliente->removeHorario(cliente, horario)) return false;
+    cliente->remove(horario);
+    return true;
+}
 
 bool Controller_Cliente::updateNome(Cliente* cliente, const string& nome){
     if(!dao_cliente->updateNome(cliente, nome)) return false;

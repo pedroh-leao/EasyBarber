@@ -199,6 +199,7 @@ Makefile: ../functional/functional.pro D:/Qt/6.6.1/mingw_64/mkspecs/win32-g++/qm
 		D:/Qt/6.6.1/mingw_64/mkspecs/features/qt_config.prf \
 		D:/Qt/6.6.1/mingw_64/mkspecs/win32-g++/qmake.conf \
 		D:/Qt/6.6.1/mingw_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		D:/Qt/6.6.1/mingw_64/mkspecs/features/exclusive_builds.prf \
 		D:/Qt/6.6.1/mingw_64/mkspecs/features/toolchain.prf \
 		D:/Qt/6.6.1/mingw_64/mkspecs/features/default_pre.prf \
@@ -210,6 +211,13 @@ Makefile: ../functional/functional.pro D:/Qt/6.6.1/mingw_64/mkspecs/win32-g++/qm
 		D:/Qt/6.6.1/mingw_64/mkspecs/features/qml_debug.prf \
 		D:/Qt/6.6.1/mingw_64/mkspecs/features/precompile_header.prf \
 		D:/Qt/6.6.1/mingw_64/mkspecs/features/warn_on.prf \
+		D:/Qt/6.6.1/mingw_64/mkspecs/features/permissions.prf \
+		D:/Qt/6.6.1/mingw_64/mkspecs/features/qt.prf \
+		D:/Qt/6.6.1/mingw_64/mkspecs/features/resources_functions.prf \
+		D:/Qt/6.6.1/mingw_64/mkspecs/features/resources.prf \
+		D:/Qt/6.6.1/mingw_64/mkspecs/features/moc.prf \
+		D:/Qt/6.6.1/mingw_64/mkspecs/features/win32/opengl.prf \
+		D:/Qt/6.6.1/mingw_64/mkspecs/features/uic.prf \
 		D:/Qt/6.6.1/mingw_64/mkspecs/features/qmake_use.prf \
 		D:/Qt/6.6.1/mingw_64/mkspecs/features/file_copies.prf \
 		D:/Qt/6.6.1/mingw_64/mkspecs/features/testcase_targets.prf \
@@ -217,7 +225,10 @@ Makefile: ../functional/functional.pro D:/Qt/6.6.1/mingw_64/mkspecs/win32-g++/qm
 		D:/Qt/6.6.1/mingw_64/mkspecs/features/yacc.prf \
 		D:/Qt/6.6.1/mingw_64/mkspecs/features/lex.prf \
 		../functional/functional.pro \
-		.qmake.stash \
+		D:/Qt/6.6.1/mingw_64/lib/Qt6Widgets.prl \
+		D:/Qt/6.6.1/mingw_64/lib/Qt6Gui.prl \
+		D:/Qt/6.6.1/mingw_64/lib/Qt6Sql.prl \
+		D:/Qt/6.6.1/mingw_64/lib/Qt6Core.prl \
 		D:/Qt/6.6.1/mingw_64/mkspecs/features/build_pass.prf
 	$(QMAKE) -o Makefile ..\functional\functional.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 D:/Qt/6.6.1/mingw_64/mkspecs/features/spec_pre.prf:
@@ -349,6 +360,7 @@ D:/Qt/6.6.1/mingw_64/mkspecs/features/qt_functions.prf:
 D:/Qt/6.6.1/mingw_64/mkspecs/features/qt_config.prf:
 D:/Qt/6.6.1/mingw_64/mkspecs/win32-g++/qmake.conf:
 D:/Qt/6.6.1/mingw_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 D:/Qt/6.6.1/mingw_64/mkspecs/features/exclusive_builds.prf:
 D:/Qt/6.6.1/mingw_64/mkspecs/features/toolchain.prf:
 D:/Qt/6.6.1/mingw_64/mkspecs/features/default_pre.prf:
@@ -360,6 +372,13 @@ D:/Qt/6.6.1/mingw_64/mkspecs/features/win32/console.prf:
 D:/Qt/6.6.1/mingw_64/mkspecs/features/qml_debug.prf:
 D:/Qt/6.6.1/mingw_64/mkspecs/features/precompile_header.prf:
 D:/Qt/6.6.1/mingw_64/mkspecs/features/warn_on.prf:
+D:/Qt/6.6.1/mingw_64/mkspecs/features/permissions.prf:
+D:/Qt/6.6.1/mingw_64/mkspecs/features/qt.prf:
+D:/Qt/6.6.1/mingw_64/mkspecs/features/resources_functions.prf:
+D:/Qt/6.6.1/mingw_64/mkspecs/features/resources.prf:
+D:/Qt/6.6.1/mingw_64/mkspecs/features/moc.prf:
+D:/Qt/6.6.1/mingw_64/mkspecs/features/win32/opengl.prf:
+D:/Qt/6.6.1/mingw_64/mkspecs/features/uic.prf:
 D:/Qt/6.6.1/mingw_64/mkspecs/features/qmake_use.prf:
 D:/Qt/6.6.1/mingw_64/mkspecs/features/file_copies.prf:
 D:/Qt/6.6.1/mingw_64/mkspecs/features/testcase_targets.prf:
@@ -367,7 +386,10 @@ D:/Qt/6.6.1/mingw_64/mkspecs/features/exceptions.prf:
 D:/Qt/6.6.1/mingw_64/mkspecs/features/yacc.prf:
 D:/Qt/6.6.1/mingw_64/mkspecs/features/lex.prf:
 ../functional/functional.pro:
-.qmake.stash:
+D:/Qt/6.6.1/mingw_64/lib/Qt6Widgets.prl:
+D:/Qt/6.6.1/mingw_64/lib/Qt6Gui.prl:
+D:/Qt/6.6.1/mingw_64/lib/Qt6Sql.prl:
+D:/Qt/6.6.1/mingw_64/lib/Qt6Core.prl:
 D:/Qt/6.6.1/mingw_64/mkspecs/features/build_pass.prf:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\functional\functional.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
@@ -380,6 +402,18 @@ clean: debug-clean release-clean  FORCE
 distclean: debug-distclean release-distclean  FORCE
 	-$(DEL_FILE) Makefile
 	-$(DEL_FILE) .qmake.stash
+
+debug-mocclean:
+	$(MAKE) -f $(MAKEFILE).Debug mocclean
+release-mocclean:
+	$(MAKE) -f $(MAKEFILE).Release mocclean
+mocclean: debug-mocclean release-mocclean
+
+debug-mocables:
+	$(MAKE) -f $(MAKEFILE).Debug mocables
+release-mocables:
+	$(MAKE) -f $(MAKEFILE).Release mocables
+mocables: debug-mocables release-mocables
 
 check: first
 

@@ -16,17 +16,14 @@ void Controller_Barbearia::buscarHorariosAgendados(Barbearia * barbearia){
 
 bool Controller_Barbearia::realizarAgendamento(Barbearia * barbearia, Barbeiro* barbeiro, Cliente* cliente, Horario* horario){
     if(!barbearia->horarioEstaLivre(barbeiro, cliente, horario)) return false;
-
     bool requisicao = dao_barbearia->realizarAgendamento(barbeiro, cliente, horario);
 
     if(!requisicao) {
         qDebug() << "Erro ao tentar inserir novo horário de agendamento!";
-        return false;        
+        return false;
     }
 
-    barbearia->realizarAgendamento(barbeiro, cliente, horario);
-
-    return true;
+    return barbearia->realizarAgendamento(barbeiro, cliente, horario);
 }
 bool Controller_Barbearia::removerBarbeiro(Barbearia * barbearia, Barbeiro * barbeiro){
     bool requisicao = dao_barbearia->removerBarbeiro(barbeiro);

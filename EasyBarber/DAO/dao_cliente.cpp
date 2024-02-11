@@ -31,6 +31,10 @@ vector<Horario*> DAO_Cliente::buscaHorariosAgendados(Cliente * cliente){
     return DAO_Pessoa::buscaHorariosAgendados(cliente, identifier);
 }
 
+bool DAO_Cliente::removeHorario(Cliente * cliente, Horario * horario){
+    return DAO_Pessoa::removeHorario(cliente, horario);
+}
+
 bool DAO_Cliente::updateNome(Cliente* cliente, const string& nome) {
     QString sqlText = "update tb_cliente set nome = :nome where email = :email";
     QSqlQuery query;

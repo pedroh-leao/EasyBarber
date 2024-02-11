@@ -95,7 +95,7 @@ bool DAO_Barbearia::removerBarbeiro(Barbeiro * barbeiro){
 
 
 bool DAO_Barbearia::atualizarCampoString(string& campo, string& novoValor, string& email){
-    if(campo != "nome" && campo != "endereco" && campo != "telefone" && campo != "inicioDeFuncionamento" && campo != "inicioDeFuncionamento"){
+    if(campo != "nome" && campo != "endereco" && campo != "telefone" && campo != "inicioDeFuncionamento" && campo != "fimDeFuncionamento"){
         qDebug() << "Valor de campo inválido";
         return false;
     }

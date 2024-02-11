@@ -7,13 +7,20 @@
     Então os dados serão salvos e o seu agendamento estrá concluído
 */
 void functional_agendar_horario_sucesso(){
-    Barbearia barbearia("Barbearia do Tadeu", "Rua do Lino, 244 - Bauxita, Ouro Preto", "31998989898", "barbeariaTadeu@gmail.com", "09:00", "17:00");
-    Barbeiro barbeiro("João", "Rua do Lino, 244 - Bauxita, Ouro Preto", "31999999999", "joaoBarber@gmail.com", "1234", 30.0);
-    Cliente cliente("André", "Rua da UFOP, 123", "31988888888", "andre@gmail.com", "1234");
+    Controller_Cliente controller_cliente;
+    Cliente *cliente = controller_cliente.getClientePeloEmail("andre@gmail.com");
+    controller_cliente.buscarHorariosAgendados(cliente);
 
-    Horario horarioSelecionado("04/02/2023", "17:30");
-    
-    bool agendamento = barbearia.realizarAgendamento(&barbeiro, &cliente, &horarioSelecionado);
+    Controller_Barbearia controller_barbearia;
+    Barbearia * barbearia = controller_barbearia.buscarBarbeariaPeloEmail("barbeariaTadeu@gmail.com");
+    controller_barbearia.buscaBarbeirosAssociados(barbearia);
+    controller_barbearia.buscarHorariosAgendados(barbearia);
+
+    Barbeiro * barbeiro = *(barbearia->barbeirosBegin());
+
+    Horario * horario = new Horario("04/02/2023", "17:30");
+
+    bool agendamento = controller_barbearia.realizarAgendamento(barbearia, barbeiro, cliente, horario);
 
     assert(agendamento);
 
@@ -25,24 +32,32 @@ void functional_agendar_horario_sucesso(){
     Então Vitor irá escolher um outro horario e, dessa vez o agendamento será feito de maneira correta
 */
 void functional_agendar_horario_falha(){
-    Barbearia barbearia("Barbearia do Tadeu", "Rua do Lino, 244 - Bauxita, Ouro Preto", "31998989898", "barbeariaTadeu@gmail.com", "09:00", "17:00");
-    Barbeiro barbeiro("João", "Rua do Lino, 244 - Bauxita, Ouro Preto", "31999999999", "joaoBarber@gmail.com", "1234", 30.0);
-    Cliente cliente1("André", "Rua da UFOP, 123", "31988888888", "andre@gmail.com", "1234");
-    Cliente cliente2("Vitor", "Avenida Principal, 321", "3197777777", "vitor@gmail.com", "4321");
+    Controller_Cliente controller_cliente;
+    Cliente *cliente1 = controller_cliente.getClientePeloEmail("andre@gmail.com");
+    controller_cliente.buscarHorariosAgendados(cliente1);
+    Cliente *cliente2 = controller_cliente.getClientePeloEmail("vitor@gmail.com");
+    controller_cliente.buscarHorariosAgendados(cliente2);
+
+    Controller_Barbearia controller_barbearia;
+    Barbearia * barbearia = controller_barbearia.buscarBarbeariaPeloEmail("barbeariaTadeu@gmail.com");
+    controller_barbearia.buscaBarbeirosAssociados(barbearia);
+    controller_barbearia.buscarHorariosAgendados(barbearia);
+    Barbeiro * barbeiro = *(barbearia->barbeirosBegin());
 
     //Cadastro de horario feito corretamente
-    Horario horarioSelecionado("04/02/2023", "17:30");
-    barbearia.realizarAgendamento(&barbeiro, &cliente1, &horarioSelecionado);
+    Horario * horario = new Horario("05/02/2023", "17:30");
+    bool agendamento = controller_barbearia.realizarAgendamento(barbearia, barbeiro, cliente1, horario);
+    assert(agendamento);
 
 
     //Cadastro de horario que não sera bem sucedido
-    Horario novoHorario("04/02/2023", "17:30");
-    bool agendamento = barbearia.realizarAgendamento(&barbeiro, &cliente2, &novoHorario);
+    Horario novoHorario("05/02/2023", "17:30");
+    agendamento = controller_barbearia.realizarAgendamento(barbearia, barbeiro, cliente2, &novoHorario);
     assert(!agendamento);
 
     //Agora o cadastro de horario foi feito corretamente
     novoHorario.setHora("18:30");
-    agendamento = barbearia.realizarAgendamento(&barbeiro, &cliente2, &novoHorario);
+    agendamento = controller_barbearia.realizarAgendamento(barbearia, barbeiro, cliente2, &novoHorario);
     assert(agendamento);
 }
 

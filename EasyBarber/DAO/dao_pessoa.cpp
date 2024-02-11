@@ -32,3 +32,15 @@ vector<Horario*> DAO_Pessoa::buscaHorariosAgendados(Pessoa * pessoa, char identi
 
     return horarios;
 }
+
+bool DAO_Pessoa::removeHorario(Pessoa * pessoa, Horario * horario){
+    string email = pessoa->getEmail();
+
+    QSqlQuery query;
+    string sqlText = "delete from tb_horario where (email_cliente = '" + email + "' or "
+                       "email_barbeiro = '" + email + "') and "
+                       "hora = '" + horario->getHora() + "' and data = '" + horario->getData() + "'";
+
+    return query.exec(QString::fromStdString(sqlText));
+
+}

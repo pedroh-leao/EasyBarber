@@ -4,6 +4,10 @@ Controller_Barbeiro::Controller_Barbeiro(){
     dao_barbeiro = new DAO_Barbeiro();
 }
 
+Barbeiro* Controller_Barbeiro::getBarbeiroPeloEmail(string barbeiroEmail){
+    return dao_barbeiro->getBarbeiroPeloEmail(barbeiroEmail);
+}
+
 int Controller_Barbeiro::buscarHorariosAgendados(Barbeiro* barbeiro){
     vector<Horario*>lista_horarios = dao_barbeiro->buscaHorariosAgendados(barbeiro);
     int cont = 0;
@@ -12,6 +16,12 @@ int Controller_Barbeiro::buscarHorariosAgendados(Barbeiro* barbeiro){
         cont++;
     }
     return cont;
+}
+
+bool Controller_Barbeiro::removeHorario(Barbeiro * barbeiro, Horario * horario){
+    if(!dao_barbeiro->removeHorario(barbeiro, horario)) return false;
+    barbeiro->remove(horario);
+    return true;
 }
 
 bool Controller_Barbeiro::updateNome(Barbeiro* barbeiro, const string& nome){

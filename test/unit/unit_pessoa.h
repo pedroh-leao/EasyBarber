@@ -1,7 +1,7 @@
 #ifndef UNIT_PESSOA_H
 #define UNIT_PESSOA_H
 
-#include "../../EasyBarber/pessoa.h"
+#include "../../EasyBarber/Model/pessoa.h"
 #include "iostream"
 #include <assert.h>
 

@@ -11,7 +11,9 @@ protected:
 public:
     Controller_Barbeiro();
 
+    Barbeiro * getBarbeiroPeloEmail(string barbeiroEmail);
     int buscarHorariosAgendados(Barbeiro* barbeiro);
+    bool removeHorario(Barbeiro * barbeiro, Horario * horario);
 
     bool updateNome(Barbeiro* barbeiro, const string& nome);
     bool updateEndereco(Barbeiro* barbeiro, const string& endereco);
