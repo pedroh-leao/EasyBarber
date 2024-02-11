@@ -8,6 +8,8 @@
 #include "../Model/barbearia.h"
 #include "../Model/cliente.h"
 #include "telaescolhadata.h"
+#include "telainicialcliente.h"
+
 using namespace std;
 
 /**
@@ -51,6 +53,13 @@ public slots:
      * @param barbeiro Ponteiro para o objeto da classe Barbeiro selecionado.
      */
     void abrirTelaEscolhaData(Barbeiro* barbeiro);
+
+    /**
+     * @brief Slot para voltar para a tela inicial do cliente.
+     * @param barbearia Ponteiro para o objeto da classe Barbearia referente tela.
+     * @param cliente Ponteiro para o objeto da classe Cliente referente tela.
+     */
+    void voltarTelaInicial(Barbearia* barbearia, Cliente* cliente);
 };
 
 #endif // TELAESCOLHABARBEIRO_H

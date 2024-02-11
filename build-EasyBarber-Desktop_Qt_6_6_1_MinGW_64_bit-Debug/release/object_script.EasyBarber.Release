@@ -1,6 +1,8 @@
+release/controller_horario.o
 release/dao_barbearia.o
 release/dao_barbeiro.o
 release/dao_cliente.o
+release/dao_horario.o
 release/dao_pessoa.o
 release/barbearia.o
 release/barbeiro.o
@@ -11,9 +13,13 @@ release/main.o
 release/telaagendamento.o
 release/telaescolhabarbeiro.o
 release/telaescolhadata.o
+release/telainicialcliente.o
+release/telalistaagendamentos.o
 release/controller_barbearia.o
 release/controller_cliente.o
 release/controller_barbeiro.o
 release/moc_telaagendamento.o
 release/moc_telaescolhabarbeiro.o
 release/moc_telaescolhadata.o
+release/moc_telainicialcliente.o
+release/moc_telalistaagendamentos.o

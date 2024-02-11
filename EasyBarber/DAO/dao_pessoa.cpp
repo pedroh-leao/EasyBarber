@@ -25,8 +25,10 @@ vector<Horario*> DAO_Pessoa::buscaHorariosAgendados(Pessoa * pessoa, char identi
     while(query.next()){
         string data = query.value(0).toString().toStdString();
         string hora = query.value(1).toString().toStdString();
+        string email_cliente  = query.value(3).toString().toStdString();
+        string email_barbeiro = query.value(4).toString().toStdString();
 
-        horario = new Horario(data, hora);
+        horario = new Horario(data, hora, email_cliente, email_barbeiro);
         horarios.push_back(horario);
     }
 

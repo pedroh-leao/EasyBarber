@@ -30,9 +30,24 @@ void TelaEscolhaBarbeiro::createButtons(QVBoxLayout *layout) {
 
         layout->addWidget(botao);
     }
+
+    QPushButton *voltarBtn = new QPushButton("Voltar ao Início");
+    Barbearia *barbeariaTemp = barbearia;
+    Cliente *clienteTemp = cliente;
+    connect(voltarBtn, &QPushButton::clicked, [this, barbeariaTemp, clienteTemp](){
+        voltarTelaInicial(barbeariaTemp, clienteTemp);
+        this->close();
+    });
+
+    layout->addWidget(voltarBtn);
 }
 
 void TelaEscolhaBarbeiro::abrirTelaEscolhaData(Barbeiro *barbeiro){
     TelaEscolhaData *escolhaData = new TelaEscolhaData(barbearia, barbeiro, cliente);
     escolhaData->show();
+}
+
+void TelaEscolhaBarbeiro::voltarTelaInicial(Barbearia* barbearia, Cliente* cliente){
+    TelaInicialCliente *telaInicialCliente = new TelaInicialCliente(barbearia, cliente);
+    telaInicialCliente->show();
 }
