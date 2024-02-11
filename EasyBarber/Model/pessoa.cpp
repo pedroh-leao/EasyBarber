@@ -65,15 +65,13 @@ bool Pessoa::add(Horario* horario){
 }
 
 bool Pessoa::remove(Horario* horario){
-
     for(Pessoa::horariosAgendadosIterator it = horariosAgendadosBegin(); it < horariosAgendadosEnd(); it++){
-        if(*it == horario){
+        if((*it)->getData() == horario->getData() && (*it)->getHora() == horario->getHora()){
             horariosAgendados.erase(it);
             //delete horario;
             return true;
         }
     }
-
     return false;
 }
 

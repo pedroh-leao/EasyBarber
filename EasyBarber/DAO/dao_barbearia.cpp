@@ -2,6 +2,7 @@
 
 DAO_Barbearia::DAO_Barbearia() {
     dao_barbeiro = new DAO_Barbeiro();
+    dao_horario = new DAO_Horario();
 }
 
 DAO_Barbearia::~DAO_Barbearia(){}
@@ -69,17 +70,7 @@ void DAO_Barbearia::buscarHorariosAgendados(Barbearia * barbearia){
 }
 
 bool DAO_Barbearia::realizarAgendamento(Barbeiro* barbeiro, Cliente* cliente, Horario* horario){
-    QString sqlText = "insert into tb_horario (data, hora, email_cliente, email_barbeiro) "
-                  "values (:data, :hora, :email_cliente, :email_barbeiro)";
-
-    QSqlQuery query;
-    query.prepare(sqlText);
-    query.bindValue(":data", QString::fromStdString(horario->getData()));
-    query.bindValue(":hora", QString::fromStdString(horario->getHora()));
-    query.bindValue(":email_cliente", QString::fromStdString(cliente->getEmail()));
-    query.bindValue(":email_barbeiro", QString::fromStdString(barbeiro->getEmail()));
-
-    return query.exec();
+    return dao_horario->adicionarHorario(barbeiro, cliente, horario);
 }
 
 bool DAO_Barbearia::removerBarbeiro(Barbeiro * barbeiro){

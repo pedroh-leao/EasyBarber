@@ -20,13 +20,24 @@ private:
      */
     string hora;
 
+    /**
+     * @brief Atributo privado representando o email do cliente do horario
+     */
+    string email_cliente;
+
+    /**
+     * @brief Atributo privado representando o email do barbeiro do horario
+     */
+    string email_barbeiro;
 public:
     /**
      * @brief Construtor da classe Horario.
-     * @param data String representando a data (formato YYYY-MM-DD).
+     * @param data String representando a data (formato DD-MM-YYYY).
      * @param hora String representando a hora (formato HH:MM).
-     */
-    Horario(string data = "", string hora = "00:00");
+     * @param email_cliente String representando o email do cliente associado
+     * @param email_barbeiro String representando o email do barbeiroassociado
+    */
+    Horario(string data = "", string hora = "00:00", string email_cliente = "", string email_barbeiro ="");
 
     /**
      * @brief Destrutor da classe Horario.
@@ -56,6 +67,18 @@ public:
      * @param hora Nova string representando a hora a ser associada ao horário.
      */
     void setHora(string hora);
+
+    /**
+     * @brief Getter para o atributo email_cliente.
+     * @return String representando o email do cliente associada ao horário.
+     */
+    string getEmailCliente();
+
+    /**
+     * @brief Getter para o atributo email_barbeiro.
+     * @return String representando o email do barbeiro associada ao horário.
+     */
+    string getEmailBarbeiro();
 };
 
 #endif // HORARIO_H

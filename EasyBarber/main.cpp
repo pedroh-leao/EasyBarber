@@ -2,6 +2,8 @@
 #include "View/telaescolhabarbeiro.h"
 #include "Model/barbearia.h"
 
+#include "View/telainicialcliente.h"
+
 #include "Controller/controller_cliente.h"
 #include "Controller/controller_barbearia.h"
 
@@ -35,8 +37,8 @@ int main(int argc, char *argv[]) {
 
     //Cliente cliente("André", "Rua da UFOP, 123", "31988888888", "andre@gmail.com", "1234");
 
-    TelaEscolhaBarbeiro telaEscolhaBarbeiro(barbearia, cliente);
-    telaEscolhaBarbeiro.show();
+    TelaInicialCliente telaInicialCliente(barbearia, cliente);
+    telaInicialCliente.show();
 
     return app.exec();
 }

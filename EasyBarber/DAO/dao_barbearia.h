@@ -4,11 +4,13 @@
 #include "../Model/Cliente.h"
 #include "../Model/barbearia.h"
 #include "dao_barbeiro.h"
+#include "dao_horario.h"
 
 class DAO_Barbearia
 {
 private:
     DAO_Barbeiro * dao_barbeiro;
+    DAO_Horario * dao_horario;
 
 public:
     /**

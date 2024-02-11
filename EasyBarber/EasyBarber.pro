@@ -9,9 +9,11 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    Controller/controller_horario.cpp \
     DAO/dao_barbearia.cpp \
     DAO/dao_barbeiro.cpp \
     DAO/dao_cliente.cpp \
+    DAO/dao_horario.cpp \
     DAO/dao_pessoa.cpp \
     Model/barbearia.cpp \
     Model/barbeiro.cpp \
@@ -22,14 +24,18 @@ SOURCES += \
     View/telaagendamento.cpp \
     View/telaescolhabarbeiro.cpp \
     View/telaescolhadata.cpp \
+    View/telainicialcliente.cpp \
+    View/telalistaagendamentos.cpp \
     Controller/controller_barbearia.cpp \
     Controller/controller_cliente.cpp \
     Controller/controller_barbeiro.cpp
 
 HEADERS += \
+    Controller/controller_horario.h \
     DAO/dao_barbearia.h \
     DAO/dao_barbeiro.h \
     DAO/dao_cliente.h \
+    DAO/dao_horario.h \
     DAO/dao_pessoa.h \
     Model/barbearia.h \
     Model/barbeiro.h \
@@ -39,13 +45,16 @@ HEADERS += \
     View/telaagendamento.h \
     View/telaescolhabarbeiro.h \
     View/telaescolhadata.h \
+    View/telainicialcliente.h \
+    View/telalistaagendamentos.h \
     Controller/controller_barbearia.h \
     Controller/controller_cliente.h \
     Controller/controller_barbeiro.h
 
 FORMS += \
     View/telaescolhadata.ui \
-    View/telaescolhadata.ui
+    View/telainicialcliente.ui \
+    View/telalistaagendamentos.ui \
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

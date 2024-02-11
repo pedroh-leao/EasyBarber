@@ -70,11 +70,13 @@ bool Barbearia::add(Barbeiro* barbeiro){
 }
 
 bool Barbearia::remove(Barbeiro* barbeiro){
-    for(Barbearia::barbeirosIterator it = barbeirosBegin(); it < barbeirosEnd(); it++)
-        if(*it == barbeiro){
+    for(Barbearia::barbeirosIterator it = barbeirosBegin(); it < barbeirosEnd(); it++){
+        if((*it)->getEmail() == barbeiro->getEmail()){
             barbeiros.erase(it);
+            //delete barbeiro;
             return true;
         }
+    }
 
     return false;
 }
@@ -88,3 +90,5 @@ bool Barbearia::realizarAgendamento(Barbeiro* barbeiro, Cliente* cliente, Horari
     cliente->add(horario);
     return true;
 }
+
+//bool Barbearia::removerHorario(string emailBarbeiro, Horario * horario)

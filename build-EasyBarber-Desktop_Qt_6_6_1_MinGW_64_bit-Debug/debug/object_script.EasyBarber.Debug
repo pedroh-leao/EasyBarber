@@ -1,6 +1,8 @@
+debug/controller_horario.o
 debug/dao_barbearia.o
 debug/dao_barbeiro.o
 debug/dao_cliente.o
+debug/dao_horario.o
 debug/dao_pessoa.o
 debug/barbearia.o
 debug/barbeiro.o
@@ -11,9 +13,13 @@ debug/main.o
 debug/telaagendamento.o
 debug/telaescolhabarbeiro.o
 debug/telaescolhadata.o
+debug/telainicialcliente.o
+debug/telalistaagendamentos.o
 debug/controller_barbearia.o
 debug/controller_cliente.o
 debug/controller_barbeiro.o
 debug/moc_telaagendamento.o
 debug/moc_telaescolhabarbeiro.o
 debug/moc_telaescolhadata.o
+debug/moc_telainicialcliente.o
+debug/moc_telalistaagendamentos.o
