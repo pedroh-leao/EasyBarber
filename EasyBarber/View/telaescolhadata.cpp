@@ -59,7 +59,12 @@ void TelaEscolhaData::avancarAgendarHorario(){
     QString dateString = ui->campoData->date().toString("dd-MM-yyyy");
     string dataString = dateString.toStdString();
 
-    Horario * horario = new Horario(dataString);
+    string email_cliente = cliente->getEmail();
+    string email_barbeiro= barbeiro->getEmail();
+
+    qDebug() << "Email do barbeiro: " << barbeiro->getEmail();
+
+    Horario * horario = new Horario(dataString, "", email_cliente=email_cliente, email_barbeiro=email_barbeiro);
 
     TelaAgendamento *telaAgendamento = new TelaAgendamento(barbearia, barbeiro, horario, cliente);
     telaAgendamento->show();
