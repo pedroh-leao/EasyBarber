@@ -1,0 +1,15 @@
+debug/controller_barbearia.o
+debug/controller_barbeiro.o
+debug/controller_cliente.o
+debug/dao_barbearia.o
+debug/dao_barbeiro.o
+debug/dao_cliente.o
+debug/dao_pessoa.o
+debug/Barbeiro.o
+debug/barbearia.o
+debug/cliente.o
+debug/horario.o
+debug/pessoa.o
+debug/database.o
+debug/functional_tests.o
+debug/main.o

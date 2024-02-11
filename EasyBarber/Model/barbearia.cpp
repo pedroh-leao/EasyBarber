@@ -84,5 +84,7 @@ bool Barbearia::horarioEstaLivre(Barbeiro* barbeiro, Cliente* cliente, Horario* 
 }
 
 bool Barbearia::realizarAgendamento(Barbeiro* barbeiro, Cliente* cliente, Horario* horario){
-    return barbeiro->add(horario) && cliente->add(horario);
+    barbeiro->add(horario);
+    cliente->add(horario);
+    return true;
 }

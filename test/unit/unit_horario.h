@@ -1,7 +1,7 @@
 #ifndef UNIT_HORARIO_H
 #define UNIT_HORARIO_H
 
-#include "../../EasyBarber/barbearia.h"
+#include "../../EasyBarber/Model/barbearia.h"
 #include "iostream"
 #include <assert.h>
 

@@ -1,9 +1,10 @@
 #ifndef FUNCTIONAL_TESTS_H
 #define FUNCTIONAL_TESTS_H
 
-#include "../../EasyBarber/barbearia.h"
-#include "../../EasyBarber/cliente.h"
-#include "../../EasyBarber/horario.h"
+#include "../../EasyBarber/Controller/controller_barbearia.h"
+#include "../../EasyBarber/Controller/controller_barbeiro.h"
+#include "../../EasyBarber/Controller/controller_cliente.h"
+
 #include <assert.h>
 #include <iostream>
 using namespace std;

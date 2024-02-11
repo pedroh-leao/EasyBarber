@@ -20,6 +20,8 @@ public:
     bool updateTelefone(Cliente* cliente, const string& telefone);
     bool updateSenha(Cliente* cliente, const string& senha);
 
+    bool removeHorario(Cliente * cliente, Horario * horario);
+
 };
 
 

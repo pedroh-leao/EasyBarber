@@ -10,6 +10,7 @@ public:
     DAO_Cliente();
     Cliente* getClientePeloEmail(string userEmail);
     vector<Horario*> buscaHorariosAgendados(Cliente * cliente);
+    bool removeHorario(Cliente * cliente, Horario * horario);
 
     bool updateNome(Cliente* cliente, const string& nome);
     bool updateEndereco(Cliente* cliente, const string& endereco);

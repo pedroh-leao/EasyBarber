@@ -8,7 +8,9 @@ class DAO_Barbeiro : public DAO_Pessoa
 {
 public:
     DAO_Barbeiro();
+    Barbeiro * getBarbeiroPeloEmail(string barbeiroEmail);
     vector<Horario*> buscaHorariosAgendados(Barbeiro * barbeiro);
+    bool removeHorario(Barbeiro * barbeiro, Horario * horario);
 
     bool updateNome(Barbeiro* barbeiro, const string& nome);
     bool updateEndereco(Barbeiro* barbeiro, const string& endereco);
