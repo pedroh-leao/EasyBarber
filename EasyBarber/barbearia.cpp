@@ -104,7 +104,7 @@ bool Barbearia::remove(Barbeiro* barbeiro){
 
     if(query.exec(QString::fromStdString(sqlText))){
         for(Barbearia::barbeirosIterator it = barbeirosBegin(); it < barbeirosEnd(); it++){
-            if(*it == barbeiro){
+            if((*it)->getEmail() == barbeiro->getEmail()){
                 barbeiros.erase(it);
                 //delete barbeiro;
                 return true;

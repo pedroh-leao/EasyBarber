@@ -1,5 +1,5 @@
 #include <QApplication>
-#include "telaescolhabarbeiro.h"
+#include "telainicialcliente.h""
 #include "Barbeiro.h"
 #include "barbearia.h"
 
@@ -137,8 +137,8 @@ int main(int argc, char *argv[]) {
 
     //Cliente cliente("André", "Rua da UFOP, 123", "31988888888", "andre@gmail.com", "1234");
 
-    TelaEscolhaBarbeiro telaEscolhaBarbeiro(barbearia, cliente);
-    telaEscolhaBarbeiro.show();
+    TelaInicialCliente telaInicialCliente(barbearia, cliente);
+    telaInicialCliente.show();
 
     return app.exec();
 }

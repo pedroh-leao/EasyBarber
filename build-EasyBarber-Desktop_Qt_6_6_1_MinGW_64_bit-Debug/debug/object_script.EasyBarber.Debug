@@ -7,6 +7,10 @@ debug/pessoa.o
 debug/telaagendamento.o
 debug/telaescolhabarbeiro.o
 debug/telaescolhadata.o
+debug/telainicialcliente.o
+debug/telalistaagendamentos.o
 debug/moc_telaagendamento.o
 debug/moc_telaescolhabarbeiro.o
 debug/moc_telaescolhadata.o
+debug/moc_telainicialcliente.o
+debug/moc_telalistaagendamentos.o

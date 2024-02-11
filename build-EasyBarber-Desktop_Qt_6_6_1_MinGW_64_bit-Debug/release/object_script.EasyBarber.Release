@@ -7,6 +7,10 @@ release/pessoa.o
 release/telaagendamento.o
 release/telaescolhabarbeiro.o
 release/telaescolhadata.o
+release/telainicialcliente.o
+release/telalistaagendamentos.o
 release/moc_telaagendamento.o
 release/moc_telaescolhabarbeiro.o
 release/moc_telaescolhadata.o
+release/moc_telainicialcliente.o
+release/moc_telalistaagendamentos.o

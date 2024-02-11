@@ -130,21 +130,13 @@ bool Pessoa::add(Horario* horario){
 }
 
 bool Pessoa::remove(Horario* horario){
-    QSqlQuery query;
-    string sqlText = "delete from tb_horario where (email_cliente = '" + email + "' or "
-                     "email_barbeiro = '" + email + "') and "
-                               "hora = '" + horario->getHora() + "' and data = '" + horario->getData() + "'";
-
-    if(query.exec(QString::fromStdString(sqlText))){
-        for(Pessoa::horariosAgendadosIterator it = horariosAgendadosBegin(); it < horariosAgendadosEnd(); it++){
-            if(*it == horario){
-                horariosAgendados.erase(it);
-                //delete horario;
-                return true;
-            }
+    for(Pessoa::horariosAgendadosIterator it = horariosAgendadosBegin(); it < horariosAgendadosEnd(); it++){
+        if((*it)->getData() == horario->getData() && (*it)->getHora() == horario->getHora()){
+            horariosAgendados.erase(it);
+            //delete horario;
+            return true;
         }
     }
-    else qDebug()<<"Erro ao tentar remover o horário de agendamento do banco de dados.";
 
     return false;
 }
