@@ -22,6 +22,7 @@ var class_pessoa =
     [ "endereco", "class_pessoa.html#af7ac9c6d2c2f4f058bc519c94f882640", null ],
     [ "horariosAgendados", "class_pessoa.html#a7d466183754e083e7d1f07ab16cb1a51", null ],
     [ "nome", "class_pessoa.html#ad4e88b8f3499405a7a03df648857c338", null ],
+    [ "query", "class_pessoa.html#acf6efa337f2a27ac877c941cb8af5149", null ],
     [ "senha", "class_pessoa.html#af83963830cfdc5703f05dbc118430a0d", null ],
     [ "telefone", "class_pessoa.html#a9bf168eeb62bd37b8815d8ab920ceed5", null ]
 ];

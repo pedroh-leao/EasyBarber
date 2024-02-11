@@ -1,0 +1,19 @@
+<map id="C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/EasyBarber/Controller/controller_cliente.h" name="C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/EasyBarber/Controller/controller_cliente.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="345,5,555,80"/>
+<area shape="rect" id="Node000002" href="$controller__cliente_8cpp.html" title=" " alt="" coords="5,128,215,203"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="333,88,215,130,213,125,331,83"/>
+<area shape="rect" id="Node000003" href="$_easy_barber_2main_8cpp.html" title=" " alt="" coords="239,136,434,195"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="407,94,365,137,362,134,403,90"/>
+<area shape="rect" id="Node000004" href="$functional__tests_8h.html" title=" " alt="" coords="459,136,671,195"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="498,90,539,134,536,137,494,94"/>
+<area shape="rect" id="Node000007" href="$unit__cliente_8h.html" title=" " alt="" coords="695,136,890,195"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="570,83,712,133,710,138,568,88"/>
+<area shape="rect" id="Node000005" href="$functional__tests_8cpp.html" title=" " alt="" coords="248,251,444,325"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="501,205,414,252,412,248,498,200"/>
+<area shape="rect" id="Node000006" href="$test_2functional_2main_8cpp.html" title=" " alt="" coords="468,259,664,317"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="568,210,568,258,563,258,562,210"/>
+<area shape="rect" id="Node000008" href="$test_2unit_2main_8cpp.html" title=" " alt="" coords="692,259,888,317"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="794,210,793,258,788,258,789,210"/>
+<area shape="rect" id="Node000009" href="$unit__cliente_8cpp.html" title=" " alt="" coords="912,259,1108,317"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="859,200,959,256,957,260,856,205"/>
+</map>

@@ -1,9 +1,25 @@
 <map id="Pessoa::getTelefone" name="Pessoa::getTelefone">
-<area shape="rect" id="Node000001" title=" " alt="" coords="487,13,627,40"/>
-<area shape="rect" id="Node000002" href="$unit__pessoa_8cpp.html#af3f7eb4f50949662723fb62dd848a8be" title=" " alt="" coords="296,5,439,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="472,29,440,29,440,24,472,24"/>
-<area shape="rect" id="Node000003" href="$unit__pessoa_8cpp.html#ae4dc202702283199027582f3fad00b0e" title=" " alt="" coords="103,13,248,40"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="281,29,249,29,249,24,281,24"/>
-<area shape="rect" id="Node000004" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,55,40"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,29,55,29,55,24,87,24"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="539,131,679,157"/>
+<area shape="rect" id="Node000002" href="$unit__barbeiro_8cpp.html#a07eba0007cd6d6ee48f588f66a938888" title=" " alt="" coords="300,5,491,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="579,123,538,92,490,62,465,51,468,46,493,58,541,88,582,119"/>
+<area shape="rect" id="Node000005" href="$unit__barbeiro_8cpp.html#a6b21bb21da812d469b51d28ff461dd10" title=" " alt="" coords="300,72,491,99"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="545,129,491,113,449,102,450,97,492,108,546,123"/>
+<area shape="rect" id="Node000006" href="$unit__cliente_8cpp.html#ad500573866d7257b93169cc39bee6120" title="Testa a função getClientePeloEmail da classe Controller_Cliente." alt="" coords="306,123,486,165"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="524,147,486,147,486,141,524,141"/>
+<area shape="rect" id="Node000008" href="$unit__cliente_8cpp.html#a5622bb08a67da9d60a6f7258ac8184ca" title="Testa a função updateTelefone da classe Controller_Cliente." alt="" coords="304,189,487,216"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="546,165,492,180,450,191,449,186,491,175,545,159"/>
+<area shape="rect" id="Node000009" href="$unit__pessoa_8cpp.html#af3f7eb4f50949662723fb62dd848a8be" title="Testa a função de set e get do telefone para a classe Pessoa." alt="" coords="324,240,467,283"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="582,169,541,200,493,230,468,242,465,237,490,226,538,196,579,165"/>
+<area shape="rect" id="Node000003" href="$unit__barbeiro_8cpp.html#a42eb2fdea3998103d34609226f46301e" title=" " alt="" coords="103,72,252,99"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="300,55,230,74,229,69,299,50"/>
+<area shape="rect" id="Node000004" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,160,55,187"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="142,109,56,162,53,157,139,105"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="284,88,252,88,252,83,284,83"/>
+<area shape="rect" id="Node000007" href="$unit__cliente_8cpp.html#a4d134b7f0141f14318ba68008080356e" title="Executa todos os testes unitários para a classe Cliente." alt="" coords="107,160,248,187"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="291,161,249,167,248,161,290,155"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="91,176,55,176,55,171,91,171"/>
+<area shape="poly" id="edge10_Node000008_Node000007" title=" " alt="" coords="288,191,248,185,249,180,289,186"/>
+<area shape="rect" id="Node000010" href="$unit__pessoa_8cpp.html#ae4dc202702283199027582f3fad00b0e" title="Executa todos os testes unitários para a classe Pessoa." alt="" coords="105,215,250,241"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="308,251,250,242,251,236,309,245"/>
+<area shape="poly" id="edge13_Node000010_Node000004" title=" " alt="" coords="124,211,54,185,56,180,126,206"/>
 </map>

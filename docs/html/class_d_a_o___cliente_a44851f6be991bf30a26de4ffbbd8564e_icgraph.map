@@ -1,0 +1,5 @@
+<map id="DAO_Cliente::removeHorario" name="DAO_Cliente::removeHorario">
+<area shape="rect" id="Node000001" title="Remove um horário agendado para um cliente." alt="" coords="177,13,363,40"/>
+<area shape="rect" id="Node000002" href="$class_controller___cliente.html#a71bc155d2b312fa2b4940c0c419a1e47" title="Remove um horário agendado para um cliente." alt="" coords="5,5,129,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,29,129,29,129,24,161,24"/>
+</map>

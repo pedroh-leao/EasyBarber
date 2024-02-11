@@ -1,14 +1,14 @@
 <map id="run_unit_test_pessoa" name="run_unit_test_pessoa">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,233,151,260"/>
-<area shape="rect" id="Node000002" href="$unit__pessoa_8cpp.html#a8ed175d1b1afc194c947770e77828931" title=" " alt="" coords="218,48,362,91"/>
+<area shape="rect" id="Node000001" title="Executa todos os testes unitários para a classe Pessoa." alt="" coords="5,233,151,260"/>
+<area shape="rect" id="Node000002" href="$unit__pessoa_8cpp.html#a8ed175d1b1afc194c947770e77828931" title="Testa a função de set e get do email para a classe Pessoa." alt="" coords="218,48,362,91"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,231,197,135,244,98,247,102,200,139,95,235"/>
-<area shape="rect" id="Node000005" href="$unit__pessoa_8cpp.html#addae2586a04a9d714cc6a81ff372c013" title=" " alt="" coords="218,149,362,192"/>
+<area shape="rect" id="Node000005" href="$unit__pessoa_8cpp.html#addae2586a04a9d714cc6a81ff372c013" title="Testa a função de set e get do endereço para a classe Pessoa." alt="" coords="218,149,362,192"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="117,230,213,195,215,200,119,235"/>
-<area shape="rect" id="Node000008" href="$unit__pessoa_8cpp.html#aa5dad8d04783572e05ec388f40cfc1b2" title=" " alt="" coords="199,233,381,260"/>
+<area shape="rect" id="Node000008" href="$unit__pessoa_8cpp.html#aa5dad8d04783572e05ec388f40cfc1b2" title="Testa a função de set e get do nome para a classe Pessoa." alt="" coords="199,233,381,260"/>
 <area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="151,244,183,244,183,249,151,249"/>
-<area shape="rect" id="Node000011" href="$unit__pessoa_8cpp.html#a352ce7def1e3f83566ccd0555541f5ed" title=" " alt="" coords="218,301,362,344"/>
+<area shape="rect" id="Node000011" href="$unit__pessoa_8cpp.html#a352ce7def1e3f83566ccd0555541f5ed" title="Testa a função de set e get da senha para a classe Pessoa." alt="" coords="218,301,362,344"/>
 <area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="119,258,215,293,213,298,117,263"/>
-<area shape="rect" id="Node000014" href="$unit__pessoa_8cpp.html#af3f7eb4f50949662723fb62dd848a8be" title=" " alt="" coords="218,403,362,445"/>
+<area shape="rect" id="Node000014" href="$unit__pessoa_8cpp.html#af3f7eb4f50949662723fb62dd848a8be" title="Testa a função de set e get do telefone para a classe Pessoa." alt="" coords="218,403,362,445"/>
 <area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="95,259,200,354,247,391,244,395,197,358,92,263"/>
 <area shape="rect" id="Node000003" href="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500" title=" " alt="" coords="440,5,564,32"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="362,50,428,34,429,39,363,55"/>

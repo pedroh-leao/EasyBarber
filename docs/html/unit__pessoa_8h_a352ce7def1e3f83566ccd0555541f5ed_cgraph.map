@@ -1,5 +1,5 @@
 <map id="unit_Pessoa_get_set_senha" name="unit_Pessoa_get_set_senha">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,149,65"/>
+<area shape="rect" id="Node000001" title="Testa a função de set e get da senha para a classe Pessoa." alt="" coords="5,23,149,65"/>
 <area shape="rect" id="Node000002" href="$class_pessoa.html#a7f8f84bdcac5c57ea6754b53e3367ffd" title=" " alt="" coords="197,5,325,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,31,181,27,182,32,149,37"/>
 <area shape="rect" id="Node000003" href="$class_pessoa.html#a891ce76d919b1d2a28ce1f4d20a087be" title=" " alt="" coords="197,56,325,83"/>

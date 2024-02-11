@@ -1,16 +1,16 @@
 <map id="TelaAgendamento" name="TelaAgendamento">
-<area shape="rect" id="Node000001" title="Classe que representa a tela de agendamento de atendimentos em uma barbearia." alt="" coords="347,1649,563,1927"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,1172,69,1241"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="32,1256,27,1326,29,1411,35,1457,46,1501,62,1544,84,1584,109,1616,138,1645,206,1693,278,1730,348,1756,346,1761,276,1735,203,1698,135,1649,105,1620,79,1587,57,1546,41,1503,30,1458,24,1412,22,1326,27,1256"/>
-<area shape="rect" id="Node000003" href="$class_barbearia.html" title=" " alt="" coords="93,828,341,1585"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="344,1556,356,1584,378,1633,373,1635,351,1586,339,1558"/>
-<area shape="rect" id="Node000004" href="$class_barbeiro.html" title=" " alt="" coords="365,1100,544,1313"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="457,1313,457,1632,452,1632,452,1313"/>
-<area shape="rect" id="Node000005" href="$class_pessoa.html" title=" " alt="" coords="458,5,638,779"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="505,794,469,1101,464,1100,499,793"/>
-<area shape="rect" id="Node000006" href="$class_cliente.html" title=" " alt="" coords="568,1129,720,1284"/>
-<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="598,793,638,1129,632,1130,593,794"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="634,1285,605,1426,584,1507,559,1586,539,1635,534,1633,553,1584,579,1506,600,1425,629,1283"/>
-<area shape="rect" id="Node000007" href="$class_horario.html" title="Classe que representa um Horario, contendo informações de data e hora." alt="" coords="745,1095,909,1319"/>
-<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="822,1319,811,1383,794,1453,769,1522,734,1587,701,1628,662,1665,620,1698,578,1726,575,1722,617,1694,659,1661,697,1625,730,1584,764,1520,789,1451,806,1382,816,1318"/>
+<area shape="rect" id="Node000001" title="Classe que representa a tela de agendamento de atendimentos em uma barbearia." alt="" coords="347,1740,563,2017"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,1228,69,1297"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="32,1312,24,1387,25,1482,31,1532,42,1582,59,1630,84,1675,109,1707,138,1736,171,1761,206,1784,279,1821,348,1847,346,1852,276,1826,203,1789,168,1766,135,1740,105,1710,79,1677,54,1632,37,1584,26,1533,20,1482,19,1387,26,1311"/>
+<area shape="rect" id="Node000003" href="$class_barbearia.html" title=" " alt="" coords="93,849,341,1676"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="344,1645,356,1675,377,1724,373,1726,351,1677,339,1647"/>
+<area shape="rect" id="Node000004" href="$class_barbeiro.html" title=" " alt="" coords="365,1156,544,1369"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="457,1369,457,1723,452,1723,452,1369"/>
+<area shape="rect" id="Node000005" href="$class_pessoa.html" title=" " alt="" coords="458,5,638,800"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="506,815,469,1156,463,1156,501,814"/>
+<area shape="rect" id="Node000006" href="$class_cliente.html" title=" " alt="" coords="568,1185,720,1340"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="597,814,638,1185,633,1186,591,815"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="636,1340,608,1497,586,1588,559,1677,539,1726,534,1724,553,1675,581,1586,603,1496,631,1339"/>
+<area shape="rect" id="Node000007" href="$class_horario.html" title="Classe que representa um Horario, contendo informações de data e hora." alt="" coords="745,1151,909,1375"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="825,1375,816,1447,799,1525,773,1604,755,1642,734,1678,701,1719,663,1757,621,1789,579,1817,576,1813,618,1785,659,1753,697,1716,730,1674,750,1640,768,1602,794,1524,810,1446,820,1374"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="Barbeiro" name="Barbeiro">
-<area shape="rect" id="Node000001" title=" " alt="" coords="6,827,185,1040"/>
-<area shape="rect" id="Node000002" href="$class_pessoa.html" title=" " alt="" coords="5,5,185,779"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,793,98,827,93,827,93,793"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="6,848,185,1061"/>
+<area shape="rect" id="Node000002" href="$class_pessoa.html" title=" " alt="" coords="5,5,185,800"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,815,98,848,93,848,93,815"/>
 </map>

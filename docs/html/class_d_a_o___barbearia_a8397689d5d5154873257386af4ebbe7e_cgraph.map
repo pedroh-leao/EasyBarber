@@ -1,0 +1,5 @@
+<map id="DAO_Barbearia::removerBarbeiro" name="DAO_Barbearia::removerBarbeiro">
+<area shape="rect" id="Node000001" title="Remove um barbeiro da barbearia." alt="" coords="5,5,218,32"/>
+<area shape="rect" id="Node000002" href="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500" title=" " alt="" coords="266,5,390,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="218,16,250,16,250,21,218,21"/>
+</map>

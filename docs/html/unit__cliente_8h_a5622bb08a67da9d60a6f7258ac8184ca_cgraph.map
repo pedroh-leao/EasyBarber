@@ -1,0 +1,17 @@
+<map id="unit_Cliente_updateTelefone" name="unit_Cliente_updateTelefone">
+<area shape="rect" id="Node000001" title="Testa a função updateTelefone da classe Controller_Cliente." alt="" coords="5,72,189,99"/>
+<area shape="rect" id="Node000002" href="$class_controller___cliente.html#a430b1b15e43e946fa30a01ccb214f011" title="Obtém um objeto Cliente pelo email." alt="" coords="237,5,383,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,69,221,48,223,53,149,74"/>
+<area shape="rect" id="Node000004" href="$class_pessoa.html#afcc25e8f6dc6d9b0ce5862df3cfbb66f" title=" " alt="" coords="240,72,380,99"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="189,83,225,83,225,88,189,88"/>
+<area shape="rect" id="Node000005" href="$class_controller___cliente.html#a102b74eda4183e3813683d517e206ab3" title="Atualiza o telefone do cliente." alt="" coords="248,123,372,165"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="149,97,234,120,233,126,147,102"/>
+<area shape="rect" id="Node000003" href="$class_d_a_o___cliente.html#a84c8757d33e52dbb6a8c7393770a011a" title="Obtém um objeto Cliente pelo email." alt="" coords="433,5,621,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="383,24,417,24,417,29,383,29"/>
+<area shape="rect" id="Node000006" href="$class_pessoa.html#a8060fb5aef73b7324cbffa53b93a8292" title=" " alt="" coords="457,105,596,132"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="372,134,441,126,442,131,372,139"/>
+<area shape="rect" id="Node000007" href="$class_d_a_o___cliente.html#aee181b4d3a1a25a8d4b0b6f17b810b67" title="Atualiza o telefone do cliente." alt="" coords="431,156,622,183"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="372,149,416,154,415,159,372,154"/>
+<area shape="rect" id="Node000008" href="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500" title=" " alt="" coords="670,156,795,183"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="622,167,655,167,655,172,622,172"/>
+</map>

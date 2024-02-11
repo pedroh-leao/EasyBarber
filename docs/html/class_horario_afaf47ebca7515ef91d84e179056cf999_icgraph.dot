@@ -15,9 +15,9 @@ digraph "Horario::setHora"
   Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node5 [id="Node000005",label="TelaAgendamento::habilita\lRealizaAgendBtn",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_tela_agendamento.html#ac6bd4291028e887a5d6e2c25d8778abf",tooltip="Habilita o botão de agendamento quando um horário é selecionado."];
   Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node6 [id="Node000006",label="unit_Horario_SetHora",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__horario_8cpp.html#aff4db471b057475cd4822a6c7d16ea1a",tooltip=" "];
+  Node6 [id="Node000006",label="unit_Horario_SetHora",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__horario_8cpp.html#aff4db471b057475cd4822a6c7d16ea1a",tooltip="Testa a função de configuração da hora para a classe Horario."];
   Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node7 [id="Node000007",label="run_unit_test_horario",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__horario_8cpp.html#aeb537e7baefa90f8f98ebc2a36d81e32",tooltip=" "];
+  Node7 [id="Node000007",label="run_unit_test_horario",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__horario_8cpp.html#aeb537e7baefa90f8f98ebc2a36d81e32",tooltip="Executa todos os testes unitários para a classe Horario."];
   Node7 -> Node8 [id="edge7_Node000007_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node8 [id="Node000008",label="main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",tooltip=" "];
 }

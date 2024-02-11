@@ -54,9 +54,12 @@ var NAVTREEINDEX =
 [
 "_barbeiro_8cpp.html",
 "_easy_barber_2debug_2moc__predefs_8h.html#a86bb5059d696b19082c1aff4ae93a87a",
-"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a0ef74430002f6cdbdcc99344bc4ffc8a",
-"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a9873ff95bac5a53c28f05dbdc78ae91d",
-"class_tela_escolha_barbeiro.html#a855de2dbea4f22a30bc9143592ac278a"
+"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#a1801bfbb7ab3b0ff09a48c3d78bd97e2",
+"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#aa0d249d82751bd4ee0280990bc510371",
+"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_release_2release_2moc__predefs_8h.html#a326c37ba86474b37dd0ae9100e005fac",
+"build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_release_2release_2moc__predefs_8h.html#ac29c76a6702808cfc4a5f661d0d33c2c",
+"class_tela_escolha_barbeiro.html",
+"unit__cliente_8h.html#a4d134b7f0141f14318ba68008080356e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

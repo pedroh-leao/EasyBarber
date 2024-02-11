@@ -1,12 +1,16 @@
-<map id="C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/EasyBarber/pessoa.cpp" name="C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/EasyBarber/pessoa.cpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,201,64"/>
-<area shape="rect" id="Node000002" href="$pessoa_8h.html" title=" " alt="" coords="65,112,141,139"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,64,106,96,100,96,100,64"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="39,261,92,288"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,141,72,162,58,187,54,217,59,247,54,247,49,218,52,186,68,159,87,138"/>
-<area shape="rect" id="Node000004" href="$_horario_8h.html" title=" " alt="" coords="67,187,139,213"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="106,139,106,171,100,171,100,139"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="163,187,219,213"/>
-<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="120,137,166,175,162,179,117,141"/>
-<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="99,215,81,249,77,246,94,213"/>
+<map id="C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/EasyBarber/Model/pessoa.cpp" name="C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/EasyBarber/Model/pessoa.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="75,5,278,64"/>
+<area shape="rect" id="Node000002" href="$pessoa_8h.html" title=" " alt="" coords="90,112,167,139"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,66,145,100,140,97,159,63"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="190,112,259,139"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="194,63,213,97,208,100,190,66"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,187,60,213"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,141,63,179,60,175,110,137"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="146,261,199,288"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="127,139,120,173,120,193,124,212,135,232,148,248,144,252,130,235,119,214,115,194,115,173,122,138"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="134,187,190,213"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="137,138,152,171,147,174,132,140"/>
+<area shape="rect" id="Node000006" href="$_horario_8h.html" title=" " alt="" coords="214,187,286,213"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="151,137,217,176,214,181,148,142"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="238,216,199,253,195,249,235,212"/>
 </map>

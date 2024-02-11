@@ -1,0 +1,11 @@
+<map id="DAO_Cliente::removeHorario" name="DAO_Cliente::removeHorario">
+<area shape="rect" id="Node000001" title="Remove um horário agendado para um cliente." alt="" coords="5,56,192,83"/>
+<area shape="rect" id="Node000002" href="$class_d_a_o___pessoa.html#ae29c7cad6464ebd7a63ae74efc9177ac" title="Remove um horário agendado para uma pessoa." alt="" coords="240,56,430,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,67,224,67,224,72,192,72"/>
+<area shape="rect" id="Node000003" href="$class_horario.html#aadb59554ffae0bfd66e75f1c1d607f7c" title="Getter para o atributo data." alt="" coords="483,5,598,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="391,53,468,34,469,39,393,58"/>
+<area shape="rect" id="Node000004" href="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500" title=" " alt="" coords="478,56,602,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="430,67,463,67,463,72,430,72"/>
+<area shape="rect" id="Node000005" href="$class_horario.html#a07a4aec4ebeab8637ab670a4a2747158" title="Getter para o atributo hora." alt="" coords="483,107,598,133"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="393,81,469,100,468,105,391,86"/>
+</map>

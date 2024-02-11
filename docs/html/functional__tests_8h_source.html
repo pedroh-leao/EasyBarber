@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">EasyBarber<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">EasyBarber<span id="projectnumber">&#160;0.2</span>
    </div>
    <div id="projectbrief">Projeto para agendamento em barbearia</div>
   </td>
@@ -101,33 +101,34 @@ $(document).ready(function(){initNavTree('functional__tests_8h_source.html','');
 <a href="functional__tests_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef FUNCTIONAL_TESTS_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define FUNCTIONAL_TESTS_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;../../EasyBarber/barbearia.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;../../EasyBarber/cliente.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;../../EasyBarber/horario.h&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;assert.h&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">using namespace </span>std;</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keywordtype">void</span> <a class="code hl_function" href="functional__tests_8h.html#ac66c0c95899deebf8facb8a3b93eb06e">functional_tests</a>();</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">/*</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">    Dado um cliente chamado André, uma barbearia chamada &quot;Barbearia do Tadeu&quot; com um barbeiro chamado &quot;João&quot;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">    Quando o usuário escolher qual o seu barbeiro e o horário de atendimento que ele deseja, marcará o seu agendamento</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">    Então os dados serão salvos e o seu agendamento estrá concluído</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">*/</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keywordtype">void</span> <a class="code hl_function" href="functional__tests_8h.html#a1eea1f92c722dc2df4cf7386d0ca945a">functional_agendar_horario_sucesso</a>();</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="comment">/*</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="comment">    Dado dois clientes, André e Vitor, que desejam marcar um horario na Barbearia do Tadeu com o barbeiro João no mesmo horário</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="comment">    Quando João realizar o seu agendamento, tudo funcionará corretamente e será marcado, mas para Vitor isso não ocorrerá</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">    Então Vitor irá escolher um outro horario e, dessa vez o agendamento será feito de maneira correta</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">*/</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keywordtype">void</span> <a class="code hl_function" href="functional__tests_8h.html#a988006b3495a457ea2c825651b91be60">functional_agendar_horario_falha</a>();</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#endif </span><span class="comment">// FUNCTIONAL_TESTS_H</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;../../EasyBarber/Controller/controller_barbearia.h&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;../../EasyBarber/Controller/controller_barbeiro.h&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;../../EasyBarber/Controller/controller_cliente.h&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;assert.h&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">using namespace </span>std;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keywordtype">void</span> <a class="code hl_function" href="functional__tests_8h.html#ac66c0c95899deebf8facb8a3b93eb06e">functional_tests</a>();</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">/*</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">    Dado um cliente chamado André, uma barbearia chamada &quot;Barbearia do Tadeu&quot; com um barbeiro chamado &quot;João&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">    Quando o usuário escolher qual o seu barbeiro e o horário de atendimento que ele deseja, marcará o seu agendamento</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">    Então os dados serão salvos e o seu agendamento estrá concluído</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment">*/</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keywordtype">void</span> <a class="code hl_function" href="functional__tests_8h.html#a1eea1f92c722dc2df4cf7386d0ca945a">functional_agendar_horario_sucesso</a>();</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="comment">/*</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="comment">    Dado dois clientes, André e Vitor, que desejam marcar um horario na Barbearia do Tadeu com o barbeiro João no mesmo horário</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">    Quando João realizar o seu agendamento, tudo funcionará corretamente e será marcado, mas para Vitor isso não ocorrerá</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">    Então Vitor irá escolher um outro horario e, dessa vez o agendamento será feito de maneira correta</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="comment">*/</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keywordtype">void</span> <a class="code hl_function" href="functional__tests_8h.html#a988006b3495a457ea2c825651b91be60">functional_agendar_horario_falha</a>();</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#endif </span><span class="comment">// FUNCTIONAL_TESTS_H</span></div>
 <div class="ttc" id="afunctional__tests_8h_html_a1eea1f92c722dc2df4cf7386d0ca945a"><div class="ttname"><a href="functional__tests_8h.html#a1eea1f92c722dc2df4cf7386d0ca945a">functional_agendar_horario_sucesso</a></div><div class="ttdeci">void functional_agendar_horario_sucesso()</div><div class="ttdef"><b>Definition</b> functional_tests.cpp:9</div></div>
-<div class="ttc" id="afunctional__tests_8h_html_a988006b3495a457ea2c825651b91be60"><div class="ttname"><a href="functional__tests_8h.html#a988006b3495a457ea2c825651b91be60">functional_agendar_horario_falha</a></div><div class="ttdeci">void functional_agendar_horario_falha()</div><div class="ttdef"><b>Definition</b> functional_tests.cpp:27</div></div>
-<div class="ttc" id="afunctional__tests_8h_html_ac66c0c95899deebf8facb8a3b93eb06e"><div class="ttname"><a href="functional__tests_8h.html#ac66c0c95899deebf8facb8a3b93eb06e">functional_tests</a></div><div class="ttdeci">void functional_tests()</div><div class="ttdef"><b>Definition</b> functional_tests.cpp:49</div></div>
+<div class="ttc" id="afunctional__tests_8h_html_a988006b3495a457ea2c825651b91be60"><div class="ttname"><a href="functional__tests_8h.html#a988006b3495a457ea2c825651b91be60">functional_agendar_horario_falha</a></div><div class="ttdeci">void functional_agendar_horario_falha()</div><div class="ttdef"><b>Definition</b> functional_tests.cpp:34</div></div>
+<div class="ttc" id="afunctional__tests_8h_html_ac66c0c95899deebf8facb8a3b93eb06e"><div class="ttname"><a href="functional__tests_8h.html#ac66c0c95899deebf8facb8a3b93eb06e">functional_tests</a></div><div class="ttdeci">void functional_tests()</div><div class="ttdef"><b>Definition</b> functional_tests.cpp:64</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

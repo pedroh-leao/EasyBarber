@@ -1,0 +1,17 @@
+<map id="unit_Barbeiro_updatePreco" name="unit_Barbeiro_updatePreco">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,183,99"/>
+<area shape="rect" id="Node000002" href="$class_controller___barbeiro.html#a55c2b96af8d7616dd2bb74ae4a74e5e7" title="Obtém um objeto Barbeiro pelo email." alt="" coords="231,5,385,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,69,215,49,217,54,146,74"/>
+<area shape="rect" id="Node000004" href="$class_barbeiro.html#a1dc2f4c829128ada55c667880bd593df" title="Getter para o atributo preco." alt="" coords="243,72,373,99"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="183,83,227,83,227,88,183,88"/>
+<area shape="rect" id="Node000005" href="$class_controller___barbeiro.html#a1b895863493fd9d7728a2a605163fc6a" title="Atualiza o preço do serviço do barbeiro." alt="" coords="242,123,374,165"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="146,97,228,119,226,125,145,102"/>
+<area shape="rect" id="Node000003" href="$class_d_a_o___barbeiro.html#a318f92fa56fe3b07dd594efa27b85a62" title="Obtém um objeto Barbeiro pelo email." alt="" coords="437,5,615,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="386,24,421,24,421,29,386,29"/>
+<area shape="rect" id="Node000006" href="$class_barbeiro.html#a2eaadbcff980ac42e20672b5cafa014d" title="Setter para o atributo preco." alt="" coords="461,105,590,132"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="373,134,445,125,446,131,374,139"/>
+<area shape="rect" id="Node000007" href="$class_d_a_o___barbeiro.html#aa50fab0395455ccaa4152db78c76dc39" title="Atualiza o preço do serviço do barbeiro." alt="" coords="433,156,618,183"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="374,149,418,154,417,159,373,154"/>
+<area shape="rect" id="Node000008" href="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500" title=" " alt="" coords="666,156,791,183"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="619,167,651,167,651,172,619,172"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="unit_Cliente_updateSenha" name="unit_Cliente_updateSenha">
+<area shape="rect" id="Node000001" title="Testa a função updateSenha da classe Controller_Cliente." alt="" coords="5,72,178,99"/>
+<area shape="rect" id="Node000002" href="$class_controller___cliente.html#a430b1b15e43e946fa30a01ccb214f011" title="Obtém um objeto Cliente pelo email." alt="" coords="226,5,372,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,69,210,49,211,54,142,74"/>
+<area shape="rect" id="Node000004" href="$class_pessoa.html#a7f8f84bdcac5c57ea6754b53e3367ffd" title=" " alt="" coords="235,72,363,99"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="178,83,219,83,219,88,178,88"/>
+<area shape="rect" id="Node000005" href="$class_controller___cliente.html#a01ff2c5fd57ff0b853914843f1f11e81" title="Atualiza a senha do cliente." alt="" coords="237,123,361,165"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="142,97,223,120,221,125,141,102"/>
+<area shape="rect" id="Node000003" href="$class_d_a_o___cliente.html#a84c8757d33e52dbb6a8c7393770a011a" title="Obtém um objeto Cliente pelo email." alt="" coords="420,5,608,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="372,24,404,24,404,29,372,29"/>
+<area shape="rect" id="Node000006" href="$class_pessoa.html#a891ce76d919b1d2a28ce1f4d20a087be" title=" " alt="" coords="450,105,578,132"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="361,134,434,125,435,131,361,139"/>
+<area shape="rect" id="Node000007" href="$class_d_a_o___cliente.html#acc508dee7091d06e615d089def157052" title="Atualiza a senha do cliente." alt="" coords="424,156,604,183"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="361,149,409,154,408,160,361,154"/>
+<area shape="rect" id="Node000008" href="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500" title=" " alt="" coords="656,156,781,183"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="605,167,641,167,641,172,605,172"/>
+</map>

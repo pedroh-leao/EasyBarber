@@ -1,0 +1,7 @@
+<map id="DAO_Barbearia::buscaBarbeirosAssociados" name="DAO_Barbearia::buscaBarbeirosAssociados">
+<area shape="rect" id="Node000001" title="Busca os barbeiros associados a uma barbearia." alt="" coords="5,23,215,65"/>
+<area shape="rect" id="Node000002" href="$class_barbearia.html#ac91091fe07d6c4ce27c7dc42eb7c08b4" title=" " alt="" coords="278,5,383,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,29,262,24,263,29,215,35"/>
+<area shape="rect" id="Node000003" href="$class_barbearia.html#a738c06dff340fdf090f39b2d8752f768" title=" " alt="" coords="263,56,398,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="215,53,247,57,247,62,215,59"/>
+</map>

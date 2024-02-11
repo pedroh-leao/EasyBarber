@@ -1,0 +1,9 @@
+<map id="Controller_Cliente::updateNome" name="Controller_Cliente::updateNome">
+<area shape="rect" id="Node000001" title="Atualiza o nome do cliente." alt="" coords="509,5,633,48"/>
+<area shape="rect" id="Node000002" href="$unit__cliente_8cpp.html#aead82c822d8c4699266e66214c52cffa" title="Testa a função updateNome da classe Controller_Cliente." alt="" coords="292,13,461,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="494,29,462,29,462,24,494,24"/>
+<area shape="rect" id="Node000003" href="$unit__cliente_8cpp.html#a4d134b7f0141f14318ba68008080356e" title="Executa todos os testes unitários para a classe Cliente." alt="" coords="103,13,244,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="276,29,244,29,244,24,276,24"/>
+<area shape="rect" id="Node000004" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,55,40"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,29,55,29,55,24,87,24"/>
+</map>

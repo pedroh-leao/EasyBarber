@@ -1,0 +1,11 @@
+<map id="Barbearia::remove" name="Barbearia::remove">
+<area shape="rect" id="Node000001" title=" " alt="" coords="746,13,871,40"/>
+<area shape="rect" id="Node000002" href="$class_controller___barbearia.html#ab6b23a5e89d88ff262214f81da61b56b" title="Remove um barbeiro da barbearia." alt="" coords="559,5,698,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="730,29,698,29,698,24,730,24"/>
+<area shape="rect" id="Node000003" href="$unit__barbearia_8cpp.html#a932ed951d003fbfc763c8a3a18205a3a" title=" " alt="" coords="307,13,511,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="544,29,512,29,512,24,544,24"/>
+<area shape="rect" id="Node000004" href="$unit__barbearia_8cpp.html#a2f665a11fa69c3619177d977abc52226" title=" " alt="" coords="103,13,259,40"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="292,29,259,29,259,24,292,24"/>
+<area shape="rect" id="Node000005" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,55,40"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,29,55,29,55,24,87,24"/>
+</map>

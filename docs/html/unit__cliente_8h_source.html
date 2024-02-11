@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">EasyBarber<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">EasyBarber<span id="projectnumber">&#160;0.2</span>
    </div>
    <div id="projectbrief">Projeto para agendamento em barbearia</div>
   </td>
@@ -101,15 +101,34 @@ $(document).ready(function(){initNavTree('unit__cliente_8h_source.html',''); ini
 <a href="unit__cliente_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef UNIT_CLIENTE_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define UNIT_CLIENTE_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;../../EasyBarber/cliente.h&quot;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;iostream&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;assert.h&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">using namespace </span>std;</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keywordtype">void</span> <a class="code hl_function" href="unit__cliente_8h.html#a4d134b7f0141f14318ba68008080356e">run_unit_test_cliente</a>();</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#endif </span><span class="comment">// UNIT_CLIENTE_H</span></div>
-<div class="ttc" id="aunit__cliente_8h_html_a4d134b7f0141f14318ba68008080356e"><div class="ttname"><a href="unit__cliente_8h.html#a4d134b7f0141f14318ba68008080356e">run_unit_test_cliente</a></div><div class="ttdeci">void run_unit_test_cliente()</div><div class="ttdef"><b>Definition</b> unit_cliente.cpp:3</div></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;../../EasyBarber/Model/cliente.h&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;../../EasyBarber/Controller/controller_cliente.h&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;iostream&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;assert.h&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">using namespace </span>std;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keywordtype">void</span> <a class="code hl_function" href="unit__cliente_8h.html#a4d134b7f0141f14318ba68008080356e">run_unit_test_cliente</a>();</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keywordtype">void</span> <a class="code hl_function" href="unit__cliente_8h.html#ad500573866d7257b93169cc39bee6120">unit_Cliente_getClientePeloEmail</a>();</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keywordtype">void</span> <a class="code hl_function" href="unit__cliente_8h.html#ac55ec9b64456b65bbde31a103d36285f">unit_Cliente_buscarHorariosAgendados</a>();</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keywordtype">void</span> <a class="code hl_function" href="unit__cliente_8h.html#aead82c822d8c4699266e66214c52cffa">unit_Cliente_updateNome</a>();</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keywordtype">void</span> <a class="code hl_function" href="unit__cliente_8h.html#af637a0ef6fa350005bd876884f0653b8">unit_Cliente_updateEndereco</a>();</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keywordtype">void</span> <a class="code hl_function" href="unit__cliente_8h.html#a5622bb08a67da9d60a6f7258ac8184ca">unit_Cliente_updateTelefone</a>();</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keywordtype">void</span> <a class="code hl_function" href="unit__cliente_8h.html#ab6e04f3baedd46b01bfc9dce6156fde3">unit_Cliente_updateSenha</a>();</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">#endif </span><span class="comment">// UNIT_CLIENTE_H</span></div>
+<div class="ttc" id="aunit__cliente_8h_html_a4d134b7f0141f14318ba68008080356e"><div class="ttname"><a href="unit__cliente_8h.html#a4d134b7f0141f14318ba68008080356e">run_unit_test_cliente</a></div><div class="ttdeci">void run_unit_test_cliente()</div><div class="ttdoc">Executa todos os testes unitários para a classe Cliente.</div><div class="ttdef"><b>Definition</b> unit_cliente.cpp:3</div></div>
+<div class="ttc" id="aunit__cliente_8h_html_a5622bb08a67da9d60a6f7258ac8184ca"><div class="ttname"><a href="unit__cliente_8h.html#a5622bb08a67da9d60a6f7258ac8184ca">unit_Cliente_updateTelefone</a></div><div class="ttdeci">void unit_Cliente_updateTelefone()</div><div class="ttdoc">Testa a função updateTelefone da classe Controller_Cliente.</div><div class="ttdef"><b>Definition</b> unit_cliente.cpp:58</div></div>
+<div class="ttc" id="aunit__cliente_8h_html_ab6e04f3baedd46b01bfc9dce6156fde3"><div class="ttname"><a href="unit__cliente_8h.html#ab6e04f3baedd46b01bfc9dce6156fde3">unit_Cliente_updateSenha</a></div><div class="ttdeci">void unit_Cliente_updateSenha()</div><div class="ttdoc">Testa a função updateSenha da classe Controller_Cliente.</div><div class="ttdef"><b>Definition</b> unit_cliente.cpp:69</div></div>
+<div class="ttc" id="aunit__cliente_8h_html_ac55ec9b64456b65bbde31a103d36285f"><div class="ttname"><a href="unit__cliente_8h.html#ac55ec9b64456b65bbde31a103d36285f">unit_Cliente_buscarHorariosAgendados</a></div><div class="ttdeci">void unit_Cliente_buscarHorariosAgendados()</div><div class="ttdoc">Testa a função buscarHorariosAgendados da classe Controller_Cliente.</div><div class="ttdef"><b>Definition</b> unit_cliente.cpp:29</div></div>
+<div class="ttc" id="aunit__cliente_8h_html_ad500573866d7257b93169cc39bee6120"><div class="ttname"><a href="unit__cliente_8h.html#ad500573866d7257b93169cc39bee6120">unit_Cliente_getClientePeloEmail</a></div><div class="ttdeci">void unit_Cliente_getClientePeloEmail()</div><div class="ttdoc">Testa a função getClientePeloEmail da classe Controller_Cliente.</div><div class="ttdef"><b>Definition</b> unit_cliente.cpp:17</div></div>
+<div class="ttc" id="aunit__cliente_8h_html_aead82c822d8c4699266e66214c52cffa"><div class="ttname"><a href="unit__cliente_8h.html#aead82c822d8c4699266e66214c52cffa">unit_Cliente_updateNome</a></div><div class="ttdeci">void unit_Cliente_updateNome()</div><div class="ttdoc">Testa a função updateNome da classe Controller_Cliente.</div><div class="ttdef"><b>Definition</b> unit_cliente.cpp:36</div></div>
+<div class="ttc" id="aunit__cliente_8h_html_af637a0ef6fa350005bd876884f0653b8"><div class="ttname"><a href="unit__cliente_8h.html#af637a0ef6fa350005bd876884f0653b8">unit_Cliente_updateEndereco</a></div><div class="ttdeci">void unit_Cliente_updateEndereco()</div><div class="ttdoc">Testa a função updateEndereco da classe Controller_Cliente.</div><div class="ttdef"><b>Definition</b> unit_cliente.cpp:47</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -1,12 +1,12 @@
 <map id="run_unit_test_horario" name="run_unit_test_horario">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,148,108"/>
-<area shape="rect" id="Node000002" href="$unit__horario_8cpp.html#a6583440537c4516278b926b84b62bae6" title=" " alt="" coords="196,5,341,32"/>
+<area shape="rect" id="Node000001" title="Executa todos os testes unitários para a classe Horario." alt="" coords="5,81,148,108"/>
+<area shape="rect" id="Node000002" href="$unit__horario_8cpp.html#a6583440537c4516278b926b84b62bae6" title="Testa a função de obtenção da data para a classe Horario." alt="" coords="196,5,341,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,78,195,42,212,35,213,40,197,46,110,83"/>
-<area shape="rect" id="Node000004" href="$unit__horario_8cpp.html#a355b553cdc4b3405ffe54b1467427fd1" title=" " alt="" coords="196,107,341,133"/>
+<area shape="rect" id="Node000004" href="$unit__horario_8cpp.html#a355b553cdc4b3405ffe54b1467427fd1" title="Testa a função de obtenção da hora para a classe Horario." alt="" coords="196,107,341,133"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,101,181,106,180,111,148,107"/>
-<area shape="rect" id="Node000006" href="$unit__horario_8cpp.html#aa33abea559a73d6593c36aa8f04dabf5" title=" " alt="" coords="196,56,341,83"/>
+<area shape="rect" id="Node000006" href="$unit__horario_8cpp.html#aa33abea559a73d6593c36aa8f04dabf5" title="Testa a função de configuração da data para a classe Horario." alt="" coords="196,56,341,83"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="148,83,180,78,181,84,149,88"/>
-<area shape="rect" id="Node000008" href="$unit__horario_8cpp.html#aff4db471b057475cd4822a6c7d16ea1a" title=" " alt="" coords="196,157,341,184"/>
+<area shape="rect" id="Node000008" href="$unit__horario_8cpp.html#aff4db471b057475cd4822a6c7d16ea1a" title="Testa a função de configuração da hora para a classe Horario." alt="" coords="196,157,341,184"/>
 <area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="110,106,197,143,213,149,212,154,195,148,108,111"/>
 <area shape="rect" id="Node000003" href="$class_horario.html#aadb59554ffae0bfd66e75f1c1d607f7c" title="Getter para o atributo data." alt="" coords="389,5,504,32"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="342,16,374,16,374,21,342,21"/>

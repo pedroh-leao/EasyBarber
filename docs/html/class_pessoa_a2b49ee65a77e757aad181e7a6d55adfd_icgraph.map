@@ -1,9 +1,13 @@
 <map id="Pessoa::remove" name="Pessoa::remove">
-<area shape="rect" id="Node000001" title="Remove um horário da lista de horários agendados." alt="" coords="539,5,654,32"/>
-<area shape="rect" id="Node000002" href="$unit__barbeiro_8cpp.html#a1f7468e52c3703d588f15340cac977e1" title=" " alt="" coords="300,5,491,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="524,21,492,21,492,16,524,16"/>
-<area shape="rect" id="Node000003" href="$unit__barbeiro_8cpp.html#a42eb2fdea3998103d34609226f46301e" title=" " alt="" coords="103,5,252,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="284,21,252,21,252,16,284,16"/>
-<area shape="rect" id="Node000004" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+<area shape="rect" id="Node000001" title="Remove um horário da lista de horários agendados." alt="" coords="539,80,654,107"/>
+<area shape="rect" id="Node000002" href="$class_controller___barbeiro.html#a64138a03e34ee3773a613584ae432473" title="Remove um horário agendado para um barbeiro." alt="" coords="330,5,461,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="538,77,461,51,463,46,540,72"/>
+<area shape="rect" id="Node000003" href="$class_controller___cliente.html#a71bc155d2b312fa2b4940c0c419a1e47" title="Remove um horário agendado para um cliente." alt="" coords="334,72,457,115"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="524,96,458,96,458,91,524,91"/>
+<area shape="rect" id="Node000004" href="$unit__barbeiro_8cpp.html#a1f7468e52c3703d588f15340cac977e1" title=" " alt="" coords="300,139,491,165"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="540,114,492,129,451,141,450,136,491,124,538,109"/>
+<area shape="rect" id="Node000005" href="$unit__barbeiro_8cpp.html#a42eb2fdea3998103d34609226f46301e" title=" " alt="" coords="103,139,252,165"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="284,155,252,155,252,149,284,149"/>
+<area shape="rect" id="Node000006" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,139,55,165"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="87,155,55,155,55,149,87,149"/>
 </map>

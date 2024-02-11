@@ -1,5 +1,5 @@
 <map id="unit_Pessoa_get_set_endereco" name="unit_Pessoa_get_set_endereco">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,149,65"/>
+<area shape="rect" id="Node000001" title="Testa a função de set e get do endereço para a classe Pessoa." alt="" coords="5,23,149,65"/>
 <area shape="rect" id="Node000002" href="$class_pessoa.html#aa967da81cd69e69f981e43c44b86c7ba" title=" " alt="" coords="197,5,343,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,32,181,28,182,33,149,37"/>
 <area shape="rect" id="Node000003" href="$class_pessoa.html#a6aa0ad8f527cb91723eac25acdb46ec5" title=" " alt="" coords="197,56,343,83"/>

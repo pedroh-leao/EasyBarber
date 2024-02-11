@@ -4459,8 +4459,11 @@ release/main.o: ../unit/main.cpp ../unit/unit_pessoa.h \
 		../../EasyBarber/DAO/dao_pessoa.h \
 		../unit/unit_horario.h \
 		../unit/unit_barbeiro.h \
+		../../EasyBarber/Controller/controller_barbeiro.h \
 		../../EasyBarber/Model/barbeiro.h \
 		../unit/unit_cliente.h \
+		../../EasyBarber/Controller/controller_cliente.h \
+		../../EasyBarber/DAO/dao_cliente.h \
 		../database/database.h \
 		D:/Qt/6.6.1/mingw_64/include/QtSql/QSqlDatabase \
 		D:/Qt/6.6.1/mingw_64/include/QtSql/QSqlQuery \
@@ -4820,7 +4823,8 @@ release/unit_barbearia.o: ../unit/unit_barbearia.cpp ../unit/unit_barbearia.h \
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\unit_barbearia.o ..\unit\unit_barbearia.cpp
 
 release/unit_barbeiro.o: ../unit/unit_barbeiro.cpp ../unit/unit_barbeiro.h \
-		../../EasyBarber/Model/barbeiro.h \
+		../../EasyBarber/Controller/controller_barbeiro.h \
+		../../EasyBarber/Model/Barbeiro.h \
 		../../EasyBarber/Model/pessoa.h \
 		D:/Qt/6.6.1/mingw_64/include/QtSql/QtSql \
 		D:/Qt/6.6.1/mingw_64/include/QtSql/QtSqlDepends \
@@ -5159,7 +5163,10 @@ release/unit_barbeiro.o: ../unit/unit_barbeiro.cpp ../unit/unit_barbeiro.h \
 		D:/Qt/6.6.1/mingw_64/include/QtSql/qsqltablemodel.h \
 		D:/Qt/6.6.1/mingw_64/include/QtSql/qsqlresult.h \
 		D:/Qt/6.6.1/mingw_64/include/QtSql/qtsqlversion.h \
-		../../EasyBarber/Model/horario.h
+		../../EasyBarber/Model/horario.h \
+		../../EasyBarber/DAO/dao_barbeiro.h \
+		../../EasyBarber/DAO/dao_pessoa.h \
+		../../EasyBarber/Model/barbeiro.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\unit_barbeiro.o ..\unit\unit_barbeiro.cpp
 
 release/unit_cliente.o: ../unit/unit_cliente.cpp ../unit/unit_cliente.h \
@@ -5502,7 +5509,11 @@ release/unit_cliente.o: ../unit/unit_cliente.cpp ../unit/unit_cliente.h \
 		D:/Qt/6.6.1/mingw_64/include/QtSql/qsqltablemodel.h \
 		D:/Qt/6.6.1/mingw_64/include/QtSql/qsqlresult.h \
 		D:/Qt/6.6.1/mingw_64/include/QtSql/qtsqlversion.h \
-		../../EasyBarber/Model/horario.h
+		../../EasyBarber/Model/horario.h \
+		../../EasyBarber/Controller/controller_cliente.h \
+		../../EasyBarber/Model/Cliente.h \
+		../../EasyBarber/DAO/dao_cliente.h \
+		../../EasyBarber/DAO/dao_pessoa.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\unit_cliente.o ..\unit\unit_cliente.cpp
 
 release/unit_horario.o: ../unit/unit_horario.cpp ../unit/unit_horario.h \

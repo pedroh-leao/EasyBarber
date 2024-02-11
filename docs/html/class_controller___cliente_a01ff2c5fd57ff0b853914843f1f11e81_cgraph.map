@@ -1,0 +1,9 @@
+<map id="Controller_Cliente::updateSenha" name="Controller_Cliente::updateSenha">
+<area shape="rect" id="Node000001" title="Atualiza a senha do cliente." alt="" coords="5,23,129,65"/>
+<area shape="rect" id="Node000002" href="$class_pessoa.html#a891ce76d919b1d2a28ce1f4d20a087be" title=" " alt="" coords="203,5,331,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,34,187,26,187,31,129,39"/>
+<area shape="rect" id="Node000003" href="$class_d_a_o___cliente.html#acc508dee7091d06e615d089def157052" title="Atualiza a senha do cliente." alt="" coords="177,56,357,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="129,49,162,53,161,59,129,54"/>
+<area shape="rect" id="Node000004" href="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500" title=" " alt="" coords="405,56,529,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="357,67,389,67,389,72,357,72"/>
+</map>

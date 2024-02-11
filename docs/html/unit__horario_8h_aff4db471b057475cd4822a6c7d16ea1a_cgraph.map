@@ -1,5 +1,5 @@
 <map id="unit_Horario_SetHora" name="unit_Horario_SetHora">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,150,57"/>
+<area shape="rect" id="Node000001" title="Testa a função de configuração da hora para a classe Horario." alt="" coords="5,31,150,57"/>
 <area shape="rect" id="Node000002" href="$class_horario.html#a07a4aec4ebeab8637ab670a4a2747158" title="Getter para o atributo hora." alt="" coords="198,5,313,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,31,182,26,183,32,150,36"/>
 <area shape="rect" id="Node000003" href="$class_horario.html#afaf47ebca7515ef91d84e179056cf999" title="Setter para o atributo hora." alt="" coords="198,56,313,83"/>

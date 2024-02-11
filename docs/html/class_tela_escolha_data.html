@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">EasyBarber<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">EasyBarber<span id="projectnumber">&#160;0.2</span>
    </div>
    <div id="projectbrief">Projeto para agendamento em barbearia</div>
   </td>
@@ -118,18 +118,18 @@ Collaboration diagram for TelaEscolhaData:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_tela_escolha_data__coll__graph.png" border="0" usemap="#a_tela_escolha_data_coll__map" alt="Collaboration graph"/></div>
 <map name="a_tela_escolha_data_coll__map" id="a_tela_escolha_data_coll__map">
-<area shape="rect" title="A classe TelaEscolhaData representa a interface gráfica para a escolha de uma data para agendamento." alt="" coords="163,1649,427,1831"/>
-<area shape="rect" title=" " alt="" coords="5,1172,64,1241"/>
-<area shape="poly" title=" " alt="" coords="31,1256,26,1325,28,1410,34,1455,44,1500,58,1543,78,1584,96,1609,117,1632,165,1671,161,1675,113,1636,92,1612,74,1587,53,1545,39,1501,29,1456,23,1410,21,1325,25,1256"/>
-<area shape="rect" href="class_barbearia.html" title=" " alt="" coords="88,828,336,1585"/>
-<area shape="poly" title=" " alt="" coords="273,1585,281,1632,276,1633,268,1586"/>
-<area shape="rect" href="class_barbeiro.html" title=" " alt="" coords="360,1100,539,1313"/>
-<area shape="poly" title=" " alt="" coords="432,1314,398,1463,349,1626,346,1635,341,1633,344,1625,392,1461,427,1312"/>
-<area shape="rect" href="class_pessoa.html" title=" " alt="" coords="453,5,633,779"/>
-<area shape="poly" title=" " alt="" coords="499,794,464,1101,459,1100,494,793"/>
-<area shape="rect" href="class_cliente.html" title=" " alt="" coords="563,1129,715,1284"/>
-<area shape="poly" title=" " alt="" coords="593,793,632,1129,627,1130,587,794"/>
-<area shape="poly" title=" " alt="" coords="641,1284,634,1353,620,1432,594,1513,575,1551,553,1587,530,1614,503,1639,443,1680,440,1675,499,1635,526,1611,549,1584,571,1549,589,1511,615,1431,629,1353,635,1284"/>
+<area shape="rect" title="A classe TelaEscolhaData representa a interface gráfica para a escolha de uma data para agendamento." alt="" coords="163,1740,427,1921"/>
+<area shape="rect" title=" " alt="" coords="5,1228,64,1297"/>
+<area shape="poly" title=" " alt="" coords="30,1313,24,1387,25,1481,31,1531,41,1581,56,1629,78,1675,96,1700,116,1723,165,1762,161,1766,113,1726,92,1703,74,1677,52,1631,36,1582,25,1532,20,1481,18,1387,25,1312"/>
+<area shape="rect" href="class_barbearia.html" title=" " alt="" coords="88,849,336,1676"/>
+<area shape="poly" title=" " alt="" coords="275,1676,282,1723,277,1724,270,1676"/>
+<area shape="rect" href="class_barbeiro.html" title=" " alt="" coords="360,1156,539,1369"/>
+<area shape="poly" title=" " alt="" coords="434,1369,400,1534,377,1626,349,1717,346,1725,341,1723,344,1715,372,1625,395,1533,429,1368"/>
+<area shape="rect" href="class_pessoa.html" title=" " alt="" coords="453,5,633,800"/>
+<area shape="poly" title=" " alt="" coords="501,815,463,1156,458,1156,495,814"/>
+<area shape="rect" href="class_cliente.html" title=" " alt="" coords="563,1185,715,1340"/>
+<area shape="poly" title=" " alt="" coords="591,814,633,1185,628,1186,586,815"/>
+<area shape="poly" title=" " alt="" coords="643,1340,638,1416,624,1504,612,1550,597,1595,577,1638,553,1678,530,1705,503,1730,443,1771,440,1767,499,1726,526,1702,549,1674,573,1635,592,1593,607,1548,619,1503,633,1415,637,1340"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -219,19 +219,19 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<div class="fragment"><div class="line"><span class="lineno">    8</span>    : QDialog(parent)</div>
-<div class="line"><span class="lineno">    9</span>    , ui(<span class="keyword">new</span> <a class="code hl_class" href="class_ui_1_1tela_escolha_data.html">Ui::telaEscolhaData</a>)</div>
-<div class="line"><span class="lineno">   10</span>{</div>
-<div class="line"><span class="lineno">   11</span>    this-&gt;barbearia = <a class="code hl_variable" href="class_tela_escolha_data.html#a2db435cac903a60fcdfb9c9825930b99">barbearia</a>;</div>
-<div class="line"><span class="lineno">   12</span>    this-&gt;barbeiro = <a class="code hl_variable" href="class_tela_escolha_data.html#a8e8f35ca68e7541687a9f5d184b4f69f">barbeiro</a>;</div>
-<div class="line"><span class="lineno">   13</span>    this-&gt;cliente = <a class="code hl_variable" href="class_tela_escolha_data.html#af4cb31eadbcc07113e639140470e4f4c">cliente</a>;</div>
-<div class="line"><span class="lineno">   14</span>    ui-&gt;<a class="code hl_function" href="class_ui__tela_escolha_data.html#a23c46c40c7d2c2d8d7d6766da47a1881">setupUi</a>(<span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">   15</span>    modificarLayout();</div>
-<div class="line"><span class="lineno">   16</span>    criarSlots();</div>
-<div class="line"><span class="lineno">   17</span>}</div>
-<div class="ttc" id="aclass_tela_escolha_data_html_a2db435cac903a60fcdfb9c9825930b99"><div class="ttname"><a href="class_tela_escolha_data.html#a2db435cac903a60fcdfb9c9825930b99">TelaEscolhaData::barbearia</a></div><div class="ttdeci">Barbearia * barbearia</div><div class="ttdef"><b>Definition</b> telaescolhadata.h:20</div></div>
-<div class="ttc" id="aclass_tela_escolha_data_html_a8e8f35ca68e7541687a9f5d184b4f69f"><div class="ttname"><a href="class_tela_escolha_data.html#a8e8f35ca68e7541687a9f5d184b4f69f">TelaEscolhaData::barbeiro</a></div><div class="ttdeci">Barbeiro * barbeiro</div><div class="ttdef"><b>Definition</b> telaescolhadata.h:21</div></div>
-<div class="ttc" id="aclass_tela_escolha_data_html_af4cb31eadbcc07113e639140470e4f4c"><div class="ttname"><a href="class_tela_escolha_data.html#af4cb31eadbcc07113e639140470e4f4c">TelaEscolhaData::cliente</a></div><div class="ttdeci">Cliente * cliente</div><div class="ttdef"><b>Definition</b> telaescolhadata.h:22</div></div>
+<div class="fragment"><div class="line"><span class="lineno">    5</span>    : QDialog(parent)</div>
+<div class="line"><span class="lineno">    6</span>    , ui(<span class="keyword">new</span> <a class="code hl_class" href="class_ui_1_1tela_escolha_data.html">Ui::telaEscolhaData</a>)</div>
+<div class="line"><span class="lineno">    7</span>{</div>
+<div class="line"><span class="lineno">    8</span>    this-&gt;barbearia = <a class="code hl_variable" href="class_tela_escolha_data.html#a2db435cac903a60fcdfb9c9825930b99">barbearia</a>;</div>
+<div class="line"><span class="lineno">    9</span>    this-&gt;barbeiro = <a class="code hl_variable" href="class_tela_escolha_data.html#a8e8f35ca68e7541687a9f5d184b4f69f">barbeiro</a>;</div>
+<div class="line"><span class="lineno">   10</span>    this-&gt;cliente = <a class="code hl_variable" href="class_tela_escolha_data.html#af4cb31eadbcc07113e639140470e4f4c">cliente</a>;</div>
+<div class="line"><span class="lineno">   11</span>    ui-&gt;<a class="code hl_function" href="class_ui__tela_escolha_data.html#a23c46c40c7d2c2d8d7d6766da47a1881">setupUi</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   12</span>    modificarLayout();</div>
+<div class="line"><span class="lineno">   13</span>    criarSlots();</div>
+<div class="line"><span class="lineno">   14</span>}</div>
+<div class="ttc" id="aclass_tela_escolha_data_html_a2db435cac903a60fcdfb9c9825930b99"><div class="ttname"><a href="class_tela_escolha_data.html#a2db435cac903a60fcdfb9c9825930b99">TelaEscolhaData::barbearia</a></div><div class="ttdeci">Barbearia * barbearia</div><div class="ttdef"><b>Definition</b> telaescolhadata.h:25</div></div>
+<div class="ttc" id="aclass_tela_escolha_data_html_a8e8f35ca68e7541687a9f5d184b4f69f"><div class="ttname"><a href="class_tela_escolha_data.html#a8e8f35ca68e7541687a9f5d184b4f69f">TelaEscolhaData::barbeiro</a></div><div class="ttdeci">Barbeiro * barbeiro</div><div class="ttdef"><b>Definition</b> telaescolhadata.h:26</div></div>
+<div class="ttc" id="aclass_tela_escolha_data_html_af4cb31eadbcc07113e639140470e4f4c"><div class="ttname"><a href="class_tela_escolha_data.html#af4cb31eadbcc07113e639140470e4f4c">TelaEscolhaData::cliente</a></div><div class="ttdeci">Cliente * cliente</div><div class="ttdef"><b>Definition</b> telaescolhadata.h:27</div></div>
 <div class="ttc" id="aclass_ui_1_1tela_escolha_data_html"><div class="ttname"><a href="class_ui_1_1tela_escolha_data.html">Ui::telaEscolhaData</a></div><div class="ttdef"><b>Definition</b> ui_telaescolhadata.h:63</div></div>
 <div class="ttc" id="aclass_ui__tela_escolha_data_html_a23c46c40c7d2c2d8d7d6766da47a1881"><div class="ttname"><a href="class_ui__tela_escolha_data.html#a23c46c40c7d2c2d8d7d6766da47a1881">Ui_telaEscolhaData::setupUi</a></div><div class="ttdeci">void setupUi(QDialog *telaEscolhaData)</div><div class="ttdef"><b>Definition</b> ui_telaescolhadata.h:29</div></div>
 </div><!-- fragment --><div class="dynheader">
@@ -265,9 +265,9 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Destrutor da classe <a class="el" href="class_tela_escolha_data.html" title="A classe TelaEscolhaData representa a interface gráfica para a escolha de uma data para agendamento.">TelaEscolhaData</a>. </p>
-<div class="fragment"><div class="line"><span class="lineno">   20</span>{</div>
-<div class="line"><span class="lineno">   21</span>    <span class="keyword">delete</span> ui;</div>
-<div class="line"><span class="lineno">   22</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">   17</span>{</div>
+<div class="line"><span class="lineno">   18</span>    <span class="keyword">delete</span> ui;</div>
+<div class="line"><span class="lineno">   19</span>}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -296,17 +296,17 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Slot para avançar e agendar um horário na tela de agendamento. </p>
-<div class="fragment"><div class="line"><span class="lineno">   55</span>                                           {</div>
-<div class="line"><span class="lineno">   56</span>    QString dateString = ui-&gt;<a class="code hl_variable" href="class_ui__tela_escolha_data.html#aa9d756c725fced38c28d2a6f8b14bfa2">campoData</a>-&gt;date().toString(<span class="stringliteral">&quot;dd-MM-yyyy&quot;</span>);</div>
-<div class="line"><span class="lineno">   57</span>    <span class="keywordtype">string</span> dataString = dateString.toStdString();</div>
-<div class="line"><span class="lineno">   58</span> </div>
-<div class="line"><span class="lineno">   59</span>    <a class="code hl_class" href="class_horario.html">Horario</a> * horario = <span class="keyword">new</span> <a class="code hl_class" href="class_horario.html">Horario</a>(dataString);</div>
-<div class="line"><span class="lineno">   60</span> </div>
-<div class="line"><span class="lineno">   61</span>    <a class="code hl_class" href="class_tela_agendamento.html">TelaAgendamento</a> *telaAgendamento = <span class="keyword">new</span> <a class="code hl_class" href="class_tela_agendamento.html">TelaAgendamento</a>(<a class="code hl_variable" href="class_tela_escolha_data.html#a2db435cac903a60fcdfb9c9825930b99">barbearia</a>, <a class="code hl_variable" href="class_tela_escolha_data.html#a8e8f35ca68e7541687a9f5d184b4f69f">barbeiro</a>, horario, <a class="code hl_variable" href="class_tela_escolha_data.html#af4cb31eadbcc07113e639140470e4f4c">cliente</a>);</div>
-<div class="line"><span class="lineno">   62</span>    telaAgendamento-&gt;show();</div>
-<div class="line"><span class="lineno">   63</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">   58</span>                                           {</div>
+<div class="line"><span class="lineno">   59</span>    QString dateString = ui-&gt;<a class="code hl_variable" href="class_ui__tela_escolha_data.html#aa9d756c725fced38c28d2a6f8b14bfa2">campoData</a>-&gt;date().toString(<span class="stringliteral">&quot;dd-MM-yyyy&quot;</span>);</div>
+<div class="line"><span class="lineno">   60</span>    <span class="keywordtype">string</span> dataString = dateString.toStdString();</div>
+<div class="line"><span class="lineno">   61</span> </div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_class" href="class_horario.html">Horario</a> * horario = <span class="keyword">new</span> <a class="code hl_class" href="class_horario.html">Horario</a>(dataString);</div>
+<div class="line"><span class="lineno">   63</span> </div>
+<div class="line"><span class="lineno">   64</span>    <a class="code hl_class" href="class_tela_agendamento.html">TelaAgendamento</a> *telaAgendamento = <span class="keyword">new</span> <a class="code hl_class" href="class_tela_agendamento.html">TelaAgendamento</a>(<a class="code hl_variable" href="class_tela_escolha_data.html#a2db435cac903a60fcdfb9c9825930b99">barbearia</a>, <a class="code hl_variable" href="class_tela_escolha_data.html#a8e8f35ca68e7541687a9f5d184b4f69f">barbeiro</a>, horario, <a class="code hl_variable" href="class_tela_escolha_data.html#af4cb31eadbcc07113e639140470e4f4c">cliente</a>);</div>
+<div class="line"><span class="lineno">   65</span>    telaAgendamento-&gt;show();</div>
+<div class="line"><span class="lineno">   66</span>}</div>
 <div class="ttc" id="aclass_horario_html"><div class="ttname"><a href="class_horario.html">Horario</a></div><div class="ttdoc">Classe que representa um Horario, contendo informações de data e hora.</div><div class="ttdef"><b>Definition</b> Horario.h:11</div></div>
-<div class="ttc" id="aclass_tela_agendamento_html"><div class="ttname"><a href="class_tela_agendamento.html">TelaAgendamento</a></div><div class="ttdoc">Classe que representa a tela de agendamento de atendimentos em uma barbearia.</div><div class="ttdef"><b>Definition</b> telaagendamento.h:17</div></div>
+<div class="ttc" id="aclass_tela_agendamento_html"><div class="ttname"><a href="class_tela_agendamento.html">TelaAgendamento</a></div><div class="ttdoc">Classe que representa a tela de agendamento de atendimentos em uma barbearia.</div><div class="ttdef"><b>Definition</b> telaagendamento.h:21</div></div>
 <div class="ttc" id="aclass_ui__tela_escolha_data_html_aa9d756c725fced38c28d2a6f8b14bfa2"><div class="ttname"><a href="class_ui__tela_escolha_data.html#aa9d756c725fced38c28d2a6f8b14bfa2">Ui_telaEscolhaData::campoData</a></div><div class="ttdeci">QDateEdit * campoData</div><div class="ttdef"><b>Definition</b> ui_telaescolhadata.h:24</div></div>
 </div><!-- fragment -->
 </div>
@@ -335,11 +335,11 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Slot para voltar à tela de escolha de barbeiro. </p>
-<div class="fragment"><div class="line"><span class="lineno">   51</span>                                           {</div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_class" href="class_tela_escolha_barbeiro.html">TelaEscolhaBarbeiro</a> *telaEscolhaBarbeiro = <span class="keyword">new</span> <a class="code hl_class" href="class_tela_escolha_barbeiro.html">TelaEscolhaBarbeiro</a>(<a class="code hl_variable" href="class_tela_escolha_data.html#a2db435cac903a60fcdfb9c9825930b99">barbearia</a>, <a class="code hl_variable" href="class_tela_escolha_data.html#af4cb31eadbcc07113e639140470e4f4c">cliente</a>);</div>
-<div class="line"><span class="lineno">   53</span>    telaEscolhaBarbeiro-&gt;show();</div>
-<div class="line"><span class="lineno">   54</span>}</div>
-<div class="ttc" id="aclass_tela_escolha_barbeiro_html"><div class="ttname"><a href="class_tela_escolha_barbeiro.html">TelaEscolhaBarbeiro</a></div><div class="ttdoc">A classe TelaEscolhaBarbeiro representa a interface gráfica para a escolha de um barbeiro.</div><div class="ttdef"><b>Definition</b> telaescolhabarbeiro.h:14</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   53</span>                                           {</div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_class" href="class_tela_escolha_barbeiro.html">TelaEscolhaBarbeiro</a> *telaEscolhaBarbeiro = <span class="keyword">new</span> <a class="code hl_class" href="class_tela_escolha_barbeiro.html">TelaEscolhaBarbeiro</a>(<a class="code hl_variable" href="class_tela_escolha_data.html#a2db435cac903a60fcdfb9c9825930b99">barbearia</a>, <a class="code hl_variable" href="class_tela_escolha_data.html#af4cb31eadbcc07113e639140470e4f4c">cliente</a>);</div>
+<div class="line"><span class="lineno">   55</span>    telaEscolhaBarbeiro-&gt;show();</div>
+<div class="line"><span class="lineno">   56</span>}</div>
+<div class="ttc" id="aclass_tela_escolha_barbeiro_html"><div class="ttname"><a href="class_tela_escolha_barbeiro.html">TelaEscolhaBarbeiro</a></div><div class="ttdoc">A classe TelaEscolhaBarbeiro representa a interface gráfica para a escolha de um barbeiro.</div><div class="ttdef"><b>Definition</b> telaescolhabarbeiro.h:16</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -414,8 +414,8 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/EasyBarber/<a class="el" href="telaescolhadata_8h_source.html">telaescolhadata.h</a></li>
-<li>C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/EasyBarber/<a class="el" href="telaescolhadata_8cpp.html">telaescolhadata.cpp</a></li>
+<li>C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/EasyBarber/View/<a class="el" href="telaescolhadata_8h_source.html">telaescolhadata.h</a></li>
+<li>C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/EasyBarber/View/<a class="el" href="telaescolhadata_8cpp.html">telaescolhadata.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

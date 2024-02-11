@@ -5,5 +5,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node0 [id="Node000000",label="Horario",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_horario.html",tooltip="Classe que representa um Horario, contendo informações de data e hora."];
+  Node0 [id="Node000000",label="Controller_Barbearia",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_controller___barbearia.html",tooltip=" "];
 }

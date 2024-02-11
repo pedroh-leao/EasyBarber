@@ -1,0 +1,7 @@
+<map id="DAO_Pessoa" name="DAO_Pessoa">
+<area shape="rect" id="Node000001" title=" " alt="" coords="108,5,320,181"/>
+<area shape="rect" id="Node000002" href="$class_d_a_o___barbeiro.html" title=" " alt="" coords="5,229,209,693"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,196,177,230,172,229,182,195"/>
+<area shape="rect" id="Node000003" href="$class_d_a_o___cliente.html" title=" " alt="" coords="234,248,410,675"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="246,195,262,247,257,249,241,196"/>
+</map>

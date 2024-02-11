@@ -1,0 +1,5 @@
+CREATE TABLE tb_cliente (email TEXT (100) PRIMARY KEY, nome TEXT (100), endereco TEXT (100), telefone TEXT (20), senha TEXT (25));
+CREATE TABLE tb_barbearia (nome TEXT (100), endereco TEXT (100), telefone TEXT (20), email TEXT (100) PRIMARY KEY, inicioDeFuncionamento TEXT (5), fimDeFuncionamento TEXT (5));
+CREATE TABLE sqlite_sequence(name,seq);
+CREATE TABLE tb_barbeiro (nome TEXT (100), endereco TEXT (100), telefone TEXT (20), email TEXT (100) PRIMARY KEY, senha TEXT (25), preco REAL, email_barbearia TEXT (100) REFERENCES tb_barbearia (email));
+CREATE TABLE tb_horario (data TEXT (10), hora TEXT (5), id INTEGER PRIMARY KEY AUTOINCREMENT, email_cliente TEXT (100) REFERENCES tb_cliente (email), email_barbeiro TEXT (100) REFERENCES tb_barbeiro (email));

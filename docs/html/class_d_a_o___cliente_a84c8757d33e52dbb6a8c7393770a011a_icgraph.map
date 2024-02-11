@@ -1,0 +1,37 @@
+<map id="DAO_Cliente::getClientePeloEmail" name="DAO_Cliente::getClientePeloEmail">
+<area shape="rect" id="Node000001" title="Obtém um objeto Cliente pelo email." alt="" coords="725,256,913,299"/>
+<area shape="rect" id="Node000002" href="$class_controller___cliente.html#a430b1b15e43e946fa30a01ccb214f011" title="Obtém um objeto Cliente pelo email." alt="" coords="530,256,677,299"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="709,280,677,280,677,275,709,275"/>
+<area shape="rect" id="Node000003" href="$functional__tests_8cpp.html#a988006b3495a457ea2c825651b91be60" title=" " alt="" coords="323,5,452,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="589,242,573,201,550,152,519,104,481,62,451,45,454,40,484,58,524,101,555,150,578,199,594,240"/>
+<area shape="rect" id="Node000006" href="$functional__tests_8cpp.html#a1eea1f92c722dc2df4cf7386d0ca945a" title=" " alt="" coords="323,72,452,115"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="580,244,539,185,512,155,481,129,451,113,454,108,484,124,515,151,543,182,585,241"/>
+<area shape="rect" id="Node000007" href="$_easy_barber_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="363,139,412,165"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="570,247,529,212,481,180,446,166,412,158,413,153,447,161,484,175,533,207,573,243"/>
+<area shape="rect" id="Node000008" href="$unit__cliente_8cpp.html#ac55ec9b64456b65bbde31a103d36285f" title="Testa a função buscarHorariosAgendados da classe Controller_Cliente." alt="" coords="296,189,479,232"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="517,253,458,235,460,230,518,248"/>
+<area shape="rect" id="Node000011" href="$unit__cliente_8cpp.html#ad500573866d7257b93169cc39bee6120" title="Testa a função getClientePeloEmail da classe Controller_Cliente." alt="" coords="297,256,477,299"/>
+<area shape="poly" id="edge11_Node000002_Node000011" title=" " alt="" coords="515,280,478,280,478,275,515,275"/>
+<area shape="rect" id="Node000012" href="$unit__cliente_8cpp.html#af637a0ef6fa350005bd876884f0653b8" title="Testa a função updateEndereco da classe Controller_Cliente." alt="" coords="292,323,482,349"/>
+<area shape="poly" id="edge13_Node000002_Node000012" title=" " alt="" coords="516,304,483,313,441,325,440,319,482,308,515,299"/>
+<area shape="rect" id="Node000013" href="$unit__cliente_8cpp.html#aead82c822d8c4699266e66214c52cffa" title="Testa a função updateNome da classe Controller_Cliente." alt="" coords="303,373,472,400"/>
+<area shape="poly" id="edge15_Node000002_Node000013" title=" " alt="" coords="566,311,528,339,483,364,453,375,451,370,481,359,525,334,563,306"/>
+<area shape="rect" id="Node000014" href="$unit__cliente_8cpp.html#ab6e04f3baedd46b01bfc9dce6156fde3" title="Testa a função updateSenha da classe Controller_Cliente." alt="" coords="301,424,473,451"/>
+<area shape="poly" id="edge17_Node000002_Node000014" title=" " alt="" coords="582,313,541,366,514,392,484,414,459,426,457,421,481,410,510,388,537,362,578,310"/>
+<area shape="rect" id="Node000015" href="$unit__cliente_8cpp.html#a5622bb08a67da9d60a6f7258ac8184ca" title="Testa a função updateTelefone da classe Controller_Cliente." alt="" coords="296,475,479,501"/>
+<area shape="poly" id="edge19_Node000002_Node000015" title=" " alt="" coords="591,314,574,350,551,391,521,431,484,465,463,476,460,472,481,461,517,427,546,388,569,347,586,312"/>
+<area shape="rect" id="Node000004" href="$functional__tests_8cpp.html#ac66c0c95899deebf8facb8a3b93eb06e" title=" " alt="" coords="117,47,230,73"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="307,42,231,54,230,49,306,37"/>
+<area shape="rect" id="Node000005" href="$test_2functional_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,47,55,73"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="102,63,55,63,55,57,102,57"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="306,83,230,71,231,66,307,78"/>
+<area shape="rect" id="Node000009" href="$unit__cliente_8cpp.html#a4d134b7f0141f14318ba68008080356e" title="Executa todos os testes unitários para a classe Cliente." alt="" coords="103,348,244,375"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="301,242,293,246,260,271,230,299,187,349,183,346,226,296,257,267,291,242,299,237"/>
+<area shape="rect" id="Node000010" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,348,55,375"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="87,364,55,364,55,359,87,359"/>
+<area shape="poly" id="edge12_Node000011_Node000009" title=" " alt="" coords="309,307,293,313,206,350,204,345,291,308,308,302"/>
+<area shape="poly" id="edge14_Node000012_Node000009" title=" " alt="" coords="277,352,245,356,244,350,276,346"/>
+<area shape="poly" id="edge16_Node000013_Node000009" title=" " alt="" coords="287,378,244,372,245,367,288,372"/>
+<area shape="poly" id="edge18_Node000014_Node000009" title=" " alt="" coords="314,422,291,415,203,378,205,373,293,409,315,417"/>
+<area shape="poly" id="edge20_Node000015_Node000009" title=" " alt="" coords="304,471,291,465,258,444,228,420,185,377,188,373,232,416,261,440,293,460,306,466"/>
+</map>

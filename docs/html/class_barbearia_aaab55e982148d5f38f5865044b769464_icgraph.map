@@ -1,9 +1,14 @@
 <map id="Barbearia::setNome" name="Barbearia::setNome">
-<area shape="rect" id="Node000001" title=" " alt="" coords="520,5,657,32"/>
-<area shape="rect" id="Node000002" href="$unit__barbearia_8cpp.html#a80f2d8f268e85f2b498328f58779f5e0" title=" " alt="" coords="307,5,472,32"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="505,21,473,21,473,16,505,16"/>
-<area shape="rect" id="Node000003" href="$unit__barbearia_8cpp.html#a2f665a11fa69c3619177d977abc52226" title=" " alt="" coords="103,5,259,32"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="292,21,259,21,259,16,292,16"/>
-<area shape="rect" id="Node000004" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="732,43,868,69"/>
+<area shape="rect" id="Node000002" href="$class_controller___barbearia.html#aff97a2d26e67f752ec26c04856f0ddf5" title="Atualiza o nome da barbearia." alt="" coords="545,5,684,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="716,45,684,40,685,35,717,40"/>
+<area shape="rect" id="Node000006" href="$unit__barbearia_8cpp.html#a80f2d8f268e85f2b498328f58779f5e0" title=" " alt="" coords="320,68,485,95"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="716,64,486,79,485,73,716,59"/>
+<area shape="rect" id="Node000003" href="$unit__barbearia_8cpp.html#a2826900c009489d981441e0f5f67278f" title=" " alt="" coords="307,16,497,43"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="530,30,498,31,498,25,530,25"/>
+<area shape="rect" id="Node000004" href="$unit__barbearia_8cpp.html#a2f665a11fa69c3619177d977abc52226" title=" " alt="" coords="103,43,259,69"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="292,45,260,49,259,44,291,40"/>
+<area shape="rect" id="Node000005" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,43,55,69"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,59,55,59,55,53,87,53"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="304,73,259,68,260,62,305,68"/>
 </map>

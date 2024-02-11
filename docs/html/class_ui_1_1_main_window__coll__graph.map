@@ -1,7 +1,5 @@
 <map id="Ui::MainWindow" name="Ui::MainWindow">
-<area shape="rect" id="Node000001" title=" " alt="" coords="51,368,158,437"/>
-<area shape="rect" id="Node000002" href="$class_ui___main_window.html" title=" " alt="" coords="5,5,204,320"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,334,94,368,89,369,86,335"/>
-<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="107,335,107,368,102,368,102,335"/>
-<area shape="poly" id="edge3_Node000001_Node000002" title=" " alt="" coords="124,335,120,369,115,368,118,334"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="51,219,158,288"/>
+<area shape="rect" id="Node000002" href="$class_ui___main_window.html" title=" " alt="" coords="5,5,204,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,186,107,219,102,219,102,186"/>
 </map>

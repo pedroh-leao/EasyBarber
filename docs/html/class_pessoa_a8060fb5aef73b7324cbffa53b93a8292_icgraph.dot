@@ -7,9 +7,23 @@ digraph "Pessoa::setTelefone"
   rankdir="RL";
   Node1 [id="Node000001",label="Pessoa::setTelefone",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
   Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node2 [id="Node000002",label="unit_Pessoa_get_set\l_telefone",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__pessoa_8cpp.html#af3f7eb4f50949662723fb62dd848a8be",tooltip=" "];
+  Node2 [id="Node000002",label="unit_Pessoa_get_set\l_telefone",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__pessoa_8cpp.html#af3f7eb4f50949662723fb62dd848a8be",tooltip="Testa a função de set e get do telefone para a classe Pessoa."];
   Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node3 [id="Node000003",label="run_unit_test_pessoa",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__pessoa_8cpp.html#ae4dc202702283199027582f3fad00b0e",tooltip=" "];
+  Node3 [id="Node000003",label="run_unit_test_pessoa",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__pessoa_8cpp.html#ae4dc202702283199027582f3fad00b0e",tooltip="Executa todos os testes unitários para a classe Pessoa."];
   Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node4 [id="Node000004",label="main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Controller_Barbeiro\l::updateTelefone",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_controller___barbeiro.html#a6f66105cf4d41b4482edacd0cf7ecf48",tooltip="Atualiza o telefone do barbeiro."];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="unit_Barbeiro_updateTelefone",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__barbeiro_8cpp.html#a6b21bb21da812d469b51d28ff461dd10",tooltip=" "];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="run_unit_test_barbeiro",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__barbeiro_8cpp.html#a42eb2fdea3998103d34609226f46301e",tooltip=" "];
+  Node7 -> Node4 [id="edge7_Node000007_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge8_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="Controller_Cliente\l::updateTelefone",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_controller___cliente.html#a102b74eda4183e3813683d517e206ab3",tooltip="Atualiza o telefone do cliente."];
+  Node8 -> Node9 [id="edge9_Node000008_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="unit_Cliente_updateTelefone",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__cliente_8cpp.html#a5622bb08a67da9d60a6f7258ac8184ca",tooltip="Testa a função updateTelefone da classe Controller_Cliente."];
+  Node9 -> Node10 [id="edge10_Node000009_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="run_unit_test_cliente",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__cliente_8cpp.html#a4d134b7f0141f14318ba68008080356e",tooltip="Executa todos os testes unitários para a classe Cliente."];
+  Node10 -> Node4 [id="edge11_Node000010_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
 }

@@ -1,0 +1,9 @@
+<map id="Controller_Barbeiro::updatePreco" name="Controller_Barbeiro::updatePreco">
+<area shape="rect" id="Node000001" title="Atualiza o preço do serviço do barbeiro." alt="" coords="5,23,137,65"/>
+<area shape="rect" id="Node000002" href="$class_barbeiro.html#a2eaadbcff980ac42e20672b5cafa014d" title="Setter para o atributo preco." alt="" coords="213,5,342,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,33,197,26,198,31,137,39"/>
+<area shape="rect" id="Node000003" href="$class_d_a_o___barbeiro.html#aa50fab0395455ccaa4152db78c76dc39" title="Atualiza o preço do serviço do barbeiro." alt="" coords="185,56,370,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="137,49,169,53,169,59,136,55"/>
+<area shape="rect" id="Node000004" href="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500" title=" " alt="" coords="418,56,542,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="371,67,403,67,403,72,371,72"/>
+</map>

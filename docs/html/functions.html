@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">EasyBarber<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">EasyBarber<span id="projectnumber">&#160;0.2</span>
    </div>
    <div id="projectbrief">Projeto para agendamento em barbearia</div>
   </td>
@@ -95,6 +95,12 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <h3><a id="index_a" name="index_a"></a>- a -</h3><ul>
 <li>abrirTelaEscolhaData()&#160;:&#160;<a class="el" href="class_tela_escolha_barbeiro.html#a855de2dbea4f22a30bc9143592ac278a">TelaEscolhaBarbeiro</a></li>
 <li>add()&#160;:&#160;<a class="el" href="class_barbearia.html#ac91091fe07d6c4ce27c7dc42eb7c08b4">Barbearia</a>, <a class="el" href="class_pessoa.html#a69d7d032ce6b9ea847f5ced8a9abefc3">Pessoa</a></li>
+<li>atualizarCampoString()&#160;:&#160;<a class="el" href="class_d_a_o___barbearia.html#a851394412991dc83ac1a49d4a445604b">DAO_Barbearia</a></li>
+<li>atualizarEndereco()&#160;:&#160;<a class="el" href="class_controller___barbearia.html#ab9c191c2703f44cd55623507c06f08ad">Controller_Barbearia</a></li>
+<li>atualizarFimDeFuncionamento()&#160;:&#160;<a class="el" href="class_controller___barbearia.html#ae505ff23a7eefd4f92583817beba1e32">Controller_Barbearia</a></li>
+<li>atualizarInicioDeFuncionamento()&#160;:&#160;<a class="el" href="class_controller___barbearia.html#a796ad771471b74fc17338108a898d94e">Controller_Barbearia</a></li>
+<li>atualizarNome()&#160;:&#160;<a class="el" href="class_controller___barbearia.html#aff97a2d26e67f752ec26c04856f0ddf5">Controller_Barbearia</a></li>
+<li>atualizarTelefone()&#160;:&#160;<a class="el" href="class_controller___barbearia.html#a91f249191328c97b51e7c75cf786eec3">Controller_Barbearia</a></li>
 <li>avancarAgendarHorario()&#160;:&#160;<a class="el" href="class_tela_escolha_data.html#ac3752a15fee1541d055237a0dc3f04c1">TelaEscolhaData</a></li>
 </ul>
 
@@ -107,14 +113,34 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <li>barbeirosBegin()&#160;:&#160;<a class="el" href="class_barbearia.html#a09b6abc054a76d7db8f1558ebf914885">Barbearia</a></li>
 <li>barbeirosEnd()&#160;:&#160;<a class="el" href="class_barbearia.html#abbcb6bd01615521f2cb86424c1247399">Barbearia</a></li>
 <li>barbeirosIterator&#160;:&#160;<a class="el" href="class_barbearia.html#a0b2d42e5fe01656e32ec015d31df405e">Barbearia</a></li>
+<li>buscaBarbeariaPeloEmail()&#160;:&#160;<a class="el" href="class_d_a_o___barbearia.html#a6ac094d11f5e60923974fe4b4761a3ad">DAO_Barbearia</a></li>
+<li>buscaBarbeirosAssociados()&#160;:&#160;<a class="el" href="class_controller___barbearia.html#ac3dddaa12b66e142b3cb0bcf0f8b97d5">Controller_Barbearia</a>, <a class="el" href="class_d_a_o___barbearia.html#abe1704f6784a4f1a6872bf6f645ed7b0">DAO_Barbearia</a></li>
+<li>buscaHorariosAgendados()&#160;:&#160;<a class="el" href="class_d_a_o___barbeiro.html#a95920097790e693f7321c7dddd759b52">DAO_Barbeiro</a>, <a class="el" href="class_d_a_o___cliente.html#a8385614920c4b4aee3a5ab2bb963eff5">DAO_Cliente</a>, <a class="el" href="class_d_a_o___pessoa.html#acc6e07363832c3a5eb265d155325ebf2">DAO_Pessoa</a></li>
+<li>buscarBarbeariaPeloEmail()&#160;:&#160;<a class="el" href="class_controller___barbearia.html#aa4391f27313c42f55b37af15d640ee97">Controller_Barbearia</a></li>
+<li>buscarHorariosAgendados()&#160;:&#160;<a class="el" href="class_controller___barbearia.html#a8aa9f18fcb46c15e3cfb65e42bcb27c5">Controller_Barbearia</a>, <a class="el" href="class_controller___barbeiro.html#addd3bdc36b5cb12645348edf752ef45a">Controller_Barbeiro</a>, <a class="el" href="class_controller___cliente.html#a2772ed4f7f2b21791238163b16aa80f0">Controller_Cliente</a>, <a class="el" href="class_d_a_o___barbearia.html#a84523769ecd5f50f0ffeda3044129d9a">DAO_Barbearia</a></li>
 </ul>
 
 
 <h3><a id="index_c" name="index_c"></a>- c -</h3><ul>
 <li>campoData&#160;:&#160;<a class="el" href="class_ui__tela_escolha_data.html#aa9d756c725fced38c28d2a6f8b14bfa2">Ui_telaEscolhaData</a></li>
-<li>centralwidget&#160;:&#160;<a class="el" href="class_ui___main_window.html#a39420100bfee3ba57f137af5a3b0f8e9">Ui_MainWindow</a></li>
+<li>centralwidget&#160;:&#160;<a class="el" href="class_ui___main_window.html#a356f1cf3ebda15f1fac59467ee081b74">Ui_MainWindow</a></li>
+<li>cleanupTestCase()&#160;:&#160;<a class="el" href="class_teste_database.html#abfe9c79616515056a5b83ead48b6232f">TesteDatabase</a></li>
 <li>Cliente()&#160;:&#160;<a class="el" href="class_cliente.html#abfb488ed4115bcf0a682a7fdd099c5a6">Cliente</a></li>
 <li>cliente&#160;:&#160;<a class="el" href="class_tela_agendamento.html#a3f2c7c16a11e17dfd86ec525101a19c3">TelaAgendamento</a>, <a class="el" href="class_tela_escolha_barbeiro.html#aa13789e124a1667aaee10e0d2968cb81">TelaEscolhaBarbeiro</a>, <a class="el" href="class_tela_escolha_data.html#af4cb31eadbcc07113e639140470e4f4c">TelaEscolhaData</a></li>
+<li>Controller_Barbearia()&#160;:&#160;<a class="el" href="class_controller___barbearia.html#ac72347bbc0b0f4a8dd68e2383363c3de">Controller_Barbearia</a></li>
+<li>Controller_Barbeiro()&#160;:&#160;<a class="el" href="class_controller___barbeiro.html#a166080a4e3af1ab43f1a5897e1619172">Controller_Barbeiro</a></li>
+<li>Controller_Cliente()&#160;:&#160;<a class="el" href="class_controller___cliente.html#a259f371a8ca215d738a9122f038d0ec6">Controller_Cliente</a></li>
+</ul>
+
+
+<h3><a id="index_d" name="index_d"></a>- d -</h3><ul>
+<li>dao_barbearia&#160;:&#160;<a class="el" href="class_controller___barbearia.html#a8d7aba54eae76b458e93a75e652264e6">Controller_Barbearia</a></li>
+<li>DAO_Barbearia()&#160;:&#160;<a class="el" href="class_d_a_o___barbearia.html#a0d2033cd6746d4500b86a607ae5b49bb">DAO_Barbearia</a></li>
+<li>dao_barbeiro&#160;:&#160;<a class="el" href="class_controller___barbeiro.html#ab7f086f3f57cdb8927ae36dc5e096143">Controller_Barbeiro</a></li>
+<li>DAO_Barbeiro()&#160;:&#160;<a class="el" href="class_d_a_o___barbeiro.html#a3d71e1407addfb025a7602755102354a">DAO_Barbeiro</a></li>
+<li>dao_cliente&#160;:&#160;<a class="el" href="class_controller___cliente.html#a102f53777a76c197ba45e60d7149313b">Controller_Cliente</a></li>
+<li>DAO_Cliente()&#160;:&#160;<a class="el" href="class_d_a_o___cliente.html#af151e834f717825eecbae3d289346c4a">DAO_Cliente</a></li>
+<li>DAO_Pessoa()&#160;:&#160;<a class="el" href="class_d_a_o___pessoa.html#a7f449acf9dd5ba6260170968bbbdc502">DAO_Pessoa</a></li>
 </ul>
 
 
@@ -126,6 +152,8 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 
 
 <h3><a id="index_g" name="index_g"></a>- g -</h3><ul>
+<li>getBarbeiroPeloEmail()&#160;:&#160;<a class="el" href="class_controller___barbeiro.html#a55c2b96af8d7616dd2bb74ae4a74e5e7">Controller_Barbeiro</a>, <a class="el" href="class_d_a_o___barbeiro.html#a318f92fa56fe3b07dd594efa27b85a62">DAO_Barbeiro</a></li>
+<li>getClientePeloEmail()&#160;:&#160;<a class="el" href="class_controller___cliente.html#a430b1b15e43e946fa30a01ccb214f011">Controller_Cliente</a>, <a class="el" href="class_d_a_o___cliente.html#a84c8757d33e52dbb6a8c7393770a011a">DAO_Cliente</a></li>
 <li>getData()&#160;:&#160;<a class="el" href="class_horario.html#aadb59554ffae0bfd66e75f1c1d607f7c">Horario</a></li>
 <li>getEmail()&#160;:&#160;<a class="el" href="class_barbearia.html#a738c06dff340fdf090f39b2d8752f768">Barbearia</a>, <a class="el" href="class_pessoa.html#a0fe937f9358dd92f73441c3288e46500">Pessoa</a></li>
 <li>getEndereco()&#160;:&#160;<a class="el" href="class_barbearia.html#a96c939bf6421a9fc4c6e8705d50dd0f3">Barbearia</a>, <a class="el" href="class_pessoa.html#aa967da81cd69e69f981e43c44b86c7ba">Pessoa</a></li>
@@ -142,6 +170,7 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <h3><a id="index_h" name="index_h"></a>- h -</h3><ul>
 <li>habilitaRealizaAgendBtn()&#160;:&#160;<a class="el" href="class_tela_agendamento.html#ac6bd4291028e887a5d6e2c25d8778abf">TelaAgendamento</a></li>
 <li>Horario()&#160;:&#160;<a class="el" href="class_horario.html#a8e8f152fdab3441228cf51abb1ddfc16">Horario</a></li>
+<li>horarioEstaLivre()&#160;:&#160;<a class="el" href="class_barbearia.html#a05da273e2e266b0c653b6ddd69678a70">Barbearia</a></li>
 <li>horariosAgendados&#160;:&#160;<a class="el" href="class_pessoa.html#a7d466183754e083e7d1f07ab16cb1a51">Pessoa</a></li>
 <li>horariosAgendadosBegin()&#160;:&#160;<a class="el" href="class_pessoa.html#a2b15f3b2ffa585f0d8afae2ea20b7d42">Pessoa</a></li>
 <li>horariosAgendadosEnd()&#160;:&#160;<a class="el" href="class_pessoa.html#a2a476cb77e351421f997f6f6c3952b56">Pessoa</a></li>
@@ -150,8 +179,13 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 </ul>
 
 
+<h3><a id="index_i" name="index_i"></a>- i -</h3><ul>
+<li>initTestCase()&#160;:&#160;<a class="el" href="class_teste_database.html#a79237792f0520912daee353b2c9ab39b">TesteDatabase</a></li>
+</ul>
+
+
 <h3><a id="index_m" name="index_m"></a>- m -</h3><ul>
-<li>menubar&#160;:&#160;<a class="el" href="class_ui___main_window.html#a734b1d3bb71c1b8e1ea01b7fa4344fce">Ui_MainWindow</a></li>
+<li>menubar&#160;:&#160;<a class="el" href="class_ui___main_window.html#adf43d9a67adaec750aaa956b5e082f09">Ui_MainWindow</a></li>
 </ul>
 
 
@@ -161,20 +195,28 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 
 
 <h3><a id="index_o" name="index_o"></a>- o -</h3><ul>
-<li>offsetsAndSizes&#160;:&#160;<a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa48c4f7148681482a19d10736c6999b5.html#a9cc77c34247a3b65019de70fdd09a6b3">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSMainWindowENDCLASS_t</a>, <a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_a690787f75ac13f0c8574ab631516f7e4.html#aba7c6c5c7746b7c579b7f37b761da593">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaAgendamentoENDCLASS_t</a>, <a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa9a63fc5cffc72a734fe9e797ffd3e00.html#ab71f917101f82ab73053fc36e77cb06d">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS_t</a>, <a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_a18caa3d971577f818f85ca053ff8e9e0.html#ad2696ed3c6503512e0e5fdc28b024351">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaEscolhaDataENDCLASS_t</a>, <a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_a_s_s_widget_e_n_d_c_l_a_s_s__t.html#a54556c9abf8e90638678e4bc7db30c52">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSWidgetENDCLASS_t</a></li>
+<li>offsetsAndSizes&#160;:&#160;<a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_a690787f75ac13f0c8574ab631516f7e4.html#aba7c6c5c7746b7c579b7f37b761da593">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaAgendamentoENDCLASS_t</a>, <a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa9a63fc5cffc72a734fe9e797ffd3e00.html#ab71f917101f82ab73053fc36e77cb06d">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS_t</a>, <a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_a18caa3d971577f818f85ca053ff8e9e0.html#ad2696ed3c6503512e0e5fdc28b024351">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaEscolhaDataENDCLASS_t</a></li>
 <li>okBotao&#160;:&#160;<a class="el" href="class_ui__tela_escolha_data.html#a630bd29af9881e96759b85d2753745d9">Ui_telaEscolhaData</a></li>
 </ul>
 
 
 <h3><a id="index_p" name="index_p"></a>- p -</h3><ul>
 <li>Pessoa()&#160;:&#160;<a class="el" href="class_pessoa.html#ad587b04e6b8dedee0c3b19c0f5fde4ec">Pessoa</a></li>
+<li>popularBancoDeDados()&#160;:&#160;<a class="el" href="class_teste_database.html#a6885c53c091b4eca3ef66092f89f9f8e">TesteDatabase</a></li>
+</ul>
+
+
+<h3><a id="index_q" name="index_q"></a>- q -</h3><ul>
+<li>query&#160;:&#160;<a class="el" href="class_pessoa.html#acf6efa337f2a27ac877c941cb8af5149">Pessoa</a></li>
 </ul>
 
 
 <h3><a id="index_r" name="index_r"></a>- r -</h3><ul>
 <li>realizaAgendamento()&#160;:&#160;<a class="el" href="class_tela_agendamento.html#a7edebe48414f379482dc2752c080b801">TelaAgendamento</a></li>
-<li>realizarAgendamento()&#160;:&#160;<a class="el" href="class_barbearia.html#ab858b840cab5d3f22e0a5328a88d3dbd">Barbearia</a></li>
+<li>realizarAgendamento()&#160;:&#160;<a class="el" href="class_barbearia.html#ab858b840cab5d3f22e0a5328a88d3dbd">Barbearia</a>, <a class="el" href="class_controller___barbearia.html#a3565f4de6f990ef61b1d4b843187225b">Controller_Barbearia</a>, <a class="el" href="class_d_a_o___barbearia.html#a626bc69f87b9c5e87a5f6e97237b5b35">DAO_Barbearia</a></li>
 <li>remove()&#160;:&#160;<a class="el" href="class_barbearia.html#aae6c6667d3687766358e6504d2180378">Barbearia</a>, <a class="el" href="class_pessoa.html#a2b49ee65a77e757aad181e7a6d55adfd">Pessoa</a></li>
+<li>removeHorario()&#160;:&#160;<a class="el" href="class_controller___barbeiro.html#a64138a03e34ee3773a613584ae432473">Controller_Barbeiro</a>, <a class="el" href="class_controller___cliente.html#a71bc155d2b312fa2b4940c0c419a1e47">Controller_Cliente</a>, <a class="el" href="class_d_a_o___barbeiro.html#aa002ae28c04c894f148797081d071860">DAO_Barbeiro</a>, <a class="el" href="class_d_a_o___cliente.html#a44851f6be991bf30a26de4ffbbd8564e">DAO_Cliente</a>, <a class="el" href="class_d_a_o___pessoa.html#ae29c7cad6464ebd7a63ae74efc9177ac">DAO_Pessoa</a></li>
+<li>removerBarbeiro()&#160;:&#160;<a class="el" href="class_controller___barbearia.html#ab6b23a5e89d88ff262214f81da61b56b">Controller_Barbearia</a>, <a class="el" href="class_d_a_o___barbearia.html#a8397689d5d5154873257386af4ebbe7e">DAO_Barbearia</a></li>
 <li>retranslateUi()&#160;:&#160;<a class="el" href="class_ui___main_window.html#a097dd160c3534a204904cb374412c618">Ui_MainWindow</a>, <a class="el" href="class_ui__tela_escolha_data.html#a69398dbf9b7134ba50668dfbed2467ec">Ui_telaEscolhaData</a></li>
 </ul>
 
@@ -192,8 +234,8 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <li>setSenha()&#160;:&#160;<a class="el" href="class_pessoa.html#a891ce76d919b1d2a28ce1f4d20a087be">Pessoa</a></li>
 <li>setTelefone()&#160;:&#160;<a class="el" href="class_barbearia.html#a6ad970173838e98e2dfdb658ea64f632">Barbearia</a>, <a class="el" href="class_pessoa.html#a8060fb5aef73b7324cbffa53b93a8292">Pessoa</a></li>
 <li>setupUi()&#160;:&#160;<a class="el" href="class_ui___main_window.html#acf4a0872c4c77d8f43a2ec66ed849b58">Ui_MainWindow</a>, <a class="el" href="class_ui__tela_escolha_data.html#a23c46c40c7d2c2d8d7d6766da47a1881">Ui_telaEscolhaData</a></li>
-<li>statusbar&#160;:&#160;<a class="el" href="class_ui___main_window.html#a07519bbb9a350befd6feb4e84ef299fd">Ui_MainWindow</a></li>
-<li>stringdata0&#160;:&#160;<a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa48c4f7148681482a19d10736c6999b5.html#a6c74195db9cf11c464f000ad3bd372f1">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSMainWindowENDCLASS_t</a>, <a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_a690787f75ac13f0c8574ab631516f7e4.html#ad2f36f3812fb338220ea9eb633d0d986">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaAgendamentoENDCLASS_t</a>, <a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa9a63fc5cffc72a734fe9e797ffd3e00.html#a02ef3199223e7e0341f4861a66bf9d98">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS_t</a>, <a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_a18caa3d971577f818f85ca053ff8e9e0.html#a9e078e84ef9287e289c9534780649a2e">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaEscolhaDataENDCLASS_t</a>, <a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_a_s_s_widget_e_n_d_c_l_a_s_s__t.html#a9c31c6e870a21aa5b98185af993e6874">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSWidgetENDCLASS_t</a></li>
+<li>statusbar&#160;:&#160;<a class="el" href="class_ui___main_window.html#a1687cceb1e2787aa1f83e50433943a91">Ui_MainWindow</a></li>
+<li>stringdata0&#160;:&#160;<a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_a690787f75ac13f0c8574ab631516f7e4.html#ad2f36f3812fb338220ea9eb633d0d986">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaAgendamentoENDCLASS_t</a>, <a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa9a63fc5cffc72a734fe9e797ffd3e00.html#a02ef3199223e7e0341f4861a66bf9d98">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS_t</a>, <a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_a18caa3d971577f818f85ca053ff8e9e0.html#a9e078e84ef9287e289c9534780649a2e">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaEscolhaDataENDCLASS_t</a></li>
 <li>stringdata1&#160;:&#160;<a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_a690787f75ac13f0c8574ab631516f7e4.html#ada3cbaab79f4e43c06e6e159f79f64e5">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaAgendamentoENDCLASS_t</a>, <a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa9a63fc5cffc72a734fe9e797ffd3e00.html#a31e38e00adadb38855c5cfa9e1364ea0">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS_t</a>, <a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_a18caa3d971577f818f85ca053ff8e9e0.html#a50bc9b867c3ed11a580965528d6a4e3a">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaEscolhaDataENDCLASS_t</a></li>
 <li>stringdata10&#160;:&#160;<a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_a690787f75ac13f0c8574ab631516f7e4.html#abaf85173ba2ba56e62e30fbdd3433cde">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaAgendamentoENDCLASS_t</a></li>
 <li>stringdata11&#160;:&#160;<a class="el" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_a690787f75ac13f0c8574ab631516f7e4.html#a36f80ebac47ce75929160c647fc7b53c">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaAgendamentoENDCLASS_t</a></li>
@@ -213,7 +255,17 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <li>TelaEscolhaBarbeiro()&#160;:&#160;<a class="el" href="class_tela_escolha_barbeiro.html#a1645a378389d2863b5610b3aeedbbc11">TelaEscolhaBarbeiro</a></li>
 <li>TelaEscolhaData()&#160;:&#160;<a class="el" href="class_tela_escolha_data.html#a4e9c6cc1680815ec2f83e844bf62ffd7">TelaEscolhaData</a></li>
 <li>telefone&#160;:&#160;<a class="el" href="class_pessoa.html#a9bf168eeb62bd37b8815d8ab920ceed5">Pessoa</a></li>
+<li>TesteDatabase()&#160;:&#160;<a class="el" href="class_teste_database.html#af164340a51ff0a82c26db65dc2543658">TesteDatabase</a></li>
 <li>textobarbearia&#160;:&#160;<a class="el" href="class_ui__tela_escolha_data.html#a701ff874b5dd5148368f7ffea232f7e7">Ui_telaEscolhaData</a></li>
+</ul>
+
+
+<h3><a id="index_u" name="index_u"></a>- u -</h3><ul>
+<li>updateEndereco()&#160;:&#160;<a class="el" href="class_controller___barbeiro.html#a0f4b4105194021fc585fb94d4095ad62">Controller_Barbeiro</a>, <a class="el" href="class_controller___cliente.html#acc32d5b1dd8f244141b9f4ff8a9ebd41">Controller_Cliente</a>, <a class="el" href="class_d_a_o___barbeiro.html#a0c00d397cd046e39b8136644d88d4987">DAO_Barbeiro</a>, <a class="el" href="class_d_a_o___cliente.html#a941ed756a1b1ec8a0779245b3a2b3463">DAO_Cliente</a></li>
+<li>updateNome()&#160;:&#160;<a class="el" href="class_controller___barbeiro.html#a27af1b715842c9de8bfedf6e9b047182">Controller_Barbeiro</a>, <a class="el" href="class_controller___cliente.html#add5d6522b32806b44d07a18d94c831d7">Controller_Cliente</a>, <a class="el" href="class_d_a_o___barbeiro.html#ad6ff782042df64df76de329aac78d5ca">DAO_Barbeiro</a>, <a class="el" href="class_d_a_o___cliente.html#ac254f6fd1d20c3128a4d3ccee79fa806">DAO_Cliente</a></li>
+<li>updatePreco()&#160;:&#160;<a class="el" href="class_controller___barbeiro.html#a1b895863493fd9d7728a2a605163fc6a">Controller_Barbeiro</a>, <a class="el" href="class_d_a_o___barbeiro.html#aa50fab0395455ccaa4152db78c76dc39">DAO_Barbeiro</a></li>
+<li>updateSenha()&#160;:&#160;<a class="el" href="class_controller___barbeiro.html#aa556fb2b24568b6fc95acab6b2fc6cdd">Controller_Barbeiro</a>, <a class="el" href="class_controller___cliente.html#a01ff2c5fd57ff0b853914843f1f11e81">Controller_Cliente</a>, <a class="el" href="class_d_a_o___barbeiro.html#a766f60315fbac9645e7f29563e3ffa92">DAO_Barbeiro</a>, <a class="el" href="class_d_a_o___cliente.html#acc508dee7091d06e615d089def157052">DAO_Cliente</a></li>
+<li>updateTelefone()&#160;:&#160;<a class="el" href="class_controller___barbeiro.html#a6f66105cf4d41b4482edacd0cf7ecf48">Controller_Barbeiro</a>, <a class="el" href="class_controller___cliente.html#a102b74eda4183e3813683d517e206ab3">Controller_Cliente</a>, <a class="el" href="class_d_a_o___barbeiro.html#a29841ceef2d29a8fde845d1bdf68e4b0">DAO_Barbeiro</a>, <a class="el" href="class_d_a_o___cliente.html#aee181b4d3a1a25a8d4b0b6f17b810b67">DAO_Cliente</a></li>
 </ul>
 
 
@@ -226,6 +278,7 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <h3><a id="index__7E" name="index__7E"></a>- ~ -</h3><ul>
 <li>~Barbeiro()&#160;:&#160;<a class="el" href="class_barbeiro.html#ab94dc9ab13d3667250c8fd43c9af83a2">Barbeiro</a></li>
 <li>~Cliente()&#160;:&#160;<a class="el" href="class_cliente.html#a29d1d53394350c66363109e33c990b58">Cliente</a></li>
+<li>~DAO_Barbearia()&#160;:&#160;<a class="el" href="class_d_a_o___barbearia.html#a4579e109d49f134561af996911d518ed">DAO_Barbearia</a></li>
 <li>~Horario()&#160;:&#160;<a class="el" href="class_horario.html#a5e28b41481668ea7a2a23ecb0c6bd021">Horario</a></li>
 <li>~Pessoa()&#160;:&#160;<a class="el" href="class_pessoa.html#a1501b01d184497075fe5ce042da3ae44">Pessoa</a></li>
 <li>~TelaAgendamento()&#160;:&#160;<a class="el" href="class_tela_agendamento.html#adfde7eab5cc2efe4f4cd61b6a712cc3e">TelaAgendamento</a></li>

@@ -1,27 +1,42 @@
 <map id="Horario::getData" name="Horario::getData">
-<area shape="rect" id="Node000001" title="Getter para o atributo data." alt="" coords="934,149,1049,176"/>
-<area shape="rect" id="Node000002" href="$class_pessoa.html#aa9e1353cb831dd106b37429f3e446679" title="Verifica se um horário já está na lista de horários agendados." alt="" coords="737,87,886,113"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="936,146,851,116,853,111,938,141"/>
-<area shape="rect" id="Node000009" href="$unit__horario_8cpp.html#a6583440537c4516278b926b84b62bae6" title=" " alt="" coords="739,149,884,176"/>
-<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="919,165,884,165,884,160,919,160"/>
-<area shape="rect" id="Node000012" href="$unit__horario_8cpp.html#aa33abea559a73d6593c36aa8f04dabf5" title=" " alt="" coords="739,200,884,227"/>
-<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="928,183,862,202,861,197,926,178"/>
-<area shape="rect" id="Node000003" href="$class_barbearia.html#ab858b840cab5d3f22e0a5328a88d3dbd" title=" " alt="" coords="482,84,689,111"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="721,102,689,101,689,96,721,96"/>
-<area shape="rect" id="Node000004" href="$functional__tests_8cpp.html#a988006b3495a457ea2c825651b91be60" title=" " alt="" coords="284,5,413,48"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="523,82,413,49,415,43,524,76"/>
-<area shape="rect" id="Node000007" href="$functional__tests_8cpp.html#a1eea1f92c722dc2df4cf7386d0ca945a" title=" " alt="" coords="284,72,413,115"/>
-<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="466,98,414,97,414,92,467,93"/>
-<area shape="rect" id="Node000008" href="$class_tela_agendamento.html#a7edebe48414f379482dc2752c080b801" title="Realiza o agendamento do atendimento na barbearia." alt="" coords="263,139,434,181"/>
-<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="518,118,433,141,431,135,517,113"/>
-<area shape="rect" id="Node000005" href="$functional__tests_8cpp.html#ac66c0c95899deebf8facb8a3b93eb06e" title=" " alt="" coords="103,47,215,73"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="269,43,216,53,215,47,268,38"/>
-<area shape="rect" id="Node000006" href="$test_2functional_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,47,55,73"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="87,63,55,63,55,57,87,57"/>
-<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="268,82,215,73,216,67,269,77"/>
-<area shape="rect" id="Node000010" href="$unit__horario_8cpp.html#aeb537e7baefa90f8f98ebc2a36d81e32" title=" " alt="" coords="514,200,657,227"/>
-<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="734,183,649,202,648,197,733,177"/>
-<area shape="rect" id="Node000011" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="324,205,373,232"/>
-<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="499,218,374,221,374,215,499,213"/>
-<area shape="poly" id="edge13_Node000012_Node000010" title=" " alt="" coords="724,216,657,216,657,211,724,211"/>
+<area shape="rect" id="Node000001" title="Getter para o atributo data." alt="" coords="1209,172,1325,199"/>
+<area shape="rect" id="Node000002" href="$class_pessoa.html#aa9e1353cb831dd106b37429f3e446679" title="Verifica se um horário já está na lista de horários agendados." alt="" coords="992,71,1141,97"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1234,165,1200,141,1160,118,1115,100,1117,95,1162,114,1202,136,1237,160"/>
+<area shape="rect" id="Node000010" href="$class_d_a_o___barbearia.html#a626bc69f87b9c5e87a5f6e97237b5b35" title="Realiza o agendamento de um horário na barbearia." alt="" coords="682,121,923,148"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="1200,170,1161,163,1039,148,923,141,924,135,1039,143,1162,157,1201,165"/>
+<area shape="rect" id="Node000011" href="$class_d_a_o___pessoa.html#ae29c7cad6464ebd7a63ae74efc9177ac" title="Remove um horário agendado para uma pessoa." alt="" coords="971,172,1161,199"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="1194,188,1162,188,1162,183,1194,183"/>
+<area shape="rect" id="Node000016" href="$unit__horario_8cpp.html#a6583440537c4516278b926b84b62bae6" title="Testa a função de obtenção da data para a classe Horario." alt="" coords="994,223,1139,249"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="1197,206,1123,225,1121,219,1196,201"/>
+<area shape="rect" id="Node000019" href="$unit__horario_8cpp.html#aa33abea559a73d6593c36aa8f04dabf5" title="Testa a função de configuração da data para a classe Horario." alt="" coords="994,273,1138,300"/>
+<area shape="poly" id="edge20_Node000001_Node000019" title=" " alt="" coords="1241,211,1205,238,1162,264,1133,275,1131,270,1160,259,1202,234,1238,207"/>
+<area shape="rect" id="Node000003" href="$class_barbearia.html#a05da273e2e266b0c653b6ddd69678a70" title="Verifica se o horário desejado está disponível." alt="" coords="714,71,891,97"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="976,87,891,87,891,81,976,81"/>
+<area shape="rect" id="Node000004" href="$class_controller___barbearia.html#a3565f4de6f990ef61b1d4b843187225b" title="Realiza o agendamento de um horário na barbearia." alt="" coords="482,72,634,115"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="699,91,634,93,634,88,699,85"/>
+<area shape="rect" id="Node000005" href="$functional__tests_8cpp.html#a988006b3495a457ea2c825651b91be60" title=" " alt="" coords="284,5,413,48"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="474,69,413,50,415,45,475,64"/>
+<area shape="rect" id="Node000008" href="$functional__tests_8cpp.html#a1eea1f92c722dc2df4cf7386d0ca945a" title=" " alt="" coords="284,72,413,115"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="467,96,414,96,414,91,467,91"/>
+<area shape="rect" id="Node000009" href="$class_tela_agendamento.html#a7edebe48414f379482dc2752c080b801" title="Realiza o agendamento do atendimento na barbearia." alt="" coords="263,139,434,181"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="476,122,419,141,417,135,474,117"/>
+<area shape="rect" id="Node000006" href="$functional__tests_8cpp.html#ac66c0c95899deebf8facb8a3b93eb06e" title=" " alt="" coords="103,47,215,73"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="269,43,216,53,215,47,268,38"/>
+<area shape="rect" id="Node000007" href="$test_2functional_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,47,55,73"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="87,63,55,63,55,57,87,57"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="268,82,215,73,216,67,269,77"/>
+<area shape="poly" id="edge11_Node000010_Node000004" title=" " alt="" coords="704,121,634,109,635,104,705,115"/>
+<area shape="rect" id="Node000012" href="$class_d_a_o___barbeiro.html#aa002ae28c04c894f148797081d071860" title="Remove um horário agendado para um barbeiro." alt="" coords="705,172,900,199"/>
+<area shape="poly" id="edge13_Node000011_Node000012" title=" " alt="" coords="955,188,900,188,900,183,955,183"/>
+<area shape="rect" id="Node000014" href="$class_d_a_o___cliente.html#a44851f6be991bf30a26de4ffbbd8564e" title="Remove um horário agendado para um cliente." alt="" coords="709,223,896,249"/>
+<area shape="poly" id="edge15_Node000011_Node000014" title=" " alt="" coords="978,205,876,225,875,219,977,200"/>
+<area shape="rect" id="Node000013" href="$class_controller___barbeiro.html#a64138a03e34ee3773a613584ae432473" title="Remove um horário agendado para um barbeiro." alt="" coords="492,148,624,191"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="690,181,624,176,624,171,690,175"/>
+<area shape="rect" id="Node000015" href="$class_controller___cliente.html#a71bc155d2b312fa2b4940c0c419a1e47" title="Remove um horário agendado para um cliente." alt="" coords="496,215,620,257"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="694,239,620,239,620,233,694,233"/>
+<area shape="rect" id="Node000017" href="$unit__horario_8cpp.html#aeb537e7baefa90f8f98ebc2a36d81e32" title="Executa todos os testes unitários para a classe Horario." alt="" coords="731,273,874,300"/>
+<area shape="poly" id="edge18_Node000016_Node000017" title=" " alt="" coords="979,255,874,276,873,270,978,250"/>
+<area shape="rect" id="Node000018" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="533,281,583,308"/>
+<area shape="poly" id="edge19_Node000017_Node000018" title=" " alt="" coords="716,292,583,297,583,291,716,287"/>
+<area shape="poly" id="edge21_Node000019_Node000017" title=" " alt="" coords="978,289,874,289,874,284,978,284"/>
 </map>

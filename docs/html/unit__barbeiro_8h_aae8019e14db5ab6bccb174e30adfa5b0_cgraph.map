@@ -1,0 +1,17 @@
+<map id="unit_Barbeiro_updateSenha" name="unit_Barbeiro_updateSenha">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,72,186,99"/>
+<area shape="rect" id="Node000002" href="$class_controller___barbeiro.html#a55c2b96af8d7616dd2bb74ae4a74e5e7" title="Obtém um objeto Barbeiro pelo email." alt="" coords="234,5,388,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,69,218,49,219,54,148,74"/>
+<area shape="rect" id="Node000004" href="$class_pessoa.html#a7f8f84bdcac5c57ea6754b53e3367ffd" title=" " alt="" coords="247,72,375,99"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="186,83,231,83,231,88,186,88"/>
+<area shape="rect" id="Node000005" href="$class_controller___barbeiro.html#aa556fb2b24568b6fc95acab6b2fc6cdd" title="Atualiza a senha do barbeiro." alt="" coords="245,123,377,165"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="148,97,231,119,229,125,147,102"/>
+<area shape="rect" id="Node000003" href="$class_d_a_o___barbeiro.html#a318f92fa56fe3b07dd594efa27b85a62" title="Obtém um objeto Barbeiro pelo email." alt="" coords="441,5,619,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="389,24,425,24,425,29,389,29"/>
+<area shape="rect" id="Node000006" href="$class_pessoa.html#a891ce76d919b1d2a28ce1f4d20a087be" title=" " alt="" coords="466,105,594,132"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="376,134,450,125,451,131,377,139"/>
+<area shape="rect" id="Node000007" href="$class_d_a_o___barbeiro.html#a766f60315fbac9645e7f29563e3ffa92" title="Atualiza a senha do barbeiro." alt="" coords="436,156,624,183"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="377,149,421,154,420,159,376,154"/>
+<area shape="rect" id="Node000008" href="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500" title=" " alt="" coords="672,156,797,183"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="625,167,657,167,657,172,625,172"/>
+</map>

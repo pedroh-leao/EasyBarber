@@ -12,6 +12,7 @@ var class_barbearia =
     [ "getInicioDeFuncionamento", "class_barbearia.html#a3b688a3e3350fe6d2184c88255901e49", null ],
     [ "getNome", "class_barbearia.html#a683767a1977fee6aa82056a6b3c6b3a2", null ],
     [ "getTelefone", "class_barbearia.html#a261fcf97ad9e76b1f293e3dda239d19d", null ],
+    [ "horarioEstaLivre", "class_barbearia.html#a05da273e2e266b0c653b6ddd69678a70", null ],
     [ "realizarAgendamento", "class_barbearia.html#ab858b840cab5d3f22e0a5328a88d3dbd", null ],
     [ "remove", "class_barbearia.html#aae6c6667d3687766358e6504d2180378", null ],
     [ "setEmail", "class_barbearia.html#a0c9213a06e4a7064afba6b61571a9f93", null ],

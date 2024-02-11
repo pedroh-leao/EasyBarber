@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">EasyBarber<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">EasyBarber<span id="projectnumber">&#160;0.2</span>
    </div>
    <div id="projectbrief">Projeto para agendamento em barbearia</div>
   </td>
@@ -97,7 +97,8 @@ $(document).ready(function(){initNavTree('build-_easy_barber-_desktop___qt__6__6
   <div class="headertitle"><div class="title">moc_telaescolhabarbeiro.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="telaescolhabarbeiro_8h_source.html">../../EasyBarber/telaescolhabarbeiro.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="telaescolhabarbeiro_8h_source.html">../../EasyBarber/View/telaescolhabarbeiro.h</a>&quot;</code><br />
+<code>#include &lt;QtGui/qtextcursor.h&gt;</code><br />
 <code>#include &lt;QtCore/qmetatype.h&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -105,39 +106,91 @@ Include dependency graph for moc_telaescolhabarbeiro.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp__incl.png" border="0" usemap="#a_c_1_2_users_2mathe_2_one_drive_2_xC3_x81rea_01de_01_trabalho_2_easy_barber_2build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp" alt=""/></div>
 <map name="a_c_1_2_users_2mathe_2_one_drive_2_xC3_x81rea_01de_01_trabalho_2_easy_barber_2build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp" id="a_c_1_2_users_2mathe_2_one_drive_2_xC3_x81rea_01de_01_trabalho_2_easy_barber_2build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp">
-<area shape="rect" title=" " alt="" coords="374,5,610,96"/>
-<area shape="rect" href="telaescolhabarbeiro_8h.html" title=" " alt="" coords="159,144,399,171"/>
-<area shape="poly" title=" " alt="" coords="402,99,319,139,317,135,400,94"/>
-<area shape="rect" title=" " alt="" coords="423,144,561,171"/>
-<area shape="poly" title=" " alt="" coords="495,96,495,128,490,128,490,96"/>
-<area shape="rect" title=" " alt="" coords="586,144,654,171"/>
-<area shape="poly" title=" " alt="" coords="549,94,595,132,592,136,545,98"/>
-<area shape="rect" title=" " alt="" coords="5,219,78,245"/>
-<area shape="poly" title=" " alt="" coords="238,174,93,218,92,213,237,169"/>
-<area shape="rect" title=" " alt="" coords="102,219,205,245"/>
-<area shape="poly" title=" " alt="" coords="258,174,190,213,187,208,256,169"/>
-<area shape="rect" title=" " alt="" coords="229,219,329,245"/>
-<area shape="poly" title=" " alt="" coords="282,171,282,203,276,203,276,171"/>
-<area shape="rect" href="barbearia_8h.html" title=" " alt="" coords="438,219,523,245"/>
-<area shape="poly" title=" " alt="" coords="315,169,432,210,430,215,313,174"/>
-<area shape="rect" href="cliente_8h.html" title=" " alt="" coords="313,293,383,320"/>
-<area shape="poly" title=" " alt="" coords="299,169,323,190,343,218,351,248,353,278,348,278,346,249,338,220,319,193,296,173"/>
-<area shape="rect" title=" " alt="" coords="540,517,594,544"/>
-<area shape="poly" title=" " alt="" coords="511,244,544,263,574,292,605,336,624,376,629,419,617,470,607,490,594,508,590,504,603,487,612,468,623,419,619,378,600,339,570,295,541,267,509,248"/>
-<area shape="rect" title=" " alt="" coords="398,443,453,469"/>
-<area shape="poly" title=" " alt="" coords="473,247,460,269,448,294,439,329,433,365,428,427,423,427,428,364,434,328,443,292,455,266,469,245"/>
-<area shape="rect" href="_barbeiro_8h.html" title=" " alt="" coords="457,293,538,320"/>
-<area shape="poly" title=" " alt="" coords="486,245,494,277,488,279,481,246"/>
-<area shape="rect" href="_horario_8h.html" title=" " alt="" coords="531,443,603,469"/>
-<area shape="poly" title=" " alt="" coords="503,244,529,264,552,292,565,327,571,363,572,427,567,427,566,364,560,328,547,295,526,268,500,248"/>
-<area shape="poly" title=" " alt="" coords="458,248,385,288,383,283,456,244"/>
-<area shape="rect" href="pessoa_8h.html" title=" " alt="" coords="458,368,534,395"/>
-<area shape="poly" title=" " alt="" coords="500,321,499,352,494,352,495,320"/>
-<area shape="poly" title=" " alt="" coords="500,394,507,429,521,468,547,505,542,508,516,471,502,430,495,396"/>
-<area shape="poly" title=" " alt="" coords="486,397,450,433,446,430,482,393"/>
-<area shape="poly" title=" " alt="" coords="510,393,546,430,542,433,507,397"/>
-<area shape="poly" title=" " alt="" coords="570,470,570,502,564,502,564,470"/>
-<area shape="poly" title=" " alt="" coords="375,318,458,358,455,363,373,323"/>
+<area shape="rect" title=" " alt="" coords="1195,5,1432,96"/>
+<area shape="rect" href="telaescolhabarbeiro_8h.html" title=" " alt="" coords="994,144,1142,187"/>
+<area shape="poly" title=" " alt="" coords="1217,99,1128,140,1126,135,1215,94"/>
+<area shape="rect" title=" " alt="" coords="1166,152,1301,179"/>
+<area shape="poly" title=" " alt="" coords="1284,98,1253,141,1249,138,1280,95"/>
+<area shape="rect" title=" " alt="" coords="1326,152,1464,179"/>
+<area shape="poly" title=" " alt="" coords="1348,95,1379,138,1375,141,1343,98"/>
+<area shape="rect" title=" " alt="" coords="1489,152,1557,179"/>
+<area shape="poly" title=" " alt="" coords="1398,94,1487,142,1484,147,1395,99"/>
+<area shape="rect" title=" " alt="" coords="43,392,115,419"/>
+<area shape="poly" title=" " alt="" coords="994,182,860,206,707,237,415,302,288,336,128,387,122,388,120,383,126,381,286,331,413,297,706,232,859,201,993,177"/>
+<area shape="rect" title=" " alt="" coords="1354,235,1457,261"/>
+<area shape="poly" title=" " alt="" coords="1143,182,1339,228,1338,233,1142,187"/>
+<area shape="rect" title=" " alt="" coords="138,392,238,419"/>
+<area shape="poly" title=" " alt="" coords="994,189,673,273,257,387,246,390,244,385,255,381,672,268,993,183"/>
+<area shape="rect" title=" " alt="" coords="894,773,949,800"/>
+<area shape="poly" title=" " alt="" coords="993,172,737,186,575,199,409,215,255,235,126,260,77,274,39,289,16,305,8,322,8,638,15,653,37,668,71,682,117,695,235,718,375,738,667,766,879,780,879,786,666,772,374,743,234,724,116,700,70,687,34,673,11,657,3,639,3,321,12,302,37,284,75,269,125,254,254,230,408,209,574,193,737,181,993,167"/>
+<area shape="rect" href="barbearia_8h.html" title=" " alt="" coords="1241,549,1378,576"/>
+<area shape="poly" title=" " alt="" coords="1090,185,1197,293,1248,349,1276,383,1292,422,1302,463,1311,533,1306,534,1297,464,1287,424,1271,385,1244,352,1193,297,1087,189"/>
+<area shape="rect" href="_cliente_8h.html" title=" " alt="" coords="1196,624,1266,651"/>
+<area shape="poly" title=" " alt="" coords="1083,186,1131,270,1158,325,1181,383,1200,445,1214,508,1230,608,1225,609,1209,509,1195,447,1176,385,1153,327,1126,272,1078,188"/>
+<area shape="rect" href="telaescolhadata_8h.html" title=" " alt="" coords="1206,235,1330,261"/>
+<area shape="poly" title=" " alt="" coords="1113,185,1217,226,1215,231,1111,190"/>
+<area shape="rect" title=" " alt="" coords="1343,848,1396,875"/>
+<area shape="poly" title=" " alt="" coords="1321,575,1372,655,1400,712,1420,773,1422,787,1420,801,1410,821,1396,838,1392,835,1405,818,1415,799,1417,787,1415,774,1395,714,1367,657,1316,578"/>
+<area shape="rect" title=" " alt="" coords="1254,773,1309,800"/>
+<area shape="poly" title=" " alt="" coords="1310,577,1287,759,1282,758,1305,576"/>
+<area shape="rect" href="_barbeiro_8h.html" title=" " alt="" coords="1091,624,1171,651"/>
+<area shape="poly" title=" " alt="" coords="1279,579,1177,620,1175,615,1277,574"/>
+<area shape="rect" href="_horario_8h.html" title=" " alt="" coords="1334,773,1405,800"/>
+<area shape="poly" title=" " alt="" coords="1315,576,1365,757,1359,759,1310,577"/>
+<area shape="poly" title=" " alt="" coords="1297,579,1257,615,1254,611,1294,575"/>
+<area shape="rect" href="pessoa_8h.html" title=" " alt="" coords="1179,699,1253,725"/>
+<area shape="poly" title=" " alt="" coords="1147,649,1192,687,1188,691,1144,653"/>
+<area shape="poly" title=" " alt="" coords="1179,725,964,778,963,772,1178,720"/>
+<area shape="poly" title=" " alt="" coords="1219,725,1225,761,1232,781,1243,798,1262,815,1283,829,1329,848,1327,853,1281,834,1259,820,1239,802,1227,783,1220,762,1214,726"/>
+<area shape="poly" title=" " alt="" coords="1229,724,1262,760,1258,764,1225,728"/>
+<area shape="poly" title=" " alt="" coords="1244,723,1330,764,1327,769,1242,728"/>
+<area shape="poly" title=" " alt="" coords="1372,801,1372,832,1367,832,1367,801"/>
+<area shape="poly" title=" " alt="" coords="1231,652,1224,684,1219,683,1225,651"/>
+<area shape="poly" title=" " alt="" coords="1242,237,1140,195,1142,190,1244,232"/>
+<area shape="poly" title=" " alt="" coords="1232,264,1185,283,1127,310,1067,344,1011,386,970,426,943,463,928,505,924,561,924,639,924,758,919,758,919,639,919,561,923,504,938,460,966,422,1008,382,1064,340,1125,305,1183,278,1230,259"/>
+<area shape="poly" title=" " alt="" coords="1262,263,1246,297,1243,317,1248,335,1255,345,1264,351,1285,357,1307,364,1318,371,1326,383,1339,422,1340,464,1333,503,1323,535,1318,534,1328,502,1334,463,1334,423,1322,385,1314,375,1305,369,1284,363,1262,356,1252,349,1243,337,1238,317,1240,296,1257,261"/>
+<area shape="poly" title=" " alt="" coords="1331,257,1343,259,1421,264,1523,268,1622,279,1662,291,1691,307,1709,329,1717,351,1717,404,1717,564,1715,589,1708,613,1684,654,1649,689,1605,717,1557,740,1508,758,1421,779,1420,774,1506,752,1555,735,1602,713,1645,685,1680,651,1704,611,1710,588,1712,564,1712,404,1712,352,1705,331,1688,311,1660,295,1621,284,1523,273,1421,269,1342,264,1330,262"/>
+<area shape="rect" title=" " alt="" coords="1422,309,1490,336"/>
+<area shape="poly" title=" " alt="" coords="1302,259,1410,301,1408,306,1300,264"/>
+<area shape="rect" title=" " alt="" coords="1514,309,1572,336"/>
+<area shape="poly" title=" " alt="" coords="1320,259,1499,306,1497,311,1318,265"/>
+<area shape="rect" title=" " alt="" coords="1595,309,1677,336"/>
+<area shape="poly" title=" " alt="" coords="1330,258,1581,306,1580,311,1329,263"/>
+<area shape="rect" title=" " alt="" coords="1258,309,1398,336"/>
+<area shape="poly" title=" " alt="" coords="1280,260,1310,296,1306,299,1276,264"/>
+<area shape="rect" href="telaagendamento_8h.html" title=" " alt="" coords="604,309,735,336"/>
+<area shape="poly" title=" " alt="" coords="1207,259,751,314,750,309,1206,254"/>
+<area shape="poly" title=" " alt="" coords="701,306,1000,190,1002,195,703,311"/>
+<area shape="poly" title=" " alt="" coords="603,328,509,332,389,342,258,360,127,387,120,389,118,384,126,381,257,354,389,337,509,327,603,323"/>
+<area shape="poly" title=" " alt="" coords="604,333,445,353,257,387,243,390,241,385,255,381,444,348,603,328"/>
+<area shape="poly" title=" " alt="" coords="604,333,423,356,343,371,316,379,302,386,284,408,277,430,277,487,277,638,282,660,297,679,319,696,350,711,428,736,523,755,624,767,723,776,878,782,878,787,723,781,623,773,522,760,427,741,348,716,317,700,293,682,277,662,272,639,272,487,272,429,279,406,298,382,314,374,342,366,422,351,603,328"/>
+<area shape="poly" title=" " alt="" coords="736,323,845,327,975,337,1096,355,1144,367,1180,382,1222,415,1256,456,1283,498,1301,534,1296,536,1278,500,1252,459,1218,419,1177,386,1143,372,1095,360,974,343,845,333,735,328"/>
+<area shape="rect" title=" " alt="" coords="638,392,701,419"/>
+<area shape="poly" title=" " alt="" coords="672,337,672,377,667,377,667,337"/>
+<area shape="rect" title=" " alt="" coords="725,392,827,419"/>
+<area shape="poly" title=" " alt="" coords="688,334,749,381,746,385,684,339"/>
+<area shape="rect" title=" " alt="" coords="852,392,946,419"/>
+<area shape="poly" title=" " alt="" coords="706,334,850,384,848,389,704,339"/>
+<area shape="rect" title=" " alt="" coords="312,392,398,419"/>
+<area shape="poly" title=" " alt="" coords="606,339,514,360,411,387,403,389,401,384,410,381,512,355,605,334"/>
+<area shape="rect" title=" " alt="" coords="422,392,482,419"/>
+<area shape="poly" title=" " alt="" coords="630,339,496,386,492,388,490,383,494,382,628,334"/>
+<area shape="rect" title=" " alt="" coords="506,392,614,419"/>
+<area shape="poly" title=" " alt="" coords="654,339,591,385,588,380,651,334"/>
+<area shape="rect" href="controller__barbearia_8h.html" title=" " alt="" coords="1021,384,1166,427"/>
+<area shape="poly" title=" " alt="" coords="736,334,1006,385,1005,390,735,339"/>
+<area shape="poly" title=" " alt="" coords="1124,425,1281,538,1278,542,1120,429"/>
+<area shape="rect" href="dao__barbearia_8h.html" title=" " alt="" coords="959,475,1116,501"/>
+<area shape="poly" title=" " alt="" coords="1081,429,1057,463,1053,460,1077,426"/>
+<area shape="poly" title=" " alt="" coords="1085,499,1248,542,1246,547,1084,504"/>
+<area shape="poly" title=" " alt="" coords="1055,500,1204,612,1201,617,1052,504"/>
+<area shape="rect" href="dao__barbeiro_8h.html" title=" " alt="" coords="984,549,1091,576"/>
+<area shape="poly" title=" " alt="" coords="1040,502,1040,534,1035,534,1035,502"/>
+<area shape="poly" title=" " alt="" coords="1055,574,1104,612,1101,617,1052,579"/>
+<area shape="rect" href="dao__pessoa_8h.html" title=" " alt="" coords="964,624,1066,651"/>
+<area shape="poly" title=" " alt="" coords="1036,577,1026,610,1021,608,1031,576"/>
+<area shape="poly" title=" " alt="" coords="1009,653,940,761,935,759,1004,650"/>
+<area shape="poly" title=" " alt="" coords="1051,649,1167,690,1166,695,1049,654"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -198,110 +251,110 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   58</span>                                                                                                                                    {</div>
-<div class="line"><span class="lineno">   59</span>    {</div>
-<div class="line"><span class="lineno">   60</span>        <a class="code hl_define" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html#a3c6e81753001d10d51e62d0a29c273bc">QT_MOC_LITERAL</a>(0, 19),  <span class="comment">// &quot;TelaEscolhaBarbeiro&quot;</span></div>
-<div class="line"><span class="lineno">   61</span>        <a class="code hl_define" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html#a3c6e81753001d10d51e62d0a29c273bc">QT_MOC_LITERAL</a>(20, 20),  <span class="comment">// &quot;abrirTelaEscolhaData&quot;</span></div>
-<div class="line"><span class="lineno">   62</span>        <a class="code hl_define" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html#a3c6e81753001d10d51e62d0a29c273bc">QT_MOC_LITERAL</a>(41, 0),  <span class="comment">// &quot;&quot;</span></div>
-<div class="line"><span class="lineno">   63</span>        <a class="code hl_define" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html#a3c6e81753001d10d51e62d0a29c273bc">QT_MOC_LITERAL</a>(42, 9),  <span class="comment">// &quot;Barbeiro*&quot;</span></div>
-<div class="line"><span class="lineno">   64</span>        <a class="code hl_define" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html#a3c6e81753001d10d51e62d0a29c273bc">QT_MOC_LITERAL</a>(52, 8)   <span class="comment">// &quot;barbeiro&quot;</span></div>
-<div class="line"><span class="lineno">   65</span>    },</div>
-<div class="line"><span class="lineno">   66</span>    <span class="stringliteral">&quot;TelaEscolhaBarbeiro&quot;</span>,</div>
-<div class="line"><span class="lineno">   67</span>    <span class="stringliteral">&quot;abrirTelaEscolhaData&quot;</span>,</div>
-<div class="line"><span class="lineno">   68</span>    <span class="stringliteral">&quot;&quot;</span>,</div>
-<div class="line"><span class="lineno">   69</span>    <span class="stringliteral">&quot;Barbeiro*&quot;</span>,</div>
-<div class="line"><span class="lineno">   70</span>    <span class="stringliteral">&quot;barbeiro&quot;</span></div>
-<div class="line"><span class="lineno">   71</span>};</div>
-<div class="line"><span class="lineno">   72</span><span class="preprocessor">#undef QT_MOC_LITERAL</span></div>
-<div class="line"><span class="lineno">   73</span><span class="preprocessor">#endif </span><span class="comment">// !QT_MOC_HAS_STRING_DATA</span></div>
-<div class="line"><span class="lineno">   74</span>} <span class="comment">// unnamed namespace</span></div>
-<div class="line"><span class="lineno">   75</span> </div>
-<div class="line"><span class="lineno">   76</span><a class="code hl_define" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html#ad83b2306f94b5b9e5625794fc238c8a0">Q_CONSTINIT</a> <span class="keyword">static</span> <span class="keyword">const</span> uint qt_meta_data_CLASSTelaEscolhaBarbeiroENDCLASS[] = {</div>
-<div class="line"><span class="lineno">   77</span> </div>
-<div class="line"><span class="lineno">   78</span> <span class="comment">// content:</span></div>
-<div class="line"><span class="lineno">   79</span>      12,       <span class="comment">// revision</span></div>
-<div class="line"><span class="lineno">   80</span>       0,       <span class="comment">// classname</span></div>
-<div class="line"><span class="lineno">   81</span>       0,    0, <span class="comment">// classinfo</span></div>
-<div class="line"><span class="lineno">   82</span>       1,   14, <span class="comment">// methods</span></div>
-<div class="line"><span class="lineno">   83</span>       0,    0, <span class="comment">// properties</span></div>
-<div class="line"><span class="lineno">   84</span>       0,    0, <span class="comment">// enums/sets</span></div>
-<div class="line"><span class="lineno">   85</span>       0,    0, <span class="comment">// constructors</span></div>
-<div class="line"><span class="lineno">   86</span>       0,       <span class="comment">// flags</span></div>
-<div class="line"><span class="lineno">   87</span>       0,       <span class="comment">// signalCount</span></div>
-<div class="line"><span class="lineno">   88</span> </div>
-<div class="line"><span class="lineno">   89</span> <span class="comment">// slots: name, argc, parameters, tag, flags, initial metatype offsets</span></div>
-<div class="line"><span class="lineno">   90</span>       1,    1,   20,    2, 0x0a,    1 <span class="comment">/* Public */</span>,</div>
-<div class="line"><span class="lineno">   91</span> </div>
-<div class="line"><span class="lineno">   92</span> <span class="comment">// slots: parameters</span></div>
-<div class="line"><span class="lineno">   93</span>    QMetaType::Void, 0x80000000 | 3,    4,</div>
-<div class="line"><span class="lineno">   94</span> </div>
-<div class="line"><span class="lineno">   95</span>       0        <span class="comment">// eod</span></div>
-<div class="line"><span class="lineno">   96</span>};</div>
-<div class="line"><span class="lineno">   97</span> </div>
-<div class="line"><span class="lineno">   98</span><a class="code hl_define" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html#ad83b2306f94b5b9e5625794fc238c8a0">Q_CONSTINIT</a> <span class="keyword">const</span> QMetaObject TelaEscolhaBarbeiro::staticMetaObject = { {</div>
-<div class="line"><span class="lineno">   99</span>    QMetaObject::SuperData::link&lt;QWidget::staticMetaObject&gt;(),</div>
-<div class="line"><span class="lineno">  100</span>    qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS.<a class="code hl_variable" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa9a63fc5cffc72a734fe9e797ffd3e00.html#ab71f917101f82ab73053fc36e77cb06d">offsetsAndSizes</a>,</div>
-<div class="line"><span class="lineno">  101</span>    qt_meta_data_CLASSTelaEscolhaBarbeiroENDCLASS,</div>
-<div class="line"><span class="lineno">  102</span>    qt_static_metacall,</div>
-<div class="line"><span class="lineno">  103</span>    <span class="keyword">nullptr</span>,</div>
-<div class="line"><span class="lineno">  104</span>    qt_incomplete_metaTypeArray&lt;qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS_t,</div>
-<div class="line"><span class="lineno">  105</span>        <span class="comment">// Q_OBJECT / Q_GADGET</span></div>
-<div class="line"><span class="lineno">  106</span>        QtPrivate::TypeAndForceComplete&lt;TelaEscolhaBarbeiro, std::true_type&gt;,</div>
-<div class="line"><span class="lineno">  107</span>        <span class="comment">// method &#39;abrirTelaEscolhaData&#39;</span></div>
-<div class="line"><span class="lineno">  108</span>        QtPrivate::TypeAndForceComplete&lt;void, std::false_type&gt;,</div>
-<div class="line"><span class="lineno">  109</span>        QtPrivate::TypeAndForceComplete&lt;Barbeiro *, std::false_type&gt;</div>
-<div class="line"><span class="lineno">  110</span>    &gt;,</div>
-<div class="line"><span class="lineno">  111</span>    <span class="keyword">nullptr</span></div>
-<div class="line"><span class="lineno">  112</span>} };</div>
-<div class="line"><span class="lineno">  113</span> </div>
-<div class="line"><span class="lineno">  114</span><span class="keywordtype">void</span> TelaEscolhaBarbeiro::qt_static_metacall(QObject *_o, QMetaObject::Call _c, <span class="keywordtype">int</span> _id, <span class="keywordtype">void</span> **_a)</div>
-<div class="line"><span class="lineno">  115</span>{</div>
-<div class="line"><span class="lineno">  116</span>    <span class="keywordflow">if</span> (_c == QMetaObject::InvokeMetaMethod) {</div>
-<div class="line"><span class="lineno">  117</span>        <span class="keyword">auto</span> *_t = <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="class_tela_escolha_barbeiro.html">TelaEscolhaBarbeiro</a> *<span class="keyword">&gt;</span>(_o);</div>
-<div class="line"><span class="lineno">  118</span>        (void)_t;</div>
-<div class="line"><span class="lineno">  119</span>        <span class="keywordflow">switch</span> (_id) {</div>
-<div class="line"><span class="lineno">  120</span>        <span class="keywordflow">case</span> 0: _t-&gt;<a class="code hl_slot" href="class_tela_escolha_barbeiro.html#a855de2dbea4f22a30bc9143592ac278a">abrirTelaEscolhaData</a>((*<span class="keyword">reinterpret_cast&lt;</span> std::add_pointer_t&lt;Barbeiro*&gt;<span class="keyword">&gt;</span>(_a[1]))); <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  121</span>        <span class="keywordflow">default</span>: ;</div>
-<div class="line"><span class="lineno">  122</span>        }</div>
-<div class="line"><span class="lineno">  123</span>    }</div>
-<div class="line"><span class="lineno">  124</span>}</div>
-<div class="line"><span class="lineno">  125</span> </div>
-<div class="line"><span class="lineno">  126</span><span class="keyword">const</span> QMetaObject *TelaEscolhaBarbeiro::metaObject()<span class="keyword"> const</span></div>
-<div class="line"><span class="lineno">  127</span><span class="keyword"></span>{</div>
-<div class="line"><span class="lineno">  128</span>    <span class="keywordflow">return</span> QObject::d_ptr-&gt;metaObject ? QObject::d_ptr-&gt;dynamicMetaObject() : &amp;staticMetaObject;</div>
-<div class="line"><span class="lineno">  129</span>}</div>
-<div class="line"><span class="lineno">  130</span> </div>
-<div class="line"><span class="lineno">  131</span><span class="keywordtype">void</span> *TelaEscolhaBarbeiro::qt_metacast(<span class="keyword">const</span> <span class="keywordtype">char</span> *_clname)</div>
-<div class="line"><span class="lineno">  132</span>{</div>
-<div class="line"><span class="lineno">  133</span>    <span class="keywordflow">if</span> (!_clname) <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">  134</span>    <span class="keywordflow">if</span> (!strcmp(_clname, qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS.<a class="code hl_variable" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa9a63fc5cffc72a734fe9e797ffd3e00.html#a02ef3199223e7e0341f4861a66bf9d98">stringdata0</a>))</div>
-<div class="line"><span class="lineno">  135</span>        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">void</span>*<span class="keyword">&gt;</span>(<span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">  136</span>    <span class="keywordflow">return</span> QWidget::qt_metacast(_clname);</div>
-<div class="line"><span class="lineno">  137</span>}</div>
-<div class="line"><span class="lineno">  138</span> </div>
-<div class="line"><span class="lineno">  139</span><span class="keywordtype">int</span> TelaEscolhaBarbeiro::qt_metacall(QMetaObject::Call _c, <span class="keywordtype">int</span> _id, <span class="keywordtype">void</span> **_a)</div>
-<div class="line"><span class="lineno">  140</span>{</div>
-<div class="line"><span class="lineno">  141</span>    _id = QWidget::qt_metacall(_c, _id, _a);</div>
-<div class="line"><span class="lineno">  142</span>    <span class="keywordflow">if</span> (_id &lt; 0)</div>
-<div class="line"><span class="lineno">  143</span>        <span class="keywordflow">return</span> _id;</div>
-<div class="line"><span class="lineno">  144</span>    <span class="keywordflow">if</span> (_c == QMetaObject::InvokeMetaMethod) {</div>
-<div class="line"><span class="lineno">  145</span>        <span class="keywordflow">if</span> (_id &lt; 1)</div>
-<div class="line"><span class="lineno">  146</span>            qt_static_metacall(<span class="keyword">this</span>, _c, _id, _a);</div>
-<div class="line"><span class="lineno">  147</span>        _id -= 1;</div>
-<div class="line"><span class="lineno">  148</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (_c == QMetaObject::RegisterMethodArgumentMetaType) {</div>
-<div class="line"><span class="lineno">  149</span>        <span class="keywordflow">if</span> (_id &lt; 1)</div>
-<div class="line"><span class="lineno">  150</span>            *<span class="keyword">reinterpret_cast&lt;</span>QMetaType *<span class="keyword">&gt;</span>(_a[0]) = QMetaType();</div>
-<div class="line"><span class="lineno">  151</span>        _id -= 1;</div>
-<div class="line"><span class="lineno">  152</span>    }</div>
-<div class="line"><span class="lineno">  153</span>    <span class="keywordflow">return</span> _id;</div>
-<div class="line"><span class="lineno">  154</span>}</div>
-<div class="line"><span class="lineno">  155</span>QT_WARNING_POP</div>
-<div class="ttc" id="abuild-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp_html_a3c6e81753001d10d51e62d0a29c273bc"><div class="ttname"><a href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html#a3c6e81753001d10d51e62d0a29c273bc">QT_MOC_LITERAL</a></div><div class="ttdeci">#define QT_MOC_LITERAL(ofs, len)</div><div class="ttdef"><b>Definition</b> moc_telaescolhabarbeiro.cpp:56</div></div>
-<div class="ttc" id="abuild-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp_html_ad83b2306f94b5b9e5625794fc238c8a0"><div class="ttname"><a href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html#ad83b2306f94b5b9e5625794fc238c8a0">Q_CONSTINIT</a></div><div class="ttdeci">#define Q_CONSTINIT</div><div class="ttdef"><b>Definition</b> moc_telaescolhabarbeiro.cpp:30</div></div>
-<div class="ttc" id="aclass_tela_escolha_barbeiro_html"><div class="ttname"><a href="class_tela_escolha_barbeiro.html">TelaEscolhaBarbeiro</a></div><div class="ttdoc">A classe TelaEscolhaBarbeiro representa a interface gráfica para a escolha de um barbeiro.</div><div class="ttdef"><b>Definition</b> telaescolhabarbeiro.h:14</div></div>
-<div class="ttc" id="aclass_tela_escolha_barbeiro_html_a855de2dbea4f22a30bc9143592ac278a"><div class="ttname"><a href="class_tela_escolha_barbeiro.html#a855de2dbea4f22a30bc9143592ac278a">TelaEscolhaBarbeiro::abrirTelaEscolhaData</a></div><div class="ttdeci">void abrirTelaEscolhaData(Barbeiro *barbeiro)</div><div class="ttdoc">Slot para abrir a tela de escolha de data ao selecionar um barbeiro.</div><div class="ttdef"><b>Definition</b> telaescolhabarbeiro.cpp:36</div></div>
-<div class="ttc" id="astruct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa9a63fc5cffc72a734fe9e797ffd3e00_html_a02ef3199223e7e0341f4861a66bf9d98"><div class="ttname"><a href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa9a63fc5cffc72a734fe9e797ffd3e00.html#a02ef3199223e7e0341f4861a66bf9d98">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS_t::stringdata0</a></div><div class="ttdeci">char stringdata0[20]</div><div class="ttdef"><b>Definition</b> moc_telaescolhabarbeiro.cpp:50</div></div>
-<div class="ttc" id="astruct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa9a63fc5cffc72a734fe9e797ffd3e00_html_ab71f917101f82ab73053fc36e77cb06d"><div class="ttname"><a href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa9a63fc5cffc72a734fe9e797ffd3e00.html#ab71f917101f82ab73053fc36e77cb06d">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS_t::offsetsAndSizes</a></div><div class="ttdeci">uint offsetsAndSizes[10]</div><div class="ttdef"><b>Definition</b> moc_telaescolhabarbeiro.cpp:49</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   59</span>                                                                                                                                    {</div>
+<div class="line"><span class="lineno">   60</span>    {</div>
+<div class="line"><span class="lineno">   61</span>        <a class="code hl_define" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html#a3c6e81753001d10d51e62d0a29c273bc">QT_MOC_LITERAL</a>(0, 19),  <span class="comment">// &quot;TelaEscolhaBarbeiro&quot;</span></div>
+<div class="line"><span class="lineno">   62</span>        <a class="code hl_define" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html#a3c6e81753001d10d51e62d0a29c273bc">QT_MOC_LITERAL</a>(20, 20),  <span class="comment">// &quot;abrirTelaEscolhaData&quot;</span></div>
+<div class="line"><span class="lineno">   63</span>        <a class="code hl_define" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html#a3c6e81753001d10d51e62d0a29c273bc">QT_MOC_LITERAL</a>(41, 0),  <span class="comment">// &quot;&quot;</span></div>
+<div class="line"><span class="lineno">   64</span>        <a class="code hl_define" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html#a3c6e81753001d10d51e62d0a29c273bc">QT_MOC_LITERAL</a>(42, 9),  <span class="comment">// &quot;Barbeiro*&quot;</span></div>
+<div class="line"><span class="lineno">   65</span>        <a class="code hl_define" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html#a3c6e81753001d10d51e62d0a29c273bc">QT_MOC_LITERAL</a>(52, 8)   <span class="comment">// &quot;barbeiro&quot;</span></div>
+<div class="line"><span class="lineno">   66</span>    },</div>
+<div class="line"><span class="lineno">   67</span>    <span class="stringliteral">&quot;TelaEscolhaBarbeiro&quot;</span>,</div>
+<div class="line"><span class="lineno">   68</span>    <span class="stringliteral">&quot;abrirTelaEscolhaData&quot;</span>,</div>
+<div class="line"><span class="lineno">   69</span>    <span class="stringliteral">&quot;&quot;</span>,</div>
+<div class="line"><span class="lineno">   70</span>    <span class="stringliteral">&quot;Barbeiro*&quot;</span>,</div>
+<div class="line"><span class="lineno">   71</span>    <span class="stringliteral">&quot;barbeiro&quot;</span></div>
+<div class="line"><span class="lineno">   72</span>};</div>
+<div class="line"><span class="lineno">   73</span><span class="preprocessor">#undef QT_MOC_LITERAL</span></div>
+<div class="line"><span class="lineno">   74</span><span class="preprocessor">#endif </span><span class="comment">// !QT_MOC_HAS_STRING_DATA</span></div>
+<div class="line"><span class="lineno">   75</span>} <span class="comment">// unnamed namespace</span></div>
+<div class="line"><span class="lineno">   76</span> </div>
+<div class="line"><span class="lineno">   77</span><a class="code hl_define" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html#ad83b2306f94b5b9e5625794fc238c8a0">Q_CONSTINIT</a> <span class="keyword">static</span> <span class="keyword">const</span> uint qt_meta_data_CLASSTelaEscolhaBarbeiroENDCLASS[] = {</div>
+<div class="line"><span class="lineno">   78</span> </div>
+<div class="line"><span class="lineno">   79</span> <span class="comment">// content:</span></div>
+<div class="line"><span class="lineno">   80</span>      12,       <span class="comment">// revision</span></div>
+<div class="line"><span class="lineno">   81</span>       0,       <span class="comment">// classname</span></div>
+<div class="line"><span class="lineno">   82</span>       0,    0, <span class="comment">// classinfo</span></div>
+<div class="line"><span class="lineno">   83</span>       1,   14, <span class="comment">// methods</span></div>
+<div class="line"><span class="lineno">   84</span>       0,    0, <span class="comment">// properties</span></div>
+<div class="line"><span class="lineno">   85</span>       0,    0, <span class="comment">// enums/sets</span></div>
+<div class="line"><span class="lineno">   86</span>       0,    0, <span class="comment">// constructors</span></div>
+<div class="line"><span class="lineno">   87</span>       0,       <span class="comment">// flags</span></div>
+<div class="line"><span class="lineno">   88</span>       0,       <span class="comment">// signalCount</span></div>
+<div class="line"><span class="lineno">   89</span> </div>
+<div class="line"><span class="lineno">   90</span> <span class="comment">// slots: name, argc, parameters, tag, flags, initial metatype offsets</span></div>
+<div class="line"><span class="lineno">   91</span>       1,    1,   20,    2, 0x0a,    1 <span class="comment">/* Public */</span>,</div>
+<div class="line"><span class="lineno">   92</span> </div>
+<div class="line"><span class="lineno">   93</span> <span class="comment">// slots: parameters</span></div>
+<div class="line"><span class="lineno">   94</span>    QMetaType::Void, 0x80000000 | 3,    4,</div>
+<div class="line"><span class="lineno">   95</span> </div>
+<div class="line"><span class="lineno">   96</span>       0        <span class="comment">// eod</span></div>
+<div class="line"><span class="lineno">   97</span>};</div>
+<div class="line"><span class="lineno">   98</span> </div>
+<div class="line"><span class="lineno">   99</span><a class="code hl_define" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html#ad83b2306f94b5b9e5625794fc238c8a0">Q_CONSTINIT</a> <span class="keyword">const</span> QMetaObject TelaEscolhaBarbeiro::staticMetaObject = { {</div>
+<div class="line"><span class="lineno">  100</span>    QMetaObject::SuperData::link&lt;QWidget::staticMetaObject&gt;(),</div>
+<div class="line"><span class="lineno">  101</span>    qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS.<a class="code hl_variable" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa9a63fc5cffc72a734fe9e797ffd3e00.html#ab71f917101f82ab73053fc36e77cb06d">offsetsAndSizes</a>,</div>
+<div class="line"><span class="lineno">  102</span>    qt_meta_data_CLASSTelaEscolhaBarbeiroENDCLASS,</div>
+<div class="line"><span class="lineno">  103</span>    qt_static_metacall,</div>
+<div class="line"><span class="lineno">  104</span>    <span class="keyword">nullptr</span>,</div>
+<div class="line"><span class="lineno">  105</span>    qt_incomplete_metaTypeArray&lt;qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS_t,</div>
+<div class="line"><span class="lineno">  106</span>        <span class="comment">// Q_OBJECT / Q_GADGET</span></div>
+<div class="line"><span class="lineno">  107</span>        QtPrivate::TypeAndForceComplete&lt;TelaEscolhaBarbeiro, std::true_type&gt;,</div>
+<div class="line"><span class="lineno">  108</span>        <span class="comment">// method &#39;abrirTelaEscolhaData&#39;</span></div>
+<div class="line"><span class="lineno">  109</span>        QtPrivate::TypeAndForceComplete&lt;void, std::false_type&gt;,</div>
+<div class="line"><span class="lineno">  110</span>        QtPrivate::TypeAndForceComplete&lt;Barbeiro *, std::false_type&gt;</div>
+<div class="line"><span class="lineno">  111</span>    &gt;,</div>
+<div class="line"><span class="lineno">  112</span>    <span class="keyword">nullptr</span></div>
+<div class="line"><span class="lineno">  113</span>} };</div>
+<div class="line"><span class="lineno">  114</span> </div>
+<div class="line"><span class="lineno">  115</span><span class="keywordtype">void</span> TelaEscolhaBarbeiro::qt_static_metacall(QObject *_o, QMetaObject::Call _c, <span class="keywordtype">int</span> _id, <span class="keywordtype">void</span> **_a)</div>
+<div class="line"><span class="lineno">  116</span>{</div>
+<div class="line"><span class="lineno">  117</span>    <span class="keywordflow">if</span> (_c == QMetaObject::InvokeMetaMethod) {</div>
+<div class="line"><span class="lineno">  118</span>        <span class="keyword">auto</span> *_t = <span class="keyword">static_cast&lt;</span><a class="code hl_class" href="class_tela_escolha_barbeiro.html">TelaEscolhaBarbeiro</a> *<span class="keyword">&gt;</span>(_o);</div>
+<div class="line"><span class="lineno">  119</span>        (void)_t;</div>
+<div class="line"><span class="lineno">  120</span>        <span class="keywordflow">switch</span> (_id) {</div>
+<div class="line"><span class="lineno">  121</span>        <span class="keywordflow">case</span> 0: _t-&gt;<a class="code hl_slot" href="class_tela_escolha_barbeiro.html#a855de2dbea4f22a30bc9143592ac278a">abrirTelaEscolhaData</a>((*<span class="keyword">reinterpret_cast&lt;</span> std::add_pointer_t&lt;Barbeiro*&gt;<span class="keyword">&gt;</span>(_a[1]))); <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  122</span>        <span class="keywordflow">default</span>: ;</div>
+<div class="line"><span class="lineno">  123</span>        }</div>
+<div class="line"><span class="lineno">  124</span>    }</div>
+<div class="line"><span class="lineno">  125</span>}</div>
+<div class="line"><span class="lineno">  126</span> </div>
+<div class="line"><span class="lineno">  127</span><span class="keyword">const</span> QMetaObject *TelaEscolhaBarbeiro::metaObject()<span class="keyword"> const</span></div>
+<div class="line"><span class="lineno">  128</span><span class="keyword"></span>{</div>
+<div class="line"><span class="lineno">  129</span>    <span class="keywordflow">return</span> QObject::d_ptr-&gt;metaObject ? QObject::d_ptr-&gt;dynamicMetaObject() : &amp;staticMetaObject;</div>
+<div class="line"><span class="lineno">  130</span>}</div>
+<div class="line"><span class="lineno">  131</span> </div>
+<div class="line"><span class="lineno">  132</span><span class="keywordtype">void</span> *TelaEscolhaBarbeiro::qt_metacast(<span class="keyword">const</span> <span class="keywordtype">char</span> *_clname)</div>
+<div class="line"><span class="lineno">  133</span>{</div>
+<div class="line"><span class="lineno">  134</span>    <span class="keywordflow">if</span> (!_clname) <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  135</span>    <span class="keywordflow">if</span> (!strcmp(_clname, qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS.<a class="code hl_variable" href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa9a63fc5cffc72a734fe9e797ffd3e00.html#a02ef3199223e7e0341f4861a66bf9d98">stringdata0</a>))</div>
+<div class="line"><span class="lineno">  136</span>        <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span><span class="keywordtype">void</span>*<span class="keyword">&gt;</span>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  137</span>    <span class="keywordflow">return</span> QWidget::qt_metacast(_clname);</div>
+<div class="line"><span class="lineno">  138</span>}</div>
+<div class="line"><span class="lineno">  139</span> </div>
+<div class="line"><span class="lineno">  140</span><span class="keywordtype">int</span> TelaEscolhaBarbeiro::qt_metacall(QMetaObject::Call _c, <span class="keywordtype">int</span> _id, <span class="keywordtype">void</span> **_a)</div>
+<div class="line"><span class="lineno">  141</span>{</div>
+<div class="line"><span class="lineno">  142</span>    _id = QWidget::qt_metacall(_c, _id, _a);</div>
+<div class="line"><span class="lineno">  143</span>    <span class="keywordflow">if</span> (_id &lt; 0)</div>
+<div class="line"><span class="lineno">  144</span>        <span class="keywordflow">return</span> _id;</div>
+<div class="line"><span class="lineno">  145</span>    <span class="keywordflow">if</span> (_c == QMetaObject::InvokeMetaMethod) {</div>
+<div class="line"><span class="lineno">  146</span>        <span class="keywordflow">if</span> (_id &lt; 1)</div>
+<div class="line"><span class="lineno">  147</span>            qt_static_metacall(<span class="keyword">this</span>, _c, _id, _a);</div>
+<div class="line"><span class="lineno">  148</span>        _id -= 1;</div>
+<div class="line"><span class="lineno">  149</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (_c == QMetaObject::RegisterMethodArgumentMetaType) {</div>
+<div class="line"><span class="lineno">  150</span>        <span class="keywordflow">if</span> (_id &lt; 1)</div>
+<div class="line"><span class="lineno">  151</span>            *<span class="keyword">reinterpret_cast&lt;</span>QMetaType *<span class="keyword">&gt;</span>(_a[0]) = QMetaType();</div>
+<div class="line"><span class="lineno">  152</span>        _id -= 1;</div>
+<div class="line"><span class="lineno">  153</span>    }</div>
+<div class="line"><span class="lineno">  154</span>    <span class="keywordflow">return</span> _id;</div>
+<div class="line"><span class="lineno">  155</span>}</div>
+<div class="line"><span class="lineno">  156</span>QT_WARNING_POP</div>
+<div class="ttc" id="abuild-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp_html_a3c6e81753001d10d51e62d0a29c273bc"><div class="ttname"><a href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html#a3c6e81753001d10d51e62d0a29c273bc">QT_MOC_LITERAL</a></div><div class="ttdeci">#define QT_MOC_LITERAL(ofs, len)</div><div class="ttdef"><b>Definition</b> moc_telaescolhabarbeiro.cpp:57</div></div>
+<div class="ttc" id="abuild-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp_html_ad83b2306f94b5b9e5625794fc238c8a0"><div class="ttname"><a href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html#ad83b2306f94b5b9e5625794fc238c8a0">Q_CONSTINIT</a></div><div class="ttdeci">#define Q_CONSTINIT</div><div class="ttdef"><b>Definition</b> moc_telaescolhabarbeiro.cpp:31</div></div>
+<div class="ttc" id="aclass_tela_escolha_barbeiro_html"><div class="ttname"><a href="class_tela_escolha_barbeiro.html">TelaEscolhaBarbeiro</a></div><div class="ttdoc">A classe TelaEscolhaBarbeiro representa a interface gráfica para a escolha de um barbeiro.</div><div class="ttdef"><b>Definition</b> telaescolhabarbeiro.h:16</div></div>
+<div class="ttc" id="aclass_tela_escolha_barbeiro_html_a855de2dbea4f22a30bc9143592ac278a"><div class="ttname"><a href="class_tela_escolha_barbeiro.html#a855de2dbea4f22a30bc9143592ac278a">TelaEscolhaBarbeiro::abrirTelaEscolhaData</a></div><div class="ttdeci">void abrirTelaEscolhaData(Barbeiro *barbeiro)</div><div class="ttdoc">Slot para abrir a tela de escolha de data ao selecionar um barbeiro.</div><div class="ttdef"><b>Definition</b> telaescolhabarbeiro.cpp:35</div></div>
+<div class="ttc" id="astruct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa9a63fc5cffc72a734fe9e797ffd3e00_html_a02ef3199223e7e0341f4861a66bf9d98"><div class="ttname"><a href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa9a63fc5cffc72a734fe9e797ffd3e00.html#a02ef3199223e7e0341f4861a66bf9d98">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS_t::stringdata0</a></div><div class="ttdeci">char stringdata0[20]</div><div class="ttdef"><b>Definition</b> moc_telaescolhabarbeiro.cpp:51</div></div>
+<div class="ttc" id="astruct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa9a63fc5cffc72a734fe9e797ffd3e00_html_ab71f917101f82ab73053fc36e77cb06d"><div class="ttname"><a href="struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa9a63fc5cffc72a734fe9e797ffd3e00.html#ab71f917101f82ab73053fc36e77cb06d">QT_WARNING_DISABLE_DEPRECATED::qt_meta_stringdata_CLASSTelaEscolhaBarbeiroENDCLASS_t::offsetsAndSizes</a></div><div class="ttdeci">uint offsetsAndSizes[10]</div><div class="ttdef"><b>Definition</b> moc_telaescolhabarbeiro.cpp:50</div></div>
 </div><!-- fragment -->
 </div>
 </div>

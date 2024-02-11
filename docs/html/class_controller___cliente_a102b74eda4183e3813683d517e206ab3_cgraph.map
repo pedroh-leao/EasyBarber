@@ -1,0 +1,9 @@
+<map id="Controller_Cliente::updateTelefone" name="Controller_Cliente::updateTelefone">
+<area shape="rect" id="Node000001" title="Atualiza o telefone do cliente." alt="" coords="5,23,129,65"/>
+<area shape="rect" id="Node000002" href="$class_pessoa.html#a8060fb5aef73b7324cbffa53b93a8292" title=" " alt="" coords="203,5,342,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="129,34,187,26,188,32,129,39"/>
+<area shape="rect" id="Node000003" href="$class_d_a_o___cliente.html#aee181b4d3a1a25a8d4b0b6f17b810b67" title="Atualiza o telefone do cliente." alt="" coords="177,56,368,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="129,49,161,53,161,58,129,54"/>
+<area shape="rect" id="Node000004" href="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500" title=" " alt="" coords="416,56,540,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="368,67,401,67,401,72,368,72"/>
+</map>

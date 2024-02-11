@@ -1,0 +1,15 @@
+digraph "Controller_Barbearia::buscaBarbeirosAssociados"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="Controller_Barbearia\l::buscaBarbeirosAssociados",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Busca os barbeiros associados a uma barbearia."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="DAO_Barbearia::buscaBarbeiros\lAssociados",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_d_a_o___barbearia.html#abe1704f6784a4f1a6872bf6f645ed7b0",tooltip="Busca os barbeiros associados a uma barbearia."];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="Barbearia::add",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_barbearia.html#ac91091fe07d6c4ce27c7dc42eb7c08b4",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Barbearia::getEmail",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_barbearia.html#a738c06dff340fdf090f39b2d8752f768",tooltip=" "];
+}

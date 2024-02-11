@@ -1,0 +1,17 @@
+<map id="unit_Barbearia_buscarBarbeirosAssociados" name="unit_Barbearia_buscarBarbeirosAssociados">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,211,99"/>
+<area shape="rect" id="Node000002" href="$class_barbearia.html#a09b6abc054a76d7db8f1558ebf914885" title=" " alt="" coords="267,5,438,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,53,278,34,279,39,200,58"/>
+<area shape="rect" id="Node000003" href="$class_controller___barbearia.html#ac3dddaa12b66e142b3cb0bcf0f8b97d5" title="Busca os barbeiros associados a uma barbearia." alt="" coords="259,56,446,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="211,75,243,75,243,80,211,80"/>
+<area shape="rect" id="Node000007" href="$class_controller___barbearia.html#aa4391f27313c42f55b37af15d640ee97" title="Busca uma barbearia pelo email." alt="" coords="261,123,444,165"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="190,97,258,115,256,121,188,102"/>
+<area shape="rect" id="Node000004" href="$class_d_a_o___barbearia.html#abe1704f6784a4f1a6872bf6f645ed7b0" title="Busca os barbeiros associados a uma barbearia." alt="" coords="494,56,703,99"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="446,75,478,75,478,80,446,80"/>
+<area shape="rect" id="Node000005" href="$class_barbearia.html#ac91091fe07d6c4ce27c7dc42eb7c08b4" title=" " alt="" coords="766,39,872,65"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="703,63,751,57,751,62,704,68"/>
+<area shape="rect" id="Node000006" href="$class_barbearia.html#a738c06dff340fdf090f39b2d8752f768" title=" " alt="" coords="751,89,887,116"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="704,87,736,90,735,96,703,92"/>
+<area shape="rect" id="Node000008" href="$class_d_a_o___barbearia.html#a6ac094d11f5e60923974fe4b4761a3ad" title="Busca uma barbearia pelo email." alt="" coords="494,123,703,165"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="444,141,478,141,478,147,444,147"/>
+</map>

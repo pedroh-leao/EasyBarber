@@ -1,0 +1,11 @@
+<map id="DAO_Cliente::updateEndereco" name="DAO_Cliente::updateEndereco">
+<area shape="rect" id="Node000001" title="Atualiza o endereço do cliente." alt="" coords="702,13,900,40"/>
+<area shape="rect" id="Node000002" href="$class_controller___cliente.html#acc32d5b1dd8f244141b9f4ff8a9ebd41" title="Atualiza o endereço do cliente." alt="" coords="530,5,654,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="686,29,654,29,654,24,686,24"/>
+<area shape="rect" id="Node000003" href="$unit__cliente_8cpp.html#af637a0ef6fa350005bd876884f0653b8" title="Testa a função updateEndereco da classe Controller_Cliente." alt="" coords="292,13,482,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="515,29,483,29,483,24,515,24"/>
+<area shape="rect" id="Node000004" href="$unit__cliente_8cpp.html#a4d134b7f0141f14318ba68008080356e" title="Executa todos os testes unitários para a classe Cliente." alt="" coords="103,13,244,40"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="276,29,244,29,244,24,276,24"/>
+<area shape="rect" id="Node000005" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,55,40"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,29,55,29,55,24,87,24"/>
+</map>

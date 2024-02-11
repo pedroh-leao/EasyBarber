@@ -7,9 +7,9 @@ digraph "Pessoa::setEmail"
   rankdir="RL";
   Node1 [id="Node000001",label="Pessoa::setEmail",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
   Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node2 [id="Node000002",label="unit_Pessoa_get_set\l_email",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__pessoa_8cpp.html#a8ed175d1b1afc194c947770e77828931",tooltip=" "];
+  Node2 [id="Node000002",label="unit_Pessoa_get_set\l_email",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__pessoa_8cpp.html#a8ed175d1b1afc194c947770e77828931",tooltip="Testa a função de set e get do email para a classe Pessoa."];
   Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
-  Node3 [id="Node000003",label="run_unit_test_pessoa",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__pessoa_8cpp.html#ae4dc202702283199027582f3fad00b0e",tooltip=" "];
+  Node3 [id="Node000003",label="run_unit_test_pessoa",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__pessoa_8cpp.html#ae4dc202702283199027582f3fad00b0e",tooltip="Executa todos os testes unitários para a classe Pessoa."];
   Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node4 [id="Node000004",label="main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",tooltip=" "];
 }

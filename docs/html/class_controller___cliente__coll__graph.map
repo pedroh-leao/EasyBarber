@@ -1,0 +1,7 @@
+<map id="Controller_Cliente" name="Controller_Cliente">
+<area shape="rect" id="Node000001" title=" " alt="" coords="15,721,208,1132"/>
+<area shape="rect" id="Node000002" href="$class_d_a_o___cliente.html" title=" " alt="" coords="23,231,199,657"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,657,114,705,109,705,109,657"/>
+<area shape="rect" id="Node000003" href="$class_d_a_o___pessoa.html" title=" " alt="" coords="5,5,217,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="114,196,114,231,109,231,109,196"/>
+</map>

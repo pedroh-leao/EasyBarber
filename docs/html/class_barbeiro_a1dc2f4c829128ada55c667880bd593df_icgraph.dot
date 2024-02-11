@@ -15,4 +15,7 @@ digraph "Barbeiro::getPreco"
   Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
   Node5 [id="Node000005",label="unit_Barbeiro_SetPreco",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__barbeiro_8cpp.html#a5931c31bd3d7218abbcdc47785f685e1",tooltip=" "];
   Node5 -> Node3 [id="edge5_Node000005_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="unit_Barbeiro_updatePreco",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__barbeiro_8cpp.html#ad67fb29da1a5cd3809ba6ea9b0ec8d6e",tooltip=" "];
+  Node6 -> Node3 [id="edge7_Node000006_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
 }

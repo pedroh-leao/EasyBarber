@@ -1,16 +1,18 @@
 <map id="Pessoa::existsHorario" name="Pessoa::existsHorario">
-<area shape="rect" id="Node000001" title="Verifica se um horário já está na lista de horários agendados." alt="" coords="737,80,886,107"/>
-<area shape="rect" id="Node000002" href="$class_barbearia.html#ab858b840cab5d3f22e0a5328a88d3dbd" title=" " alt="" coords="482,80,689,107"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="721,96,689,96,689,91,721,91"/>
-<area shape="rect" id="Node000003" href="$functional__tests_8cpp.html#a988006b3495a457ea2c825651b91be60" title=" " alt="" coords="284,5,413,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="520,78,413,47,414,42,521,73"/>
-<area shape="rect" id="Node000006" href="$functional__tests_8cpp.html#a1eea1f92c722dc2df4cf7386d0ca945a" title=" " alt="" coords="284,72,413,115"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="467,96,414,96,414,91,467,91"/>
-<area shape="rect" id="Node000007" href="$class_tela_agendamento.html#a7edebe48414f379482dc2752c080b801" title="Realiza o agendamento do atendimento na barbearia." alt="" coords="263,139,434,181"/>
-<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="521,114,428,141,426,135,520,109"/>
-<area shape="rect" id="Node000004" href="$functional__tests_8cpp.html#ac66c0c95899deebf8facb8a3b93eb06e" title=" " alt="" coords="103,47,215,73"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="269,43,216,53,215,47,268,38"/>
-<area shape="rect" id="Node000005" href="$test_2functional_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,47,55,73"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,63,55,63,55,57,87,57"/>
-<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="268,82,215,73,216,67,269,77"/>
+<area shape="rect" id="Node000001" title="Verifica se um horário já está na lista de horários agendados." alt="" coords="906,80,1055,107"/>
+<area shape="rect" id="Node000002" href="$class_barbearia.html#a05da273e2e266b0c653b6ddd69678a70" title="Verifica se o horário desejado está disponível." alt="" coords="682,80,858,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="890,96,858,96,858,91,890,91"/>
+<area shape="rect" id="Node000003" href="$class_controller___barbearia.html#a3565f4de6f990ef61b1d4b843187225b" title="Realiza o agendamento de um horário na barbearia." alt="" coords="482,72,634,115"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="666,96,634,96,634,91,666,91"/>
+<area shape="rect" id="Node000004" href="$functional__tests_8cpp.html#a988006b3495a457ea2c825651b91be60" title=" " alt="" coords="284,5,413,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="474,69,413,50,415,45,475,64"/>
+<area shape="rect" id="Node000007" href="$functional__tests_8cpp.html#a1eea1f92c722dc2df4cf7386d0ca945a" title=" " alt="" coords="284,72,413,115"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="467,96,414,96,414,91,467,91"/>
+<area shape="rect" id="Node000008" href="$class_tela_agendamento.html#a7edebe48414f379482dc2752c080b801" title="Realiza o agendamento do atendimento na barbearia." alt="" coords="263,139,434,181"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="476,122,419,141,417,135,474,117"/>
+<area shape="rect" id="Node000005" href="$functional__tests_8cpp.html#ac66c0c95899deebf8facb8a3b93eb06e" title=" " alt="" coords="103,47,215,73"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="269,43,216,53,215,47,268,38"/>
+<area shape="rect" id="Node000006" href="$test_2functional_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,47,55,73"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="87,63,55,63,55,57,87,57"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="268,82,215,73,216,67,269,77"/>
 </map>

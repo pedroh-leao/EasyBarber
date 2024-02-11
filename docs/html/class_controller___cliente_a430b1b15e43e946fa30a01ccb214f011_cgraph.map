@@ -1,0 +1,5 @@
+<map id="Controller_Cliente::getClientePeloEmail" name="Controller_Cliente::getClientePeloEmail">
+<area shape="rect" id="Node000001" title="Obtém um objeto Cliente pelo email." alt="" coords="5,5,152,48"/>
+<area shape="rect" id="Node000002" href="$class_d_a_o___cliente.html#a84c8757d33e52dbb6a8c7393770a011a" title="Obtém um objeto Cliente pelo email." alt="" coords="200,5,388,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,24,184,24,184,29,152,29"/>
+</map>

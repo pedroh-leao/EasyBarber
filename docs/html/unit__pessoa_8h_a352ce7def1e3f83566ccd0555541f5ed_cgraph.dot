@@ -5,7 +5,7 @@ digraph "unit_Pessoa_get_set_senha"
   edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
   node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
   rankdir="LR";
-  Node1 [id="Node000001",label="unit_Pessoa_get_set\l_senha",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 [id="Node000001",label="unit_Pessoa_get_set\l_senha",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Testa a função de set e get da senha para a classe Pessoa."];
   Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
   Node2 [id="Node000002",label="Pessoa::getSenha",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_pessoa.html#a7f8f84bdcac5c57ea6754b53e3367ffd",tooltip=" "];
   Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];

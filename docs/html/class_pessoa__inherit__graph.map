@@ -1,7 +1,7 @@
 <map id="Pessoa" name="Pessoa">
-<area shape="rect" id="Node000001" title=" " alt="" coords="99,5,279,779"/>
-<area shape="rect" id="Node000002" href="$class_barbeiro.html" title=" " alt="" coords="5,827,184,1040"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,794,116,827,110,827,116,793"/>
-<area shape="rect" id="Node000003" href="$class_cliente.html" title=" " alt="" coords="208,856,360,1011"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="262,792,273,856,268,857,257,793"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="99,5,279,800"/>
+<area shape="rect" id="Node000002" href="$class_barbeiro.html" title=" " alt="" coords="5,848,184,1061"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,815,115,849,110,848,116,814"/>
+<area shape="rect" id="Node000003" href="$class_cliente.html" title=" " alt="" coords="208,877,360,1032"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="263,814,274,877,268,878,257,815"/>
 </map>

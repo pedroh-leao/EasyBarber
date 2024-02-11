@@ -1,9 +1,23 @@
 <map id="Pessoa::setSenha" name="Pessoa::setSenha">
-<area shape="rect" id="Node000001" title=" " alt="" coords="487,13,616,40"/>
-<area shape="rect" id="Node000002" href="$unit__pessoa_8cpp.html#a352ce7def1e3f83566ccd0555541f5ed" title=" " alt="" coords="296,5,439,48"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="472,29,439,29,439,24,472,24"/>
-<area shape="rect" id="Node000003" href="$unit__pessoa_8cpp.html#ae4dc202702283199027582f3fad00b0e" title=" " alt="" coords="103,13,248,40"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="281,29,249,29,249,24,281,24"/>
-<area shape="rect" id="Node000004" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,55,40"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,29,55,29,55,24,87,24"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="720,80,848,107"/>
+<area shape="rect" id="Node000002" href="$unit__pessoa_8cpp.html#a352ce7def1e3f83566ccd0555541f5ed" title="Testa a função de set e get da senha para a classe Pessoa." alt="" coords="528,5,672,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="729,77,660,51,662,46,731,72"/>
+<area shape="rect" id="Node000005" href="$class_controller___barbeiro.html#aa556fb2b24568b6fc95acab6b2fc6cdd" title="Atualiza a senha do barbeiro." alt="" coords="534,72,666,115"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="704,96,666,96,666,91,704,91"/>
+<area shape="rect" id="Node000008" href="$class_controller___cliente.html#a01ff2c5fd57ff0b853914843f1f11e81" title="Atualiza a senha do cliente." alt="" coords="538,139,662,181"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="731,115,662,141,660,136,729,110"/>
+<area shape="rect" id="Node000003" href="$unit__pessoa_8cpp.html#ae4dc202702283199027582f3fad00b0e" title="Executa todos os testes unitários para a classe Pessoa." alt="" coords="105,25,250,52"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="513,32,251,39,250,34,513,26"/>
+<area shape="rect" id="Node000004" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,80,55,107"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="126,60,56,87,54,82,124,56"/>
+<area shape="rect" id="Node000006" href="$unit__barbeiro_8cpp.html#aae8019e14db5ab6bccb174e30adfa5b0" title=" " alt="" coords="300,80,480,107"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="518,96,481,96,481,91,518,91"/>
+<area shape="rect" id="Node000007" href="$unit__barbeiro_8cpp.html#a42eb2fdea3998103d34609226f46301e" title=" " alt="" coords="103,80,252,107"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="285,96,252,96,252,91,285,91"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="87,96,55,96,55,91,87,91"/>
+<area shape="rect" id="Node000009" href="$unit__cliente_8cpp.html#ab6e04f3baedd46b01bfc9dce6156fde3" title="Testa a função updateSenha da classe Controller_Cliente." alt="" coords="304,143,476,169"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="523,161,477,160,477,155,523,156"/>
+<area shape="rect" id="Node000010" href="$unit__cliente_8cpp.html#a4d134b7f0141f14318ba68008080356e" title="Executa todos os testes unitários para a classe Cliente." alt="" coords="107,135,248,161"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="288,155,249,153,249,148,288,150"/>
+<area shape="poly" id="edge11_Node000010_Node000004" title=" " alt="" coords="124,131,54,105,56,100,126,126"/>
 </map>

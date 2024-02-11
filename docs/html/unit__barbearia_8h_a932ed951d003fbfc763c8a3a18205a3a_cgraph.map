@@ -1,0 +1,29 @@
+<map id="unit_Barbearia_removerBarbeiro" name="unit_Barbearia_removerBarbeiro">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,157,210,184"/>
+<area shape="rect" id="Node000002" href="$class_barbearia.html#a09b6abc054a76d7db8f1558ebf914885" title=" " alt="" coords="753,64,924,91"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,154,257,141,481,115,705,92,738,88,738,93,706,97,482,120,258,147,181,159"/>
+<area shape="rect" id="Node000003" href="$class_barbearia.html#abbcb6bd01615521f2cb86424c1247399" title=" " alt="" coords="758,131,919,157"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="210,164,743,145,743,150,210,170"/>
+<area shape="rect" id="Node000004" href="$class_controller___barbearia.html#ac3dddaa12b66e142b3cb0bcf0f8b97d5" title="Busca os barbeiros associados a uma barbearia." alt="" coords="258,208,445,251"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="167,182,246,201,244,206,165,187"/>
+<area shape="rect" id="Node000008" href="$class_controller___barbearia.html#aa4391f27313c42f55b37af15d640ee97" title="Busca uma barbearia pelo email." alt="" coords="260,275,443,317"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="130,182,187,220,259,260,271,266,269,271,256,265,184,224,127,187"/>
+<area shape="rect" id="Node000010" href="$class_controller___barbearia.html#ab6b23a5e89d88ff262214f81da61b56b" title="Remove um barbeiro da barbearia." alt="" coords="282,40,421,83"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="137,154,257,99,283,87,286,92,259,104,139,159"/>
+<area shape="rect" id="Node000005" href="$class_d_a_o___barbearia.html#abe1704f6784a4f1a6872bf6f645ed7b0" title="Busca os barbeiros associados a uma barbearia." alt="" coords="495,208,704,251"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="445,227,479,227,479,232,445,232"/>
+<area shape="rect" id="Node000006" href="$class_barbearia.html#ac91091fe07d6c4ce27c7dc42eb7c08b4" title=" " alt="" coords="786,241,891,268"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="705,238,771,245,770,250,704,243"/>
+<area shape="rect" id="Node000007" href="$class_barbearia.html#a738c06dff340fdf090f39b2d8752f768" title=" " alt="" coords="771,191,906,217"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="704,216,755,210,756,215,705,221"/>
+<area shape="rect" id="Node000009" href="$class_d_a_o___barbearia.html#a6ac094d11f5e60923974fe4b4761a3ad" title="Busca uma barbearia pelo email." alt="" coords="495,275,704,317"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="443,293,479,293,479,299,443,299"/>
+<area shape="rect" id="Node000011" href="$class_barbearia.html#aae6c6667d3687766358e6504d2180378" title=" " alt="" coords="537,56,662,83"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="421,61,521,64,521,69,421,66"/>
+<area shape="rect" id="Node000012" href="$class_d_a_o___barbearia.html#a8397689d5d5154873257386af4ebbe7e" title="Remove um barbeiro da barbearia." alt="" coords="493,5,705,32"/>
+<area shape="poly" id="edge13_Node000010_Node000012" title=" " alt="" coords="421,47,502,33,503,38,421,52"/>
+<area shape="poly" id="edge11_Node000011_Node000002" title=" " alt="" coords="662,69,738,71,737,77,662,74"/>
+<area shape="poly" id="edge12_Node000011_Node000003" title=" " alt="" coords="645,81,779,123,778,128,644,86"/>
+<area shape="rect" id="Node000013" href="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500" title=" " alt="" coords="776,5,901,32"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="706,16,761,16,761,21,706,21"/>
+</map>

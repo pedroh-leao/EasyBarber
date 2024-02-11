@@ -1,0 +1,9 @@
+<map id="DAO_Pessoa::removeHorario" name="DAO_Pessoa::removeHorario">
+<area shape="rect" id="Node000001" title="Remove um horário agendado para uma pessoa." alt="" coords="5,56,196,83"/>
+<area shape="rect" id="Node000002" href="$class_horario.html#aadb59554ffae0bfd66e75f1c1d607f7c" title="Getter para o atributo data." alt="" coords="248,5,364,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,53,233,34,235,39,158,58"/>
+<area shape="rect" id="Node000003" href="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500" title=" " alt="" coords="244,56,368,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,67,228,67,228,72,196,72"/>
+<area shape="rect" id="Node000004" href="$class_horario.html#a07a4aec4ebeab8637ab670a4a2747158" title="Getter para o atributo hora." alt="" coords="248,107,364,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="158,81,235,100,233,105,157,86"/>
+</map>

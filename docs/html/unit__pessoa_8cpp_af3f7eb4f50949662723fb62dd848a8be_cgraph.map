@@ -1,5 +1,5 @@
 <map id="unit_Pessoa_get_set_telefone" name="unit_Pessoa_get_set_telefone">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,149,65"/>
+<area shape="rect" id="Node000001" title="Testa a função de set e get do telefone para a classe Pessoa." alt="" coords="5,23,149,65"/>
 <area shape="rect" id="Node000002" href="$class_pessoa.html#afcc25e8f6dc6d9b0ce5862df3cfbb66f" title=" " alt="" coords="197,5,336,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="149,32,181,27,181,33,149,37"/>
 <area shape="rect" id="Node000003" href="$class_pessoa.html#a8060fb5aef73b7324cbffa53b93a8292" title=" " alt="" coords="197,56,336,83"/>

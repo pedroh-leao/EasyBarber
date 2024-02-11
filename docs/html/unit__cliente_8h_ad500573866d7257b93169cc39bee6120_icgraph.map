@@ -1,0 +1,7 @@
+<map id="unit_Cliente_getClientePeloEmail" name="unit_Cliente_getClientePeloEmail">
+<area shape="rect" id="Node000001" title="Testa a função getClientePeloEmail da classe Controller_Cliente." alt="" coords="292,5,472,48"/>
+<area shape="rect" id="Node000002" href="$unit__cliente_8cpp.html#a4d134b7f0141f14318ba68008080356e" title="Executa todos os testes unitários para a classe Cliente." alt="" coords="103,13,244,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="277,29,244,29,244,24,277,24"/>
+<area shape="rect" id="Node000003" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,55,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,29,55,29,55,24,87,24"/>
+</map>

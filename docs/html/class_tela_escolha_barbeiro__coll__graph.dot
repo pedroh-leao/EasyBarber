@@ -45,6 +45,7 @@ digraph "TelaEscolhaBarbeiro"
 <TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">bool add(Barbeiro *barbeiro)<BR ALIGN="LEFT"/></TD></TR>
 <TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">bool remove(Barbeiro<BR ALIGN="LEFT"/> *barbeiro)<BR ALIGN="LEFT"/></TD></TR>
 <TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">bool realizarAgendamento<BR ALIGN="LEFT"/>(Barbeiro *barbeiro, Cliente<BR ALIGN="LEFT"/> *cliente, Horario *horario)<BR ALIGN="LEFT"/></TD></TR>
+<TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">bool horarioEstaLivre<BR ALIGN="LEFT"/>(Barbeiro *barbeiro,<BR ALIGN="LEFT"/> Cliente *cliente, Horario<BR ALIGN="LEFT"/> *horario)<BR ALIGN="LEFT"/></TD></TR>
 </TABLE>>
 ,height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_barbearia.html",tooltip=" "];
   Node4 -> Node1 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" ",label=" #cliente",fontcolor="grey" ,arrowhead="odiamond"];
@@ -65,6 +66,7 @@ digraph "TelaEscolhaBarbeiro"
 <TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">#</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">string email<BR ALIGN="LEFT"/></TD></TR>
 <TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">#</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">string senha<BR ALIGN="LEFT"/></TD></TR>
 <TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">#</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">vector&lt; Horario * &gt;<BR ALIGN="LEFT"/> horariosAgendados<BR ALIGN="LEFT"/></TD></TR>
+<TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">#</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">QSqlQuery query<BR ALIGN="LEFT"/></TD></TR>
 <HR/>
 <TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">Pessoa(string nome<BR ALIGN="LEFT"/>=&quot;&quot;, string endereco<BR ALIGN="LEFT"/>=&quot;&quot;, string telefone<BR ALIGN="LEFT"/>=&quot;&quot;, string email=&quot;&quot;,<BR ALIGN="LEFT"/> string senha=&quot;&quot;)<BR ALIGN="LEFT"/></TD></TR>
 <TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">virtual ~Pessoa()<BR ALIGN="LEFT"/></TD></TR>

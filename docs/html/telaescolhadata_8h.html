@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>EasyBarber: C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/EasyBarber/telaescolhadata.h File Reference</title>
+<title>EasyBarber: C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/EasyBarber/View/telaescolhadata.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">EasyBarber<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">EasyBarber<span id="projectnumber">&#160;0.2</span>
    </div>
    <div id="projectbrief">Projeto para agendamento em barbearia</div>
   </td>
@@ -96,59 +96,131 @@ $(document).ready(function(){initNavTree('telaescolhadata_8h.html',''); initResi
   <div class="headertitle"><div class="title">telaescolhadata.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="barbearia_8h_source.html">barbearia.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="cliente_8h_source.html">Cliente.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="barbearia_8h_source.html">../Model/barbearia.h</a>&quot;</code><br />
 <code>#include &lt;QDialog&gt;</code><br />
 <code>#include &lt;QDate&gt;</code><br />
 <code>#include &lt;QDateEdit&gt;</code><br />
+<code>#include &lt;QtSql&gt;</code><br />
+<code>#include &quot;ui_telaescolhadata.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="_horario_8h_source.html">../Model/horario.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="telaescolhabarbeiro_8h_source.html">telaescolhabarbeiro.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="telaagendamento_8h_source.html">telaagendamento.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for telaescolhadata.h:</div>
 <div class="dyncontent">
-<div class="center"><img src="telaescolhadata_8h__incl.png" border="0" usemap="#a_c_1_2_users_2mathe_2_one_drive_2_xC3_x81rea_01de_01_trabalho_2_easy_barber_2_easy_barber_2telaescolhadata_8h" alt=""/></div>
-<map name="a_c_1_2_users_2mathe_2_one_drive_2_xC3_x81rea_01de_01_trabalho_2_easy_barber_2_easy_barber_2telaescolhadata_8h" id="a_c_1_2_users_2mathe_2_one_drive_2_xC3_x81rea_01de_01_trabalho_2_easy_barber_2_easy_barber_2telaescolhadata_8h">
-<area shape="rect" title=" " alt="" coords="173,5,372,64"/>
-<area shape="rect" href="barbearia_8h.html" title=" " alt="" coords="130,112,215,139"/>
-<area shape="poly" title=" " alt="" coords="242,66,200,104,196,100,239,62"/>
-<area shape="rect" href="cliente_8h.html" title=" " alt="" coords="5,187,76,213"/>
-<area shape="poly" title=" " alt="" coords="201,67,159,88,119,114,87,144,60,176,56,172,83,141,116,110,157,84,199,62"/>
-<area shape="rect" title=" " alt="" coords="239,112,306,139"/>
-<area shape="poly" title=" " alt="" coords="275,64,275,96,270,96,270,64"/>
-<area shape="rect" title=" " alt="" coords="330,112,388,139"/>
-<area shape="poly" title=" " alt="" coords="302,62,338,99,334,103,298,66"/>
-<area shape="rect" title=" " alt="" coords="412,112,493,139"/>
-<area shape="poly" title=" " alt="" coords="332,62,415,102,412,107,330,67"/>
-<area shape="rect" title=" " alt="" coords="233,411,286,437"/>
-<area shape="poly" title=" " alt="" coords="204,137,237,157,267,185,297,229,316,270,321,312,310,364,299,384,286,401,282,398,295,381,305,362,316,312,311,271,293,232,262,188,233,161,201,142"/>
-<area shape="rect" title=" " alt="" coords="90,336,146,363"/>
-<area shape="poly" title=" " alt="" coords="165,141,152,162,140,188,131,223,125,258,121,320,115,320,120,258,126,221,135,186,147,159,161,138"/>
-<area shape="rect" href="_barbeiro_8h.html" title=" " alt="" coords="150,187,230,213"/>
-<area shape="poly" title=" " alt="" coords="178,139,186,171,181,172,173,140"/>
-<area shape="rect" href="_horario_8h.html" title=" " alt="" coords="224,336,295,363"/>
-<area shape="poly" title=" " alt="" coords="196,137,222,157,244,185,257,220,264,256,265,320,259,320,259,257,252,221,240,188,218,161,192,141"/>
-<area shape="poly" title=" " alt="" coords="151,142,78,181,75,177,148,137"/>
-<area shape="rect" href="pessoa_8h.html" title=" " alt="" coords="150,261,227,288"/>
-<area shape="poly" title=" " alt="" coords="192,214,192,246,186,246,187,214"/>
-<area shape="poly" title=" " alt="" coords="193,288,199,322,214,361,239,398,235,401,209,364,194,323,187,289"/>
-<area shape="poly" title=" " alt="" coords="178,290,142,327,139,323,174,287"/>
-<area shape="poly" title=" " alt="" coords="203,287,238,323,235,327,199,290"/>
-<area shape="poly" title=" " alt="" coords="262,363,262,395,257,395,257,363"/>
-<area shape="poly" title=" " alt="" coords="67,211,150,252,148,256,65,216"/>
+<div class="center"><img src="telaescolhadata_8h__incl.png" border="0" usemap="#a_c_1_2_users_2mathe_2_one_drive_2_xC3_x81rea_01de_01_trabalho_2_easy_barber_2_easy_barber_2_view_2telaescolhadata_8h" alt=""/></div>
+<map name="a_c_1_2_users_2mathe_2_one_drive_2_xC3_x81rea_01de_01_trabalho_2_easy_barber_2_easy_barber_2_view_2telaescolhadata_8h" id="a_c_1_2_users_2mathe_2_one_drive_2_xC3_x81rea_01de_01_trabalho_2_easy_barber_2_easy_barber_2_view_2telaescolhadata_8h">
+<area shape="rect" title=" " alt="" coords="575,5,806,64"/>
+<area shape="rect" href="barbearia_8h.html" title=" " alt="" coords="689,352,826,379"/>
+<area shape="poly" title=" " alt="" coords="807,50,922,70,1042,100,1098,118,1146,138,1183,160,1208,185,1216,203,1220,220,1220,237,1215,252,1195,281,1164,306,1139,319,1106,329,1022,345,928,356,841,363,840,358,927,351,1021,340,1105,324,1137,314,1161,302,1191,277,1210,250,1214,236,1215,221,1211,205,1203,188,1180,165,1143,143,1096,123,1041,105,921,76,806,55"/>
+<area shape="rect" title=" " alt="" coords="84,576,138,603"/>
+<area shape="poly" title=" " alt="" coords="575,44,403,58,309,71,217,87,135,109,68,136,43,152,24,168,12,187,8,207,8,441,15,478,34,512,58,541,83,564,80,568,54,545,29,515,10,480,3,442,3,206,7,185,20,165,39,147,66,131,133,104,216,82,308,66,403,53,574,38"/>
+<area shape="rect" href="_horario_8h.html" title=" " alt="" coords="743,576,814,603"/>
+<area shape="poly" title=" " alt="" coords="807,45,946,65,1021,80,1092,97,1156,119,1207,143,1242,172,1251,189,1255,206,1255,367,1251,400,1241,430,1226,457,1205,480,1180,501,1152,519,1088,547,1018,567,948,579,830,590,829,585,947,574,1016,561,1086,542,1149,514,1177,497,1201,477,1221,454,1236,428,1246,399,1249,367,1249,207,1246,191,1238,176,1204,148,1154,124,1090,103,1019,85,945,70,807,50"/>
+<area shape="rect" title=" " alt="" coords="614,112,682,139"/>
+<area shape="poly" title=" " alt="" coords="679,65,663,99,658,97,675,63"/>
+<area shape="rect" title=" " alt="" coords="706,112,764,139"/>
+<area shape="poly" title=" " alt="" coords="707,63,724,97,719,99,702,66"/>
+<area shape="rect" title=" " alt="" coords="787,112,869,139"/>
+<area shape="poly" title=" " alt="" coords="737,62,797,101,794,106,734,67"/>
+<area shape="rect" title=" " alt="" coords="893,112,1033,139"/>
+<area shape="poly" title=" " alt="" coords="780,62,910,104,908,109,778,67"/>
+<area shape="rect" href="telaescolhabarbeiro_8h.html" title=" " alt="" coords="93,195,238,221"/>
+<area shape="poly" title=" " alt="" coords="587,67,435,115,209,191,207,186,434,109,586,62"/>
+<area shape="rect" href="telaagendamento_8h.html" title=" " alt="" coords="458,112,590,139"/>
+<area shape="poly" title=" " alt="" coords="638,67,562,107,560,102,635,62"/>
+<area shape="rect" title=" " alt="" coords="752,651,805,677"/>
+<area shape="poly" title=" " alt="" coords="766,378,799,459,817,516,829,576,831,590,829,603,819,624,806,641,801,638,814,621,824,602,826,590,824,576,811,518,794,461,761,380"/>
+<area shape="rect" title=" " alt="" coords="663,576,718,603"/>
+<area shape="poly" title=" " alt="" coords="756,380,701,562,696,561,751,378"/>
+<area shape="rect" href="_barbeiro_8h.html" title=" " alt="" coords="487,427,567,453"/>
+<area shape="poly" title=" " alt="" coords="718,382,583,424,581,419,716,377"/>
+<area shape="poly" title=" " alt="" coords="761,379,779,561,773,561,756,379"/>
+<area shape="rect" href="_cliente_8h.html" title=" " alt="" coords="592,427,662,453"/>
+<area shape="poly" title=" " alt="" coords="736,382,664,421,662,416,733,377"/>
+<area shape="rect" href="pessoa_8h.html" title=" " alt="" coords="588,501,663,528"/>
+<area shape="poly" title=" " alt="" coords="545,452,598,490,595,494,542,456"/>
+<area shape="poly" title=" " alt="" coords="628,528,634,563,642,583,653,601,671,618,693,632,738,650,736,655,690,637,668,622,649,604,637,586,629,565,623,529"/>
+<area shape="poly" title=" " alt="" coords="639,527,671,563,667,566,635,530"/>
+<area shape="poly" title=" " alt="" coords="588,524,154,585,153,579,588,519"/>
+<area shape="poly" title=" " alt="" coords="653,526,739,566,737,571,651,531"/>
+<area shape="poly" title=" " alt="" coords="781,603,781,635,776,635,776,603"/>
+<area shape="poly" title=" " alt="" coords="629,454,629,486,623,486,624,454"/>
+<area shape="poly" title=" " alt="" coords="209,192,458,109,593,67,595,72,459,115,210,197"/>
+<area shape="poly" title=" " alt="" coords="214,219,250,227,296,231,354,233,490,234,559,237,623,244,678,256,719,275,732,288,742,304,755,336,750,338,738,306,728,291,716,280,676,261,622,249,559,243,490,240,354,238,295,237,249,232,213,225"/>
+<area shape="poly" title=" " alt="" coords="160,223,131,282,119,322,113,364,113,441,113,560,108,560,108,441,108,364,113,321,126,280,155,220"/>
+<area shape="poly" title=" " alt="" coords="168,221,172,261,180,283,193,302,212,314,248,329,354,363,577,424,576,429,352,368,246,334,209,319,189,306,175,285,167,262,162,222"/>
+<area shape="rect" title=" " alt="" coords="452,277,524,304"/>
+<area shape="poly" title=" " alt="" coords="217,219,437,274,436,279,216,225"/>
+<area shape="rect" title=" " alt="" coords="202,277,305,304"/>
+<area shape="poly" title=" " alt="" coords="181,220,231,265,227,269,177,224"/>
+<area shape="rect" title=" " alt="" coords="329,277,428,304"/>
+<area shape="poly" title=" " alt="" coords="200,219,332,269,330,274,198,224"/>
+<area shape="poly" title=" " alt="" coords="590,134,603,136,713,140,897,145,1077,158,1142,169,1164,176,1178,185,1193,206,1200,225,1199,243,1190,260,1176,275,1156,288,1104,311,1040,329,971,343,841,360,840,355,970,338,1039,324,1102,306,1153,284,1172,271,1186,257,1193,242,1195,226,1188,208,1174,189,1162,181,1141,174,1077,163,897,150,713,145,602,141,590,140"/>
+<area shape="poly" title=" " alt="" coords="458,129,361,133,249,142,148,160,110,173,83,189,65,211,58,233,59,289,59,441,62,475,72,507,97,562,92,564,67,509,57,476,53,441,53,289,53,232,60,208,80,185,107,168,147,154,248,136,360,127,458,124"/>
+<area shape="poly" title=" " alt="" coords="466,142,250,189,233,193,232,188,249,184,464,137"/>
+<area shape="poly" title=" " alt="" coords="514,141,497,162,484,187,479,226,484,262,478,262,474,226,479,186,493,159,509,138"/>
+<area shape="poly" title=" " alt="" coords="515,141,402,268,398,264,511,137"/>
+<area shape="rect" title=" " alt="" coords="493,195,555,221"/>
+<area shape="poly" title=" " alt="" coords="527,139,527,179,521,179,521,139"/>
+<area shape="rect" title=" " alt="" coords="749,195,851,221"/>
+<area shape="poly" title=" " alt="" coords="571,137,738,184,748,187,746,192,737,189,570,142"/>
+<area shape="rect" title=" " alt="" coords="876,195,970,221"/>
+<area shape="poly" title=" " alt="" coords="591,135,739,160,863,184,874,187,873,192,862,189,738,165,590,140"/>
+<area shape="rect" title=" " alt="" coords="994,195,1081,221"/>
+<area shape="poly" title=" " alt="" coords="590,134,603,136,710,148,793,154,877,163,982,184,992,187,991,192,981,189,876,168,793,159,709,153,602,141,590,140"/>
+<area shape="rect" title=" " alt="" coords="1105,195,1164,221"/>
+<area shape="poly" title=" " alt="" coords="590,134,603,136,741,147,850,148,957,156,1020,166,1093,184,1098,186,1097,191,1091,189,1019,172,957,161,850,154,741,152,602,141,590,140"/>
+<area shape="rect" title=" " alt="" coords="261,195,368,221"/>
+<area shape="poly" title=" " alt="" coords="492,142,363,191,361,186,490,137"/>
+<area shape="rect" href="controller__barbearia_8h.html" title=" " alt="" coords="579,187,725,229"/>
+<area shape="poly" title=" " alt="" coords="545,137,608,176,605,180,543,141"/>
+<area shape="poly" title=" " alt="" coords="708,228,739,248,764,276,769,291,771,307,768,338,763,337,766,307,764,292,759,279,736,252,706,232"/>
+<area shape="rect" href="dao__barbearia_8h.html" title=" " alt="" coords="548,277,705,304"/>
+<area shape="poly" title=" " alt="" coords="648,231,638,263,633,261,643,229"/>
+<area shape="poly" title=" " alt="" coords="651,302,722,342,720,346,648,307"/>
+<area shape="poly" title=" " alt="" coords="629,305,629,411,624,411,624,305"/>
+<area shape="rect" href="dao__barbeiro_8h.html" title=" " alt="" coords="148,352,255,379"/>
+<area shape="poly" title=" " alt="" coords="553,307,270,355,269,350,552,302"/>
+<area shape="poly" title=" " alt="" coords="256,376,472,424,471,429,254,381"/>
+<area shape="rect" href="dao__pessoa_8h.html" title=" " alt="" coords="150,427,253,453"/>
+<area shape="poly" title=" " alt="" coords="204,379,204,411,199,411,199,379"/>
+<area shape="poly" title=" " alt="" coords="253,447,573,502,573,507,252,453"/>
+<area shape="poly" title=" " alt="" coords="196,455,129,564,124,561,191,452"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><img src="telaescolhadata_8h__dep__incl.png" border="0" usemap="#a_c_1_2_users_2mathe_2_one_drive_2_xC3_x81rea_01de_01_trabalho_2_easy_barber_2_easy_barber_2telaescolhadata_8hdep" alt=""/></div>
-<map name="a_c_1_2_users_2mathe_2_one_drive_2_xC3_x81rea_01de_01_trabalho_2_easy_barber_2_easy_barber_2telaescolhadata_8hdep" id="a_c_1_2_users_2mathe_2_one_drive_2_xC3_x81rea_01de_01_trabalho_2_easy_barber_2_easy_barber_2telaescolhadata_8hdep">
-<area shape="rect" title=" " alt="" coords="456,5,655,64"/>
-<area shape="rect" href="_easy_barber_2debug_2moc__telaescolhadata_8cpp.html" title=" " alt="" coords="5,128,290,187"/>
-<area shape="poly" title=" " alt="" coords="444,71,245,130,244,125,443,66"/>
-<area shape="rect" href="telaescolhabarbeiro_8cpp.html" title=" " alt="" coords="314,128,549,187"/>
-<area shape="poly" title=" " alt="" coords="517,77,463,129,459,125,514,73"/>
-<area shape="rect" href="telaescolhadata_8cpp.html" title=" " alt="" coords="573,128,786,187"/>
-<area shape="poly" title=" " alt="" coords="597,73,652,125,648,129,594,77"/>
-<area shape="rect" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhadata_8cpp.html" title=" " alt="" coords="811,112,1047,203"/>
-<area shape="poly" title=" " alt="" coords="664,67,799,109,811,113,809,118,797,115,662,72"/>
+<div class="center"><img src="telaescolhadata_8h__dep__incl.png" border="0" usemap="#a_c_1_2_users_2mathe_2_one_drive_2_xC3_x81rea_01de_01_trabalho_2_easy_barber_2_easy_barber_2_view_2telaescolhadata_8hdep" alt=""/></div>
+<map name="a_c_1_2_users_2mathe_2_one_drive_2_xC3_x81rea_01de_01_trabalho_2_easy_barber_2_easy_barber_2_view_2telaescolhadata_8hdep" id="a_c_1_2_users_2mathe_2_one_drive_2_xC3_x81rea_01de_01_trabalho_2_easy_barber_2_easy_barber_2_view_2telaescolhadata_8hdep">
+<area shape="rect" title=" " alt="" coords="803,5,1034,64"/>
+<area shape="rect" href="telaescolhabarbeiro_8h.html" title=" " alt="" coords="387,128,639,187"/>
+<area shape="poly" title=" " alt="" coords="791,71,641,115,591,130,589,125,639,109,790,66"/>
+<area shape="rect" href="telaescolhadata_8cpp.html" title=" " alt="" coords="664,128,909,187"/>
+<area shape="poly" title=" " alt="" coords="878,77,820,129,816,125,874,73"/>
+<area shape="rect" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhadata_8cpp.html" title=" " alt="" coords="934,112,1170,203"/>
+<area shape="poly" title=" " alt="" coords="963,72,1004,109,1000,113,959,76"/>
+<area shape="rect" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_release_2release_2moc__telaescolhadata_8cpp.html" title=" " alt="" coords="1195,112,1448,203"/>
+<area shape="poly" title=" " alt="" coords="1036,66,1183,109,1195,113,1193,118,1182,115,1034,71"/>
+<area shape="poly" title=" " alt="" coords="627,120,663,109,826,62,827,67,665,115,629,125"/>
+<area shape="rect" href="telaagendamento_8h.html" title=" " alt="" coords="1210,267,1449,325"/>
+<area shape="poly" title=" " alt="" coords="610,189,652,200,761,220,846,229,932,236,1042,248,1210,273,1209,278,1041,253,931,241,845,234,760,225,651,205,609,194"/>
+<area shape="rect" href="telaescolhabarbeiro_8cpp.html" title=" " alt="" coords="5,267,272,325"/>
+<area shape="poly" title=" " alt="" coords="421,195,218,269,216,264,419,190"/>
+<area shape="rect" href="_easy_barber_2main_8cpp.html" title=" " alt="" coords="296,267,491,325"/>
+<area shape="poly" title=" " alt="" coords="480,200,420,268,416,264,476,197"/>
+<area shape="rect" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaescolhabarbeiro_8cpp.html" title=" " alt="" coords="515,251,751,341"/>
+<area shape="poly" title=" " alt="" coords="550,196,596,249,592,252,546,200"/>
+<area shape="rect" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_release_2release_2moc__telaescolhabarbeiro_8cpp.html" title=" " alt="" coords="776,251,1029,341"/>
+<area shape="poly" title=" " alt="" coords="610,190,776,248,775,253,608,195"/>
+<area shape="poly" title=" " alt="" coords="1404,256,1435,232,1458,201,1469,177,1474,155,1471,135,1458,114,1431,93,1390,77,1339,64,1280,54,1153,42,1035,38,1035,33,1154,37,1281,48,1340,58,1392,72,1433,89,1462,110,1476,133,1479,155,1474,179,1462,204,1438,236,1408,260"/>
+<area shape="rect" href="telaagendamento_8cpp.html" title=" " alt="" coords="933,405,1187,464"/>
+<area shape="poly" title=" " alt="" coords="1261,335,1117,407,1115,402,1258,330"/>
+<area shape="rect" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__telaagendamento_8cpp.html" title=" " alt="" coords="1211,389,1447,480"/>
+<area shape="poly" title=" " alt="" coords="1332,341,1332,389,1327,389,1327,341"/>
+<area shape="rect" href="build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_release_2release_2moc__telaagendamento_8cpp.html" title=" " alt="" coords="1472,389,1725,480"/>
+<area shape="poly" title=" " alt="" coords="1400,330,1512,386,1509,391,1398,335"/>
 </map>
 </div>
 </div>
@@ -170,7 +242,7 @@ Namespaces</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_df932a88e0e8d76e2cc96779d9f7d917.html">EasyBarber</a></li><li class="navelem"><a class="el" href="telaescolhadata_8h.html">telaescolhadata.h</a></li>
+    <li class="navelem"><a class="el" href="dir_df932a88e0e8d76e2cc96779d9f7d917.html">EasyBarber</a></li><li class="navelem"><a class="el" href="dir_dd326586d2efaaa0eaf6684d8c70ca41.html">View</a></li><li class="navelem"><a class="el" href="telaescolhadata_8h.html">telaescolhadata.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>

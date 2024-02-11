@@ -1,0 +1,17 @@
+<map id="unit_Cliente_buscarHorariosAgendados" name="unit_Cliente_buscarHorariosAgendados">
+<area shape="rect" id="Node000001" title="Testa a função buscarHorariosAgendados da classe Controller_Cliente." alt="" coords="5,89,189,132"/>
+<area shape="rect" id="Node000002" href="$class_controller___cliente.html#a2772ed4f7f2b21791238163b16aa80f0" title="Busca os horários agendados para um cliente." alt="" coords="237,56,418,99"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,95,221,90,221,95,189,100"/>
+<area shape="rect" id="Node000007" href="$class_controller___cliente.html#a430b1b15e43e946fa30a01ccb214f011" title="Obtém um objeto Cliente pelo email." alt="" coords="254,123,401,165"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="189,121,239,129,238,134,189,127"/>
+<area shape="rect" id="Node000003" href="$class_pessoa.html#a69d7d032ce6b9ea847f5ced8a9abefc3" title="Adiciona um horário à lista de horários agendados." alt="" coords="513,5,607,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="414,53,497,32,498,37,415,58"/>
+<area shape="rect" id="Node000004" href="$class_d_a_o___cliente.html#a8385614920c4b4aee3a5ab2bb963eff5" title="Busca os horários agendados para um cliente." alt="" coords="467,56,654,99"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="418,75,451,75,451,80,418,80"/>
+<area shape="rect" id="Node000005" href="$class_d_a_o___pessoa.html#acc6e07363832c3a5eb265d155325ebf2" title="Busca os horários agendados para uma pessoa." alt="" coords="702,56,894,99"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="654,75,687,75,687,80,654,80"/>
+<area shape="rect" id="Node000006" href="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500" title=" " alt="" coords="942,64,1066,91"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="894,75,926,75,926,80,894,80"/>
+<area shape="rect" id="Node000008" href="$class_d_a_o___cliente.html#a84c8757d33e52dbb6a8c7393770a011a" title="Obtém um objeto Cliente pelo email." alt="" coords="466,123,654,165"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="401,141,450,141,450,147,401,147"/>
+</map>

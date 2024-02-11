@@ -1,0 +1,11 @@
+<map id="DAO_Pessoa::removeHorario" name="DAO_Pessoa::removeHorario">
+<area shape="rect" id="Node000001" title="Remove um horário agendado para uma pessoa." alt="" coords="427,47,617,73"/>
+<area shape="rect" id="Node000002" href="$class_d_a_o___barbeiro.html#aa002ae28c04c894f148797081d071860" title="Remove um horário agendado para um barbeiro." alt="" coords="185,17,379,44"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="411,49,379,45,380,40,412,44"/>
+<area shape="rect" id="Node000004" href="$class_d_a_o___cliente.html#a44851f6be991bf30a26de4ffbbd8564e" title="Remove um horário agendado para um cliente." alt="" coords="189,72,375,99"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="412,74,376,78,375,73,411,69"/>
+<area shape="rect" id="Node000003" href="$class_controller___barbeiro.html#a64138a03e34ee3773a613584ae432473" title="Remove um horário agendado para um barbeiro." alt="" coords="5,5,137,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="169,31,137,31,137,25,169,26"/>
+<area shape="rect" id="Node000005" href="$class_controller___cliente.html#a71bc155d2b312fa2b4940c0c419a1e47" title="Remove um horário agendado para um cliente." alt="" coords="9,72,133,115"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="174,92,133,94,133,88,173,87"/>
+</map>
