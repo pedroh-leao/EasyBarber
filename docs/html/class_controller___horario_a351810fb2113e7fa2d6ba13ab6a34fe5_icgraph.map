@@ -1,0 +1,9 @@
+<map id="Controller_Horario::adicionarHorario" name="Controller_Horario::adicionarHorario">
+<area shape="rect" id="Node000001" title=" " alt="" coords="531,5,656,48"/>
+<area shape="rect" id="Node000002" href="$unit__horario_8cpp.html#a464356b298c952e422764e520982dcd9" title="Testa a função adicionarHorario do controller de horario." alt="" coords="293,13,483,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="515,29,484,29,484,24,515,24"/>
+<area shape="rect" id="Node000003" href="$unit__horario_8cpp.html#aeb537e7baefa90f8f98ebc2a36d81e32" title="Executa todos os testes unitários para a classe Horario." alt="" coords="103,13,245,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="277,29,245,29,245,24,277,24"/>
+<area shape="rect" id="Node000004" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,55,40"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,29,55,29,55,24,87,24"/>
+</map>

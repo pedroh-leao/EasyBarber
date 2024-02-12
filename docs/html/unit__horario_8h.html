@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">EasyBarber<span id="projectnumber">&#160;0.2</span>
+   <div id="projectname">EasyBarber<span id="projectnumber">&#160;0.3</span>
    </div>
    <div id="projectbrief">Projeto para agendamento em barbearia</div>
   </td>
@@ -96,6 +96,9 @@ $(document).ready(function(){initNavTree('unit__horario_8h.html',''); initResiza
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="barbearia_8h_source.html">../../EasyBarber/Model/barbearia.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_horario_8h_source.html">../../EasyBarber/Model/Horario.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="controller__horario_8h_source.html">../../EasyBarber/Controller/controller_horario.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="controller__barbearia_8h_source.html">../../EasyBarber/Controller/controller_barbearia.h</a>&quot;</code><br />
 <code>#include &quot;iostream&quot;</code><br />
 <code>#include &lt;assert.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -103,32 +106,63 @@ Include dependency graph for unit_horario.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="unit__horario_8h__incl.png" border="0" usemap="#a_c_1_2_users_2mathe_2_one_drive_2_xC3_x81rea_01de_01_trabalho_2_easy_barber_2test_2unit_2unit__horario_8h" alt=""/></div>
 <map name="a_c_1_2_users_2mathe_2_one_drive_2_xC3_x81rea_01de_01_trabalho_2_easy_barber_2test_2unit_2unit__horario_8h" id="a_c_1_2_users_2mathe_2_one_drive_2_xC3_x81rea_01de_01_trabalho_2_easy_barber_2test_2unit_2unit__horario_8h">
-<area shape="rect" title=" " alt="" coords="163,5,359,64"/>
-<area shape="rect" href="barbearia_8h.html" title=" " alt="" coords="49,112,201,155"/>
-<area shape="poly" title=" " alt="" coords="222,67,168,105,165,100,219,62"/>
-<area shape="rect" title=" " alt="" coords="225,120,297,147"/>
-<area shape="poly" title=" " alt="" coords="264,64,264,104,258,104,258,64"/>
-<area shape="rect" title=" " alt="" coords="320,120,389,147"/>
-<area shape="poly" title=" " alt="" coords="290,62,334,107,330,111,287,66"/>
-<area shape="rect" title=" " alt="" coords="101,427,154,453"/>
-<area shape="poly" title=" " alt="" coords="102,157,82,178,63,204,35,251,15,292,9,311,9,332,13,353,25,377,37,393,52,406,88,424,85,429,50,410,33,397,20,380,8,355,3,332,4,311,10,290,31,249,59,201,77,175,99,153"/>
-<area shape="rect" title=" " alt="" coords="35,352,90,379"/>
-<area shape="poly" title=" " alt="" coords="106,157,89,178,75,204,66,238,62,274,62,336,57,336,56,274,61,237,71,202,85,176,102,154"/>
-<area shape="rect" href="_barbeiro_8h.html" title=" " alt="" coords="85,203,165,229"/>
-<area shape="poly" title=" " alt="" coords="128,155,128,187,122,187,122,155"/>
-<area shape="rect" href="_horario_8h.html" title=" " alt="" coords="243,352,314,379"/>
-<area shape="poly" title=" " alt="" coords="203,150,242,170,260,184,274,201,289,235,294,272,293,307,288,337,283,336,287,307,289,272,284,236,269,204,256,188,239,175,200,155"/>
-<area shape="rect" href="_cliente_8h.html" title=" " alt="" coords="190,203,260,229"/>
-<area shape="poly" title=" " alt="" coords="152,153,199,191,196,195,149,157"/>
-<area shape="rect" href="pessoa_8h.html" title=" " alt="" coords="123,277,197,304"/>
-<area shape="poly" title=" " alt="" coords="133,229,150,262,145,264,129,231"/>
-<area shape="poly" title=" " alt="" coords="160,305,136,412,131,411,154,304"/>
-<area shape="poly" title=" " alt="" coords="144,307,93,345,89,341,141,302"/>
-<area shape="rect" title=" " alt="" coords="165,352,219,379"/>
-<area shape="poly" title=" " alt="" coords="168,303,183,337,178,339,163,306"/>
-<area shape="poly" title=" " alt="" coords="182,302,246,341,243,346,179,307"/>
-<area shape="poly" title=" " alt="" coords="253,382,169,422,167,417,251,377"/>
-<area shape="poly" title=" " alt="" coords="216,232,183,268,179,264,212,228"/>
+<area shape="rect" title=" " alt="" coords="484,5,679,64"/>
+<area shape="rect" href="barbearia_8h.html" title=" " alt="" coords="587,293,739,336"/>
+<area shape="poly" title=" " alt="" coords="600,63,621,111,646,200,660,278,655,279,641,202,616,113,595,66"/>
+<area shape="rect" href="_horario_8h.html" title=" " alt="" coords="160,533,232,560"/>
+<area shape="poly" title=" " alt="" coords="484,50,340,72,261,89,184,108,114,132,58,159,37,173,21,189,11,206,8,223,8,398,12,423,22,445,37,464,56,482,101,509,146,528,144,533,98,514,53,486,33,468,17,448,6,425,3,399,3,222,6,204,17,186,34,169,56,154,112,127,182,103,259,83,339,67,483,45"/>
+<area shape="rect" href="controller__horario_8h.html" title=" " alt="" coords="158,203,330,245"/>
+<area shape="poly" title=" " alt="" coords="518,67,423,114,288,196,285,192,420,110,516,62"/>
+<area shape="rect" href="controller__barbearia_8h.html" title=" " alt="" coords="434,112,606,155"/>
+<area shape="poly" title=" " alt="" coords="566,66,543,101,539,98,561,63"/>
+<area shape="rect" title=" " alt="" coords="682,120,753,147"/>
+<area shape="poly" title=" " alt="" coords="623,62,689,109,686,113,620,67"/>
+<area shape="rect" title=" " alt="" coords="777,120,845,147"/>
+<area shape="poly" title=" " alt="" coords="653,62,766,110,770,111,767,116,764,114,651,67"/>
+<area shape="rect" title=" " alt="" coords="427,608,480,635"/>
+<area shape="poly" title=" " alt="" coords="673,336,685,384,687,411,684,440,670,497,646,562,612,588,572,605,532,616,496,621,495,616,531,611,570,600,609,584,642,558,665,496,678,439,681,411,680,384,668,337"/>
+<area shape="rect" title=" " alt="" coords="576,533,632,560"/>
+<area shape="poly" title=" " alt="" coords="682,335,696,357,707,383,720,436,718,460,706,487,695,502,680,515,648,534,645,529,677,511,691,499,702,484,712,458,714,436,701,385,691,360,677,338"/>
+<area shape="rect" href="_barbeiro_8h.html" title=" " alt="" coords="473,384,554,411"/>
+<area shape="poly" title=" " alt="" coords="625,339,551,379,549,374,623,334"/>
+<area shape="poly" title=" " alt="" coords="671,336,673,373,670,393,662,412,635,438,593,461,539,481,478,498,352,525,247,541,246,536,351,520,477,493,538,475,591,456,632,434,658,409,665,392,668,373,665,337"/>
+<area shape="rect" href="_cliente_8h.html" title=" " alt="" coords="578,384,649,411"/>
+<area shape="poly" title=" " alt="" coords="652,338,631,372,627,369,648,335"/>
+<area shape="rect" href="pessoa_8h.html" title=" " alt="" coords="416,459,491,485"/>
+<area shape="poly" title=" " alt="" coords="505,413,475,449,471,445,501,410"/>
+<area shape="poly" title=" " alt="" coords="456,486,456,592,451,592,451,486"/>
+<area shape="poly" title=" " alt="" coords="481,483,565,524,563,529,478,488"/>
+<area shape="rect" title=" " alt="" coords="352,533,406,560"/>
+<area shape="poly" title=" " alt="" coords="442,488,404,525,400,521,438,484"/>
+<area shape="poly" title=" " alt="" coords="417,486,248,534,246,529,415,481"/>
+<area shape="poly" title=" " alt="" coords="233,556,413,606,411,611,232,561"/>
+<area shape="poly" title=" " alt="" coords="587,414,496,454,494,449,584,409"/>
+<area shape="poly" title=" " alt="" coords="331,241,572,291,571,297,330,246"/>
+<area shape="poly" title=" " alt="" coords="230,247,208,281,188,324,182,347,181,369,185,390,195,409,208,420,228,429,282,445,344,456,401,463,400,469,343,462,280,450,226,434,205,424,191,412,180,392,176,369,177,346,183,322,204,278,226,244"/>
+<area shape="poly" title=" " alt="" coords="159,244,116,263,98,277,84,295,71,324,69,356,77,387,91,419,132,477,173,521,169,525,128,480,87,422,72,389,64,356,66,323,79,292,95,274,114,259,156,239"/>
+<area shape="rect" title=" " alt="" coords="94,301,162,328"/>
+<area shape="poly" title=" " alt="" coords="219,248,158,294,155,290,215,244"/>
+<area shape="rect" href="dao__horario_8h.html" title=" " alt="" coords="238,301,381,328"/>
+<area shape="poly" title=" " alt="" coords="261,244,293,287,289,290,257,247"/>
+<area shape="poly" title=" " alt="" coords="342,326,468,376,466,380,340,331"/>
+<area shape="poly" title=" " alt="" coords="315,328,337,410,372,518,367,519,332,411,310,329"/>
+<area shape="poly" title=" " alt="" coords="268,331,228,352,210,367,196,385,184,419,181,454,184,489,190,518,185,519,179,490,176,454,178,417,191,383,206,363,225,348,266,326"/>
+<area shape="poly" title=" " alt="" coords="358,326,564,380,562,385,356,331"/>
+<area shape="rect" title=" " alt="" coords="206,384,271,411"/>
+<area shape="poly" title=" " alt="" coords="300,330,261,375,257,371,296,327"/>
+<area shape="poly" title=" " alt="" coords="538,153,639,279,635,283,534,157"/>
+<area shape="rect" href="dao__barbearia_8h.html" title=" " alt="" coords="399,211,556,237"/>
+<area shape="poly" title=" " alt="" coords="513,156,492,198,488,196,508,154"/>
+<area shape="poly" title=" " alt="" coords="505,236,607,284,605,289,503,240"/>
+<area shape="poly" title=" " alt="" coords="489,236,596,370,592,373,485,239"/>
+<area shape="poly" title=" " alt="" coords="455,240,348,296,346,291,452,236"/>
+<area shape="rect" href="dao__barbeiro_8h.html" title=" " alt="" coords="406,301,512,328"/>
+<area shape="poly" title=" " alt="" coords="477,238,467,287,462,286,472,237"/>
+<area shape="poly" title=" " alt="" coords="469,327,499,370,494,373,465,330"/>
+<area shape="rect" href="dao__pessoa_8h.html" title=" " alt="" coords="346,384,449,411"/>
+<area shape="poly" title=" " alt="" coords="451,330,418,374,414,370,447,327"/>
+<area shape="poly" title=" " alt="" coords="409,410,437,445,432,448,405,413"/>
+<area shape="poly" title=" " alt="" coords="398,412,385,518,380,517,393,411"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -163,6 +197,12 @@ Functions</h2></td></tr>
 <tr class="memitem:aeb537e7baefa90f8f98ebc2a36d81e32" id="r_aeb537e7baefa90f8f98ebc2a36d81e32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unit__horario_8h.html#aeb537e7baefa90f8f98ebc2a36d81e32">run_unit_test_horario</a> ()</td></tr>
 <tr class="memdesc:aeb537e7baefa90f8f98ebc2a36d81e32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executa todos os testes unitários para a classe <a class="el" href="class_horario.html" title="Classe que representa um Horario, contendo informações de data e hora.">Horario</a>.  <br /></td></tr>
 <tr class="separator:aeb537e7baefa90f8f98ebc2a36d81e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a464356b298c952e422764e520982dcd9" id="r_a464356b298c952e422764e520982dcd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unit__horario_8h.html#a464356b298c952e422764e520982dcd9">unit_Horario_adicionarHorario</a> ()</td></tr>
+<tr class="memdesc:a464356b298c952e422764e520982dcd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Testa a função adicionarHorario do controller de horario.  <br /></td></tr>
+<tr class="separator:a464356b298c952e422764e520982dcd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a093d89f8c5b0efd32f6655dc2f6b56d1" id="r_a093d89f8c5b0efd32f6655dc2f6b56d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unit__horario_8h.html#a093d89f8c5b0efd32f6655dc2f6b56d1">unit_Horario_deletarHorario</a> ()</td></tr>
+<tr class="memdesc:a093d89f8c5b0efd32f6655dc2f6b56d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Testa a função deletarHorario do controller de horario.  <br /></td></tr>
+<tr class="separator:a093d89f8c5b0efd32f6655dc2f6b56d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="aeb537e7baefa90f8f98ebc2a36d81e32" name="aeb537e7baefa90f8f98ebc2a36d81e32"></a>
@@ -188,10 +228,14 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">   29</span>    <a class="code hl_function" href="unit__horario_8cpp.html#aa33abea559a73d6593c36aa8f04dabf5">unit_Horario_SetData</a>();</div>
 <div class="line"><span class="lineno">   30</span>    <a class="code hl_function" href="unit__horario_8cpp.html#a355b553cdc4b3405ffe54b1467427fd1">unit_Horario_GetHora</a>();</div>
 <div class="line"><span class="lineno">   31</span>    <a class="code hl_function" href="unit__horario_8cpp.html#aff4db471b057475cd4822a6c7d16ea1a">unit_Horario_SetHora</a>();</div>
-<div class="line"><span class="lineno">   32</span> </div>
-<div class="line"><span class="lineno">   33</span>    cout &lt;&lt; <span class="stringliteral">&quot;Todos os testes de Horario foram aprovados\n&quot;</span> &lt;&lt; endl;</div>
-<div class="line"><span class="lineno">   34</span>}</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_function" href="unit__horario_8cpp.html#a464356b298c952e422764e520982dcd9">unit_Horario_adicionarHorario</a>();</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_function" href="unit__horario_8cpp.html#a093d89f8c5b0efd32f6655dc2f6b56d1">unit_Horario_deletarHorario</a>();</div>
+<div class="line"><span class="lineno">   34</span> </div>
+<div class="line"><span class="lineno">   35</span>    cout &lt;&lt; <span class="stringliteral">&quot;Todos os testes de Horario foram aprovados\n&quot;</span> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">   36</span>}</div>
+<div class="ttc" id="aunit__horario_8cpp_html_a093d89f8c5b0efd32f6655dc2f6b56d1"><div class="ttname"><a href="unit__horario_8cpp.html#a093d89f8c5b0efd32f6655dc2f6b56d1">unit_Horario_deletarHorario</a></div><div class="ttdeci">void unit_Horario_deletarHorario()</div><div class="ttdoc">Testa a função deletarHorario do controller de horario.</div><div class="ttdef"><b>Definition</b> unit_horario.cpp:50</div></div>
 <div class="ttc" id="aunit__horario_8cpp_html_a355b553cdc4b3405ffe54b1467427fd1"><div class="ttname"><a href="unit__horario_8cpp.html#a355b553cdc4b3405ffe54b1467427fd1">unit_Horario_GetHora</a></div><div class="ttdeci">void unit_Horario_GetHora()</div><div class="ttdoc">Testa a função de obtenção da hora para a classe Horario.</div><div class="ttdef"><b>Definition</b> unit_horario.cpp:14</div></div>
+<div class="ttc" id="aunit__horario_8cpp_html_a464356b298c952e422764e520982dcd9"><div class="ttname"><a href="unit__horario_8cpp.html#a464356b298c952e422764e520982dcd9">unit_Horario_adicionarHorario</a></div><div class="ttdeci">void unit_Horario_adicionarHorario()</div><div class="ttdoc">Testa a função adicionarHorario do controller de horario.</div><div class="ttdef"><b>Definition</b> unit_horario.cpp:39</div></div>
 <div class="ttc" id="aunit__horario_8cpp_html_a6583440537c4516278b926b84b62bae6"><div class="ttname"><a href="unit__horario_8cpp.html#a6583440537c4516278b926b84b62bae6">unit_Horario_GetData</a></div><div class="ttdeci">void unit_Horario_GetData()</div><div class="ttdoc">Testa a função de obtenção da data para a classe Horario.</div><div class="ttdef"><b>Definition</b> unit_horario.cpp:3</div></div>
 <div class="ttc" id="aunit__horario_8cpp_html_aa33abea559a73d6593c36aa8f04dabf5"><div class="ttname"><a href="unit__horario_8cpp.html#aa33abea559a73d6593c36aa8f04dabf5">unit_Horario_SetData</a></div><div class="ttdeci">void unit_Horario_SetData()</div><div class="ttdoc">Testa a função de configuração da data para a classe Horario.</div><div class="ttdef"><b>Definition</b> unit_horario.cpp:8</div></div>
 <div class="ttc" id="aunit__horario_8cpp_html_aff4db471b057475cd4822a6c7d16ea1a"><div class="ttname"><a href="unit__horario_8cpp.html#aff4db471b057475cd4822a6c7d16ea1a">unit_Horario_SetHora</a></div><div class="ttdeci">void unit_Horario_SetHora()</div><div class="ttdoc">Testa a função de configuração da hora para a classe Horario.</div><div class="ttdef"><b>Definition</b> unit_horario.cpp:19</div></div>
@@ -200,25 +244,78 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="unit__horario_8h_aeb537e7baefa90f8f98ebc2a36d81e32_cgraph.png" border="0" usemap="#aunit__horario_8h_aeb537e7baefa90f8f98ebc2a36d81e32_cgraph" alt=""/></div>
 <map name="aunit__horario_8h_aeb537e7baefa90f8f98ebc2a36d81e32_cgraph" id="aunit__horario_8h_aeb537e7baefa90f8f98ebc2a36d81e32_cgraph">
-<area shape="rect" title="Executa todos os testes unitários para a classe Horario." alt="" coords="5,81,148,108"/>
-<area shape="rect" href="unit__horario_8cpp.html#a6583440537c4516278b926b84b62bae6" title="Testa a função de obtenção da data para a classe Horario." alt="" coords="196,5,341,32"/>
-<area shape="poly" title=" " alt="" coords="108,78,195,42,212,35,213,40,197,46,110,83"/>
-<area shape="rect" href="unit__horario_8cpp.html#a355b553cdc4b3405ffe54b1467427fd1" title="Testa a função de obtenção da hora para a classe Horario." alt="" coords="196,107,341,133"/>
-<area shape="poly" title=" " alt="" coords="149,101,181,106,180,111,148,107"/>
-<area shape="rect" href="unit__horario_8cpp.html#aa33abea559a73d6593c36aa8f04dabf5" title="Testa a função de configuração da data para a classe Horario." alt="" coords="196,56,341,83"/>
-<area shape="poly" title=" " alt="" coords="148,83,180,78,181,84,149,88"/>
-<area shape="rect" href="unit__horario_8cpp.html#aff4db471b057475cd4822a6c7d16ea1a" title="Testa a função de configuração da hora para a classe Horario." alt="" coords="196,157,341,184"/>
-<area shape="poly" title=" " alt="" coords="110,106,197,143,213,149,212,154,195,148,108,111"/>
-<area shape="rect" href="class_horario.html#aadb59554ffae0bfd66e75f1c1d607f7c" title="Getter para o atributo data." alt="" coords="389,5,504,32"/>
-<area shape="poly" title=" " alt="" coords="342,16,374,16,374,21,342,21"/>
-<area shape="rect" href="class_horario.html#a07a4aec4ebeab8637ab670a4a2747158" title="Getter para o atributo hora." alt="" coords="389,107,504,133"/>
-<area shape="poly" title=" " alt="" coords="342,117,374,117,374,123,342,123"/>
-<area shape="poly" title=" " alt="" coords="317,53,382,34,383,39,319,58"/>
-<area shape="rect" href="class_horario.html#aeda03ad67bdde7c48dd948fbf8c12e36" title="Setter para o atributo data." alt="" coords="389,56,504,83"/>
-<area shape="poly" title=" " alt="" coords="341,67,373,67,373,72,341,72"/>
-<area shape="poly" title=" " alt="" coords="317,154,382,135,383,141,319,159"/>
-<area shape="rect" href="class_horario.html#afaf47ebca7515ef91d84e179056cf999" title="Setter para o atributo hora." alt="" coords="389,157,504,184"/>
-<area shape="poly" title=" " alt="" coords="341,168,373,168,373,173,341,173"/>
+<area shape="rect" title="Executa todos os testes unitários para a classe Horario." alt="" coords="5,487,148,513"/>
+<area shape="rect" href="unit__horario_8cpp.html#a464356b298c952e422764e520982dcd9" title="Testa a função adicionarHorario do controller de horario." alt="" coords="196,516,386,543"/>
+<area shape="poly" title=" " alt="" coords="149,507,180,512,180,517,148,512"/>
+<area shape="rect" href="unit__horario_8cpp.html#a093d89f8c5b0efd32f6655dc2f6b56d1" title="Testa a função deletarHorario do controller de horario." alt="" coords="202,229,380,256"/>
+<area shape="poly" title=" " alt="" coords="87,485,194,353,266,266,270,269,198,356,91,488"/>
+<area shape="rect" href="unit__horario_8cpp.html#a6583440537c4516278b926b84b62bae6" title="Testa a função de obtenção da data para a classe Horario." alt="" coords="218,655,364,681"/>
+<area shape="poly" title=" " alt="" coords="91,512,136,560,197,615,246,645,244,650,194,619,132,564,87,516"/>
+<area shape="rect" href="unit__horario_8cpp.html#a355b553cdc4b3405ffe54b1467427fd1" title="Testa a função de obtenção da hora para a classe Horario." alt="" coords="681,360,827,387"/>
+<area shape="poly" title=" " alt="" coords="104,484,146,465,195,447,321,416,449,394,568,381,665,374,666,379,568,386,450,400,322,421,196,452,148,470,106,489"/>
+<area shape="rect" href="unit__horario_8cpp.html#aa33abea559a73d6593c36aa8f04dabf5" title="Testa a função de configuração da data para a classe Horario." alt="" coords="219,579,363,605"/>
+<area shape="poly" title=" " alt="" coords="108,512,197,552,240,570,238,575,195,557,106,516"/>
+<area shape="rect" href="unit__horario_8cpp.html#aff4db471b057475cd4822a6c7d16ea1a" title="Testa a função de configuração da hora para a classe Horario." alt="" coords="219,461,363,488"/>
+<area shape="poly" title=" " alt="" coords="148,489,203,482,203,488,149,494"/>
+<area shape="rect" href="class_controller___horario.html#a351810fb2113e7fa2d6ba13ab6a34fe5" title=" " alt="" coords="448,512,572,555"/>
+<area shape="poly" title=" " alt="" coords="386,528,432,529,432,535,386,534"/>
+<area shape="rect" href="class_d_a_o___horario.html#a723fde596babefe1320a5bbd26aa7714" title=" " alt="" coords="923,461,1121,488"/>
+<area shape="poly" title=" " alt="" coords="572,524,907,485,908,490,573,529"/>
+<area shape="rect" href="class_horario.html#aadb59554ffae0bfd66e75f1c1d607f7c" title="Getter para o atributo data." alt="" coords="1215,436,1330,463"/>
+<area shape="poly" title=" " alt="" coords="1121,462,1199,454,1200,459,1122,467"/>
+<area shape="rect" href="class_pessoa.html#a0fe937f9358dd92f73441c3288e46500" title=" " alt="" coords="1211,487,1335,513"/>
+<area shape="poly" title=" " alt="" coords="1122,482,1196,490,1195,495,1121,487"/>
+<area shape="rect" href="class_horario.html#a07a4aec4ebeab8637ab670a4a2747158" title="Getter para o atributo hora." alt="" coords="1215,355,1330,381"/>
+<area shape="poly" title=" " alt="" coords="1070,458,1120,440,1232,386,1234,391,1122,445,1071,463"/>
+<area shape="rect" href="class_barbearia.html#ac91091fe07d6c4ce27c7dc42eb7c08b4" title=" " alt="" coords="457,149,562,176"/>
+<area shape="poly" title=" " alt="" coords="329,226,456,179,457,184,331,231"/>
+<area shape="rect" href="class_controller___horario.html#a2c6d77f6089fc044c81c360886246dc4" title=" " alt="" coords="692,120,816,163"/>
+<area shape="poly" title=" " alt="" coords="377,226,585,185,676,161,678,167,586,191,378,231"/>
+<area shape="rect" href="class_controller___barbearia.html#a3565f4de6f990ef61b1d4b843187225b" title="Realiza o agendamento de um horário na barbearia." alt="" coords="434,251,585,293"/>
+<area shape="poly" title=" " alt="" coords="380,252,419,257,418,262,380,257"/>
+<area shape="rect" href="class_barbearia.html#a09b6abc054a76d7db8f1558ebf914885" title=" " alt="" coords="937,56,1107,83"/>
+<area shape="poly" title=" " alt="" coords="815,122,954,85,956,90,817,127"/>
+<area shape="rect" href="class_barbearia.html#abbcb6bd01615521f2cb86424c1247399" title=" " alt="" coords="942,5,1102,32"/>
+<area shape="poly" title=" " alt="" coords="785,117,847,79,922,42,941,34,943,39,924,46,849,84,788,122"/>
+<area shape="rect" href="class_d_a_o___horario.html#a90a269426f57dfac32f73fdc41526670" title=" " alt="" coords="929,157,1115,184"/>
+<area shape="poly" title=" " alt="" coords="816,145,914,156,913,161,816,151"/>
+<area shape="rect" href="class_horario.html#abc3c3d3e02474060f1864d14872221bf" title="Getter para o atributo email_barbeiro." alt="" coords="1188,107,1357,133"/>
+<area shape="poly" title=" " alt="" coords="816,136,1172,121,1173,127,817,141"/>
+<area shape="rect" href="class_pessoa.html#a2b49ee65a77e757aad181e7a6d55adfd" title="Remove um horário da lista de horários agendados." alt="" coords="965,208,1079,235"/>
+<area shape="poly" title=" " alt="" coords="817,160,923,193,951,201,949,206,922,199,816,165"/>
+<area shape="poly" title=" " alt="" coords="1105,182,1123,194,1137,210,1144,227,1149,259,1153,292,1159,307,1171,323,1203,346,1200,350,1167,327,1154,310,1147,293,1143,260,1139,228,1132,213,1119,198,1102,187"/>
+<area shape="poly" title=" " alt="" coords="1091,154,1188,134,1189,140,1092,159"/>
+<area shape="rect" href="class_horario.html#ab115f048d12f0d46f92c2fc3e1faa5e9" title="Getter para o atributo email_cliente." alt="" coords="1192,157,1353,184"/>
+<area shape="poly" title=" " alt="" coords="1115,168,1176,168,1176,173,1115,173"/>
+<area shape="poly" title=" " alt="" coords="1080,223,1103,231,1123,245,1138,263,1146,281,1150,318,1153,354,1159,373,1171,392,1193,412,1218,427,1216,431,1190,416,1167,395,1154,375,1147,355,1145,318,1141,283,1133,266,1119,249,1100,236,1078,228"/>
+<area shape="poly" title=" " alt="" coords="1080,226,1102,233,1123,245,1140,264,1148,284,1155,304,1171,323,1208,346,1206,351,1167,327,1151,307,1143,286,1136,267,1119,249,1100,238,1078,231"/>
+<area shape="rect" href="class_pessoa.html#a2b15f3b2ffa585f0d8afae2ea20b7d42" title=" " alt="" coords="1181,271,1365,313"/>
+<area shape="poly" title=" " alt="" coords="1079,233,1122,244,1187,263,1186,268,1120,249,1078,238"/>
+<area shape="rect" href="class_pessoa.html#a2a476cb77e351421f997f6f6c3952b56" title=" " alt="" coords="1169,212,1376,239"/>
+<area shape="poly" title=" " alt="" coords="1080,220,1153,221,1153,226,1079,225"/>
+<area shape="rect" href="class_barbearia.html#a05da273e2e266b0c653b6ddd69678a70" title="Verifica se o horário desejado está disponível." alt="" coords="666,259,842,285"/>
+<area shape="poly" title=" " alt="" coords="585,269,650,269,650,275,585,275"/>
+<area shape="rect" href="class_d_a_o___barbearia.html#a626bc69f87b9c5e87a5f6e97237b5b35" title="Realiza o agendamento de um horário na barbearia." alt="" coords="633,309,875,336"/>
+<area shape="poly" title=" " alt="" coords="586,285,672,303,671,308,585,290"/>
+<area shape="rect" href="class_barbearia.html#ab858b840cab5d3f22e0a5328a88d3dbd" title=" " alt="" coords="651,208,857,235"/>
+<area shape="poly" title=" " alt="" coords="585,254,671,236,672,241,586,259"/>
+<area shape="rect" href="class_pessoa.html#aa9e1353cb831dd106b37429f3e446679" title="Verifica se um horário já está na lista de horários agendados." alt="" coords="947,309,1097,336"/>
+<area shape="poly" title=" " alt="" coords="829,283,933,303,932,309,828,289"/>
+<area shape="poly" title=" " alt="" coords="1051,334,1232,426,1229,431,1049,339"/>
+<area shape="poly" title=" " alt="" coords="1097,334,1200,352,1199,358,1096,339"/>
+<area shape="poly" title=" " alt="" coords="1097,311,1165,302,1166,308,1097,316"/>
+<area shape="poly" title=" " alt="" coords="1091,306,1120,295,1134,286,1143,276,1168,256,1201,242,1203,247,1170,261,1147,280,1137,290,1122,300,1093,311"/>
+<area shape="poly" title=" " alt="" coords="846,334,876,346,913,368,948,395,1001,448,997,451,944,399,910,373,873,350,844,339"/>
+<area shape="rect" href="class_pessoa.html#a69d7d032ce6b9ea847f5ced8a9abefc3" title="Adiciona um horário à lista de horários agendados." alt="" coords="975,259,1069,285"/>
+<area shape="poly" title=" " alt="" coords="829,233,960,258,959,263,828,238"/>
+<area shape="poly" title=" " alt="" coords="364,679,432,689,516,697,611,701,715,698,821,686,927,662,978,645,1028,624,1075,598,1119,569,1130,558,1137,547,1143,522,1149,497,1156,485,1167,473,1199,456,1201,461,1171,477,1160,488,1154,499,1148,524,1142,549,1135,561,1123,573,1078,603,1030,629,980,650,929,667,822,691,715,703,611,706,516,702,432,694,364,684"/>
+<area shape="poly" title=" " alt="" coords="827,370,1199,366,1199,371,827,375"/>
+<area shape="poly" title=" " alt="" coords="357,603,434,615,510,620,585,615,739,597,858,578,974,547,1120,498,1144,485,1168,472,1199,462,1201,467,1170,477,1146,490,1122,502,976,553,859,583,739,602,586,620,510,625,434,620,356,609"/>
+<area shape="rect" href="class_horario.html#aeda03ad67bdde7c48dd948fbf8c12e36" title="Setter para o atributo data." alt="" coords="452,579,567,605"/>
+<area shape="poly" title=" " alt="" coords="364,589,436,589,436,595,364,595"/>
+<area shape="poly" title=" " alt="" coords="363,458,434,447,652,420,868,398,1200,370,1200,376,869,403,653,425,434,452,364,463"/>
+<area shape="rect" href="class_horario.html#afaf47ebca7515ef91d84e179056cf999" title="Setter para o atributo hora." alt="" coords="452,461,567,488"/>
+<area shape="poly" title=" " alt="" coords="364,472,436,472,436,477,364,477"/>
 </map>
 </div>
 <div class="dynheader">
@@ -227,6 +324,175 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="unit__horario_8h_aeb537e7baefa90f8f98ebc2a36d81e32_icgraph.png" border="0" usemap="#aunit__horario_8h_aeb537e7baefa90f8f98ebc2a36d81e32_icgraph" alt=""/></div>
 <map name="aunit__horario_8h_aeb537e7baefa90f8f98ebc2a36d81e32_icgraph" id="aunit__horario_8h_aeb537e7baefa90f8f98ebc2a36d81e32_icgraph">
 <area shape="rect" title="Executa todos os testes unitários para a classe Horario." alt="" coords="103,5,245,32"/>
+<area shape="rect" href="test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a464356b298c952e422764e520982dcd9" name="a464356b298c952e422764e520982dcd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a464356b298c952e422764e520982dcd9">&#9670;&#160;</a></span>unit_Horario_adicionarHorario()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void unit_Horario_adicionarHorario </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Testa a função adicionarHorario do controller de horario. </p>
+<div class="fragment"><div class="line"><span class="lineno">   39</span>                                    {</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_class" href="class_controller___horario.html">Controller_Horario</a> controller_horario;</div>
+<div class="line"><span class="lineno">   41</span> </div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_class" href="class_barbeiro.html">Barbeiro</a> barbeiro(<span class="stringliteral">&quot;João&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;joaoBarber@gmail.com&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, 30.0);</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_class" href="class_cliente.html">Cliente</a> cliente(<span class="stringliteral">&quot;André&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;andre@gmail.com&quot;</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_class" href="class_horario.html">Horario</a> horario(<span class="stringliteral">&quot;11-02-2024&quot;</span>, <span class="stringliteral">&quot;12:00&quot;</span>, <span class="stringliteral">&quot;andre@gmail.com&quot;</span>, <span class="stringliteral">&quot;joaoBarber@gmail.com&quot;</span>);</div>
+<div class="line"><span class="lineno">   46</span> </div>
+<div class="line"><span class="lineno">   47</span>    assert(controller_horario.<a class="code hl_function" href="class_controller___horario.html#a351810fb2113e7fa2d6ba13ab6a34fe5">adicionarHorario</a>(&amp;barbeiro, &amp;cliente, &amp;horario));</div>
+<div class="line"><span class="lineno">   48</span>}</div>
+<div class="ttc" id="aclass_barbeiro_html"><div class="ttname"><a href="class_barbeiro.html">Barbeiro</a></div><div class="ttdef"><b>Definition</b> Barbeiro.h:7</div></div>
+<div class="ttc" id="aclass_cliente_html"><div class="ttname"><a href="class_cliente.html">Cliente</a></div><div class="ttdef"><b>Definition</b> Cliente.h:7</div></div>
+<div class="ttc" id="aclass_controller___horario_html"><div class="ttname"><a href="class_controller___horario.html">Controller_Horario</a></div><div class="ttdef"><b>Definition</b> controller_horario.h:11</div></div>
+<div class="ttc" id="aclass_controller___horario_html_a351810fb2113e7fa2d6ba13ab6a34fe5"><div class="ttname"><a href="class_controller___horario.html#a351810fb2113e7fa2d6ba13ab6a34fe5">Controller_Horario::adicionarHorario</a></div><div class="ttdeci">bool adicionarHorario(Barbeiro *barbeiro, Cliente *cliente, Horario *horario)</div><div class="ttdef"><b>Definition</b> controller_horario.cpp:7</div></div>
+<div class="ttc" id="aclass_horario_html"><div class="ttname"><a href="class_horario.html">Horario</a></div><div class="ttdoc">Classe que representa um Horario, contendo informações de data e hora.</div><div class="ttdef"><b>Definition</b> Horario.h:11</div></div>
+</div><!-- fragment --><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="unit__horario_8h_a464356b298c952e422764e520982dcd9_cgraph.png" border="0" usemap="#aunit__horario_8h_a464356b298c952e422764e520982dcd9_cgraph" alt=""/></div>
+<map name="aunit__horario_8h_a464356b298c952e422764e520982dcd9_cgraph" id="aunit__horario_8h_a464356b298c952e422764e520982dcd9_cgraph">
+<area shape="rect" title="Testa a função adicionarHorario do controller de horario." alt="" coords="5,56,196,83"/>
+<area shape="rect" href="class_controller___horario.html#a351810fb2113e7fa2d6ba13ab6a34fe5" title=" " alt="" coords="244,48,368,91"/>
+<area shape="poly" title=" " alt="" coords="196,67,228,67,228,72,196,72"/>
+<area shape="rect" href="class_d_a_o___horario.html#a723fde596babefe1320a5bbd26aa7714" title=" " alt="" coords="416,56,614,83"/>
+<area shape="poly" title=" " alt="" coords="369,67,400,67,400,72,369,72"/>
+<area shape="rect" href="class_horario.html#aadb59554ffae0bfd66e75f1c1d607f7c" title="Getter para o atributo data." alt="" coords="667,5,782,32"/>
+<area shape="poly" title=" " alt="" coords="573,53,651,34,652,39,574,58"/>
+<area shape="rect" href="class_pessoa.html#a0fe937f9358dd92f73441c3288e46500" title=" " alt="" coords="662,56,787,83"/>
+<area shape="poly" title=" " alt="" coords="615,67,647,67,647,72,615,72"/>
+<area shape="rect" href="class_horario.html#a07a4aec4ebeab8637ab670a4a2747158" title="Getter para o atributo hora." alt="" coords="667,107,782,133"/>
+<area shape="poly" title=" " alt="" coords="574,81,652,100,651,105,573,86"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="unit__horario_8h_a464356b298c952e422764e520982dcd9_icgraph.png" border="0" usemap="#aunit__horario_8h_a464356b298c952e422764e520982dcd9_icgraph" alt=""/></div>
+<map name="aunit__horario_8h_a464356b298c952e422764e520982dcd9_icgraph" id="aunit__horario_8h_a464356b298c952e422764e520982dcd9_icgraph">
+<area shape="rect" title="Testa a função adicionarHorario do controller de horario." alt="" coords="293,5,483,32"/>
+<area shape="rect" href="unit__horario_8cpp.html#aeb537e7baefa90f8f98ebc2a36d81e32" title="Executa todos os testes unitários para a classe Horario." alt="" coords="103,5,245,32"/>
+<area shape="poly" title=" " alt="" coords="277,21,245,21,245,16,277,16"/>
+<area shape="rect" href="test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
+<area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a093d89f8c5b0efd32f6655dc2f6b56d1" name="a093d89f8c5b0efd32f6655dc2f6b56d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a093d89f8c5b0efd32f6655dc2f6b56d1">&#9670;&#160;</a></span>unit_Horario_deletarHorario()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void unit_Horario_deletarHorario </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Testa a função deletarHorario do controller de horario. </p>
+<div class="fragment"><div class="line"><span class="lineno">   50</span>                                  {</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_class" href="class_controller___horario.html">Controller_Horario</a> controller_horario;</div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_class" href="class_controller___barbearia.html">Controller_Barbearia</a> controller_barbearia;</div>
+<div class="line"><span class="lineno">   53</span> </div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_class" href="class_barbearia.html">Barbearia</a> barbearia(<span class="stringliteral">&quot;Barbearia do Tadeu&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;barbeariaTadeu@gmail.com&quot;</span>, <span class="stringliteral">&quot;09:00&quot;</span>, <span class="stringliteral">&quot;17:00&quot;</span>);</div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_class" href="class_barbeiro.html">Barbeiro</a> barbeiro(<span class="stringliteral">&quot;João&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;joaoBarber@gmail.com&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, 30.0);</div>
+<div class="line"><span class="lineno">   56</span>    barbearia.add(&amp;barbeiro);</div>
+<div class="line"><span class="lineno">   57</span>    <a class="code hl_class" href="class_cliente.html">Cliente</a> cliente(<span class="stringliteral">&quot;André&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, <span class="stringliteral">&quot;andre@gmail.com&quot;</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><span class="lineno">   58</span> </div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_class" href="class_horario.html">Horario</a> horario(<span class="stringliteral">&quot;11-02-2024&quot;</span>, <span class="stringliteral">&quot;12:30&quot;</span>, <span class="stringliteral">&quot;andre@gmail.com&quot;</span>, <span class="stringliteral">&quot;joaoBarber@gmail.com&quot;</span>);</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>    controller_barbearia.<a class="code hl_function" href="class_controller___barbearia.html#a3565f4de6f990ef61b1d4b843187225b">realizarAgendamento</a>(&amp;barbearia, &amp;barbeiro, &amp;cliente, &amp;horario);</div>
+<div class="line"><span class="lineno">   62</span>    assert(controller_horario.<a class="code hl_function" href="class_controller___horario.html#a2c6d77f6089fc044c81c360886246dc4">deletarHorario</a>(&amp;horario, &amp;cliente, &amp;barbearia));</div>
+<div class="line"><span class="lineno">   63</span>}</div>
+<div class="ttc" id="aclass_barbearia_html"><div class="ttname"><a href="class_barbearia.html">Barbearia</a></div><div class="ttdef"><b>Definition</b> barbearia.h:12</div></div>
+<div class="ttc" id="aclass_controller___barbearia_html"><div class="ttname"><a href="class_controller___barbearia.html">Controller_Barbearia</a></div><div class="ttdef"><b>Definition</b> controller_barbearia.h:7</div></div>
+<div class="ttc" id="aclass_controller___barbearia_html_a3565f4de6f990ef61b1d4b843187225b"><div class="ttname"><a href="class_controller___barbearia.html#a3565f4de6f990ef61b1d4b843187225b">Controller_Barbearia::realizarAgendamento</a></div><div class="ttdeci">bool realizarAgendamento(Barbearia *barbearia, Barbeiro *barbeiro, Cliente *cliente, Horario *horario)</div><div class="ttdoc">Realiza o agendamento de um horário na barbearia.</div><div class="ttdef"><b>Definition</b> controller_barbearia.cpp:17</div></div>
+<div class="ttc" id="aclass_controller___horario_html_a2c6d77f6089fc044c81c360886246dc4"><div class="ttname"><a href="class_controller___horario.html#a2c6d77f6089fc044c81c360886246dc4">Controller_Horario::deletarHorario</a></div><div class="ttdeci">bool deletarHorario(Horario *horario, Pessoa *pessoa, Barbearia *barbearia)</div><div class="ttdef"><b>Definition</b> controller_horario.cpp:10</div></div>
+</div><!-- fragment --><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="unit__horario_8h_a093d89f8c5b0efd32f6655dc2f6b56d1_cgraph.png" border="0" usemap="#aunit__horario_8h_a093d89f8c5b0efd32f6655dc2f6b56d1_cgraph" alt=""/></div>
+<map name="aunit__horario_8h_a093d89f8c5b0efd32f6655dc2f6b56d1_cgraph" id="aunit__horario_8h_a093d89f8c5b0efd32f6655dc2f6b56d1_cgraph">
+<area shape="rect" title="Testa a função deletarHorario do controller de horario." alt="" coords="5,192,183,219"/>
+<area shape="rect" href="class_barbearia.html#ac91091fe07d6c4ce27c7dc42eb7c08b4" title=" " alt="" coords="254,141,359,168"/>
+<area shape="poly" title=" " alt="" coords="153,189,238,168,239,173,154,194"/>
+<area shape="rect" href="class_controller___horario.html#a2c6d77f6089fc044c81c360886246dc4" title=" " alt="" coords="489,124,613,167"/>
+<area shape="poly" title=" " alt="" coords="183,198,279,190,382,177,473,160,474,166,382,183,279,195,183,203"/>
+<area shape="rect" href="class_controller___barbearia.html#a3565f4de6f990ef61b1d4b843187225b" title="Realiza o agendamento de um horário na barbearia." alt="" coords="231,276,382,319"/>
+<area shape="poly" title=" " alt="" coords="128,217,242,267,240,272,126,222"/>
+<area shape="rect" href="class_barbearia.html#a09b6abc054a76d7db8f1558ebf914885" title=" " alt="" coords="733,208,904,235"/>
+<area shape="poly" title=" " alt="" coords="614,162,720,193,748,201,746,206,719,199,613,167"/>
+<area shape="rect" href="class_barbearia.html#abbcb6bd01615521f2cb86424c1247399" title=" " alt="" coords="738,5,899,32"/>
+<area shape="poly" title=" " alt="" coords="584,121,645,85,718,48,753,35,755,40,720,53,648,90,587,126"/>
+<area shape="rect" href="class_d_a_o___horario.html#a90a269426f57dfac32f73fdc41526670" title=" " alt="" coords="726,107,911,133"/>
+<area shape="poly" title=" " alt="" coords="613,137,710,128,711,133,613,142"/>
+<area shape="rect" href="class_horario.html#abc3c3d3e02474060f1864d14872221bf" title="Getter para o atributo email_barbeiro." alt="" coords="985,40,1154,67"/>
+<area shape="poly" title=" " alt="" coords="613,121,719,92,849,71,969,58,969,63,850,76,720,97,614,127"/>
+<area shape="rect" href="class_pessoa.html#a2b49ee65a77e757aad181e7a6d55adfd" title="Remove um horário da lista de horários agendados." alt="" coords="761,157,876,184"/>
+<area shape="poly" title=" " alt="" coords="613,148,746,161,746,167,613,154"/>
+<area shape="poly" title=" " alt="" coords="867,103,965,76,994,68,996,74,966,81,868,109"/>
+<area shape="rect" href="class_horario.html#ab115f048d12f0d46f92c2fc3e1faa5e9" title="Getter para o atributo email_cliente." alt="" coords="989,91,1150,117"/>
+<area shape="poly" title=" " alt="" coords="911,111,973,107,973,113,912,117"/>
+<area shape="rect" href="class_horario.html#a07a4aec4ebeab8637ab670a4a2747158" title="Getter para o atributo hora." alt="" coords="1012,259,1127,285"/>
+<area shape="poly" title=" " alt="" coords="901,132,919,143,931,156,938,169,944,196,950,221,956,233,967,245,998,261,995,265,964,249,952,236,945,223,939,197,933,171,927,159,916,147,898,136"/>
+<area shape="poly" title=" " alt="" coords="877,177,919,194,935,207,944,220,953,233,967,244,998,257,995,262,964,249,949,236,939,223,931,210,916,198,875,182"/>
+<area shape="rect" href="class_horario.html#aadb59554ffae0bfd66e75f1c1d607f7c" title="Getter para o atributo data." alt="" coords="1012,309,1127,336"/>
+<area shape="poly" title=" " alt="" coords="877,174,899,182,919,194,931,207,938,220,944,246,950,272,956,284,967,295,998,311,995,316,964,299,952,287,945,274,939,247,933,222,927,210,916,198,897,186,875,179"/>
+<area shape="rect" href="class_pessoa.html#a2b15f3b2ffa585f0d8afae2ea20b7d42" title=" " alt="" coords="977,192,1162,235"/>
+<area shape="poly" title=" " alt="" coords="877,178,963,192,962,198,876,183"/>
+<area shape="rect" href="class_pessoa.html#a2a476cb77e351421f997f6f6c3952b56" title=" " alt="" coords="966,141,1173,168"/>
+<area shape="poly" title=" " alt="" coords="876,164,950,160,950,165,876,170"/>
+<area shape="rect" href="class_barbearia.html#a05da273e2e266b0c653b6ddd69678a70" title="Verifica se o horário desejado está disponível." alt="" coords="463,259,639,285"/>
+<area shape="poly" title=" " alt="" coords="382,287,447,280,447,285,382,292"/>
+<area shape="rect" href="class_d_a_o___barbearia.html#a626bc69f87b9c5e87a5f6e97237b5b35" title="Realiza o agendamento de um horário na barbearia." alt="" coords="430,309,671,336"/>
+<area shape="poly" title=" " alt="" coords="382,302,415,306,414,311,382,308"/>
+<area shape="rect" href="class_barbearia.html#ab858b840cab5d3f22e0a5328a88d3dbd" title=" " alt="" coords="448,360,654,387"/>
+<area shape="poly" title=" " alt="" coords="356,317,431,345,460,353,458,359,429,351,354,322"/>
+<area shape="rect" href="class_pessoa.html#aa9e1353cb831dd106b37429f3e446679" title="Verifica se um horário já está na lista de horários agendados." alt="" coords="744,259,893,285"/>
+<area shape="poly" title=" " alt="" coords="639,269,728,269,728,275,639,275"/>
+<area shape="poly" title=" " alt="" coords="894,269,996,269,996,275,894,275"/>
+<area shape="poly" title=" " alt="" coords="889,283,997,305,996,311,888,289"/>
+<area shape="poly" title=" " alt="" coords="878,256,961,236,962,241,879,261"/>
+<area shape="poly" title=" " alt="" coords="892,257,916,245,931,229,939,212,947,195,964,178,973,172,976,177,967,182,952,198,944,214,936,232,919,249,895,261"/>
+<area shape="rect" href="class_d_a_o___horario.html#a723fde596babefe1320a5bbd26aa7714" title=" " alt="" coords="719,309,918,336"/>
+<area shape="poly" title=" " alt="" coords="672,320,704,320,704,325,672,325"/>
+<area shape="poly" title=" " alt="" coords="888,306,996,284,997,289,889,311"/>
+<area shape="poly" title=" " alt="" coords="918,320,996,320,996,325,918,325"/>
+<area shape="rect" href="class_pessoa.html#a0fe937f9358dd92f73441c3288e46500" title=" " alt="" coords="1007,360,1132,387"/>
+<area shape="poly" title=" " alt="" coords="889,334,992,355,991,360,888,339"/>
+<area shape="rect" href="class_pessoa.html#a69d7d032ce6b9ea847f5ced8a9abefc3" title="Adiciona um horário à lista de horários agendados." alt="" coords="771,360,866,387"/>
+<area shape="poly" title=" " alt="" coords="654,371,756,371,756,376,654,376"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="unit__horario_8h_a093d89f8c5b0efd32f6655dc2f6b56d1_icgraph.png" border="0" usemap="#aunit__horario_8h_a093d89f8c5b0efd32f6655dc2f6b56d1_icgraph" alt=""/></div>
+<map name="aunit__horario_8h_a093d89f8c5b0efd32f6655dc2f6b56d1_icgraph" id="aunit__horario_8h_a093d89f8c5b0efd32f6655dc2f6b56d1_icgraph">
+<area shape="rect" title="Testa a função deletarHorario do controller de horario." alt="" coords="293,5,470,32"/>
+<area shape="rect" href="unit__horario_8cpp.html#aeb537e7baefa90f8f98ebc2a36d81e32" title="Executa todos os testes unitários para a classe Horario." alt="" coords="103,5,245,32"/>
+<area shape="poly" title=" " alt="" coords="278,21,245,21,245,16,278,16"/>
 <area shape="rect" href="test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,32"/>
 <area shape="poly" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
 </map>
@@ -254,7 +520,6 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">    4</span>    <a class="code hl_class" href="class_horario.html">Horario</a> horario(<span class="stringliteral">&quot;2024-02-02&quot;</span>, <span class="stringliteral">&quot;10:30&quot;</span>);</div>
 <div class="line"><span class="lineno">    5</span>    assert(horario.getData() == <span class="stringliteral">&quot;2024-02-02&quot;</span>);</div>
 <div class="line"><span class="lineno">    6</span>}</div>
-<div class="ttc" id="aclass_horario_html"><div class="ttname"><a href="class_horario.html">Horario</a></div><div class="ttdoc">Classe que representa um Horario, contendo informações de data e hora.</div><div class="ttdef"><b>Definition</b> Horario.h:11</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -346,8 +611,8 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">   10</span>    horario.<a class="code hl_function" href="class_horario.html#aeda03ad67bdde7c48dd948fbf8c12e36">setData</a>(<span class="stringliteral">&quot;2024-02-02&quot;</span>);</div>
 <div class="line"><span class="lineno">   11</span>    assert(horario.<a class="code hl_function" href="class_horario.html#aadb59554ffae0bfd66e75f1c1d607f7c">getData</a>() == <span class="stringliteral">&quot;2024-02-02&quot;</span>);</div>
 <div class="line"><span class="lineno">   12</span>}</div>
-<div class="ttc" id="aclass_horario_html_aadb59554ffae0bfd66e75f1c1d607f7c"><div class="ttname"><a href="class_horario.html#aadb59554ffae0bfd66e75f1c1d607f7c">Horario::getData</a></div><div class="ttdeci">string getData() const</div><div class="ttdoc">Getter para o atributo data.</div><div class="ttdef"><b>Definition</b> Horario.cpp:8</div></div>
-<div class="ttc" id="aclass_horario_html_aeda03ad67bdde7c48dd948fbf8c12e36"><div class="ttname"><a href="class_horario.html#aeda03ad67bdde7c48dd948fbf8c12e36">Horario::setData</a></div><div class="ttdeci">void setData(string data)</div><div class="ttdoc">Setter para o atributo data.</div><div class="ttdef"><b>Definition</b> Horario.cpp:11</div></div>
+<div class="ttc" id="aclass_horario_html_aadb59554ffae0bfd66e75f1c1d607f7c"><div class="ttname"><a href="class_horario.html#aadb59554ffae0bfd66e75f1c1d607f7c">Horario::getData</a></div><div class="ttdeci">string getData() const</div><div class="ttdoc">Getter para o atributo data.</div><div class="ttdef"><b>Definition</b> Horario.cpp:10</div></div>
+<div class="ttc" id="aclass_horario_html_aeda03ad67bdde7c48dd948fbf8c12e36"><div class="ttname"><a href="class_horario.html#aeda03ad67bdde7c48dd948fbf8c12e36">Horario::setData</a></div><div class="ttdeci">void setData(string data)</div><div class="ttdoc">Setter para o atributo data.</div><div class="ttdef"><b>Definition</b> Horario.cpp:13</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -396,8 +661,8 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">   21</span>    horario.<a class="code hl_function" href="class_horario.html#afaf47ebca7515ef91d84e179056cf999">setHora</a>(<span class="stringliteral">&quot;10:30&quot;</span>);</div>
 <div class="line"><span class="lineno">   22</span>    assert(horario.<a class="code hl_function" href="class_horario.html#a07a4aec4ebeab8637ab670a4a2747158">getHora</a>() == <span class="stringliteral">&quot;10:30&quot;</span>);</div>
 <div class="line"><span class="lineno">   23</span>}</div>
-<div class="ttc" id="aclass_horario_html_a07a4aec4ebeab8637ab670a4a2747158"><div class="ttname"><a href="class_horario.html#a07a4aec4ebeab8637ab670a4a2747158">Horario::getHora</a></div><div class="ttdeci">string getHora() const</div><div class="ttdoc">Getter para o atributo hora.</div><div class="ttdef"><b>Definition</b> Horario.cpp:18</div></div>
-<div class="ttc" id="aclass_horario_html_afaf47ebca7515ef91d84e179056cf999"><div class="ttname"><a href="class_horario.html#afaf47ebca7515ef91d84e179056cf999">Horario::setHora</a></div><div class="ttdeci">void setHora(string hora)</div><div class="ttdoc">Setter para o atributo hora.</div><div class="ttdef"><b>Definition</b> Horario.cpp:21</div></div>
+<div class="ttc" id="aclass_horario_html_a07a4aec4ebeab8637ab670a4a2747158"><div class="ttname"><a href="class_horario.html#a07a4aec4ebeab8637ab670a4a2747158">Horario::getHora</a></div><div class="ttdeci">string getHora() const</div><div class="ttdoc">Getter para o atributo hora.</div><div class="ttdef"><b>Definition</b> Horario.cpp:20</div></div>
+<div class="ttc" id="aclass_horario_html_afaf47ebca7515ef91d84e179056cf999"><div class="ttname"><a href="class_horario.html#afaf47ebca7515ef91d84e179056cf999">Horario::setHora</a></div><div class="ttdeci">void setHora(string hora)</div><div class="ttdoc">Setter para o atributo hora.</div><div class="ttdef"><b>Definition</b> Horario.cpp:23</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

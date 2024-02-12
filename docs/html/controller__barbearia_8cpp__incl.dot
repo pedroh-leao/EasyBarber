@@ -39,4 +39,12 @@ digraph "C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/EasyBarber/Control
   Node13 -> Node8 [id="edge20_Node000013_Node000008",color="steelblue1",style="solid",tooltip=" "];
   Node13 -> Node7 [id="edge21_Node000013_Node000007",color="steelblue1",style="solid",tooltip=" "];
   Node12 -> Node6 [id="edge22_Node000012_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node11 -> Node14 [id="edge23_Node000011_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="dao_horario.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dao__horario_8h.html",tooltip=" "];
+  Node14 -> Node8 [id="edge24_Node000014_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node14 -> Node15 [id="edge25_Node000014_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="QString",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node14 -> Node6 [id="edge26_Node000014_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node14 -> Node10 [id="edge27_Node000014_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node14 -> Node9 [id="edge28_Node000014_Node000009",color="steelblue1",style="solid",tooltip=" "];
 }

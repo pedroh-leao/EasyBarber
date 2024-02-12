@@ -1,0 +1,13 @@
+<map id="unit_Horario_adicionarHorario" name="unit_Horario_adicionarHorario">
+<area shape="rect" id="Node000001" title="Testa a função adicionarHorario do controller de horario." alt="" coords="5,56,196,83"/>
+<area shape="rect" id="Node000002" href="$class_controller___horario.html#a351810fb2113e7fa2d6ba13ab6a34fe5" title=" " alt="" coords="244,48,368,91"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,67,228,67,228,72,196,72"/>
+<area shape="rect" id="Node000003" href="$class_d_a_o___horario.html#a723fde596babefe1320a5bbd26aa7714" title=" " alt="" coords="416,56,614,83"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="369,67,400,67,400,72,369,72"/>
+<area shape="rect" id="Node000004" href="$class_horario.html#aadb59554ffae0bfd66e75f1c1d607f7c" title="Getter para o atributo data." alt="" coords="667,5,782,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="573,53,651,34,652,39,574,58"/>
+<area shape="rect" id="Node000005" href="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500" title=" " alt="" coords="662,56,787,83"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="615,67,647,67,647,72,615,72"/>
+<area shape="rect" id="Node000006" href="$class_horario.html#a07a4aec4ebeab8637ab670a4a2747158" title="Getter para o atributo hora." alt="" coords="667,107,782,133"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="574,81,652,100,651,105,573,86"/>
+</map>

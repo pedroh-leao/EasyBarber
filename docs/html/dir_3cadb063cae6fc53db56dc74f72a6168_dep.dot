@@ -10,5 +10,5 @@ digraph "C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/EasyBarber/DAO"
   dir_7482f6f1a48a8ad285bca17597cd0f67 [label="Model", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_7482f6f1a48a8ad285bca17597cd0f67.html",tooltip=""];
   dir_3cadb063cae6fc53db56dc74f72a6168 [label="DAO", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_3cadb063cae6fc53db56dc74f72a6168.html",tooltip=""];
   }
-  dir_3cadb063cae6fc53db56dc74f72a6168->dir_7482f6f1a48a8ad285bca17597cd0f67 [headlabel="5", labeldistance=1.5 headhref="dir_000003_000009.html" href="dir_000003_000009.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_3cadb063cae6fc53db56dc74f72a6168->dir_7482f6f1a48a8ad285bca17597cd0f67 [headlabel="8", labeldistance=1.5 headhref="dir_000003_000009.html" href="dir_000003_000009.html" color="steelblue1" fontcolor="steelblue1"];
 }

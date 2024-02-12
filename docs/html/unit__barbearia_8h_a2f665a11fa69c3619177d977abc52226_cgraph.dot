@@ -106,17 +106,18 @@ digraph "run_unit_test_barbearia"
   Node38 [id="Node000038",label="Barbearia::remove",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_barbearia.html#aae6c6667d3687766358e6504d2180378",tooltip=" "];
   Node38 -> Node28 [id="edge62_Node000038_Node000028",color="steelblue1",style="solid",tooltip=" "];
   Node38 -> Node36 [id="edge63_Node000038_Node000036",color="steelblue1",style="solid",tooltip=" "];
-  Node37 -> Node39 [id="edge64_Node000037_Node000039",color="steelblue1",style="solid",tooltip=" "];
-  Node39 [id="Node000039",label="DAO_Barbearia::removerBarbeiro",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_d_a_o___barbearia.html#a8397689d5d5154873257386af4ebbe7e",tooltip="Remove um barbeiro da barbearia."];
-  Node39 -> Node40 [id="edge65_Node000039_Node000040",color="steelblue1",style="solid",tooltip=" "];
-  Node40 [id="Node000040",label="Pessoa::getEmail",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500",tooltip=" "];
-  Node1 -> Node41 [id="edge66_Node000001_Node000041",color="steelblue1",style="solid",tooltip=" "];
+  Node38 -> Node39 [id="edge64_Node000038_Node000039",color="steelblue1",style="solid",tooltip=" "];
+  Node39 [id="Node000039",label="Pessoa::getEmail",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500",tooltip=" "];
+  Node37 -> Node40 [id="edge65_Node000037_Node000040",color="steelblue1",style="solid",tooltip=" "];
+  Node40 [id="Node000040",label="DAO_Barbearia::removerBarbeiro",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_d_a_o___barbearia.html#a8397689d5d5154873257386af4ebbe7e",tooltip="Remove um barbeiro da barbearia."];
+  Node40 -> Node39 [id="edge66_Node000040_Node000039",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node41 [id="edge67_Node000001_Node000041",color="steelblue1",style="solid",tooltip=" "];
   Node41 [id="Node000041",label="unit_Barbearia_SetEndereco",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__barbearia_8cpp.html#a098e9aef2a21ef2411f376d9907736e8",tooltip=" "];
-  Node41 -> Node9 [id="edge67_Node000041_Node000009",color="steelblue1",style="solid",tooltip=" "];
-  Node41 -> Node42 [id="edge68_Node000041_Node000042",color="steelblue1",style="solid",tooltip=" "];
+  Node41 -> Node9 [id="edge68_Node000041_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node41 -> Node42 [id="edge69_Node000041_Node000042",color="steelblue1",style="solid",tooltip=" "];
   Node42 [id="Node000042",label="Barbearia::setEndereco",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_barbearia.html#aa6a4125693ad0e42f124eff9be40fe1b",tooltip=" "];
-  Node1 -> Node43 [id="edge69_Node000001_Node000043",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node43 [id="edge70_Node000001_Node000043",color="steelblue1",style="solid",tooltip=" "];
   Node43 [id="Node000043",label="unit_Barbearia_SetNome",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$unit__barbearia_8cpp.html#a80f2d8f268e85f2b498328f58779f5e0",tooltip=" "];
-  Node43 -> Node13 [id="edge70_Node000043_Node000013",color="steelblue1",style="solid",tooltip=" "];
-  Node43 -> Node12 [id="edge71_Node000043_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node43 -> Node13 [id="edge71_Node000043_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node43 -> Node12 [id="edge72_Node000043_Node000012",color="steelblue1",style="solid",tooltip=" "];
 }

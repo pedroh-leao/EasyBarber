@@ -12,8 +12,9 @@ digraph "Controller_Barbearia::removerBarbeiro"
   Node3 [id="Node000003",label="Barbearia::barbeirosBegin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_barbearia.html#a09b6abc054a76d7db8f1558ebf914885",tooltip=" "];
   Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
   Node4 [id="Node000004",label="Barbearia::barbeirosEnd",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_barbearia.html#abbcb6bd01615521f2cb86424c1247399",tooltip=" "];
-  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
-  Node5 [id="Node000005",label="DAO_Barbearia::removerBarbeiro",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_d_a_o___barbearia.html#a8397689d5d5154873257386af4ebbe7e",tooltip="Remove um barbeiro da barbearia."];
-  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
-  Node6 [id="Node000006",label="Pessoa::getEmail",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Pessoa::getEmail",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="DAO_Barbearia::removerBarbeiro",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_d_a_o___barbearia.html#a8397689d5d5154873257386af4ebbe7e",tooltip="Remove um barbeiro da barbearia."];
+  Node6 -> Node5 [id="edge6_Node000006_Node000005",color="steelblue1",style="solid",tooltip=" "];
 }

@@ -1,16 +1,25 @@
 <map id="DAO_Barbearia::buscarHorariosAgendados" name="DAO_Barbearia::buscarHorariosAgendados">
-<area shape="rect" id="Node000001" title="Busca os horários agendados de todos os barbeiros associados à barbearia." alt="" coords="670,72,876,115"/>
-<area shape="rect" id="Node000002" href="$class_controller___barbearia.html#a8aa9f18fcb46c15e3cfb65e42bcb27c5" title="Busca os horários agendados de uma barbearia." alt="" coords="440,72,622,115"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="654,96,622,96,622,91,654,91"/>
-<area shape="rect" id="Node000003" href="$functional__tests_8cpp.html#a988006b3495a457ea2c825651b91be60" title=" " alt="" coords="263,5,392,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="449,69,392,50,394,45,451,64"/>
-<area shape="rect" id="Node000006" href="$functional__tests_8cpp.html#a1eea1f92c722dc2df4cf7386d0ca945a" title=" " alt="" coords="263,72,392,115"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="425,96,393,96,393,91,425,91"/>
-<area shape="rect" id="Node000007" href="$_easy_barber_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="303,139,352,165"/>
-<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="441,122,354,148,352,142,440,117"/>
-<area shape="rect" id="Node000004" href="$functional__tests_8cpp.html#ac66c0c95899deebf8facb8a3b93eb06e" title=" " alt="" coords="103,47,215,73"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="248,45,216,52,215,46,247,40"/>
-<area shape="rect" id="Node000005" href="$test_2functional_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,47,55,73"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,63,55,63,55,57,87,57"/>
-<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="247,80,215,74,216,68,248,75"/>
+<area shape="rect" id="Node000001" title="Busca os horários agendados de todos os barbeiros associados à barbearia." alt="" coords="706,172,912,215"/>
+<area shape="rect" id="Node000002" href="$class_controller___barbearia.html#a8aa9f18fcb46c15e3cfb65e42bcb27c5" title="Busca os horários agendados de uma barbearia." alt="" coords="476,172,658,215"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="690,196,658,196,658,191,690,191"/>
+<area shape="rect" id="Node000003" href="$functional__tests_8cpp.html#ad15fe7ec5301c8b70e773b0a58c5e0a5" title=" " alt="" coords="281,5,410,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="536,162,488,112,427,62,407,51,409,46,430,58,492,108,540,159"/>
+<area shape="rect" id="Node000006" href="$functional__tests_8cpp.html#a834bbfa41804e8851e5079e7126c83af" title=" " alt="" coords="275,72,417,115"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="508,167,427,129,401,118,403,113,429,124,510,162"/>
+<area shape="rect" id="Node000007" href="$functional__tests_8cpp.html#a988006b3495a457ea2c825651b91be60" title=" " alt="" coords="281,139,410,181"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="461,180,410,172,411,167,461,175"/>
+<area shape="rect" id="Node000008" href="$functional__tests_8cpp.html#a1eea1f92c722dc2df4cf7386d0ca945a" title=" " alt="" coords="281,205,410,248"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="461,212,411,220,410,214,461,207"/>
+<area shape="rect" id="Node000009" href="$functional__tests_8cpp.html#acdb5d732fe4dc3af6303b9e978a8b53f" title=" " alt="" coords="263,272,428,299"/>
+<area shape="poly" id="edge11_Node000002_Node000009" title=" " alt="" coords="512,224,429,262,397,274,395,269,427,258,510,220"/>
+<area shape="rect" id="Node000010" href="$_easy_barber_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="321,323,370,349"/>
+<area shape="poly" id="edge13_Node000002_Node000010" title=" " alt="" coords="537,228,489,272,430,313,400,326,372,334,370,329,398,321,427,308,486,268,533,224"/>
+<area shape="rect" id="Node000004" href="$functional__tests_8cpp.html#ac66c0c95899deebf8facb8a3b93eb06e" title=" " alt="" coords="103,147,215,173"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="272,58,265,62,211,107,173,148,169,145,208,103,261,58,269,53"/>
+<area shape="rect" id="Node000005" href="$test_2functional_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,147,55,173"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,163,55,163,55,157,87,157"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="271,123,199,149,198,144,269,118"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="265,163,215,163,215,157,265,157"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="269,202,198,176,199,171,271,197"/>
+<area shape="poly" id="edge12_Node000009_Node000004" title=" " alt="" coords="272,268,262,262,233,242,207,218,169,175,173,172,210,214,236,238,264,258,275,263"/>
 </map>

@@ -60,12 +60,14 @@ digraph "functional_agendar_horario_falha"
   Node26 [id="Node000026",label="Pessoa::horariosAgendadosEnd",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_pessoa.html#a2a476cb77e351421f997f6f6c3952b56",tooltip=" "];
   Node20 -> Node27 [id="edge28_Node000020_Node000027",color="steelblue1",style="solid",tooltip=" "];
   Node27 [id="Node000027",label="DAO_Barbearia::realizarAgendamento",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_d_a_o___barbearia.html#a626bc69f87b9c5e87a5f6e97237b5b35",tooltip="Realiza o agendamento de um horário na barbearia."];
-  Node27 -> Node23 [id="edge29_Node000027_Node000023",color="steelblue1",style="solid",tooltip=" "];
-  Node27 -> Node14 [id="edge30_Node000027_Node000014",color="steelblue1",style="solid",tooltip=" "];
-  Node27 -> Node24 [id="edge31_Node000027_Node000024",color="steelblue1",style="solid",tooltip=" "];
-  Node20 -> Node28 [id="edge32_Node000020_Node000028",color="steelblue1",style="solid",tooltip=" "];
-  Node28 [id="Node000028",label="Barbearia::realizarAgendamento",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_barbearia.html#ab858b840cab5d3f22e0a5328a88d3dbd",tooltip=" "];
-  Node28 -> Node16 [id="edge33_Node000028_Node000016",color="steelblue1",style="solid",tooltip=" "];
-  Node1 -> Node29 [id="edge34_Node000001_Node000029",color="steelblue1",style="solid",tooltip=" "];
-  Node29 [id="Node000029",label="Horario::setHora",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_horario.html#afaf47ebca7515ef91d84e179056cf999",tooltip="Setter para o atributo hora."];
+  Node27 -> Node28 [id="edge29_Node000027_Node000028",color="steelblue1",style="solid",tooltip=" "];
+  Node28 [id="Node000028",label="DAO_Horario::adicionarHorario",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_d_a_o___horario.html#a723fde596babefe1320a5bbd26aa7714",tooltip=" "];
+  Node28 -> Node23 [id="edge30_Node000028_Node000023",color="steelblue1",style="solid",tooltip=" "];
+  Node28 -> Node14 [id="edge31_Node000028_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node28 -> Node24 [id="edge32_Node000028_Node000024",color="steelblue1",style="solid",tooltip=" "];
+  Node20 -> Node29 [id="edge33_Node000020_Node000029",color="steelblue1",style="solid",tooltip=" "];
+  Node29 [id="Node000029",label="Barbearia::realizarAgendamento",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_barbearia.html#ab858b840cab5d3f22e0a5328a88d3dbd",tooltip=" "];
+  Node29 -> Node16 [id="edge34_Node000029_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node30 [id="edge35_Node000001_Node000030",color="steelblue1",style="solid",tooltip=" "];
+  Node30 [id="Node000030",label="Horario::setHora",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_horario.html#afaf47ebca7515ef91d84e179056cf999",tooltip="Setter para o atributo hora."];
 }

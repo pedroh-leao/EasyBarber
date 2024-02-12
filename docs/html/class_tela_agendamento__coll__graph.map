@@ -11,6 +11,6 @@
 <area shape="rect" id="Node000006" href="$class_cliente.html" title=" " alt="" coords="568,1185,720,1340"/>
 <area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="597,814,638,1185,633,1186,591,815"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="636,1340,608,1497,586,1588,559,1677,539,1726,534,1724,553,1675,581,1586,603,1496,631,1339"/>
-<area shape="rect" id="Node000007" href="$class_horario.html" title="Classe que representa um Horario, contendo informações de data e hora." alt="" coords="745,1151,909,1375"/>
-<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="825,1375,816,1447,799,1525,773,1604,755,1642,734,1678,701,1719,663,1757,621,1789,579,1817,576,1813,618,1785,659,1753,697,1716,730,1674,750,1640,768,1602,794,1524,810,1446,820,1374"/>
+<area shape="rect" id="Node000007" href="$class_horario.html" title="Classe que representa um Horario, contendo informações de data e hora." alt="" coords="744,1113,936,1412"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="829,1412,816,1478,796,1547,770,1615,734,1677,701,1719,662,1756,620,1788,578,1816,576,1812,617,1784,659,1752,697,1715,730,1675,765,1612,791,1545,810,1477,823,1411"/>
 </map>

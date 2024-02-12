@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">EasyBarber<span id="projectnumber">&#160;0.2</span>
+   <div id="projectname">EasyBarber<span id="projectnumber">&#160;0.3</span>
    </div>
    <div id="projectbrief">Projeto para agendamento em barbearia</div>
   </td>
@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <h3><a id="index_a" name="index_a"></a>- a -</h3><ul>
 <li>abrirTelaEscolhaData()&#160;:&#160;<a class="el" href="class_tela_escolha_barbeiro.html#a855de2dbea4f22a30bc9143592ac278a">TelaEscolhaBarbeiro</a></li>
 <li>add()&#160;:&#160;<a class="el" href="class_barbearia.html#ac91091fe07d6c4ce27c7dc42eb7c08b4">Barbearia</a>, <a class="el" href="class_pessoa.html#a69d7d032ce6b9ea847f5ced8a9abefc3">Pessoa</a></li>
+<li>adicionarHorario()&#160;:&#160;<a class="el" href="class_controller___horario.html#a351810fb2113e7fa2d6ba13ab6a34fe5">Controller_Horario</a>, <a class="el" href="class_d_a_o___horario.html#a723fde596babefe1320a5bbd26aa7714">DAO_Horario</a></li>
 <li>atualizarCampoString()&#160;:&#160;<a class="el" href="class_d_a_o___barbearia.html#a851394412991dc83ac1a49d4a445604b">DAO_Barbearia</a></li>
 <li>atualizarEndereco()&#160;:&#160;<a class="el" href="class_controller___barbearia.html#ab9c191c2703f44cd55623507c06f08ad">Controller_Barbearia</a></li>
 <li>atualizarFimDeFuncionamento()&#160;:&#160;<a class="el" href="class_controller___barbearia.html#ae505ff23a7eefd4f92583817beba1e32">Controller_Barbearia</a></li>
@@ -102,6 +103,8 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>atualizarNome()&#160;:&#160;<a class="el" href="class_controller___barbearia.html#aff97a2d26e67f752ec26c04856f0ddf5">Controller_Barbearia</a></li>
 <li>atualizarTelefone()&#160;:&#160;<a class="el" href="class_controller___barbearia.html#a91f249191328c97b51e7c75cf786eec3">Controller_Barbearia</a></li>
 <li>avancarAgendarHorario()&#160;:&#160;<a class="el" href="class_tela_escolha_data.html#ac3752a15fee1541d055237a0dc3f04c1">TelaEscolhaData</a></li>
+<li>avancarEscolhaBarbeiro()&#160;:&#160;<a class="el" href="class_tela_inicial_cliente.html#a3bfa7d10c042c8cf6986b4f47e8aa2cc">TelaInicialCliente</a></li>
+<li>avancarHorariosAgendados()&#160;:&#160;<a class="el" href="class_tela_inicial_cliente.html#a7cd29d7352a54ca7b53047d05d1d009f">TelaInicialCliente</a></li>
 </ul>
 
 
@@ -124,6 +127,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>Controller_Barbearia()&#160;:&#160;<a class="el" href="class_controller___barbearia.html#ac72347bbc0b0f4a8dd68e2383363c3de">Controller_Barbearia</a></li>
 <li>Controller_Barbeiro()&#160;:&#160;<a class="el" href="class_controller___barbeiro.html#a166080a4e3af1ab43f1a5897e1619172">Controller_Barbeiro</a></li>
 <li>Controller_Cliente()&#160;:&#160;<a class="el" href="class_controller___cliente.html#a259f371a8ca215d738a9122f038d0ec6">Controller_Cliente</a></li>
+<li>Controller_Horario()&#160;:&#160;<a class="el" href="class_controller___horario.html#a64a5d0a1945b1880490379d446884e43">Controller_Horario</a></li>
 </ul>
 
 
@@ -131,7 +135,9 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>DAO_Barbearia()&#160;:&#160;<a class="el" href="class_d_a_o___barbearia.html#a0d2033cd6746d4500b86a607ae5b49bb">DAO_Barbearia</a></li>
 <li>DAO_Barbeiro()&#160;:&#160;<a class="el" href="class_d_a_o___barbeiro.html#a3d71e1407addfb025a7602755102354a">DAO_Barbeiro</a></li>
 <li>DAO_Cliente()&#160;:&#160;<a class="el" href="class_d_a_o___cliente.html#af151e834f717825eecbae3d289346c4a">DAO_Cliente</a></li>
+<li>DAO_Horario()&#160;:&#160;<a class="el" href="class_d_a_o___horario.html#acd73aacc0cbf4de2073edea63070a375">DAO_Horario</a></li>
 <li>DAO_Pessoa()&#160;:&#160;<a class="el" href="class_d_a_o___pessoa.html#a7f449acf9dd5ba6260170968bbbdc502">DAO_Pessoa</a></li>
+<li>deletarHorario()&#160;:&#160;<a class="el" href="class_controller___horario.html#a2c6d77f6089fc044c81c360886246dc4">Controller_Horario</a>, <a class="el" href="class_d_a_o___horario.html#a90a269426f57dfac32f73fdc41526670">DAO_Horario</a></li>
 </ul>
 
 
@@ -145,6 +151,8 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>getClientePeloEmail()&#160;:&#160;<a class="el" href="class_controller___cliente.html#a430b1b15e43e946fa30a01ccb214f011">Controller_Cliente</a>, <a class="el" href="class_d_a_o___cliente.html#a84c8757d33e52dbb6a8c7393770a011a">DAO_Cliente</a></li>
 <li>getData()&#160;:&#160;<a class="el" href="class_horario.html#aadb59554ffae0bfd66e75f1c1d607f7c">Horario</a></li>
 <li>getEmail()&#160;:&#160;<a class="el" href="class_barbearia.html#a738c06dff340fdf090f39b2d8752f768">Barbearia</a>, <a class="el" href="class_pessoa.html#a0fe937f9358dd92f73441c3288e46500">Pessoa</a></li>
+<li>getEmailBarbeiro()&#160;:&#160;<a class="el" href="class_horario.html#abc3c3d3e02474060f1864d14872221bf">Horario</a></li>
+<li>getEmailCliente()&#160;:&#160;<a class="el" href="class_horario.html#ab115f048d12f0d46f92c2fc3e1faa5e9">Horario</a></li>
 <li>getEndereco()&#160;:&#160;<a class="el" href="class_barbearia.html#a96c939bf6421a9fc4c6e8705d50dd0f3">Barbearia</a>, <a class="el" href="class_pessoa.html#aa967da81cd69e69f981e43c44b86c7ba">Pessoa</a></li>
 <li>getFimDeFuncionamento()&#160;:&#160;<a class="el" href="class_barbearia.html#a5735a0640678a18d9ee3a2e58659c02c">Barbearia</a></li>
 <li>getHora()&#160;:&#160;<a class="el" href="class_horario.html#a07a4aec4ebeab8637ab670a4a2747158">Horario</a></li>
@@ -158,7 +166,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 
 <h3><a id="index_h" name="index_h"></a>- h -</h3><ul>
 <li>habilitaRealizaAgendBtn()&#160;:&#160;<a class="el" href="class_tela_agendamento.html#ac6bd4291028e887a5d6e2c25d8778abf">TelaAgendamento</a></li>
-<li>Horario()&#160;:&#160;<a class="el" href="class_horario.html#a8e8f152fdab3441228cf51abb1ddfc16">Horario</a></li>
+<li>Horario()&#160;:&#160;<a class="el" href="class_horario.html#a71e1e42a6dce5716b8a9f309c2495bce">Horario</a></li>
 <li>horarioEstaLivre()&#160;:&#160;<a class="el" href="class_barbearia.html#a05da273e2e266b0c653b6ddd69678a70">Barbearia</a></li>
 <li>horariosAgendadosBegin()&#160;:&#160;<a class="el" href="class_pessoa.html#a2b15f3b2ffa585f0d8afae2ea20b7d42">Pessoa</a></li>
 <li>horariosAgendadosEnd()&#160;:&#160;<a class="el" href="class_pessoa.html#a2a476cb77e351421f997f6f6c3952b56">Pessoa</a></li>
@@ -182,7 +190,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>remove()&#160;:&#160;<a class="el" href="class_barbearia.html#aae6c6667d3687766358e6504d2180378">Barbearia</a>, <a class="el" href="class_pessoa.html#a2b49ee65a77e757aad181e7a6d55adfd">Pessoa</a></li>
 <li>removeHorario()&#160;:&#160;<a class="el" href="class_controller___barbeiro.html#a64138a03e34ee3773a613584ae432473">Controller_Barbeiro</a>, <a class="el" href="class_controller___cliente.html#a71bc155d2b312fa2b4940c0c419a1e47">Controller_Cliente</a>, <a class="el" href="class_d_a_o___barbeiro.html#aa002ae28c04c894f148797081d071860">DAO_Barbeiro</a>, <a class="el" href="class_d_a_o___cliente.html#a44851f6be991bf30a26de4ffbbd8564e">DAO_Cliente</a>, <a class="el" href="class_d_a_o___pessoa.html#ae29c7cad6464ebd7a63ae74efc9177ac">DAO_Pessoa</a></li>
 <li>removerBarbeiro()&#160;:&#160;<a class="el" href="class_controller___barbearia.html#ab6b23a5e89d88ff262214f81da61b56b">Controller_Barbearia</a>, <a class="el" href="class_d_a_o___barbearia.html#a8397689d5d5154873257386af4ebbe7e">DAO_Barbearia</a></li>
-<li>retranslateUi()&#160;:&#160;<a class="el" href="class_ui___main_window.html#a097dd160c3534a204904cb374412c618">Ui_MainWindow</a>, <a class="el" href="class_ui__tela_escolha_data.html#a69398dbf9b7134ba50668dfbed2467ec">Ui_telaEscolhaData</a></li>
+<li>retranslateUi()&#160;:&#160;<a class="el" href="class_ui___main_window.html#a097dd160c3534a204904cb374412c618">Ui_MainWindow</a>, <a class="el" href="class_ui__tela_escolha_data.html#a69398dbf9b7134ba50668dfbed2467ec">Ui_telaEscolhaData</a>, <a class="el" href="class_ui___tela_inicial_cliente.html#a3d60cbe35a982e5492286a069febe485">Ui_TelaInicialCliente</a>, <a class="el" href="class_ui___tela_lista_agendamentos.html#a6734e893a84f8dc93b1d23c029bc9735">Ui_TelaListaAgendamentos</a></li>
 </ul>
 
 
@@ -197,7 +205,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>setPreco()&#160;:&#160;<a class="el" href="class_barbeiro.html#a2eaadbcff980ac42e20672b5cafa014d">Barbeiro</a></li>
 <li>setSenha()&#160;:&#160;<a class="el" href="class_pessoa.html#a891ce76d919b1d2a28ce1f4d20a087be">Pessoa</a></li>
 <li>setTelefone()&#160;:&#160;<a class="el" href="class_barbearia.html#a6ad970173838e98e2dfdb658ea64f632">Barbearia</a>, <a class="el" href="class_pessoa.html#a8060fb5aef73b7324cbffa53b93a8292">Pessoa</a></li>
-<li>setupUi()&#160;:&#160;<a class="el" href="class_ui___main_window.html#acf4a0872c4c77d8f43a2ec66ed849b58">Ui_MainWindow</a>, <a class="el" href="class_ui__tela_escolha_data.html#a23c46c40c7d2c2d8d7d6766da47a1881">Ui_telaEscolhaData</a></li>
+<li>setupUi()&#160;:&#160;<a class="el" href="class_ui___main_window.html#acf4a0872c4c77d8f43a2ec66ed849b58">Ui_MainWindow</a>, <a class="el" href="class_ui__tela_escolha_data.html#a23c46c40c7d2c2d8d7d6766da47a1881">Ui_telaEscolhaData</a>, <a class="el" href="class_ui___tela_inicial_cliente.html#a3b55dcb750bc185fcc0a4f42680ff5af">Ui_TelaInicialCliente</a>, <a class="el" href="class_ui___tela_lista_agendamentos.html#a29b26e3a5ae9ca70e908daf1d667b79b">Ui_TelaListaAgendamentos</a></li>
 </ul>
 
 
@@ -205,6 +213,8 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>TelaAgendamento()&#160;:&#160;<a class="el" href="class_tela_agendamento.html#a9aebd31703c79d3033ab38eded168c4d">TelaAgendamento</a></li>
 <li>TelaEscolhaBarbeiro()&#160;:&#160;<a class="el" href="class_tela_escolha_barbeiro.html#a1645a378389d2863b5610b3aeedbbc11">TelaEscolhaBarbeiro</a></li>
 <li>TelaEscolhaData()&#160;:&#160;<a class="el" href="class_tela_escolha_data.html#a4e9c6cc1680815ec2f83e844bf62ffd7">TelaEscolhaData</a></li>
+<li>TelaInicialCliente()&#160;:&#160;<a class="el" href="class_tela_inicial_cliente.html#a0776254714f6fc47eb64bab59229813a">TelaInicialCliente</a></li>
+<li>TelaListaAgendamentos()&#160;:&#160;<a class="el" href="class_tela_lista_agendamentos.html#a5db7365b6d5518af9dd1c1b330d1b7a6">TelaListaAgendamentos</a></li>
 <li>TesteDatabase()&#160;:&#160;<a class="el" href="class_teste_database.html#af164340a51ff0a82c26db65dc2543658">TesteDatabase</a></li>
 </ul>
 
@@ -220,6 +230,7 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 
 <h3><a id="index_v" name="index_v"></a>- v -</h3><ul>
 <li>voltarEscolhaBarbeiro()&#160;:&#160;<a class="el" href="class_tela_escolha_data.html#a885d751fa56c28c993fd02b0294ee8b5">TelaEscolhaData</a></li>
+<li>voltarTelaInicial()&#160;:&#160;<a class="el" href="class_tela_escolha_barbeiro.html#ad006409d913806a45e268dd1d3f04682">TelaEscolhaBarbeiro</a></li>
 </ul>
 
 
@@ -232,6 +243,8 @@ $(document).ready(function(){initNavTree('functions_func.html',''); initResizabl
 <li>~TelaAgendamento()&#160;:&#160;<a class="el" href="class_tela_agendamento.html#adfde7eab5cc2efe4f4cd61b6a712cc3e">TelaAgendamento</a></li>
 <li>~TelaEscolhaBarbeiro()&#160;:&#160;<a class="el" href="class_tela_escolha_barbeiro.html#a7a286b930dd91373729a6402aad46b87">TelaEscolhaBarbeiro</a></li>
 <li>~TelaEscolhaData()&#160;:&#160;<a class="el" href="class_tela_escolha_data.html#a12245cf1ce7dc57472366fe5c5c72bcd">TelaEscolhaData</a></li>
+<li>~TelaInicialCliente()&#160;:&#160;<a class="el" href="class_tela_inicial_cliente.html#afcfb154844f654e7bc291048f49aa929">TelaInicialCliente</a></li>
+<li>~TelaListaAgendamentos()&#160;:&#160;<a class="el" href="class_tela_lista_agendamentos.html#a5169b5734f274060c0d95298543a9a70">TelaListaAgendamentos</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

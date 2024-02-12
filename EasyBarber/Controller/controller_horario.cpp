@@ -11,7 +11,6 @@ bool Controller_Horario::deletarHorario(Horario * horario, Pessoa * pessoa, Barb
     if (!dao_horario->deletarHorario(horario)) {qDebug() << "Erro no banco de dados"; return false;}
 
     if(dynamic_cast<Cliente*>(pessoa)) {
-        qDebug() << "Entro";
         pessoa->remove(horario);
 
         for(auto it = barbearia->barbeirosBegin(); it != barbearia->barbeirosEnd(); it++){

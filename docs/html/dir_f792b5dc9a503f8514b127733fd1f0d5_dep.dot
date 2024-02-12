@@ -11,6 +11,6 @@ digraph "C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/test/functional"
   dir_f792b5dc9a503f8514b127733fd1f0d5 [label="functional", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_f792b5dc9a503f8514b127733fd1f0d5.html",tooltip=""];
   }
   dir_df932a88e0e8d76e2cc96779d9f7d917 [label="EasyBarber", fillcolor="#edf0f7", color="red", style="filled", URL="dir_df932a88e0e8d76e2cc96779d9f7d917.html",tooltip=""];
-  dir_f792b5dc9a503f8514b127733fd1f0d5->dir_df932a88e0e8d76e2cc96779d9f7d917 [headlabel="3", labeldistance=1.5 headhref="dir_000008_000007.html" href="dir_000008_000007.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_f792b5dc9a503f8514b127733fd1f0d5->dir_df932a88e0e8d76e2cc96779d9f7d917 [headlabel="4", labeldistance=1.5 headhref="dir_000008_000007.html" href="dir_000008_000007.html" color="steelblue1" fontcolor="steelblue1"];
   dir_f792b5dc9a503f8514b127733fd1f0d5->dir_ec0aef3b2bee211f11bd5481f679a160 [headlabel="1", labeldistance=1.5 headhref="dir_000008_000004.html" href="dir_000008_000004.html" color="steelblue1" fontcolor="steelblue1"];
 }
