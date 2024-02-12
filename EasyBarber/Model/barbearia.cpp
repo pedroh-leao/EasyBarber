@@ -90,5 +90,3 @@ bool Barbearia::realizarAgendamento(Barbeiro* barbeiro, Cliente* cliente, Horari
     cliente->add(horario);
     return true;
 }
-
-//bool Barbearia::removerHorario(string emailBarbeiro, Horario * horario)

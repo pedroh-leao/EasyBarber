@@ -62,8 +62,6 @@ void TelaEscolhaData::avancarAgendarHorario(){
     string email_cliente = cliente->getEmail();
     string email_barbeiro= barbeiro->getEmail();
 
-    qDebug() << "Email do barbeiro: " << barbeiro->getEmail();
-
     Horario * horario = new Horario(dataString, "", email_cliente=email_cliente, email_barbeiro=email_barbeiro);
 
     TelaAgendamento *telaAgendamento = new TelaAgendamento(barbearia, barbeiro, horario, cliente);
