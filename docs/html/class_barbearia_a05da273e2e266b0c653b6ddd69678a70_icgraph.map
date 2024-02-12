@@ -1,16 +1,31 @@
 <map id="Barbearia::horarioEstaLivre" name="Barbearia::horarioEstaLivre">
-<area shape="rect" id="Node000001" title="Verifica se o horário desejado está disponível." alt="" coords="682,80,858,107"/>
-<area shape="rect" id="Node000002" href="$class_controller___barbearia.html#a3565f4de6f990ef61b1d4b843187225b" title="Realiza o agendamento de um horário na barbearia." alt="" coords="482,72,634,115"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="666,96,634,96,634,91,666,91"/>
-<area shape="rect" id="Node000003" href="$functional__tests_8cpp.html#a988006b3495a457ea2c825651b91be60" title=" " alt="" coords="284,5,413,48"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="474,69,413,50,415,45,475,64"/>
-<area shape="rect" id="Node000006" href="$functional__tests_8cpp.html#a1eea1f92c722dc2df4cf7386d0ca945a" title=" " alt="" coords="284,72,413,115"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="467,96,414,96,414,91,467,91"/>
-<area shape="rect" id="Node000007" href="$class_tela_agendamento.html#a7edebe48414f379482dc2752c080b801" title="Realiza o agendamento do atendimento na barbearia." alt="" coords="263,139,434,181"/>
-<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="476,122,419,141,417,135,474,117"/>
-<area shape="rect" id="Node000004" href="$functional__tests_8cpp.html#ac66c0c95899deebf8facb8a3b93eb06e" title=" " alt="" coords="103,47,215,73"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="269,43,216,53,215,47,268,38"/>
-<area shape="rect" id="Node000005" href="$test_2functional_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,47,55,73"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="87,63,55,63,55,57,87,57"/>
-<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="268,82,215,73,216,67,269,77"/>
+<area shape="rect" id="Node000001" title="Verifica se o horário desejado está disponível." alt="" coords="718,213,894,240"/>
+<area shape="rect" id="Node000002" href="$class_controller___barbearia.html#a3565f4de6f990ef61b1d4b843187225b" title="Realiza o agendamento de um horário na barbearia." alt="" coords="518,205,670,248"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="702,229,670,229,670,224,702,224"/>
+<area shape="rect" id="Node000003" href="$functional__tests_8cpp.html#ad15fe7ec5301c8b70e773b0a58c5e0a5" title=" " alt="" coords="317,5,446,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="573,193,531,127,502,92,469,62,445,48,448,44,472,58,506,89,535,124,577,191"/>
+<area shape="rect" id="Node000006" href="$functional__tests_8cpp.html#a834bbfa41804e8851e5079e7126c83af" title=" " alt="" coords="311,72,453,115"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="558,197,517,162,469,129,446,118,449,113,472,124,520,158,561,193"/>
+<area shape="rect" id="Node000007" href="$functional__tests_8cpp.html#a988006b3495a457ea2c825651b91be60" title=" " alt="" coords="317,139,446,181"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="509,203,446,183,448,178,511,198"/>
+<area shape="rect" id="Node000008" href="$functional__tests_8cpp.html#a1eea1f92c722dc2df4cf7386d0ca945a" title=" " alt="" coords="317,205,446,248"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="503,229,447,229,447,224,503,224"/>
+<area shape="rect" id="Node000009" href="$functional__tests_8cpp.html#acdb5d732fe4dc3af6303b9e978a8b53f" title=" " alt="" coords="299,272,464,299"/>
+<area shape="poly" id="edge11_Node000002_Node000009" title=" " alt="" coords="504,254,434,274,432,269,503,249"/>
+<area shape="rect" id="Node000010" href="$class_tela_agendamento.html#a7edebe48414f379482dc2752c080b801" title="Realiza o agendamento do atendimento na barbearia." alt="" coords="296,323,467,365"/>
+<area shape="poly" id="edge13_Node000002_Node000010" title=" " alt="" coords="555,260,515,287,472,313,447,325,445,320,469,308,512,283,552,255"/>
+<area shape="rect" id="Node000011" href="$unit__horario_8cpp.html#a093d89f8c5b0efd32f6655dc2f6b56d1" title="Testa a função deletarHorario do controller de horario." alt="" coords="293,389,470,416"/>
+<area shape="poly" id="edge14_Node000002_Node000011" title=" " alt="" coords="575,263,533,323,504,353,472,380,449,391,447,386,469,375,501,350,528,320,571,260"/>
+<area shape="rect" id="Node000004" href="$functional__tests_8cpp.html#ac66c0c95899deebf8facb8a3b93eb06e" title=" " alt="" coords="118,147,230,173"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="304,57,294,62,234,107,190,148,186,144,231,103,292,58,302,52"/>
+<area shape="rect" id="Node000005" href="$test_2functional_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,147,55,173"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="102,163,55,163,55,157,102,157"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="300,122,219,149,217,144,298,117"/>
+<area shape="poly" id="edge8_Node000007_Node000004" title=" " alt="" coords="301,163,231,163,231,157,301,157"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="301,204,217,177,219,171,303,199"/>
+<area shape="poly" id="edge12_Node000009_Node000004" title=" " alt="" coords="305,268,292,262,259,242,230,218,186,176,189,172,233,214,263,238,294,258,307,264"/>
+<area shape="rect" id="Node000012" href="$unit__horario_8cpp.html#aeb537e7baefa90f8f98ebc2a36d81e32" title="Executa todos os testes unitários para a classe Horario." alt="" coords="103,389,245,416"/>
+<area shape="poly" id="edge15_Node000011_Node000012" title=" " alt="" coords="278,405,245,405,245,400,278,400"/>
+<area shape="rect" id="Node000013" href="$test_2unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,389,55,416"/>
+<area shape="poly" id="edge16_Node000012_Node000013" title=" " alt="" coords="87,405,55,405,55,400,87,400"/>
 </map>

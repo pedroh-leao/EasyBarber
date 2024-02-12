@@ -42,8 +42,16 @@ digraph "C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/test/unit/unit_bar
   Node14 -> Node8 [id="edge22_Node000014_Node000008",color="steelblue1",style="solid",tooltip=" "];
   Node14 -> Node7 [id="edge23_Node000014_Node000007",color="steelblue1",style="solid",tooltip=" "];
   Node13 -> Node6 [id="edge24_Node000013_Node000006",color="steelblue1",style="solid",tooltip=" "];
-  Node2 -> Node15 [id="edge25_Node000002_Node000015",color="steelblue1",style="solid",tooltip=" "];
-  Node15 [id="Node000015",label="iostream",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
-  Node2 -> Node16 [id="edge26_Node000002_Node000016",color="steelblue1",style="solid",tooltip=" "];
-  Node16 [id="Node000016",label="assert.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node12 -> Node15 [id="edge25_Node000012_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="dao_horario.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$dao__horario_8h.html",tooltip=" "];
+  Node15 -> Node8 [id="edge26_Node000015_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node15 -> Node16 [id="edge27_Node000015_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="QString",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node15 -> Node6 [id="edge28_Node000015_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node15 -> Node10 [id="edge29_Node000015_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node15 -> Node9 [id="edge30_Node000015_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node17 [id="edge31_Node000002_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="iostream",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node2 -> Node18 [id="edge32_Node000002_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="assert.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
 }

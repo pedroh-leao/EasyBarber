@@ -1,9 +1,11 @@
 release/controller_barbearia.o
 release/controller_barbeiro.o
 release/controller_cliente.o
+release/controller_horario.o
 release/dao_barbearia.o
 release/dao_barbeiro.o
 release/dao_cliente.o
+release/dao_horario.o
 release/dao_pessoa.o
 release/Barbeiro.o
 release/barbearia.o

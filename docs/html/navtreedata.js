@@ -33,7 +33,7 @@ var NAVTREE =
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
         [ "Typedefs", "functions_type.html", null ]
@@ -58,8 +58,8 @@ var NAVTREEINDEX =
 "build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_debug_2debug_2moc__predefs_8h.html#aa0d249d82751bd4ee0280990bc510371",
 "build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_release_2release_2moc__predefs_8h.html#a326c37ba86474b37dd0ae9100e005fac",
 "build-_easy_barber-_desktop___qt__6__6__1___min_g_w__64__bit-_release_2release_2moc__predefs_8h.html#ac29c76a6702808cfc4a5f661d0d33c2c",
-"class_tela_escolha_barbeiro.html",
-"unit__cliente_8h.html#a4d134b7f0141f14318ba68008080356e"
+"class_pessoa.html#af83963830cfdc5703f05dbc118430a0d",
+"struct_q_t___w_a_r_n_i_n_g___d_i_s_a_b_l_e___d_e_p_r_e_c_a_t_e_d_1_1qt__meta__stringdata___c_l_aa9a63fc5cffc72a734fe9e797ffd3e00.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

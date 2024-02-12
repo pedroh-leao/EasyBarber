@@ -1,0 +1,11 @@
+<map id="TelaInicialCliente" name="TelaInicialCliente">
+<area shape="rect" id="Node000001" title=" " alt="" coords="105,1740,319,1921"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,1228,64,1297"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="33,1313,30,1386,34,1478,48,1578,61,1628,78,1675,96,1708,119,1739,115,1742,92,1711,74,1677,56,1629,43,1579,28,1478,25,1386,28,1312"/>
+<area shape="rect" id="Node000003" href="$class_barbearia.html" title=" " alt="" coords="88,849,336,1676"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="215,1676,215,1723,209,1723,209,1676"/>
+<area shape="rect" id="Node000004" href="$class_cliente.html" title=" " alt="" coords="360,1185,512,1340"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="434,1340,426,1413,410,1500,386,1590,350,1677,317,1728,313,1725,346,1675,381,1589,405,1499,420,1413,429,1339"/>
+<area shape="rect" id="Node000005" href="$class_pessoa.html" title=" " alt="" coords="346,5,526,800"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="439,814,439,1185,433,1185,433,814"/>
+</map>

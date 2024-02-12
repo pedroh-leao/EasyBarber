@@ -1,9 +1,11 @@
 debug/controller_barbearia.o
 debug/controller_barbeiro.o
 debug/controller_cliente.o
+debug/controller_horario.o
 debug/dao_barbearia.o
 debug/dao_barbeiro.o
 debug/dao_cliente.o
+debug/dao_horario.o
 debug/dao_pessoa.o
 debug/Barbeiro.o
 debug/barbearia.o

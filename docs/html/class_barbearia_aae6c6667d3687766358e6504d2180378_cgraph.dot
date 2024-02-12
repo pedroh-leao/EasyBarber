@@ -10,4 +10,6 @@ digraph "Barbearia::remove"
   Node2 [id="Node000002",label="Barbearia::barbeirosBegin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_barbearia.html#a09b6abc054a76d7db8f1558ebf914885",tooltip=" "];
   Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
   Node3 [id="Node000003",label="Barbearia::barbeirosEnd",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_barbearia.html#abbcb6bd01615521f2cb86424c1247399",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Pessoa::getEmail",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500",tooltip=" "];
 }

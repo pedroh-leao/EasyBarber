@@ -1,0 +1,9 @@
+<map id="DAO_Horario::adicionarHorario" name="DAO_Horario::adicionarHorario">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,56,204,83"/>
+<area shape="rect" id="Node000002" href="$class_horario.html#aadb59554ffae0bfd66e75f1c1d607f7c" title="Getter para o atributo data." alt="" coords="256,5,372,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,53,240,34,242,39,163,58"/>
+<area shape="rect" id="Node000003" href="$class_pessoa.html#a0fe937f9358dd92f73441c3288e46500" title=" " alt="" coords="252,56,376,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="204,67,236,67,236,72,204,72"/>
+<area shape="rect" id="Node000004" href="$class_horario.html#a07a4aec4ebeab8637ab670a4a2747158" title="Getter para o atributo hora." alt="" coords="256,107,372,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="163,81,242,100,240,105,162,86"/>
+</map>

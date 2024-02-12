@@ -11,6 +11,7 @@ digraph "TelaEscolhaBarbeiro"
 <TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">TelaEscolhaBarbeiro<BR ALIGN="LEFT"/>(Barbearia *barbearia<BR ALIGN="LEFT"/>=nullptr, Cliente *cliente<BR ALIGN="LEFT"/>=nullptr, QWidget *parent<BR ALIGN="LEFT"/>=nullptr)<BR ALIGN="LEFT"/></TD></TR>
 <TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">~TelaEscolhaBarbeiro()<BR ALIGN="LEFT"/></TD></TR>
 <TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">void abrirTelaEscolhaData<BR ALIGN="LEFT"/>(Barbeiro *barbeiro)<BR ALIGN="LEFT"/></TD></TR>
+<TR><TD VALIGN="top" CELLPADDING="1" CELLSPACING="0">+</TD><TD VALIGN="top" ALIGN="LEFT" CELLPADDING="1" CELLSPACING="0">void voltarTelaInicial<BR ALIGN="LEFT"/>(Barbearia *barbearia,<BR ALIGN="LEFT"/> Cliente *cliente)<BR ALIGN="LEFT"/></TD></TR>
 </TABLE>>
 ,height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="A classe TelaEscolhaBarbeiro representa a interface gráfica para a escolha de um barbeiro."];
   Node2 -> Node1 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" ",arrowtail="onormal"];

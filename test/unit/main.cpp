@@ -16,9 +16,9 @@ int main()
     bd->popularBancoDeDados();
 
     run_unit_test_pessoa();
-    run_unit_test_horario();
     run_unit_test_barbeiro();
     run_unit_test_cliente();
+    run_unit_test_horario();
     run_unit_test_barbearia();
     
     bd->cleanupTestCase();

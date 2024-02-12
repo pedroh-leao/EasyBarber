@@ -11,6 +11,6 @@ digraph "C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/EasyBarber/Control
   dir_7482f6f1a48a8ad285bca17597cd0f67 [label="Model", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_7482f6f1a48a8ad285bca17597cd0f67.html",tooltip=""];
   dir_f6c199585bf99457130c5ee2ad35a468 [label="Controller", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_f6c199585bf99457130c5ee2ad35a468.html",tooltip=""];
   }
-  dir_f6c199585bf99457130c5ee2ad35a468->dir_3cadb063cae6fc53db56dc74f72a6168 [headlabel="3", labeldistance=1.5 headhref="dir_000002_000003.html" href="dir_000002_000003.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_f6c199585bf99457130c5ee2ad35a468->dir_7482f6f1a48a8ad285bca17597cd0f67 [headlabel="3", labeldistance=1.5 headhref="dir_000002_000009.html" href="dir_000002_000009.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_f6c199585bf99457130c5ee2ad35a468->dir_3cadb063cae6fc53db56dc74f72a6168 [headlabel="4", labeldistance=1.5 headhref="dir_000002_000003.html" href="dir_000002_000003.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_f6c199585bf99457130c5ee2ad35a468->dir_7482f6f1a48a8ad285bca17597cd0f67 [headlabel="6", labeldistance=1.5 headhref="dir_000002_000009.html" href="dir_000002_000009.html" color="steelblue1" fontcolor="steelblue1"];
 }

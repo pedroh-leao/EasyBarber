@@ -7,7 +7,11 @@ digraph "Pessoa::remove"
   rankdir="LR";
   Node1 [id="Node000001",label="Pessoa::remove",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Remove um horário da lista de horários agendados."];
   Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
-  Node2 [id="Node000002",label="Pessoa::horariosAgendados\lBegin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_pessoa.html#a2b15f3b2ffa585f0d8afae2ea20b7d42",tooltip=" "];
+  Node2 [id="Node000002",label="Horario::getData",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_horario.html#aadb59554ffae0bfd66e75f1c1d607f7c",tooltip="Getter para o atributo data."];
   Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
-  Node3 [id="Node000003",label="Pessoa::horariosAgendadosEnd",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_pessoa.html#a2a476cb77e351421f997f6f6c3952b56",tooltip=" "];
+  Node3 [id="Node000003",label="Horario::getHora",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_horario.html#a07a4aec4ebeab8637ab670a4a2747158",tooltip="Getter para o atributo hora."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="Pessoa::horariosAgendados\lBegin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_pessoa.html#a2b15f3b2ffa585f0d8afae2ea20b7d42",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="Pessoa::horariosAgendadosEnd",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_pessoa.html#a2a476cb77e351421f997f6f6c3952b56",tooltip=" "];
 }

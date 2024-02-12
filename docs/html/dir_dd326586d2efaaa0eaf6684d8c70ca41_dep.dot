@@ -11,6 +11,8 @@ digraph "C:/Users/mathe/OneDrive/Área de Trabalho/EasyBarber/EasyBarber/View"
   dir_f6c199585bf99457130c5ee2ad35a468 [label="Controller", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_f6c199585bf99457130c5ee2ad35a468.html",tooltip=""];
   dir_dd326586d2efaaa0eaf6684d8c70ca41 [label="View", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_dd326586d2efaaa0eaf6684d8c70ca41.html",tooltip=""];
   }
-  dir_dd326586d2efaaa0eaf6684d8c70ca41->dir_7482f6f1a48a8ad285bca17597cd0f67 [headlabel="5", labeldistance=1.5 headhref="dir_000013_000009.html" href="dir_000013_000009.html" color="steelblue1" fontcolor="steelblue1"];
-  dir_dd326586d2efaaa0eaf6684d8c70ca41->dir_f6c199585bf99457130c5ee2ad35a468 [headlabel="1", labeldistance=1.5 headhref="dir_000013_000002.html" href="dir_000013_000002.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_90166a0d6f41b72baeee02deec7f0f69 [label="build-EasyBarber-Desktop\l_Qt_6_6_1_MinGW_64_bit-Debug", fillcolor="#edf0f7", color="red", style="filled", URL="dir_90166a0d6f41b72baeee02deec7f0f69.html",tooltip=""];
+  dir_dd326586d2efaaa0eaf6684d8c70ca41->dir_7482f6f1a48a8ad285bca17597cd0f67 [headlabel="10", labeldistance=1.5 headhref="dir_000013_000009.html" href="dir_000013_000009.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_dd326586d2efaaa0eaf6684d8c70ca41->dir_90166a0d6f41b72baeee02deec7f0f69 [headlabel="2", labeldistance=1.5 headhref="dir_000013_000000.html" href="dir_000013_000000.html" color="steelblue1" fontcolor="steelblue1"];
+  dir_dd326586d2efaaa0eaf6684d8c70ca41->dir_f6c199585bf99457130c5ee2ad35a468 [headlabel="2", labeldistance=1.5 headhref="dir_000013_000002.html" href="dir_000013_000002.html" color="steelblue1" fontcolor="steelblue1"];
 }
